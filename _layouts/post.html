@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {%- assign author = page.author | default: site.author.name -%}
+      {%- if author %}
+      · <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ author }}</span></span>
+      {%- endif %}
+      {%- assign words = content | strip_html | number_of_words -%}
+      · <span class="reading-time">{{ words | divided_by: 200 | at_least: 1 }} min read</span>
+    </p>
+    {%- if page.categories.size > 0 %}
+    <p class="post-categories">
+      Filed under:
+      {% for category in page.categories %}<span class="category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+    {%- endif %}
+  </header>
+
+  {%- if page.featured_image %}
+  <figure class="post-featured-image">
+    <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
+  </figure>
+  {%- endif %}
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if page.tags.size > 0 %}
+  <footer class="post-footer">
+    <p class="post-tags">
+      Tags:
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+  </footer>
+  {%- endif %}
+
+  <nav class="post-nav" aria-label="Post navigation">
+    {%- if page.previous.url %}
+    <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}" rel="prev">&larr; {{ page.previous.title }}</a>
+    {%- endif %}
+    {%- if page.next.url %}
+    <a class="post-nav-next" href="{{ page.next.url | relative_url }}" rel="next">{{ page.next.title }} &rarr;</a>
+    {%- endif %}
+  </nav>
+</article>

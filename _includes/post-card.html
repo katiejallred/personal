@@ -1,0 +1,13 @@
+{%- assign post = include.post -%}
+<article class="post-card">
+  <h3 class="post-card-title">
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </h3>
+  <p class="post-card-meta">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+  </p>
+  <p class="post-card-excerpt">
+    {{ post.excerpt | strip_html | normalize_whitespace | truncate: 200 }}
+  </p>
+  <p class="post-card-more"><a href="{{ post.url | relative_url }}" aria-label="Read more: {{ post.title }}">Read more &rarr;</a></p>
+</article>

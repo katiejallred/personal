@@ -1,0 +1,23 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+description: "All posts, grouped by tag."
+---
+
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+{% assign tag_name = tag[0] %}
+{% assign tag_posts = tag[1] %}
+<section class="tag-group" id="{{ tag_name | slugify }}">
+  <h2>{{ tag_name }} <span class="tag-count">({{ tag_posts.size }})</span></h2>
+  <ul class="tag-list">
+    {% for post in tag_posts %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      &mdash; <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
