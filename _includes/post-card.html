@@ -1,13 +1,23 @@
 {%- assign post = include.post -%}
+{%- assign featured = post.image | default: post.featured_image -%}
 <article class="post-card">
-  <h3 class="post-card-title">
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </h3>
-  <p class="post-card-meta">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-  </p>
-  <p class="post-card-excerpt">
-    {{ post.excerpt | strip_html | normalize_whitespace | truncate: 200 }}
-  </p>
-  <p class="post-card-more"><a href="{{ post.url | relative_url }}" aria-label="Read more: {{ post.title }}">Read more &rarr;</a></p>
+  {%- if featured %}
+  <div class="post-card-image">
+    <img src="{{ featured | relative_url }}" alt="" loading="lazy" decoding="async">
+  </div>
+  {%- endif %}
+  <div class="post-card-body">
+    {%- if post.categories.size > 0 %}
+    <p><span class="chip">{{ post.categories.first }}</span></p>
+    {%- endif %}
+    <h3 class="post-card-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+    <p class="post-card-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    </p>
+    <p class="post-card-excerpt">
+      {{ post.description | default: post.excerpt | strip_html | normalize_whitespace | truncate: 160 }}
+    </p>
+  </div>
 </article>

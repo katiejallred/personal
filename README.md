@@ -14,9 +14,11 @@ bundle exec jekyll build          # output to _site/
 ## Structure
 
 ```
-_config.yml        Site metadata, permalinks, plugins, build behavior
+_config.yml        Site metadata, contact details, permalinks, plugins
+_data/             navigation, social links (fixed order), hero links
 _layouts/          default, page, post, home
 _includes/         header, footer, post-card, pagination
+.github/workflows/ pages.yml builds and deploys to GitHub Pages
 _posts/            Published posts (YYYY-MM-DD-slug.md)
 _drafts/           Undated drafts, only built with --drafts
 assets/css|js|images
@@ -25,6 +27,22 @@ about.md           Static page example
 archive.html       Posts grouped by year
 tags.html          Posts grouped by tag
 ```
+
+## Design
+
+Styles in `assets/css/main.css` come from the **Katie Allred** design system
+(https://claude.ai/artifact/DJYQV3tu5rDPEBrhrLuuw6): its color, type, spacing,
+radius and shadow tokens, plus the Button, Chip, Wordmark, WaveBand,
+ContentCard and Footer components. Fonts (Bricolage Grotesque, DM Sans,
+Caveat) load from Google Fonts. When the design system changes, update the
+tokens at the top of `main.css` to match.
+
+## Deploying
+
+Pushes to `main` build and deploy through GitHub Actions. In the repo's
+Settings → Pages, set **Source** to **GitHub Actions**. The workflow sets
+`url` and `baseurl` from Pages, so the same build works on
+`<user>.github.io/personal` now and on a custom domain later.
 
 ## Content
 

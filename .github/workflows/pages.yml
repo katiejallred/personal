@@ -1,0 +1,55 @@
+# Build the Jekyll site and deploy it to GitHub Pages.
+# Requires Settings → Pages → Build and deployment → Source: "GitHub Actions".
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      # url/baseurl come from Pages, so the build is right for a project
+      # site (/personal) today and for a custom domain later.
+      - name: Build
+        run: |
+          echo 'url: "${{ steps.pages.outputs.origin }}"' > _config.pages.yml
+          bundle exec jekyll build --config _config.yml,_config.pages.yml --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

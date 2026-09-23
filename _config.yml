@@ -1,21 +1,34 @@
 # Site metadata
 title: Katie Allred
 description: >- # used by jekyll-seo-tag and the feed
-  Personal website and blog. Writing about the web, technology, and whatever
-  else comes to mind.
-url: "" # e.g. https://www.katieallred.com — no trailing slash
+  Community strategist, AI educator, and consultant. Helping organizations
+  harness AI and community to create meaningful connections at scale.
+url: "" # set at build time by the Pages workflow; e.g. https://www.katieallred.com
 baseurl: "" # subpath of your site, e.g. /blog — leave empty for root
 author:
   name: Katie Allred
-  email: ""
+  email: katie@katieallred.com
 twitter:
-  username: "" # handle without the @
+  username: katiejallred # handle without the @
 social:
   name: Katie Allred
-  links: []
-  # - https://twitter.com/username
-  # - https://github.com/username
-  # - https://www.linkedin.com/in/username
+  links:
+    - https://www.linkedin.com/in/katiejallred/
+    - https://www.instagram.com/katiejallred/
+    - https://twitter.com/katiejallred
+    - https://www.youtube.com/channel/UCIEYFObz7BFd5xTlbSefNrg
+    - https://www.facebook.com/katiejallred/
+
+# Canonical contact details, from the design system's Contact & links section.
+positioning: >-
+  Community strategist, AI educator, and consultant. Helping organizations
+  harness AI and community to create meaningful connections at scale.
+contact:
+  email: katie@katieallred.com
+  phone: 205-299-2980
+  phone_tel: "+12052992980"
+  booking: https://meetwithkatie.com
+  location: Nolensville, TN
 
 lang: en
 timezone: America/Chicago
@@ -30,7 +43,7 @@ kramdown:
 permalink: /:year/:month/:day/:title/
 
 # Pagination (jekyll-paginate, used by index.html / home layout)
-paginate: 5
+paginate: 9
 paginate_path: "/page/:num/"
 
 # Content behavior — explicit for predictable migrations
