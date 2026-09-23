@@ -325,8 +325,9 @@ seo_title: Rate Your Organization's Communications | Free 5-Minute Quiz
     var total_score = 0;
     for (var k in scores) { total_score += scores[k]; }
 
-    // Send to server (fire and forget)
-    fetch(kaQuizConfig.ajaxUrl, {
+    // Send to server (fire and forget). kaQuizConfig came from the old
+    // WordPress plugin; without it, skip the send and still show results.
+    if (window.kaQuizConfig) fetch(kaQuizConfig.ajaxUrl, {
       method: "POST",
       headers: {"Content-Type":"application/x-www-form-urlencoded"},
       body: "action=ka_quiz_submit&name="+encodeURIComponent(name)+"&email="+encodeURIComponent(email)+"&church="+encodeURIComponent(document.getElementById("ka-church").value)+"&score="+total_score+"&newsletter="+(document.getElementById("ka-newsletter").checked?"1":"")+"&nonce="+kaQuizConfig.nonce+"&answers="+encodeURIComponent(JSON.stringify(answers))
