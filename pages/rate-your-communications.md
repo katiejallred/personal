@@ -12,6 +12,4 @@ seo_title: Rate Your Organization's Communications | Free 5-Minute Quiz
 
 # Rate Your Organization's Communications in 5 Minutes
 
-10 questions. No fluff. Walk away knowing exactly where to focus your energy.
-
 {% include tally.html id="WOyAWL" title="Rate Your Organization's Communications" %}
