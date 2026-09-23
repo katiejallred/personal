@@ -7,7 +7,10 @@ author: Katie Allred
 permalink: /christian-worldview-and-your-major-cis/
 categories:
 - Legacy
-tags: []
+tags:
+- faith
+- college
+- career
 wordpress_id: 162
 ---
 

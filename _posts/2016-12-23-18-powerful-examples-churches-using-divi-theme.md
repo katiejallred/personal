@@ -7,7 +7,11 @@ author: Katie Allred
 permalink: /18-powerful-examples-churches-using-divi-theme/
 categories:
 - Legacy
-tags: []
+tags:
+- church website
+- web design
+- WordPress
+- Divi
 wordpress_id: 2006
 description: Divi is the easiest Wordpress theme for churches! Here are 18 powerful examples that you can use to help build your church's wordpress site.
 image: /assets/uploads/2016/12/CHURCHES-USING-THE-DIVI-THEME.jpg

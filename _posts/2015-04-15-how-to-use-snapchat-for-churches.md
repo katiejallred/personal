@@ -7,7 +7,9 @@ author: Katie Allred
 permalink: /how-to-use-snapchat-for-churches/
 categories:
 - Legacy
-tags: []
+tags:
+- social media
+- Snapchat
 wordpress_id: 1089
 image: /assets/uploads/2015/04/How-to-Use-SnapChat-for-Churches.png
 ---

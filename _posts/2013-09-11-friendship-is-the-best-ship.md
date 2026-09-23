@@ -8,10 +8,7 @@ permalink: /friendship-is-the-best-ship/
 categories:
 - Personal
 tags:
-- friendship
 - life
-- personal
-- relationships
 wordpress_id: 659
 ---
 

@@ -7,7 +7,8 @@ author: Katie Allred
 permalink: /jon-acuffs-chair/
 categories:
 - Legacy
-tags: []
+tags:
+- just for fun
 wordpress_id: 662
 ---
 

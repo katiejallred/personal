@@ -8,12 +8,10 @@ permalink: /facebook-settings-teens/
 categories:
 - Media Literacy
 tags:
-- digital parenting
-- facebook
-- online safety
 - parenting
-- social media safety
-- teens
+- online safety
+- media literacy
+- Facebook
 wordpress_id: 1650
 seo_title: Best Way to Keep Your Teens Safe on Facebook [10+ Settings]
 image: /assets/uploads/2016/06/HHZ5NPNR1T1.jpg

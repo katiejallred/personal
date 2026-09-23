@@ -8,11 +8,8 @@ permalink: /top-5-favorite-verses-from-the-bible/
 categories:
 - Personal
 tags:
-- bible
-- devotional
 - faith
-- personal
-- scripture
+- Bible
 wordpress_id: 69
 description: You can never have too many.
 image: /assets/uploads/2014/02/Blog.png

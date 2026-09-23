@@ -7,7 +7,8 @@ author: Katie Allred
 permalink: /build-with-chrome/
 categories:
 - Legacy
-tags: []
+tags:
+- just for fun
 wordpress_id: 163
 description: Let's build a Lego Nation
 image: /assets/uploads/2014/03/Blog.png

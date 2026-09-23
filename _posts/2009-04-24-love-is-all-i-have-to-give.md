@@ -8,10 +8,7 @@ permalink: /love-is-all-i-have-to-give/
 categories:
 - Personal
 tags:
-- devotional
-- faith
-- love
-- personal
+- life
 wordpress_id: 28
 ---
 

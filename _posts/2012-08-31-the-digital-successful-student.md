@@ -7,7 +7,9 @@ author: Katie Allred
 permalink: /the-digital-successful-student/
 categories:
 - Legacy
-tags: []
+tags:
+- college
+- resources
 wordpress_id: 222
 ---
 

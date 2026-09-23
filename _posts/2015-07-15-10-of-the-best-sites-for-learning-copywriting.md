@@ -8,11 +8,8 @@ permalink: /10-of-the-best-sites-for-learning-copywriting/
 categories:
 - Strategy
 tags:
-- church communications
-- content creation
-- copywriting
-- learning resources
 - writing
+- resources
 wordpress_id: 1317
 image: /assets/uploads/2015/07/learning-copywriting.png
 ---

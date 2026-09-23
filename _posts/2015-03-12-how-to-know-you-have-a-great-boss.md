@@ -9,9 +9,7 @@ categories:
 - Personal
 tags:
 - career
-- leadership
-- personal
-- work life
+- personal growth
 wordpress_id: 1053
 image: /assets/uploads/2015/03/computer-glasses-e1430773427592.jpg
 ---

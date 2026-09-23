@@ -8,10 +8,7 @@ permalink: /language-is-important/
 categories:
 - Personal
 tags:
-- communication
-- culture
-- language
-- personal
+- writing
 wordpress_id: 625
 image: /assets/uploads/2013/06/dead-poets-society-04.jpg
 ---

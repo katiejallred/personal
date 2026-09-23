@@ -8,11 +8,9 @@ permalink: /elihu-audacity/
 categories:
 - Personal
 tags:
-- bible
-- devotional
 - faith
-- Job
-- personal
+- devotional
+- Bible
 wordpress_id: 46
 ---
 

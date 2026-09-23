@@ -9,10 +9,9 @@ categories:
 - Strategy
 tags:
 - church communications
-- church leadership
-- church management
+- public relations
 - communications strategy
-- crisis communication
+- church leadership
 wordpress_id: 3773
 image: /assets/uploads/2025/09/unsplash-TOg6IbH2bDk.jpg
 ---

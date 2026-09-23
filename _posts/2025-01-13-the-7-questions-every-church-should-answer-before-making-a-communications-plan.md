@@ -9,11 +9,9 @@ categories:
 - Church Communications
 - Strategy
 tags:
-- church leadership
-- church marketing
+- church communications
 - communications strategy
-- planning
-- SMART goals
+- church leadership
 wordpress_id: 3765
 image: /assets/uploads/2025/01/unsplash-OjltJ2_JHjI.jpg
 ---

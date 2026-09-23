@@ -8,10 +8,8 @@ permalink: /a-letter-to-a-college-freshman/
 categories:
 - Personal
 tags:
-- advice
 - college
-- life lessons
-- personal
+- life
 wordpress_id: 2530
 image: /assets/uploads/2019/03/1f08fe85-9fb5-43a9-82bd-242428661bcc.jpg
 ---

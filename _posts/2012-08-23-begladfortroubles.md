@@ -8,10 +8,8 @@ permalink: /begladfortroubles/
 categories:
 - Personal
 tags:
-- devotional
 - faith
-- perseverance
-- personal
+- devotional
 wordpress_id: 180
 ---
 

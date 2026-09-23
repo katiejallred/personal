@@ -7,7 +7,9 @@ author: Katie Allred
 permalink: /the-first-5-things/
 categories:
 - Legacy
-tags: []
+tags:
+- life
+- faith
 wordpress_id: 288
 ---
 

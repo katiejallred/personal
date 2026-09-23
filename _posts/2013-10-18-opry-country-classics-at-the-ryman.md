@@ -8,10 +8,9 @@ permalink: /opry-country-classics-at-the-ryman/
 categories:
 - Food
 tags:
-- entertainment
 - Nashville
-- Ryman
 - travel
+- music
 wordpress_id: 774
 ---
 

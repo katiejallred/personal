@@ -8,8 +8,6 @@ permalink: /places-eat-nashville/
 categories:
 - Food
 tags:
-- dining
-- food guide
 - Nashville
 - restaurants
 - travel

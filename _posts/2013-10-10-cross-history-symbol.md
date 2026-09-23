@@ -8,10 +8,9 @@ permalink: /cross-history-symbol/
 categories:
 - Personal
 tags:
+- faith
 - devotional
 - Easter
-- faith
-- personal
 wordpress_id: 694
 image: /assets/uploads/2013/10/cross-364676_1280.jpg
 ---

@@ -9,12 +9,10 @@ categories:
 - Church Communications
 - Social Media
 tags:
-- church relationships
+- social media
 - digital ministry
 - discipleship
-- faith
 - online community
-- social media
 wordpress_id: 2052
 description: Jesus created relationships with people by being himself. We too can create real relationships on social media by sharing more about ourselves.
 image: /assets/uploads/2017/02/ouitrfhneke-ben-white-1-1.jpg

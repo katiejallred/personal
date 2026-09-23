@@ -8,10 +8,8 @@ permalink: /mexican-cornbread-casserole/
 categories:
 - Food
 tags:
-- casserole
-- cornbread
-- Mexican food
 - recipes
+- casseroles
 wordpress_id: 2645
 ---
 

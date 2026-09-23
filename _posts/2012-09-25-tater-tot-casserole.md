@@ -8,10 +8,8 @@ permalink: /tater-tot-casserole/
 categories:
 - Food
 tags:
-- casserole
-- comfort food
-- easy meals
 - recipes
+- casseroles
 wordpress_id: 301
 ---
 

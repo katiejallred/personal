@@ -7,7 +7,9 @@ author: Katie Allred
 permalink: /subnetting-part-2-subnet-mask-magic-number/
 categories:
 - Legacy
-tags: []
+tags:
+- tech tips
+- networking
 wordpress_id: 2639
 ---
 

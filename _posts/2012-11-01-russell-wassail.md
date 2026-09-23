@@ -7,7 +7,9 @@ author: Katie Allred
 permalink: /russell-wassail/
 categories:
 - Legacy
-tags: []
+tags:
+- recipes
+- Christmas
 wordpress_id: 325
 ---
 

@@ -9,11 +9,9 @@ categories:
 - Church Communications
 - Strategy
 tags:
-- church communications
-- content curation
 - content strategy
-- productivity
 - social media
+- productivity
 wordpress_id: 1306
 image: /assets/uploads/2015/07/content-curation.png
 ---

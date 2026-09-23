@@ -8,13 +8,9 @@ permalink: /ai-audio-and-video-tools-the-church-should-be-experimenting-with/
 categories:
 - AI & Tech
 tags:
-- AI audio
-- AI video
-- church technology
-- digital ministry
-- ElevenLabs
-- HeyGen
-- SUNO
+- AI
+- AI tools
+- video
 wordpress_id: 3802
 image: /assets/uploads/2026/08/unsplash-tNbk1kTlSY8.jpg
 ---

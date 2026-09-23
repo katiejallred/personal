@@ -8,12 +8,10 @@ permalink: /your-church-doesnt-need-to-be-on-every-social-media-platform/
 categories:
 - Social Media
 tags:
-- church communications
-- church social media
+- social media
 - content strategy
-- facebook
-- instagram
-- social media strategy
+- Facebook
+- Instagram
 wordpress_id: 3768
 image: /assets/uploads/2026/03/998990.jpg
 ---

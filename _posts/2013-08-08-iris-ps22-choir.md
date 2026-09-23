@@ -7,7 +7,9 @@ author: Katie Allred
 permalink: /iris-ps22-choir/
 categories:
 - Legacy
-tags: []
+tags:
+- just for fun
+- music
 wordpress_id: 630
 ---
 

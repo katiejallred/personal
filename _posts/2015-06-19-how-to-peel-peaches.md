@@ -8,10 +8,8 @@ permalink: /how-to-peel-peaches/
 categories:
 - Food
 tags:
-- cooking tips
-- fruit
-- peaches
 - recipes
+- life hacks
 wordpress_id: 1229
 description: Peel peaches, lots of peaches, quickly and easily with no fuss.
 image: /assets/uploads/2015/06/peel-peaches.png

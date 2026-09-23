@@ -9,12 +9,10 @@ categories:
 - AI & Tech
 - Strategy
 tags:
+- AI
 - AI ethics
-- church leadership
-- deepfakes
-- digital responsibility
 - media literacy
-- misinformation
+- church leadership
 wordpress_id: 3803
 image: /assets/uploads/2026/09/unsplash-izRQ870yJO8.jpg
 scheduled: true

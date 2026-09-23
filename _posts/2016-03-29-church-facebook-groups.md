@@ -9,11 +9,10 @@ categories:
 - Church Communications
 - Online Community
 tags:
-- church community
-- church leadership
-- church resources
-- facebook groups
+- Facebook
 - online community
+- church leadership
+- resources
 wordpress_id: 1555
 description: Church Facebook Groups are becoming a popular way for church leaders to share ideas, resources, and learn from each other.
 seo_title: 14+ Awesome Facebook Groups for Church Leaders

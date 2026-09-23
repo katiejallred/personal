@@ -9,10 +9,8 @@ categories:
 - Church Communications
 tags:
 - church communications
-- church influencers
-- church leaders
 - social media
-- twitter
+- Twitter
 wordpress_id: 1268
 description: There are plenty of church communication experts online today. Here's 12 to follow that will give you a world class education in marketing for the church.
 seo_title: 12 Church Communication Experts on Twitter Right Now

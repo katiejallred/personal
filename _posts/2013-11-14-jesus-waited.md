@@ -8,10 +8,8 @@ permalink: /jesus-waited/
 categories:
 - Personal
 tags:
-- devotional
 - faith
-- personal
-- trust
+- devotional
 wordpress_id: 832
 image: /assets/uploads/2013/11/clock-scaled.jpg
 ---

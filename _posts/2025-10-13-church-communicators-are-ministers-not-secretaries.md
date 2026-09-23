@@ -10,11 +10,8 @@ categories:
 - Strategy
 tags:
 - church communications
-- church leadership
 - church staff
-- church team
-- communications director
-- ministry
+- church leadership
 wordpress_id: 3774
 image: /assets/uploads/2025/10/unsplash-049M-iDiNG0.jpg
 ---

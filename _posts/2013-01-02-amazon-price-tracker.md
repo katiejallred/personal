@@ -7,7 +7,9 @@ author: Katie Allred
 permalink: /amazon-price-tracker/
 categories:
 - Legacy
-tags: []
+tags:
+- life hacks
+- tech tips
 wordpress_id: 353
 image: /assets/uploads/2013/01/amazon.jpg
 ---

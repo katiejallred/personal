@@ -9,12 +9,9 @@ categories:
 - Church Communications
 - Strategy
 tags:
-- church communications
+- public relations
 - church marketing
 - church outreach
-- media relations
-- press release
-- public relations
 wordpress_id: 3772
 image: /assets/uploads/2026/03/zua2hyvtbk.jpg
 ---

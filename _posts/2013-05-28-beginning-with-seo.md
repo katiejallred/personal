@@ -9,12 +9,9 @@ categories:
 - Church Communications
 - Strategy
 tags:
-- church growth
-- church website
-- digital strategy
-- google
-- search engine optimization
 - SEO
+- church website
+- church marketing
 wordpress_id: 523
 description: SEO, or Search Engine Optimization, can be a very confusing subject to study at first; however, it’s not really that confusing at all!
 image: /assets/uploads/2013/05/Shopping-centre-free-license-CC0-min-scaled.jpg

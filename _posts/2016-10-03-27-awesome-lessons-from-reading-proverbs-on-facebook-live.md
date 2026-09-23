@@ -9,12 +9,10 @@ categories:
 - Church Communications
 - Social Media
 tags:
-- church social media
-- facebook live
-- live video
-- online church
-- proverbs
+- Facebook
+- video
 - social media
+- Bible
 wordpress_id: 1700
 image: /assets/uploads/2016/10/27-Awesome-Lessons-from-Reading-Proverbs-on-Facebook-Live.jpg
 ---

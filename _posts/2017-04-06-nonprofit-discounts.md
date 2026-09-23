@@ -9,12 +9,8 @@ categories:
 - Church Communications
 - Strategy
 tags:
-- church budget
-- church tools
-- ministry resources
 - nonprofit
-- nonprofit discounts
-- save money
+- resources
 wordpress_id: 2163
 description: Nonprofit discounts for charity organizations, churches, and other 501c3 not-for-profit organizations. Get discounts on software, email, and more!
 image: /assets/uploads/2017/04/How-to-Save-Money-Your-Nonprofits-GuideNonprofit-Discounts-3.png

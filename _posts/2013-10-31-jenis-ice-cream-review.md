@@ -8,10 +8,9 @@ permalink: /jenis-ice-cream-review/
 categories:
 - Food
 tags:
-- dessert
-- food review
-- ice cream
 - Nashville
+- restaurants
+- desserts
 wordpress_id: 761
 image: /assets/uploads/2013/10/9768374163_cdea076d23_b.jpg
 ---

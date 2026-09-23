@@ -9,12 +9,9 @@ categories:
 - AI & Tech
 - Church Communications
 tags:
-- AI sermon prep
-- biblical research
-- ChatGPT
-- church communications
-- church leadership
-- theology
+- AI
+- sermon prep
+- Bible
 wordpress_id: 3805
 image: /assets/uploads/2026/11/unsplash-AbVcWVFw1as.jpg
 scheduled: true

@@ -7,7 +7,10 @@ author: Katie Allred
 permalink: /5-questions-ask-every-mission-trip-also-learned-creativemissions/
 categories:
 - Legacy
-tags: []
+tags:
+- missions
+- church communications
+- faith
 wordpress_id: 1633
 image: /assets/uploads/2016/06/13268596_10208253057216545_4445114709508466584_o.jpg
 ---

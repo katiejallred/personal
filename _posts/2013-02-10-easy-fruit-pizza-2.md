@@ -8,11 +8,9 @@ permalink: /easy-fruit-pizza-2/
 categories:
 - Food
 tags:
-- dessert
-- easy
-- fruit
-- party food
 - recipes
+- desserts
+- party food
 wordpress_id: 466
 ---
 

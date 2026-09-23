@@ -8,11 +8,8 @@ permalink: /simple-homemade-biscuits/
 categories:
 - Food
 tags:
-- baking
-- biscuits
-- breakfast
-- homemade
 - recipes
+- baking
 wordpress_id: 812
 description: How to make simple homemade biscuits.
 ---

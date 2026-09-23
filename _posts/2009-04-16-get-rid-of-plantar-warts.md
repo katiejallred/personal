@@ -8,8 +8,8 @@ permalink: /get-rid-of-plantar-warts/
 categories:
 - How To
 tags:
-- health tips
-- skin care
+- health
+- life hacks
 wordpress_id: 2643
 ---
 

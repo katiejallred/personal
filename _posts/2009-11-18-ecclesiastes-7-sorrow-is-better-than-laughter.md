@@ -8,11 +8,9 @@ permalink: /ecclesiastes-7-sorrow-is-better-than-laughter/
 categories:
 - Personal
 tags:
-- bible
-- devotional
-- Ecclesiastes
 - faith
-- personal
+- devotional
+- Bible
 wordpress_id: 44
 ---
 

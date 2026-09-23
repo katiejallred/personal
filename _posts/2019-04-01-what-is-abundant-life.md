@@ -8,10 +8,8 @@ permalink: /what-is-abundant-life/
 categories:
 - Personal
 tags:
-- abundant life
 - faith
-- personal
-- spiritual growth
+- devotional
 wordpress_id: 2533
 image: /assets/uploads/2019/04/a7112992-42de-4612-ab3f-a4b77786e6e3.jpg
 ---

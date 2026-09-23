@@ -9,10 +9,8 @@ categories:
 - Church Communications
 - Strategy
 tags:
-- church online
-- church outreach
-- digital marketing
 - digital ministry
+- church outreach
 - evangelism
 - SEO
 wordpress_id: 3767

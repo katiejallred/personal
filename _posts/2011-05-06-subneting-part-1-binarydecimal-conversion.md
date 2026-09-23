@@ -7,7 +7,9 @@ author: Katie Allred
 permalink: /subneting-part-1-binarydecimal-conversion/
 categories:
 - Legacy
-tags: []
+tags:
+- tech tips
+- networking
 wordpress_id: 2638
 ---
 

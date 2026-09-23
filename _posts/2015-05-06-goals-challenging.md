@@ -8,10 +8,7 @@ permalink: /goals-challenging/
 categories:
 - Personal
 tags:
-- goals
-- mindset
 - personal growth
-- self improvement
 wordpress_id: 1205
 description: Do you ever meet your goals? If not, stop setting goals and start challenging yourself! Learn how to hustle with the best!
 seo_title: Stop Setting Goals, Start Challenging Yourself

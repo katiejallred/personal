@@ -9,12 +9,10 @@ categories:
 - Church Communications
 - Social Media
 tags:
-- church social media
-- digital ministry
-- engagement
-- evangelism
-- facebook
 - social media
+- digital ministry
+- evangelism
+- Facebook
 wordpress_id: 2054
 image: /assets/uploads/2017/02/StockSnap_RALDM02X8S-1-scaled.jpg
 ---

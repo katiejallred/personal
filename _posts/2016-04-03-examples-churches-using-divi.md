@@ -7,7 +7,11 @@ author: Katie Allred
 permalink: /examples-churches-using-divi/
 categories:
 - Legacy
-tags: []
+tags:
+- church website
+- web design
+- WordPress
+- Divi
 wordpress_id: 1561
 seo_title: 15 Powerful Examples of Churches Using the Divi Theme
 image: /assets/uploads/2016/04/Blog.png
