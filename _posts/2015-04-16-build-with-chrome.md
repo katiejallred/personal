@@ -6,8 +6,9 @@ last_modified_at: '2015-04-16 21:00:54'
 author: Katie Allred
 permalink: /build-with-chrome/
 categories:
-- Legacy
-tags: []
+- Life
+tags:
+- just for fun
 wordpress_id: 163
 description: Let's build a Lego Nation
 image: /assets/uploads/2014/03/Blog.png

@@ -6,12 +6,10 @@ last_modified_at: '2019-04-01 06:42:42'
 author: Katie Allred
 permalink: /what-is-abundant-life/
 categories:
-- Personal
+- Faith
 tags:
-- abundant life
 - faith
-- personal
-- spiritual growth
+- devotional
 wordpress_id: 2533
 image: /assets/uploads/2019/04/a7112992-42de-4612-ab3f-a4b77786e6e3.jpg
 ---

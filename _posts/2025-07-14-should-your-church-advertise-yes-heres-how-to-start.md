@@ -7,14 +7,10 @@ author: Katie Allred
 permalink: /should-your-church-advertise-yes-heres-how-to-start/
 categories:
 - Church Communications
-- Strategy
 tags:
-- church advertising
-- church growth
+- advertising
 - church marketing
 - church outreach
-- digital ads
-- facebook ads
 wordpress_id: 3771
 image: /assets/uploads/2026/03/cc4stor2oc0.jpg
 ---

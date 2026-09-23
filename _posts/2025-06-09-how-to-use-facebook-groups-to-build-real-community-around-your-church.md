@@ -9,11 +9,9 @@ categories:
 - Online Community
 - Social Media
 tags:
-- church community
-- community building
-- digital ministry
-- facebook groups
+- Facebook
 - online community
+- community building
 - social media
 wordpress_id: 3770
 image: /assets/uploads/2026/03/w3seyzodn8u.jpg

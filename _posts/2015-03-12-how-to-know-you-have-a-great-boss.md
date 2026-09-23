@@ -6,12 +6,10 @@ last_modified_at: '2015-03-12 18:44:15'
 author: Katie Allred
 permalink: /how-to-know-you-have-a-great-boss/
 categories:
-- Personal
+- Life
 tags:
 - career
-- leadership
-- personal
-- work life
+- personal growth
 wordpress_id: 1053
 image: /assets/uploads/2015/03/computer-glasses-e1430773427592.jpg
 ---

@@ -6,10 +6,8 @@ last_modified_at: '2013-10-14 19:20:13'
 author: Katie Allred
 permalink: /places-eat-nashville/
 categories:
-- Food
+- Food & Travel
 tags:
-- dining
-- food guide
 - Nashville
 - restaurants
 - travel

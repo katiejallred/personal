@@ -144,6 +144,15 @@ code, pre, kbd, samp {
   color: var(--red);
 }
 
+.label a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.label a:hover {
+  text-decoration: underline;
+}
+
 /* --- Accessibility --- */
 .skip-link {
   position: absolute;

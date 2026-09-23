@@ -6,8 +6,10 @@ last_modified_at: '2012-09-26 14:20:24'
 author: Katie Allred
 permalink: /simultaneous-powerpoint-slide-shows-on-multiple-screens/
 categories:
-- Legacy
-tags: []
+- AI & Tech
+tags:
+- tech tips
+- Microsoft Office
 wordpress_id: 307
 ---
 

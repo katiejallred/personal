@@ -6,8 +6,10 @@ last_modified_at: '2015-09-16 17:00:18'
 author: Katie Allred
 permalink: /the-most-affordable-and-powerful-email-tools-in-2015/
 categories:
-- Legacy
-tags: []
+- Church Communications
+tags:
+- email marketing
+- resources
 wordpress_id: 1335
 seo_title: List of Affordable (and Powerful!) Email Tools
 image: /assets/uploads/2015/09/negativespace2-2-min-scaled.jpg

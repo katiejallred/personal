@@ -6,8 +6,10 @@ last_modified_at: '2012-08-31 14:30:08'
 author: Katie Allred
 permalink: /the-digital-successful-student/
 categories:
-- Legacy
-tags: []
+- Life
+tags:
+- college
+- resources
 wordpress_id: 222
 ---
 

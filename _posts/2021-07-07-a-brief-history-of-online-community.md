@@ -8,11 +8,8 @@ permalink: /a-brief-history-of-online-community/
 categories:
 - Online Community
 tags:
-- community building
-- community history
-- digital community
-- internet history
 - online community
+- community building
 wordpress_id: 3502
 image: /assets/uploads/2021/07/video-blogger-reading-email.jpg
 ---

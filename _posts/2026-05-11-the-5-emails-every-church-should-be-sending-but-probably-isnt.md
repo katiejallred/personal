@@ -9,11 +9,7 @@ categories:
 - Church Communications
 tags:
 - church communications
-- church email
-- church growth
 - email marketing
-- email strategy
-- newsletter
 wordpress_id: 3750
 image: /assets/uploads/2026/05/katiejallred_A_cozy_home_office_desk_scene_persons_hands_hold_3dcab401-4da2-4203-8b5c-8154dd5f3996_2.png
 ---

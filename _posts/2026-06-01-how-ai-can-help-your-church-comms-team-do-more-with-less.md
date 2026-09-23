@@ -10,11 +10,8 @@ categories:
 - Church Communications
 tags:
 - AI
-- artificial intelligence
-- ChatGPT
-- church comms
-- church technology
-- digital tools
+- AI tools
+- church communications
 - productivity
 wordpress_id: 3753
 image: /assets/uploads/2026/06/katiejallred_A_church_communications_professional_at_a_bright_27968998-49eb-4ed1-acc6-6693b5dcafc0_2.png

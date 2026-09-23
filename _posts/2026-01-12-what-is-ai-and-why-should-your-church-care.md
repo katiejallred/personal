@@ -9,10 +9,6 @@ categories:
 - AI & Tech
 tags:
 - AI
-- artificial intelligence
-- ChatGPT
-- church communications
-- church technology
 - digital ministry
 wordpress_id: 3795
 image: /assets/uploads/2026/03/visuals-network-connectivity-ynexm9lwlwgu4z1qns.gif

@@ -6,12 +6,10 @@ last_modified_at: '2012-08-23 00:25:33'
 author: Katie Allred
 permalink: /begladfortroubles/
 categories:
-- Personal
+- Faith
 tags:
-- devotional
 - faith
-- perseverance
-- personal
+- devotional
 wordpress_id: 180
 ---
 

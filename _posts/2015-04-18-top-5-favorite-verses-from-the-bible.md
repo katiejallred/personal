@@ -6,13 +6,10 @@ last_modified_at: '2015-04-18 22:48:35'
 author: Katie Allred
 permalink: /top-5-favorite-verses-from-the-bible/
 categories:
-- Personal
+- Faith
 tags:
-- bible
-- devotional
 - faith
-- personal
-- scripture
+- Bible
 wordpress_id: 69
 description: You can never have too many.
 image: /assets/uploads/2014/02/Blog.png

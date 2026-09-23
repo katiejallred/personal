@@ -6,8 +6,10 @@ last_modified_at: '2011-05-06 18:29:00'
 author: Katie Allred
 permalink: /subneting-part-1-binarydecimal-conversion/
 categories:
-- Legacy
-tags: []
+- AI & Tech
+tags:
+- tech tips
+- networking
 wordpress_id: 2638
 ---
 

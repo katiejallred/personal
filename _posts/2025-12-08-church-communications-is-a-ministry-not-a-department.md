@@ -9,10 +9,7 @@ categories:
 - Church Communications
 tags:
 - church communications
-- church growth
 - church leadership
-- church outreach
-- ministry
 - storytelling
 wordpress_id: 3776
 image: /assets/uploads/2025/12/unsplash-Sghh8m8lM6Y.jpg

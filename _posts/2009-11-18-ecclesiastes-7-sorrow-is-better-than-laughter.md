@@ -6,13 +6,11 @@ last_modified_at: '2009-11-18 04:25:00'
 author: Katie Allred
 permalink: /ecclesiastes-7-sorrow-is-better-than-laughter/
 categories:
-- Personal
+- Faith
 tags:
-- bible
-- devotional
-- Ecclesiastes
 - faith
-- personal
+- devotional
+- Bible
 wordpress_id: 44
 ---
 

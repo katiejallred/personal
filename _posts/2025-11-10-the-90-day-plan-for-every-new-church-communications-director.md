@@ -7,14 +7,11 @@ author: Katie Allred
 permalink: /the-90-day-plan-for-every-new-church-communications-director/
 categories:
 - Church Communications
-- Strategy
 tags:
 - church communications
-- church leadership
-- church marketing
-- communications director
+- church staff
 - communications strategy
-- new job tips
+- church leadership
 wordpress_id: 3775
 image: /assets/uploads/2025/11/unsplash-gc3MKGke_9g.jpg
 ---

@@ -8,12 +8,9 @@ permalink: /chatgpt-claude-or-gemini-which-ai-tool-is-right-for-your-church/
 categories:
 - AI & Tech
 tags:
+- AI
 - AI tools
-- artificial intelligence
 - ChatGPT
-- church technology
-- Claude
-- Gemini
 wordpress_id: 3798
 image: /assets/uploads/2026/04/unsplash-xvdkNBaja90.jpg
 ---

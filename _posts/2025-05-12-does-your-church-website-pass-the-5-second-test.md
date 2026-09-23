@@ -8,12 +8,10 @@ permalink: /does-your-church-website-pass-the-5-second-test/
 categories:
 - Church Communications
 tags:
-- church growth
-- church outreach
 - church website
-- digital ministry
-- SEO
 - web design
+- church outreach
+- SEO
 wordpress_id: 3769
 image: /assets/uploads/2025/05/unsplash-iEiUITs149M.jpg
 ---

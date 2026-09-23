@@ -7,14 +7,10 @@ author: Katie Allred
 permalink: /the-ai-bias-problem-why-the-church-must-be-at-the-table/
 categories:
 - AI & Tech
-- Strategy
 tags:
-- AI bias
-- artificial intelligence
-- church ethics
+- AI
+- AI ethics
 - church leadership
-- digital justice
-- technology
 wordpress_id: 3796
 image: /assets/uploads/2026/03/6157258.jpg
 ---

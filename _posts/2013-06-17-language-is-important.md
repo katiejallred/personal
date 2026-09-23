@@ -6,12 +6,9 @@ last_modified_at: '2013-06-17 20:01:33'
 author: Katie Allred
 permalink: /language-is-important/
 categories:
-- Personal
+- Life
 tags:
-- communication
-- culture
-- language
-- personal
+- writing
 wordpress_id: 625
 image: /assets/uploads/2013/06/dead-poets-society-04.jpg
 ---

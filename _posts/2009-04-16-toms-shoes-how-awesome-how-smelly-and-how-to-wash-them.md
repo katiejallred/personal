@@ -6,11 +6,9 @@ last_modified_at: '2009-04-16 13:04:00'
 author: Katie Allred
 permalink: /toms-shoes-how-awesome-how-smelly-and-how-to-wash-them/
 categories:
-- How To
+- Life
 tags:
-- cleaning tips
-- shoes
-- TOMS
+- life hacks
 wordpress_id: 22
 description: Learn how to clean and wash TOMS shoes. TOMS are awesome and they get stinky, but you can wash them! Learn how to right now.
 image: /assets/uploads/2009/04/Toms-Shoes.jpg

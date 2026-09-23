@@ -6,13 +6,10 @@ last_modified_at: '2013-05-31 19:58:34'
 author: Katie Allred
 permalink: /how-to-grill-steak/
 categories:
-- Food
+- Food & Travel
 tags:
-- BBQ
-- cooking
-- grilling
 - recipes
-- steak
+- grilling
 wordpress_id: 572
 description: More than enough information to get your grilling in no time! Got a question? Ask in the comments!
 seo_title: How to Grill Steak

@@ -6,15 +6,12 @@ last_modified_at: '2026-03-30 01:58:04'
 author: Katie Allred
 permalink: /how-to-build-a-social-media-content-calendar-for-your-church-without-losing-your-mind/
 categories:
-- Church Communications
 - Social Media
 tags:
-- church social media
-- content calendar
-- content planning
-- content strategy
-- instagram
 - social media
+- content strategy
+- Instagram
+- productivity
 wordpress_id: 3751
 image: /assets/uploads/2026/05/a-church-communications-professional-at-_ReRtFJQCQomPGq98z6S-zA_xHr1wvGXRAGHPs0gmwd16g_cover_hd.png
 ---

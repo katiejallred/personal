@@ -6,8 +6,10 @@ last_modified_at: '2013-10-22 19:00:20'
 author: Katie Allred
 permalink: /how-to-quickly-create-labels/
 categories:
-- Legacy
-tags: []
+- AI & Tech
+tags:
+- tech tips
+- Microsoft Office
 wordpress_id: 777
 description: Quickly create labels from a Microsoft Excel spreadsheet through Microsoft Word. Helpful for teachers and non-profits creating a lot of labels quickly.
 seo_title: How To Quickly Create Labels in Excel and Word

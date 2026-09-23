@@ -6,12 +6,10 @@ last_modified_at: '2013-11-14 06:52:42'
 author: Katie Allred
 permalink: /jesus-waited/
 categories:
-- Personal
+- Faith
 tags:
-- devotional
 - faith
-- personal
-- trust
+- devotional
 wordpress_id: 832
 image: /assets/uploads/2013/11/clock-scaled.jpg
 ---
