@@ -16,14 +16,14 @@ bundle exec jekyll build          # output to _site/
 ```
 _config.yml        Site metadata, contact details, permalinks, plugins
 _data/             navigation, social links (fixed order), hero links
-_layouts/          default, page, post, home
+_layouts/          default, page, post, home, landing, blank
 _includes/         header, footer, post-card, pagination
 .github/workflows/ pages.yml builds and deploys to GitHub Pages
 _posts/            Published posts (YYYY-MM-DD-slug.md)
 _drafts/           Undated drafts, only built with --drafts
 assets/css|js|images
-index.html         Home page (paginated post list)
-about.md           Static page example
+pages/             Site pages imported from WordPress (home, about, services…)
+blog/index.html    Blog (paginated post list, /blog/)
 archive.html       Posts grouped by year
 tags.html          Posts grouped by tag
 ```
@@ -55,3 +55,10 @@ WordPress URL, plus `title`, `date`, `last_modified_at`, `author`,
 future dates (Jekyll skips them until the date arrives — preview with
 `--future`). A few images missing from the import are listed in
 `assets/uploads/MISSING.md`.
+
+Pages were exported from WordPress into `pages/`, each with an explicit
+`permalink`. They use the `landing` layout (the content brings its own
+eyebrow and H1) except `link-in-bio`, which uses `blank` (no header or
+footer). The Elementor inline styles were remapped to the design-system
+tokens. Forms marked `TODO` in `pages/contact.md` and
+`pages/community-playbook.md` still need a form service behind them.

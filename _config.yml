@@ -42,9 +42,9 @@ kramdown:
 
 permalink: /:year/:month/:day/:title/
 
-# Pagination (jekyll-paginate, used by index.html / home layout)
+# Pagination (jekyll-paginate, used by blog/index.html / home layout)
 paginate: 9
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page/:num/"
 
 # Content behavior — explicit for predictable migrations
 future: false
