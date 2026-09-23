@@ -876,6 +876,10 @@ code, pre, kbd, samp {
   color: var(--muted);
 }
 
+.landing .prose img {
+  max-width: min(100%, 360px);
+}
+
 .landing .prose h1 {
   font-size: clamp(36px, 7vw, 56px);
   line-height: 1.05;
@@ -942,7 +946,13 @@ code, pre, kbd, samp {
   width: 128px;
   height: 128px;
   object-fit: cover;
+  object-position: 50% 15%;
   border-radius: 50%;
+  margin: 0 auto;
+}
+
+.link-page li + li {
+  margin-top: 0;
 }
 
 .link-page a.button {

@@ -8,7 +8,7 @@ description: Ready to talk communications strategy, AI training, or a speaking e
 seo_title: Schedule a Call with Katie Allred
 ---
 
-![](/assets/uploads/2021/07/IMG_0341-scaled.jpg)
+![Katie Allred, arms crossed, smiling](/assets/images/headshots/katie-allred-arms-crossed.jpg)
 
 ## Ready to talk?
 

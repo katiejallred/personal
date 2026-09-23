@@ -38,17 +38,23 @@ Katie holds an MA in Mass Communication from the University of Florida (4.0 GPA)
 
 ## Download high-res photos for print or web.
 
-[![Download Katie Allred headshot — portrait, color (1708×2560px)](/assets/uploads/2025/12/3-Katie-Allred-21_hr-scaled.jpg)](/assets/uploads/2025/12/3-Katie-Allred-21_hr-scaled.jpg)
+[![Katie Allred in a camel blazer, arms crossed](/assets/images/headshots/katie-allred-blazer.jpg)](/assets/images/headshots/katie-allred-blazer.jpg)
 
-Portrait (1708×2560px)
+Blazer, arms crossed (1334×2000px)
 
-[Download Full Res ↓](/assets/uploads/2025/12/3-Katie-Allred-21_hr-scaled.jpg)
+[Download ↓](/assets/images/headshots/katie-allred-blazer.jpg){: download=""}
 
-[![Download Katie Allred headshot — square crop (360×360px)](/assets/uploads/2026/03/2020.jpg)](/assets/uploads/2026/03/2020.jpg)
+[![Katie Allred in a blue shirt, arms crossed](/assets/images/headshots/katie-allred-arms-crossed.jpg)](/assets/images/headshots/katie-allred-arms-crossed.jpg)
 
-Square (360×360px)
+Blue shirt, arms crossed (1334×2000px)
 
-[Download ↓](/assets/uploads/2020/10/mybrand-headshot1.png)
+[Download ↓](/assets/images/headshots/katie-allred-arms-crossed.jpg){: download=""}
+
+[![Katie Allred close-up headshot](/assets/images/headshots/katie-allred-closeup.jpg)](/assets/images/headshots/katie-allred-closeup.jpg)
+
+Close-up (1334×2000px)
+
+[Download ↓](/assets/images/headshots/katie-allred-closeup.jpg){: download=""}
 
 Need something else?
 

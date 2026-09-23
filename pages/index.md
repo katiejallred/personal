@@ -8,7 +8,7 @@ description: Katie Allred helps organizations communicate with clarity and build
 seo_title: Katie Allred | AI & Communications Strategist
 ---
 
-![](/assets/uploads/2026/05/Headshot-1.png)
+![Katie Allred in a camel blazer, arms crossed, smiling](/assets/images/headshots/katie-allred-blazer.jpg)
 
 ## Hi, I'm Katie Allred.
 

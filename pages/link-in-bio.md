@@ -8,7 +8,7 @@ description: Everything in one place — courses, community, speaking, and more 
 seo_title: Link in Bio - Katie Allred
 ---
 
-![](/assets/uploads/2026/03/2020.jpg)
+![Katie Allred](/assets/images/headshots/katie-allred-closeup.jpg)
 
 # Katie Allred
 
@@ -34,4 +34,6 @@ seo_title: Link in Bio - Katie Allred
 
 © 2026 Katie Allred
 
-*This page may contain affiliate links.**I previously worked at Meta and Adobe but am not affiliated with either company.*
+*This page may contain affiliate links.*
+
+*I previously worked at Meta and Adobe but am not affiliated with either company.*
