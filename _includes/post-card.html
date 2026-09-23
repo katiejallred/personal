@@ -8,7 +8,7 @@
   {%- endif %}
   <div class="post-card-body">
     {%- if post.categories.size > 0 %}
-    <p><span class="chip">{{ post.categories.first }}</span></p>
+    <p><a class="chip" href="{{ '/categories/' | relative_url }}#{{ post.categories.first | slugify }}">{{ post.categories.first }}</a></p>
     {%- endif %}
     <h3 class="post-card-title">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

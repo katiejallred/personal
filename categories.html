@@ -1,0 +1,30 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+description: "All posts, grouped by category."
+eyebrow: The blog
+---
+
+{% assign sorted_categories = site.categories | sort %}
+<ul class="chip-row tag-index">
+  {%- for category in sorted_categories %}
+  <li><a class="chip" href="#{{ category[0] | slugify }}">{{ category[0] }} ({{ category[1].size }})</a></li>
+  {%- endfor %}
+</ul>
+
+{% for category in sorted_categories %}
+{% assign category_name = category[0] %}
+{% assign category_posts = category[1] %}
+<section class="tag-group" id="{{ category_name | slugify }}">
+  <h2>{{ category_name }} <span class="tag-count">({{ category_posts.size }})</span></h2>
+  <ul class="tag-list">
+    {% for post in category_posts %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
