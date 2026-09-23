@@ -1,27 +1,48 @@
 <footer class="site-footer">
-  <div class="wrap">
-    <div>
-      <span class="wordmark"><span class="wordmark-tile" aria-hidden="true">KA</span>{{ site.title }}</span>
-      <p>Katie Allred Consulting · {{ site.contact.location }}</p>
-      <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a> · <a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a></p>
-      <p><a class="book" href="{{ site.contact.booking }}">Book a call →</a></p>
+  <div class="wrap footer-main">
+    <div class="footer-brand">
+      <a class="wordmark" href="{{ '/' | relative_url }}"><span class="wordmark-tile" aria-hidden="true">KA</span>{{ site.title }}</a>
+      <p class="footer-tagline">Automate the temporary. Invest in the eternal.</p>
+      <p class="footer-contact">
+        <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br>
+        <a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a>
+      </p>
+      <a class="btn btn-butter btn-sm" href="{{ site.contact.booking }}">Book a call →</a>
     </div>
-    <div class="footer-links">
-      <nav aria-label="Social">
-        <ul>
-          {%- for link in site.data.social %}
-          <li><a href="{{ link.url }}">{{ link.name }}</a></li>
-          {%- endfor %}
-        </ul>
-      </nav>
-      <nav aria-label="Site">
-        <ul>
-          <li><a href="{{ '/archive/' | relative_url }}">Archive</a></li>
-          <li><a href="{{ '/categories/' | relative_url }}">Categories</a></li>
-          <li><a href="{{ '/tags/' | relative_url }}">Tags</a></li>
-          <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
-        </ul>
-      </nav>
+
+    <nav class="footer-col" aria-labelledby="footer-explore">
+      <h2 class="footer-heading" id="footer-explore">Explore</h2>
+      <ul>
+        {%- for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {%- endfor %}
+        <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-labelledby="footer-connect">
+      <h2 class="footer-heading" id="footer-connect">Connect</h2>
+      <ul class="footer-social">
+        {%- for link in site.data.social %}
+        <li><a href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icons/{{ link.icon }}.svg %}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-labelledby="footer-more">
+      <h2 class="footer-heading" id="footer-more">More from Katie</h2>
+      <ul>
+        <li><a href="https://academy.katieallred.com">Allred Academy</a></li>
+        <li><a href="https://signupchurch.com">SignUpChurch.com</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="wrap footer-legal">
+    <div class="footer-legal-row">
+      <p>© {{ 'now' | date: '%Y' }} Katie Allred Consulting, LLC</p>
+      <p>Made with <span role="img" aria-label="love">❤️</span> in Nashville, TN</p>
     </div>
+    <p class="footer-disclaimer">This is my personal site. The views here are my own and don't reflect those of Meta, Adobe, or any other current or former employer or client.</p>
   </div>
 </footer>
