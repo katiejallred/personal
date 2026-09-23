@@ -26,10 +26,14 @@ archive.html       Posts grouped by year
 tags.html          Posts grouped by tag
 ```
 
-## Migrating content
+## Content
 
-Imported posts should carry the front matter shape demonstrated in
-`_posts/2026-08-02-sample-imported-post.md` (title, date with offset,
-categories, tags, excerpt, canonical_url, featured_image, slug). Permalinks
-are `/:year/:month/:day/:title/`, so preserving the original date and slug
-preserves the original URL. Media goes under `assets/images/`.
+Posts were migrated from WordPress (katieallred.com) via `wp2jekyll.py`.
+Each post carries an explicit `permalink: /slug/` preserving its original
+WordPress URL, plus `title`, `date`, `last_modified_at`, `author`,
+`categories`, `tags`, `image` (featured image), `description`/`seo_title`
+(from Rank Math where set), and `wordpress_id`. Media lives under
+`assets/uploads/YYYY/MM/`; scheduled posts have `scheduled: true` and
+future dates (Jekyll skips them until the date arrives — preview with
+`--future`). A few images missing from the import are listed in
+`assets/uploads/MISSING.md`.
