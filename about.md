@@ -38,19 +38,20 @@ That work lives in a few places:
   *Automate the temporary. Invest in the eternal.*
 - **[Allred Academy](https://academy.katieallred.com)** — AI education built
   for churches and nonprofits. Practical, plain-spoken, and usable the same day.
-- **Public Democracy** — as Director of Community, I build AI pipelines and
-  lead community strategy for nonprofit partners.
-- **Adobe** — on contract, I manage the Creative Cloud Discord community,
-  more than 700,000 members across Photoshop, Illustrator, Video, Firefly, and
-  Express.
+- **Public Democracy** — as Director of Community, I lead community strategy
+  for advocacy organizations, direct a multi-platform creator network, and
+  build a production AI pipeline for nonprofit communications teams.
+- **Adobe** — in a part-time contract role, I manage the Creative Cloud
+  Discord community, more than 700,000 members across Photoshop, Illustrator,
+  Video, Firefly, and Express.
 
 ## Where I've been
 
 - **Meta** — Partner Management Lead for Communities North America and Faith
-  Partnerships.
-- **ChurchCommunications.com** — I grew it from a single online group to a
-  community of 35,000+ ministry communicators, and led it through its
-  acquisition by Missional Marketing.
+  Partnerships, working with 50+ partner organizations.
+- **Church Communications** — I co-founded it and grew it from a single
+  online group to a community of 35,000+ ministry communicators, then led it
+  through its 2024 acquisition by Missional Marketing.
 - **University of Mobile** — Assistant Professor of Marketing. I launched two
   degree programs and a student-run digital agency.
 - **Brentwood Baptist Church** — Web Content Manager while the church grew
