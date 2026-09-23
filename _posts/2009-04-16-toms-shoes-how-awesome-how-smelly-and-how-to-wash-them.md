@@ -6,7 +6,7 @@ last_modified_at: '2009-04-16 13:04:00'
 author: Katie Allred
 permalink: /toms-shoes-how-awesome-how-smelly-and-how-to-wash-them/
 categories:
-- How To
+- Life
 tags:
 - life hacks
 wordpress_id: 22

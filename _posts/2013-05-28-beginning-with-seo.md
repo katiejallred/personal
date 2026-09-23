@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /beginning-with-seo/
 categories:
 - Church Communications
-- Strategy
 tags:
 - SEO
 - church website

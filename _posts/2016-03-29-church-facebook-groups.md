@@ -6,7 +6,6 @@ last_modified_at: '2016-03-29 09:45:20'
 author: Katie Allred
 permalink: /church-facebook-groups/
 categories:
-- Church Communications
 - Online Community
 tags:
 - Facebook

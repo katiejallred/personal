@@ -6,7 +6,7 @@ last_modified_at: '2026-03-30 03:26:51'
 author: Katie Allred
 permalink: /does-your-church-have-a-crisis-communication-plan-you-need-one-before-you-need-one/
 categories:
-- Strategy
+- Church Communications
 tags:
 - church communications
 - public relations

@@ -7,6 +7,7 @@ author: Katie Allred
 permalink: /12-church-communication-experts-on-twitter-right-now/
 categories:
 - Church Communications
+- Social Media
 tags:
 - church communications
 - social media

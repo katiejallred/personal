@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /free-stock-photography-sites/
 categories:
 - Church Communications
-- Strategy
 tags:
 - design
 - photography

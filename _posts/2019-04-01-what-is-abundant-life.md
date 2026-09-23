@@ -6,7 +6,7 @@ last_modified_at: '2019-04-01 06:42:42'
 author: Katie Allred
 permalink: /what-is-abundant-life/
 categories:
-- Personal
+- Faith
 tags:
 - faith
 - devotional

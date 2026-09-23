@@ -6,7 +6,7 @@ last_modified_at: '2012-09-25 17:47:33'
 author: Katie Allred
 permalink: /tater-tot-casserole/
 categories:
-- Food
+- Food & Travel
 tags:
 - recipes
 - casseroles

@@ -6,7 +6,7 @@ last_modified_at: '2013-10-31 18:00:21'
 author: Katie Allred
 permalink: /jenis-ice-cream-review/
 categories:
-- Food
+- Food & Travel
 tags:
 - Nashville
 - restaurants

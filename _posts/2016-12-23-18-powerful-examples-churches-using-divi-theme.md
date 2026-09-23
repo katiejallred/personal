@@ -6,7 +6,7 @@ last_modified_at: '2016-12-23 17:33:56'
 author: Katie Allred
 permalink: /18-powerful-examples-churches-using-divi-theme/
 categories:
-- Legacy
+- Church Communications
 tags:
 - church website
 - web design

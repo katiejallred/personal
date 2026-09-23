@@ -6,7 +6,7 @@ last_modified_at: '2015-07-15 19:35:26'
 author: Katie Allred
 permalink: /10-of-the-best-sites-for-learning-copywriting/
 categories:
-- Strategy
+- Church Communications
 tags:
 - writing
 - resources

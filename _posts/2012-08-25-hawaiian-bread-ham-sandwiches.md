@@ -6,7 +6,7 @@ last_modified_at: '2012-08-25 06:42:50'
 author: Katie Allred
 permalink: /hawaiian-bread-ham-sandwiches/
 categories:
-- Food
+- Food & Travel
 tags:
 - recipes
 - party food

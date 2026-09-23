@@ -6,7 +6,7 @@ last_modified_at: '2013-02-10 23:15:12'
 author: Katie Allred
 permalink: /easy-fruit-pizza-2/
 categories:
-- Food
+- Food & Travel
 tags:
 - recipes
 - desserts

@@ -6,7 +6,7 @@ last_modified_at: '2013-09-13 23:41:17'
 author: Katie Allred
 permalink: /jon-acuffs-chair/
 categories:
-- Legacy
+- Life
 tags:
 - just for fun
 wordpress_id: 662

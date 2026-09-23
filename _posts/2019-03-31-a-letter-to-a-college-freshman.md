@@ -6,7 +6,7 @@ last_modified_at: '2019-03-31 22:53:53'
 author: Katie Allred
 permalink: /a-letter-to-a-college-freshman/
 categories:
-- Personal
+- Life
 tags:
 - college
 - life

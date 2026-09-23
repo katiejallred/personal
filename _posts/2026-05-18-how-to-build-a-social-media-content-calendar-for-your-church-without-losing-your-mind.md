@@ -6,7 +6,6 @@ last_modified_at: '2026-03-30 01:58:04'
 author: Katie Allred
 permalink: /how-to-build-a-social-media-content-calendar-for-your-church-without-losing-your-mind/
 categories:
-- Church Communications
 - Social Media
 tags:
 - social media

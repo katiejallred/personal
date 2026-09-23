@@ -6,7 +6,6 @@ last_modified_at: '2017-02-22 14:41:21'
 author: Katie Allred
 permalink: /likes-comments-shares-help-spread-gospel/
 categories:
-- Church Communications
 - Social Media
 tags:
 - social media

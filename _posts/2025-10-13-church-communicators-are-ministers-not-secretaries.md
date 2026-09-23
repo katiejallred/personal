@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /church-communicators-are-ministers-not-secretaries/
 categories:
 - Church Communications
-- Strategy
 tags:
 - church communications
 - church staff

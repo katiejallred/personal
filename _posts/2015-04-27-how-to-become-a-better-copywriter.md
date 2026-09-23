@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /how-to-become-a-better-copywriter/
 categories:
 - Church Communications
-- Strategy
 tags:
 - writing
 - storytelling

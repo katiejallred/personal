@@ -6,8 +6,8 @@ last_modified_at: '2016-10-03 18:02:32'
 author: Katie Allred
 permalink: /27-awesome-lessons-from-reading-proverbs-on-facebook-live/
 categories:
-- Church Communications
 - Social Media
+- Faith
 tags:
 - Facebook
 - video

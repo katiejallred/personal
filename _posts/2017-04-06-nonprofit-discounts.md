@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /nonprofit-discounts/
 categories:
 - Church Communications
-- Strategy
 tags:
 - nonprofit
 - resources

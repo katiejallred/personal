@@ -7,7 +7,7 @@ author: Katie Allred
 permalink: /deepfakes-misinformation-and-the-churchs-responsibility-in-the-age-of-ai/
 categories:
 - AI & Tech
-- Strategy
+- Media Literacy
 tags:
 - AI
 - AI ethics

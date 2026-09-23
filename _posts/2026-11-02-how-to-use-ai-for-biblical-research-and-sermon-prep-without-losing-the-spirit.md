@@ -7,7 +7,7 @@ author: Katie Allred
 permalink: /how-to-use-ai-for-biblical-research-and-sermon-prep-without-losing-the-spirit/
 categories:
 - AI & Tech
-- Church Communications
+- Faith
 tags:
 - AI
 - sermon prep

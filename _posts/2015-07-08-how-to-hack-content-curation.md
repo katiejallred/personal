@@ -6,8 +6,7 @@ last_modified_at: '2015-07-08 19:00:11'
 author: Katie Allred
 permalink: /how-to-hack-content-curation/
 categories:
-- Church Communications
-- Strategy
+- Social Media
 tags:
 - content strategy
 - social media

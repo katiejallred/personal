@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /stop-winging-it-how-to-create-a-church-communications-strategy-that-actually-works/
 categories:
 - Church Communications
-- Strategy
 tags:
 - church communications
 - communications strategy

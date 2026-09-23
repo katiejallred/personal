@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /the-90-day-plan-for-every-new-church-communications-director/
 categories:
 - Church Communications
-- Strategy
 tags:
 - church communications
 - church staff

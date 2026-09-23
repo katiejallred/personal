@@ -6,7 +6,7 @@ last_modified_at: '2015-05-06 19:45:14'
 author: Katie Allred
 permalink: /goals-challenging/
 categories:
-- Personal
+- Life
 tags:
 - personal growth
 wordpress_id: 1205

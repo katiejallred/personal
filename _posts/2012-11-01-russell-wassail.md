@@ -6,7 +6,7 @@ last_modified_at: '2012-11-01 16:47:48'
 author: Katie Allred
 permalink: /russell-wassail/
 categories:
-- Legacy
+- Food & Travel
 tags:
 - recipes
 - Christmas

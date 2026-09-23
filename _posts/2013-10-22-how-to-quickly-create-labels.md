@@ -6,7 +6,7 @@ last_modified_at: '2013-10-22 19:00:20'
 author: Katie Allred
 permalink: /how-to-quickly-create-labels/
 categories:
-- Legacy
+- AI & Tech
 tags:
 - tech tips
 - Microsoft Office

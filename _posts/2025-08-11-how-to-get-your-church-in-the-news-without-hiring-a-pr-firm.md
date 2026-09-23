@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /how-to-get-your-church-in-the-news-without-hiring-a-pr-firm/
 categories:
 - Church Communications
-- Strategy
 tags:
 - public relations
 - church marketing

@@ -6,7 +6,7 @@ last_modified_at: '2013-06-17 20:01:33'
 author: Katie Allred
 permalink: /language-is-important/
 categories:
-- Personal
+- Life
 tags:
 - writing
 wordpress_id: 625

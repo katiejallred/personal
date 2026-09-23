@@ -6,7 +6,7 @@ last_modified_at: '2015-06-22 18:02:53'
 author: Katie Allred
 permalink: /10-best-divi-sites/
 categories:
-- Legacy
+- AI & Tech
 tags:
 - web design
 - WordPress

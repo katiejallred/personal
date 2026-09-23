@@ -6,7 +6,7 @@ last_modified_at: '2012-08-31 14:30:08'
 author: Katie Allred
 permalink: /the-digital-successful-student/
 categories:
-- Legacy
+- Life
 tags:
 - college
 - resources

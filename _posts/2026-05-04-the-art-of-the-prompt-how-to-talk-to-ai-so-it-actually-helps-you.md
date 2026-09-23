@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /the-art-of-the-prompt-how-to-talk-to-ai-so-it-actually-helps-you/
 categories:
 - AI & Tech
-- Strategy
 tags:
 - AI
 - prompting

@@ -6,7 +6,7 @@ last_modified_at: '2021-04-23 20:25:11'
 author: Katie Allred
 permalink: /amazon-price-tracker/
 categories:
-- Legacy
+- Life
 tags:
 - life hacks
 - tech tips

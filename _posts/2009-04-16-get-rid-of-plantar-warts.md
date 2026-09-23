@@ -6,7 +6,7 @@ last_modified_at: '2009-04-16 12:42:00'
 author: Katie Allred
 permalink: /get-rid-of-plantar-warts/
 categories:
-- How To
+- Life
 tags:
 - health
 - life hacks

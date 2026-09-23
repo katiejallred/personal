@@ -6,7 +6,7 @@ last_modified_at: '2013-10-10 02:09:15'
 author: Katie Allred
 permalink: /cross-history-symbol/
 categories:
-- Personal
+- Faith
 tags:
 - faith
 - devotional

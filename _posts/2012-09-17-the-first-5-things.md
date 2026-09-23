@@ -6,7 +6,7 @@ last_modified_at: '2012-09-17 11:23:19'
 author: Katie Allred
 permalink: /the-first-5-things/
 categories:
-- Legacy
+- Life
 tags:
 - life
 - faith

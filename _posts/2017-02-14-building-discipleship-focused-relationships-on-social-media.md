@@ -6,7 +6,6 @@ last_modified_at: '2017-02-14 09:38:26'
 author: Katie Allred
 permalink: /building-discipleship-focused-relationships-on-social-media/
 categories:
-- Church Communications
 - Social Media
 tags:
 - social media

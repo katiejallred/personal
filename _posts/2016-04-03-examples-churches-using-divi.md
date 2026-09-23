@@ -6,7 +6,7 @@ last_modified_at: '2016-04-03 19:52:45'
 author: Katie Allred
 permalink: /examples-churches-using-divi/
 categories:
-- Legacy
+- Church Communications
 tags:
 - church website
 - web design

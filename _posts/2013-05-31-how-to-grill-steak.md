@@ -6,7 +6,7 @@ last_modified_at: '2013-05-31 19:58:34'
 author: Katie Allred
 permalink: /how-to-grill-steak/
 categories:
-- Food
+- Food & Travel
 tags:
 - recipes
 - grilling

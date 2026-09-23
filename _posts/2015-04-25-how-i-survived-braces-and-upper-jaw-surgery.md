@@ -6,7 +6,7 @@ last_modified_at: '2015-04-25 11:35:03'
 author: Katie Allred
 permalink: /how-i-survived-braces-and-upper-jaw-surgery/
 categories:
-- Personal
+- Life
 tags:
 - health
 wordpress_id: 1168

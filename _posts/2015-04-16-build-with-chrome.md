@@ -6,7 +6,7 @@ last_modified_at: '2015-04-16 21:00:54'
 author: Katie Allred
 permalink: /build-with-chrome/
 categories:
-- Legacy
+- Life
 tags:
 - just for fun
 wordpress_id: 163

@@ -6,7 +6,7 @@ last_modified_at: '2015-06-23 20:33:50'
 author: Katie Allred
 permalink: /install-wordpress-on-mamp/
 categories:
-- Legacy
+- AI & Tech
 tags:
 - web design
 - WordPress

@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /how-to-start-an-awesome-blog-in-4-easy-steps/
 categories:
 - Church Communications
-- Strategy
 tags:
 - blogging
 - content strategy

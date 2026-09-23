@@ -6,7 +6,7 @@ last_modified_at: '2013-09-11 20:25:03'
 author: Katie Allred
 permalink: /friendship-is-the-best-ship/
 categories:
-- Personal
+- Life
 tags:
 - life
 wordpress_id: 659

@@ -6,7 +6,7 @@ last_modified_at: '2013-12-06 21:47:04'
 author: Katie Allred
 permalink: /three-lessons-learned-from-grief/
 categories:
-- Personal
+- Faith
 tags:
 - faith
 - grief

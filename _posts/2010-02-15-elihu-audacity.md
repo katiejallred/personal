@@ -6,7 +6,7 @@ last_modified_at: '2010-02-15 03:55:00'
 author: Katie Allred
 permalink: /elihu-audacity/
 categories:
-- Personal
+- Faith
 tags:
 - faith
 - devotional

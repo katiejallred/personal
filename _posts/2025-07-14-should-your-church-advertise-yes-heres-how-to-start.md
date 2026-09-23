@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /should-your-church-advertise-yes-heres-how-to-start/
 categories:
 - Church Communications
-- Strategy
 tags:
 - advertising
 - church marketing

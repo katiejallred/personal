@@ -6,7 +6,7 @@ last_modified_at: '2012-08-22 08:13:48'
 author: Katie Allred
 permalink: /christian-worldview-and-your-major-cis/
 categories:
-- Legacy
+- Faith
 tags:
 - faith
 - college

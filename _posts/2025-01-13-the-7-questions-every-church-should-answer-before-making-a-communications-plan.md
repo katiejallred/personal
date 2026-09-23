@@ -7,7 +7,6 @@ author: Katie Allred
 permalink: /the-7-questions-every-church-should-answer-before-making-a-communications-plan/
 categories:
 - Church Communications
-- Strategy
 tags:
 - church communications
 - communications strategy
