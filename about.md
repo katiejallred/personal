@@ -40,8 +40,9 @@ That work lives in a few places:
   for churches and nonprofits. Practical, plain-spoken, and usable the same day.
 - **Public Democracy** — as Director of Community, I build AI pipelines and
   lead community strategy for nonprofit partners.
-- **Adobe** — I manage the Creative Cloud Discord community, more than 700,000
-  members across Photoshop, Illustrator, Video, Firefly, and Express.
+- **Adobe** — on contract, I manage the Creative Cloud Discord community,
+  more than 700,000 members across Photoshop, Illustrator, Video, Firefly, and
+  Express.
 
 ## Where I've been
 
