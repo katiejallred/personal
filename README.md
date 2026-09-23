@@ -60,5 +60,5 @@ Pages were exported from WordPress into `pages/`, each with an explicit
 `permalink`. They use the `landing` layout (the content brings its own
 eyebrow and H1) except `link-in-bio`, which uses `blank` (no header or
 footer). The Elementor inline styles were remapped to the design-system
-tokens. Forms marked `TODO` in `pages/contact.md` and
-`pages/community-playbook.md` still need a form service behind them.
+tokens. The contact and Community Playbook forms are Tally embeds
+(`_includes/tally.html`); responses and settings live in Tally.

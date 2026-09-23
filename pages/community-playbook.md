@@ -16,16 +16,7 @@ seo_title: Community Playbook | Katie Allred
 
 A step-by-step Notion template that walks you through defining your community goals, knowing your audience, planning your content, and building systems that scale — without the overwhelm.
 
-{::nomarkdown}
-<!-- TODO: Elementor form "Community Playbook Signup" (was: email). Point action at a form service (Formspree, Netlify Forms, Kit, etc.) -->
-<form class="contact-form" action="#TODO" method="post">
-  <p><label for="f-first_name">First Name</label><br>
-  <input type="text" name="first_name" id="f-first_name" placeholder="Your first name" required></p>
-  <p><label for="f-email">Email Address</label><br>
-  <input type="email" name="email" id="f-email" placeholder="your@email.com" required></p>
-  <p><button type="submit">Get My Free Playbook →</button></p>
-</form>
-{:/}
+{% include tally.html id="KYbMjK" title="Get the Community Playbook" %}
 
 Joining 2,400+ community leaders  ·  No spam, ever  ·  Unsubscribe anytime
 
@@ -99,15 +90,6 @@ This template is what I wish someone had handed me on day one. Practical, honest
 
 Get the free Notion template delivered straight to your inbox and start building today.
 
-{::nomarkdown}
-<!-- TODO: Elementor form "Community Playbook Signup — Newsletter" (was: email). Point action at a form service (Formspree, Netlify Forms, Kit, etc.) -->
-<form class="contact-form" action="#TODO" method="post">
-  <p><label for="f-first_name">First Name</label><br>
-  <input type="text" name="first_name" id="f-first_name" placeholder="Your first name" required></p>
-  <p><label for="f-email">Email Address</label><br>
-  <input type="email" name="email" id="f-email" placeholder="your@email.com" required></p>
-  <p><button type="submit">Send Me the Playbook →</button></p>
-</form>
-{:/}
+{% include tally.html id="KYbMjK" title="Get the Community Playbook" %}
 
 Free forever. Unsubscribe anytime. No spam.

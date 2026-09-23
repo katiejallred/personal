@@ -22,18 +22,7 @@ Or book directly
 
 [Schedule a Call  →](/schedule-a-call/)
 
-{::nomarkdown}
-<!-- TODO: Elementor form "Contact Katie Allred" (was: email). Point action at a form service (Formspree, Netlify Forms, Kit, etc.) -->
-<form class="contact-form" action="#TODO" method="post">
-  <p><label for="f-name">Name</label><br>
-  <input type="text" name="name" id="f-name" placeholder="Your name" required></p>
-  <p><label for="f-email">Email</label><br>
-  <input type="email" name="email" id="f-email" placeholder="your@email.com" required></p>
-  <p><label for="f-message">Message</label><br>
-  <textarea name="message" id="f-message" rows="6"></textarea></p>
-  <p><button type="submit">Send Message</button></p>
-</form>
-{:/}
+{% include tally.html id="7RGdkz" title="Contact Katie Allred" %}
 
 ## Prefer to talk it out?
 
