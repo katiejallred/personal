@@ -849,3 +849,11 @@ code, pre, kbd, samp {
     transition: none;
   }
 }
+
+/* --- About --- */
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  padding-bottom: var(--space-2);
+}
