@@ -1,0 +1,9 @@
+# Primary navigation, in order. "Book a call" is added by the header.
+- title: Blog
+  url: /
+- title: About
+  url: /about/
+- title: Archive
+  url: /archive/
+- title: Tags
+  url: /tags/

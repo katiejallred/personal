@@ -1,11 +1,16 @@
 <header class="site-header">
-  <a class="site-title" href="{{ '/' | relative_url }}" rel="home">{{ site.title }}</a>
-  <nav class="site-nav" aria-label="Primary">
-    <ul>
-      <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-      <li><a href="{{ '/archive/' | relative_url }}">Archive</a></li>
-      <li><a href="{{ '/tags/' | relative_url }}">Tags</a></li>
-    </ul>
-  </nav>
+  <div class="wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}" rel="home">
+      <span class="wordmark-tile" aria-hidden="true">KA</span>{{ site.title }}
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        {%- for item in site.data.navigation %}
+        {%- assign item_url = item.url | relative_url %}
+        <li><a href="{{ item_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {%- endfor %}
+        <li><a class="btn btn-red btn-sm" href="{{ site.contact.booking }}">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>

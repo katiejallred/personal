@@ -1,24 +1,80 @@
 ---
 layout: default
 ---
-<div class="home">
-  {{ content }}
+{%- assign posts = paginator.posts | default: site.posts -%}
+{%- assign first_page = true -%}
+{%- if paginator and paginator.page > 1 %}{% assign first_page = false %}{% endif -%}
 
-  {%- assign posts = paginator.posts | default: site.posts -%}
-  {%- if posts.size > 0 %}
-  <h2 class="post-list-heading">Latest posts</h2>
-  <ul class="post-list">
-    {%- for post in posts %}
-    <li>
-      {% include post-card.html post=post %}
-    </li>
-    {%- endfor %}
-  </ul>
+{%- if first_page %}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div>
+      <h1 class="hero-title" id="hero-title">Automate the temporary. Invest in the <em>eternal</em>.</h1>
+      <p class="hero-lede">{{ site.positioning }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-blue" href="{{ site.contact.booking }}">Book a call →</a>
+        <p class="aside">the blog's right down here&nbsp;↓</p>
+      </div>
+    </div>
 
-  {%- if paginator %}
-  {% include pagination.html %}
-  {%- endif %}
-  {%- else %}
-  <p>No posts yet. Check back soon.</p>
-  {%- endif %}
-</div>
+    <div class="card-stack">
+      <div class="content-card content-card-back">
+        <h2>Elsewhere</h2>
+        <ul>
+          {%- for link in site.data.links %}
+          <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="content-card content-card-front">
+        <h2>Just posted</h2>
+        <ol>
+          {%- for post in site.posts limit: 3 %}
+          <li>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </li>
+          {%- endfor %}
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
+    <path d="M0 520 C 360 400, 700 600, 1040 470 S 1360 420, 1440 470 L1440 600 L0 600Z" fill="#FF5B3A" opacity=".75"/>
+  </svg>
+</section>
+{%- endif %}
+
+<section class="section">
+  <div class="wrap">
+    <header class="section-header">
+      <p class="label">The blog</p>
+      {%- if first_page %}
+      <h2 class="section-title">Latest writing</h2>
+      {%- else %}
+      <h1 class="section-title">Latest writing, page {{ paginator.page }}</h1>
+      {%- endif %}
+      <p class="section-intro">Church communications, AI for ministry teams, and everything I've written since 2009.</p>
+    </header>
+
+    {{ content }}
+
+    {%- if posts.size > 0 %}
+    <ul class="post-grid">
+      {%- for post in posts %}
+      <li>
+        {% include post-card.html post=post %}
+      </li>
+      {%- endfor %}
+    </ul>
+
+    {%- if paginator %}
+    {% include pagination.html %}
+    {%- endif %}
+    {%- else %}
+    <p>No posts yet. Check back soon.</p>
+    {%- endif %}
+  </div>
+</section>

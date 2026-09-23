@@ -3,6 +3,7 @@ layout: page
 title: Tags
 permalink: /tags/
 description: "All posts, grouped by tag."
+eyebrow: The blog
 ---
 
 {% assign sorted_tags = site.tags | sort %}
@@ -15,7 +16,7 @@ description: "All posts, grouped by tag."
     {% for post in tag_posts %}
     <li>
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-      &mdash; <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ul>

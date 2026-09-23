@@ -1,0 +1,12 @@
+# Fixed order from the design system's Contact & links section:
+# most professional first. Use the Facebook page, not the personal profile.
+- name: LinkedIn
+  url: https://www.linkedin.com/in/katiejallred/
+- name: Instagram
+  url: https://www.instagram.com/katiejallred/
+- name: X
+  url: https://twitter.com/katiejallred
+- name: YouTube
+  url: https://www.youtube.com/channel/UCIEYFObz7BFd5xTlbSefNrg
+- name: Facebook
+  url: https://www.facebook.com/katiejallred/

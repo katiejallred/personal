@@ -1,4 +1,26 @@
 <footer class="site-footer">
-  <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name | default: site.title }}. All rights reserved.</p>
-  <p><a href="{{ '/feed.xml' | relative_url }}">RSS</a> · <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a></p>
+  <div class="wrap">
+    <div>
+      <span class="wordmark"><span class="wordmark-tile" aria-hidden="true">KA</span>{{ site.title }}</span>
+      <p>Katie Allred Consulting · {{ site.contact.location }}</p>
+      <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a> · <a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a></p>
+      <p><a class="book" href="{{ site.contact.booking }}">Book a call →</a></p>
+    </div>
+    <div class="footer-links">
+      <nav aria-label="Social">
+        <ul>
+          {%- for link in site.data.social %}
+          <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      <nav aria-label="Site">
+        <ul>
+          <li><a href="{{ '/archive/' | relative_url }}">Archive</a></li>
+          <li><a href="{{ '/tags/' | relative_url }}">Tags</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </footer>
