@@ -23,9 +23,10 @@ layout: default
     {%- endif %}
   </header>
 
-  {%- if page.featured_image %}
+  {%- assign featured = page.image | default: page.featured_image -%}
+  {%- if featured %}
   <figure class="post-featured-image">
-    <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
+    <img src="{{ featured | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
   </figure>
   {%- endif %}
 
