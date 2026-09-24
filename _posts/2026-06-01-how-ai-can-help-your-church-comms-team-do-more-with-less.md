@@ -15,7 +15,7 @@ tags:
 - church communications
 - productivity
 wordpress_id: 3753
-image: /assets/uploads/2026/06/katiejallred_A_church_communications_professional_at_a_bright_27968998-49eb-4ed1-acc6-6693b5dcafc0_2.png
+image: /assets/uploads/2026/06/katiejallred_A_church_communications_professional_at_a_bright_27968998-49eb-4ed1-acc6-6693b5dcafc0_2.jpg
 featured_image_alt: "Hands typing on a laptop at a desk in warm evening light"
 ---
 

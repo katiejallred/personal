@@ -13,7 +13,7 @@ tags:
 - branding
 - design
 wordpress_id: 3766
-image: /assets/uploads/2026/03/15260921.png
+image: /assets/uploads/2026/03/15260921.jpg
 featured_image_alt: "The Starbucks logo on the side of a building"
 ---
 

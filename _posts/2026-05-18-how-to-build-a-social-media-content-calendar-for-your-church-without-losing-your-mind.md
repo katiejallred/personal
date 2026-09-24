@@ -14,7 +14,7 @@ tags:
 - Instagram
 - productivity
 wordpress_id: 3751
-image: /assets/uploads/2026/05/a-church-communications-professional-at-_ReRtFJQCQomPGq98z6S-zA_xHr1wvGXRAGHPs0gmwd16g_cover_hd.png
+image: /assets/uploads/2026/05/a-church-communications-professional-at-_ReRtFJQCQomPGq98z6S-zA_xHr1wvGXRAGHPs0gmwd16g_cover_hd.jpg
 featured_image_alt: "A smiling woman working at a laptop at a bright desk"
 ---
 

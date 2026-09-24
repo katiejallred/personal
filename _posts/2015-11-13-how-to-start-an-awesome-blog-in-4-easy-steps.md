@@ -28,7 +28,7 @@ Everyone, and I mean, everyone has something to teach and everyone has something
 ### #1. Get Hosting and Domain
 
 For hosting, I recommend BlueHost. I set up almost all of my clients on BlueHost because it's affordable and reliable.  
-![BlueHost](/assets/uploads/2015/11/1-1024x525.png)
+![BlueHost](/assets/uploads/2015/11/1-1024x525.jpg)
 
 ### #2. Install Wordpress
 

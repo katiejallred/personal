@@ -131,6 +131,11 @@ Markdown, and `featured_image_alt:` for a post's featured image (it also
 becomes `og:image:alt`). Leave a featured image's alt empty only when it is
 a title graphic that repeats the post title.
 
+Keep uploads small: at most 1600 px wide, saved as JPEG (quality ~82) for
+photos and screenshots, which is usually under 300 KB. Use PNG only for
+graphics that need transparency. Images inside posts lazy-load
+automatically (`_plugins/lazy_images.rb`).
+
 Pages were exported from WordPress into `pages/`, each with an explicit
 `permalink`. They use the `landing` layout (the content brings its own
 eyebrow and H1) except `link-in-bio`, which uses `blank` (no header or
