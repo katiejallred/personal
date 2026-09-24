@@ -1660,3 +1660,93 @@ code, pre, kbd, samp {
   justify-content: center;
   gap: var(--space-3);
 }
+
+/* --- Contact --- */
+.contact-layout {
+  display: grid;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .contact-layout {
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  }
+}
+
+.contact-form-card {
+  padding: var(--space-6) var(--space-4);
+  box-shadow: inset 0 0 0 2px var(--blush);
+}
+
+@media (min-width: 640px) {
+  .contact-form-card {
+    padding: var(--space-6);
+  }
+}
+
+.contact-note {
+  margin-bottom: var(--space-2);
+}
+
+.contact-aside {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.contact-call {
+  background: var(--ground-blue);
+  color: var(--on-red);
+}
+
+.contact-call h3 {
+  color: var(--on-red);
+}
+
+.card.contact-call p {
+  color: var(--on-red-soft);
+}
+
+.contact-details {
+  box-shadow: inset 0 0 0 2px var(--blush);
+}
+
+.contact-details dt {
+  font: 700 13px/16px var(--font-sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.contact-details dd {
+  margin-top: var(--space-1);
+  overflow-wrap: anywhere;
+}
+
+.card .contact-social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.contact-social a {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--blush);
+  color: var(--ink);
+}
+
+.contact-social a:hover,
+.contact-social a:focus-visible {
+  background: var(--red);
+  color: var(--on-red);
+}
+
+.card.contact-form-card .label {
+  color: var(--red);
+}
