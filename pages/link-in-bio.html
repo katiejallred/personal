@@ -1,0 +1,73 @@
+---
+layout: blank
+title: Link in Bio
+permalink: /link-in-bio/
+last_modified_at: '2026-09-24'
+wordpress_id: 3687
+description: Everything in one place — book a call, courses, my book, the free quiz, and more from Katie Allred.
+seo_title: Link in Bio - Katie Allred
+---
+<div class="bio-page">
+  <div class="bio-top" aria-hidden="true">
+    <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" focusable="false">
+      <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
+      <path d="M0 520 C 360 400, 700 600, 1040 470 S 1360 420, 1440 470 L1440 600 L0 600Z" fill="#FF5B3A" opacity=".75"/>
+    </svg>
+  </div>
+
+  <div class="bio-inner">
+    <img class="bio-avatar" src="{{ '/assets/images/headshots/katie-allred-closeup.jpg' | relative_url }}" alt="Katie Allred smiling" width="1334" height="2000">
+    <h1 class="bio-name">Katie Allred</h1>
+    <p class="bio-role">AI &amp; community strategist · author · speaker</p>
+
+    <ul class="bio-social" aria-label="Social profiles">
+      {%- for link in site.data.social %}
+      <li><a href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icons/{{ link.icon }}.svg %}</a></li>
+      {%- endfor %}
+    </ul>
+
+    <ul class="bio-links">
+      <li>
+        <a class="bio-link bio-link-featured" href="{{ site.contact.booking | relative_url }}">
+          <span><strong>Book a free call</strong><small>30 minutes to talk strategy, AI, or speaking</small></span>
+        </a>
+      </li>
+      <li>
+        <a class="bio-link" href="{{ '/rate-your-communications/' | relative_url }}">
+          <span><strong>Take the free quiz</strong><small>Rate your church or nonprofit's communications</small></span>
+        </a>
+      </li>
+      <li>
+        <a class="bio-link" href="https://amzn.to/4uDqdqC">
+          <span><strong>Get my book</strong><small><cite>Church Communications: Methods and Marketing</cite></small></span>
+        </a>
+      </li>
+      <li>
+        <a class="bio-link" href="https://academy.katieallred.com">
+          <span><strong>Allred Academy</strong><small>Practical AI courses for churches and nonprofits</small></span>
+        </a>
+      </li>
+      <li>
+        <a class="bio-link" href="{{ '/join-my-email-list/' | relative_url }}">
+          <span><strong>Join my email list</strong><small>Practical ideas on communication, community &amp; AI</small></span>
+        </a>
+      </li>
+      <li>
+        <a class="bio-link" href="{{ '/services/' | relative_url }}">
+          <span><strong>Work with me</strong><small>Audits, AI training, community strategy &amp; websites</small></span>
+        </a>
+      </li>
+      <li>
+        <a class="bio-link" href="{{ '/' | relative_url }}">
+          <span><strong>Visit my website</strong><small>Blog, about, press kit &amp; more</small></span>
+        </a>
+      </li>
+    </ul>
+
+    <footer class="bio-foot">
+      <a class="wordmark" href="{{ '/' | relative_url }}"><span class="wordmark-tile" aria-hidden="true">KA</span>{{ site.title }}</a>
+      <p>© {{ 'now' | date: '%Y' }} Katie Allred Consulting, LLC · <a href="{{ '/affiliate-disclosure/' | relative_url }}">This page may contain affiliate links.</a></p>
+      <p>I previously worked at Meta and Adobe but am not affiliated with either company.</p>
+    </footer>
+  </div>
+</div>
