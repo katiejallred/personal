@@ -1,0 +1,16 @@
+{%- comment -%}
+  "Divi series" box: every published post with `series: divi`, oldest
+  first, with the current one marked. Future-dated posts stay out until
+  they publish.
+{%- endcomment -%}
+{%- assign series = site.posts | where: "series", "divi" | sort: "date" -%}
+{%- if series.size > 1 %}
+<nav class="series-box" aria-label="Divi website series">
+  <p class="series-kicker">The Divi website series</p>
+  <ol>
+    {%- for post in series %}
+    <li>{% if post.url == page.url %}<strong aria-current="page">{{ post.title }}</strong>{% else %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}</li>
+    {%- endfor %}
+  </ol>
+</nav>
+{%- endif %}

@@ -7,9 +7,10 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
-  # Rebuild every Jan 1 so the footer's copyright year stays current.
+  # Rebuild daily so future-dated posts (future: false) go live on their
+  # publish date; this also keeps the footer's copyright year current.
   schedule:
-    - cron: "0 6 1 1 *"
+    - cron: "15 14 * * *"
 
 permissions:
   contents: read

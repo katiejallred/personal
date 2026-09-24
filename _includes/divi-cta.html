@@ -1,0 +1,14 @@
+{%- comment -%}
+  Elegant Themes affiliate call to action for the Divi series.
+    {% include divi-cta.html title="Ready to build?" text="..." button="Get Divi" %}
+  All params optional. The link is the affiliate link from _data/divi.yml.
+{%- endcomment -%}
+<aside class="divi-cta">
+  <p class="divi-cta-kicker">{{ include.kicker | default: "My pick for building it" }}</p>
+  <p class="divi-cta-title">{{ include.title | default: "Build it with Divi" }}</p>
+  <p class="divi-cta-text">{{ include.text | default: "Drag-and-drop editing, hundreds of free layout packs, unlimited websites on one license, and a one-time lifetime option." }}</p>
+  <p class="divi-cta-actions">
+    <a class="btn btn-red" href="{{ site.data.divi.affiliate_url }}" rel="sponsored noopener">{{ include.button | default: "Get Divi" }} &rarr;</a>
+    <span class="divi-cta-note">{{ site.data.divi.guarantee_days }}-day money-back guarantee</span>
+  </p>
+</aside>

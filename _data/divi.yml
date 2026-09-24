@@ -1,0 +1,12 @@
+# Elegant Themes / Divi affiliate details for the Divi series
+# (_includes/divi-*.html). Update prices here when Elegant Themes changes
+# them; the plan calculator and CTA boxes read from this file.
+affiliate_url: https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440
+prices_checked: September 2026
+prices:
+  yearly: 89       # Divi, billed yearly
+  lifetime: 249    # Divi, one-time
+  pro_yearly: 277  # Divi Pro (Divi + AI, Cloud, VIP, Teams), billed yearly
+  lifetime_pro: 297  # Divi Lifetime + Pro, paid once...
+  pro_addon: 212     # ...plus the Pro services each year
+guarantee_days: 30

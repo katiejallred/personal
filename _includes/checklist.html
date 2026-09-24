@@ -1,0 +1,48 @@
+{%- comment -%}
+  Interactive checklist with a progress bar. Items come from the page's
+  `checklists` front matter; ticks are remembered in this browser.
+    checklists:
+      launch:
+        - First item
+    {% include checklist.html key="launch" title="Launch checklist" %}
+{%- endcomment -%}
+{%- assign items = page.checklists[include.key] -%}
+<div class="checklist" data-checklist="{{ page.url }}#{{ include.key }}">
+  <div class="checklist-head">
+    <p class="checklist-title">{{ include.title | default: "Checklist" }}</p>
+    <p class="checklist-count" aria-live="polite"><span data-done>0</span> of {{ items.size }} done</p>
+  </div>
+  <div class="checklist-meter" aria-hidden="true"><span data-meter></span></div>
+  <ul>
+    {%- for item in items %}
+    <li><label><input type="checkbox"> <span>{{ item | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span></label></li>
+    {%- endfor %}
+  </ul>
+  {%- if include.done %}
+  <p class="checklist-done" data-done-note hidden>{{ include.done }}</p>
+  {%- endif %}
+  <button type="button" class="checklist-reset" data-reset>Start over</button>
+</div>
+<script>
+(function () {
+  var box = document.currentScript.previousElementSibling;
+  var key = "checklist:" + box.getAttribute("data-checklist");
+  var boxes = box.querySelectorAll("input[type=checkbox]");
+  var saved = [];
+  try { saved = JSON.parse(localStorage.getItem(key)) || []; } catch (e) {}
+  function update() {
+    var done = 0, state = [];
+    boxes.forEach(function (b, i) { if (b.checked) done++; state[i] = b.checked; });
+    box.querySelector("[data-done]").textContent = done;
+    box.querySelector("[data-meter]").style.width = (done / boxes.length * 100) + "%";
+    var note = box.querySelector("[data-done-note]");
+    if (note) note.hidden = done !== boxes.length;
+    try { localStorage.setItem(key, JSON.stringify(state)); } catch (e) {}
+  }
+  boxes.forEach(function (b, i) { b.checked = !!saved[i]; b.addEventListener("change", update); });
+  box.querySelector("[data-reset]").addEventListener("click", function () {
+    boxes.forEach(function (b) { b.checked = false; }); update();
+  });
+  update();
+})();
+</script>
