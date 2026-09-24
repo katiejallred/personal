@@ -1054,7 +1054,8 @@ code, pre, kbd, samp {
 }
 
 /* --- StoryBrand home --- */
-.home-hero .label.home-hero-label {
+.home-hero .label.home-hero-label,
+.page-hero .label.home-hero-label {
   color: var(--on-red-soft);
   margin-bottom: var(--space-3);
 }
@@ -2143,4 +2144,40 @@ code, pre, kbd, samp {
 
 .signup-card .subhead {
   margin-bottom: var(--space-4);
+}
+
+/* --- Quiz --- */
+.page-hero .quiz-facts {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-4);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.quiz-facts li {
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.16);
+  color: var(--on-red);
+  font: 700 14px/1.4 var(--font-sans);
+}
+
+.quiz-results {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.quiz-results dt {
+  font-weight: 700;
+  color: var(--red);
+}
+
+.quiz-results dd {
+  color: var(--muted);
+}
+
+.quiz-hero .hero-title {
+  font-size: clamp(38px, 9vw, 88px);
 }
