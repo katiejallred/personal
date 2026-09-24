@@ -25,10 +25,10 @@ Preheat Oven to 500°. Spray pan. Bake for 10-12 minutes.
 - 3/4 cup of milk or buttermilk
 - Dash of sugar (browns better)
 
-![Biscuit ingredients measured into a bowl](/assets/uploads/2013/11/2013-05-31-17.43.20-scaled.jpg)
-![Cutting shortening into the flour](/assets/uploads/2013/11/2013-05-31-17.43.26-scaled.jpg)
-![Biscuit dough ready to shape](/assets/uploads/2013/11/2013-05-31-17.43.37-scaled.jpg)
-![Homemade biscuits fresh from the oven](/assets/uploads/2013/11/2013-05-31-18.08.28-scaled.jpg)
+![A bag of White Lily self-rising flour on the counter](/assets/uploads/2013/11/2013-05-31-17.43.20-scaled.jpg)
+![A stick of Crisco shortening and a knife on the counter](/assets/uploads/2013/11/2013-05-31-17.43.26-scaled.jpg)
+![Flour and shortening in a mixing bowl with a pastry cutter](/assets/uploads/2013/11/2013-05-31-17.43.37-scaled.jpg)
+![Golden homemade biscuits in a towel-lined bowl on the stove](/assets/uploads/2013/11/2013-05-31-18.08.28-scaled.jpg)
 
 Measure all DRY ingredients into a bowl (leaving out milk) and cut with a pastry cutter or two knives until crumbs are the size of peas. Blend in the milk.
 
