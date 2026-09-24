@@ -1053,40 +1053,6 @@ code, pre, kbd, samp {
   cursor: pointer;
 }
 
-/* --- Blank layout (link in bio) --- */
-.link-page {
-  max-width: 28rem;
-  margin: 0 auto;
-  padding: var(--space-6) var(--gutter);
-  text-align: center;
-}
-
-.link-page img {
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  object-position: 50% 15%;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.link-page li + li {
-  margin-top: 0;
-}
-
-.link-page a.button {
-  display: block;
-}
-
-.link-page ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: var(--space-2) 18px;
-}
-
 /* --- StoryBrand home --- */
 .home-hero .label.home-hero-label {
   color: var(--on-red-soft);
@@ -1940,4 +1906,178 @@ code, pre, kbd, samp {
 .review-role {
   display: block;
   color: var(--muted);
+}
+
+/* --- Link in bio --- */
+.bio-page {
+  min-height: 100vh;
+  background: var(--shell);
+}
+
+.bio-top {
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+  background: var(--ground-red);
+}
+
+.bio-top .waveband {
+  height: 90px;
+}
+
+.bio-inner {
+  position: relative;
+  max-width: 30rem;
+  margin: -84px auto 0;
+  padding: 0 var(--gutter) var(--space-6);
+  text-align: center;
+}
+
+.bio-avatar {
+  display: block;
+  width: 144px;
+  height: 144px;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: 50% 15%;
+  border-radius: 50%;
+  border: 6px solid #FFFFFF;
+  box-shadow: var(--shadow-card);
+}
+
+.bio-name {
+  margin-top: var(--space-3);
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.bio-role {
+  margin-top: var(--space-2);
+  color: var(--muted);
+}
+
+.bio-social {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-4);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.bio-social a {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--blush);
+  color: var(--ink);
+}
+
+.bio-social a:hover,
+.bio-social a:focus-visible {
+  background: var(--red);
+  color: var(--on-red);
+}
+
+.bio-links {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-6);
+  display: grid;
+  gap: var(--space-3);
+  text-align: left;
+}
+
+.bio-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 16px 20px;
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  box-shadow: inset 0 0 0 2px var(--blush);
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.bio-link:hover,
+.bio-link:focus-visible {
+  color: var(--ink);
+  transform: translateY(-2px);
+  box-shadow: inset 0 0 0 2px var(--red);
+}
+
+.bio-link span {
+  flex: 1;
+  min-width: 0;
+}
+
+.bio-link strong {
+  display: block;
+  font: 700 18px/1.25 var(--font-sans);
+}
+
+.bio-link small {
+  display: block;
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.bio-link::after {
+  content: "→";
+  font-weight: 700;
+  color: var(--red);
+}
+
+.bio-link-featured {
+  background: var(--ground-blue);
+  box-shadow: var(--shadow-button);
+}
+
+.bio-link-featured,
+.bio-link-featured:hover,
+.bio-link-featured:focus-visible {
+  color: var(--on-red);
+}
+
+.bio-link-featured:hover,
+.bio-link-featured:focus-visible {
+  box-shadow: var(--shadow-button);
+}
+
+.bio-link-featured small {
+  color: var(--on-red-soft);
+}
+
+.bio-link-featured::after {
+  color: var(--butter);
+}
+
+.bio-foot {
+  margin-top: var(--space-6);
+  font-size: 13px;
+  line-height: 19px;
+  color: var(--muted);
+}
+
+.bio-foot p + p {
+  margin-top: var(--space-1);
+}
+
+.bio-foot .wordmark {
+  justify-content: center;
+  margin-bottom: var(--space-3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bio-link {
+    transition: none;
+  }
 }
