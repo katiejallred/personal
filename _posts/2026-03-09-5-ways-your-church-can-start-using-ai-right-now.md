@@ -5,6 +5,7 @@ date: '2026-03-09 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /5-ways-your-church-can-start-using-ai-right-now/
+description: "Don't know where to start with AI? Five simple ways your church can use it today: weekly communications, sermon research, graphics, grants and quick summaries."
 categories:
 - AI & Tech
 - Church Communications

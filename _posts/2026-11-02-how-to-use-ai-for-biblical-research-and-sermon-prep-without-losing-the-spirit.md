@@ -5,6 +5,7 @@ date: '2026-11-02 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /how-to-use-ai-for-biblical-research-and-sermon-prep-without-losing-the-spirit/
+description: "AI can't pray, but it can do hours of groundwork. How to use AI for Scripture study, sermon brainstorming and illustrations, plus one caution to keep."
 categories:
 - AI & Tech
 - Faith

@@ -5,6 +5,7 @@ date: '2025-01-13 08:00:00'
 last_modified_at: '2026-03-30 03:26:50'
 author: Katie Allred
 permalink: /the-7-questions-every-church-should-answer-before-making-a-communications-plan/
+description: "Before you open Canva or schedule a post, answer these questions. Use 5W1H, mission and values, SMART goals, and a SWOT to build a church comms plan that lasts."
 categories:
 - Church Communications
 tags:

@@ -1,0 +1,36 @@
+---
+layout: null
+permalink: /robots.txt
+sitemap: false
+---
+# Search engines and AI assistants are welcome to find, cite and link to
+# this site. /llms.txt has a plain-text summary written for them.
+#
+# Crawlers that only collect content to train AI models are turned away.
+# That doesn't change search: Google-Extended and Applebot-Extended only
+# control AI training (Googlebot and Applebot still index the site), and
+# OpenAI, Anthropic and Perplexity use separate bots for search and for
+# fetching pages a user asks about, which stay allowed below.
+
+# AI training crawlers: blocked
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: meta-externalagent
+User-agent: FacebookBot
+User-agent: Bytespider
+User-agent: cohere-training-data-crawler
+User-agent: AI2Bot
+User-agent: Diffbot
+Disallow: /
+
+# Everyone else, including search engines and AI search and answer bots
+# (Googlebot, Bingbot, Applebot, OAI-SearchBot, ChatGPT-User,
+# Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User): allowed
+User-agent: *
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

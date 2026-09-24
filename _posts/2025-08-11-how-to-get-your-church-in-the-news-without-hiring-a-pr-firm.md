@@ -5,6 +5,7 @@ date: '2025-08-11 08:00:00'
 last_modified_at: '2026-03-30 03:26:51'
 author: Katie Allred
 permalink: /how-to-get-your-church-in-the-news-without-hiring-a-pr-firm/
+description: "You don't need a PR firm to get your church in the news. How to tell your story, write a press release, build a local media list, and plan PR by season."
 categories:
 - Church Communications
 tags:

@@ -5,6 +5,7 @@ date: '2026-10-05 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /what-is-agentic-ai-and-why-should-the-church-pay-attention/
+description: "Agentic AI is the next wave after ChatGPT. What makes it different from generative AI, what it could mean for churches, and what to watch for as it arrives."
 categories:
 - AI & Tech
 tags:

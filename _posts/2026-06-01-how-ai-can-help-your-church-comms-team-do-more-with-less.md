@@ -5,6 +5,7 @@ date: '2026-06-01 08:00:00'
 last_modified_at: '2026-03-30 02:06:55'
 author: Katie Allred
 permalink: /how-ai-can-help-your-church-comms-team-do-more-with-less/
+description: "For the one-person church comms team: how AI can help with first drafts, sermon repurposing, brainstorming and proofreading, and the things it still can't do."
 categories:
 - AI & Tech
 - Church Communications

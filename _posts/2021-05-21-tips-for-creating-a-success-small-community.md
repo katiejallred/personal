@@ -5,6 +5,7 @@ date: '2021-05-21 15:33:18'
 last_modified_at: '2021-05-21 15:51:22'
 author: Katie Allred
 permalink: /tips-for-creating-a-success-small-community/
+description: "Running a small online community? Five practical ways to get noticed, give people a reason to come back, and grow a group that actually connects."
 categories:
 - Online Community
 tags:

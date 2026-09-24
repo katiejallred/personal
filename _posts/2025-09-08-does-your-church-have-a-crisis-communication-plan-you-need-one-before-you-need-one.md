@@ -5,6 +5,7 @@ date: '2025-09-08 08:00:00'
 last_modified_at: '2026-03-30 03:26:51'
 author: Katie Allred
 permalink: /does-your-church-have-a-crisis-communication-plan-you-need-one-before-you-need-one/
+description: "When a crisis hits, it's too late to plan. The core parts of a church crisis communication plan: audiences, a spokesperson, the 3 A's and social media."
 categories:
 - Church Communications
 tags:

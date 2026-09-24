@@ -5,6 +5,7 @@ date: '2026-05-04 08:00:00'
 last_modified_at: '2026-03-30 01:52:21'
 author: Katie Allred
 permalink: /why-your-church-website-is-still-your-most-important-outreach-tool/
+description: "Social media starts the conversation. Your website is where it gets real. What visitors look for, the three pages that matter most, and why mobile comes first."
 categories:
 - Church Communications
 tags:

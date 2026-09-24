@@ -5,6 +5,7 @@ date: '2025-04-07 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /your-church-doesnt-need-to-be-on-every-social-media-platform/
+description: "Permission granted: your church doesn't need every platform. How to pick the right ones, with tips for Facebook, Instagram, YouTube and TikTok."
 categories:
 - Social Media
 tags:

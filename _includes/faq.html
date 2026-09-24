@@ -1,0 +1,14 @@
+{%- comment -%}
+  The page's `faq` front matter as <details> items. The same list feeds the
+  FAQPage structured data in _includes/seo.html, so the visible answers and
+  what search and AI engines read never drift apart. Front matter:
+    faq:
+      - q: Question?
+        a: Plain-text answer.
+{%- endcomment -%}
+{%- for item in page.faq %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+{%- endfor %}

@@ -6,6 +6,17 @@ last_modified_at: '2026-09-24'
 wordpress_id: 3742
 description: Communication audits, AI training, community strategy, keynotes, and websites for churches, nonprofits, and mission-driven teams. See packages and starting prices.
 seo_title: Communications, Community & AI Training Services | Katie Allred
+faq:
+  - q: "How do I know which service is right for me?"
+    a: "Start with a free call. Most clients begin with an audit to get a clear picture of where they are, then move into training or strategy based on what we find."
+  - q: "Do you work with individuals or only organizations?"
+    a: "Both. I work with creators, pastors, and executives, and with organizations from small nonprofits to enterprise teams. If you communicate, there's likely something here for you."
+  - q: "Are prices firm, or can we customize the scope?"
+    a: "The prices listed are starting points. Every situation is different, and I'd rather scope something that actually solves your problem than sell you a package that doesn't fit."
+  - q: "How far in advance should I book?"
+    a: "For audits and training, 2–4 weeks is typical. For keynotes and workshops, plan on at least 6–8 weeks. If you have a date in mind, reach out sooner rather than later."
+  - q: "Do you offer retainers or ongoing support?"
+    a: "Yes. The AI Governance tier includes quarterly policy reviews and ongoing advisory access, and retainers are available for other services. Ask about it on your call."
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 
@@ -340,26 +351,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
       <p class="label">Questions</p>
       <h2 class="section-title" id="faq-title">Frequently asked questions</h2>
     </header>
-    <details>
-      <summary>How do I know which service is right for me?</summary>
-      <p>Start with a free call. Most clients begin with an audit to get a clear picture of where they are, then move into training or strategy based on what we find.</p>
-    </details>
-    <details>
-      <summary>Do you work with individuals or only organizations?</summary>
-      <p>Both. I work with creators, pastors, and executives, and with organizations from small nonprofits to enterprise teams. If you communicate, there's likely something here for you.</p>
-    </details>
-    <details>
-      <summary>Are prices firm, or can we customize the scope?</summary>
-      <p>The prices listed are starting points. Every situation is different, and I'd rather scope something that actually solves your problem than sell you a package that doesn't fit.</p>
-    </details>
-    <details>
-      <summary>How far in advance should I book?</summary>
-      <p>For audits and training, 2–4 weeks is typical. For keynotes and workshops, plan on at least 6–8 weeks. If you have a date in mind, reach out sooner rather than later.</p>
-    </details>
-    <details>
-      <summary>Do you offer retainers or ongoing support?</summary>
-      <p>Yes. The AI Governance tier includes quarterly policy reviews and ongoing advisory access, and retainers are available for other services. Ask about it on your call.</p>
-    </details>
+    {%- include faq.html %}
   </div>
 </section>
 

@@ -5,6 +5,7 @@ date: '2025-12-08 08:00:00'
 last_modified_at: '2026-03-30 03:26:51'
 author: Katie Allred
 permalink: /church-communications-is-a-ministry-not-a-department/
+description: "To everyone writing church emails and fixing graphics at 11 PM: what you do is ministry. Why it matters, plus a prayer for church communicators."
 categories:
 - Church Communications
 tags:

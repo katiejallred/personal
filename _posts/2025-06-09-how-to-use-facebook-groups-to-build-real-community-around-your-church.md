@@ -5,6 +5,7 @@ date: '2025-06-09 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /how-to-use-facebook-groups-to-build-real-community-around-your-church/
+description: "Facebook Groups may be the most underused tool in church communications. Which groups to run, how to keep them active, and how to move people offline."
 categories:
 - Online Community
 - Social Media

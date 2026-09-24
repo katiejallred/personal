@@ -5,6 +5,7 @@ date: '2026-05-11 08:00:00'
 last_modified_at: '2026-03-30 01:54:10'
 author: Katie Allred
 permalink: /the-5-emails-every-church-should-be-sending-but-probably-isnt/
+description: "Your church email is more than a digital bulletin. The five emails every church should send, from the first-time guest welcome to the re-engagement email."
 categories:
 - Church Communications
 tags:
