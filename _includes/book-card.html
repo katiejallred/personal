@@ -1,0 +1,20 @@
+{%- comment -%}
+  A book from _data/books.yml with its cover and an affiliate buy link.
+  Usage: {% include book-card.html book=book %}
+{%- endcomment -%}
+{%- assign b = include.book -%}
+{%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture -%}
+<article class="book">
+  <a class="book-cover" href="{{ buy }}" rel="sponsored nofollow noopener" tabindex="-1" aria-hidden="true">
+    <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy">
+  </a>
+  <div class="book-body">
+    {%- if b.badge %}
+    <p class="offer-badge">{{ b.badge }}</p>
+    {%- endif %}
+    <h3><cite>{{ b.title }}</cite></h3>
+    <p class="book-meta">{{ b.meta }}</p>
+    <p>{{ b.blurb }}</p>
+    <a class="btn btn-blue btn-sm" href="{{ buy }}" rel="sponsored nofollow noopener">Get it on Amazon →</a>
+  </div>
+</article>

@@ -1,0 +1,8 @@
+{%- comment -%}
+  Amazon Associates + FTC disclosure. Layouts add it automatically to any
+  page with Amazon links; include it by hand to place it somewhere specific
+  (then set `affiliate_note: inline` in front matter so it isn't doubled).
+{%- endcomment -%}
+<p class="affiliate-note{% if include.class %} {{ include.class }}{% endif %}">
+  <strong>Heads up:</strong> As an Amazon Associate I earn from qualifying purchases. Buying through these links costs you nothing extra. <a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate disclosure</a>
+</p>

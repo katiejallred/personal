@@ -37,6 +37,25 @@ ContentCard and Footer components. Fonts (Bricolage Grotesque, DM Sans,
 Caveat) load from Google Fonts. When the design system changes, update the
 tokens at the top of `main.css` to match.
 
+## Books and Amazon affiliate links
+
+Katie is an Amazon Associate (tag `kajal04-20`, set as `amazon.tag` in
+`_config.yml`). Her books live in `_data/books.yml` with covers in
+`assets/images/books/`; show one with `{% include book-card.html book=book %}`.
+For any other Amazon product, link with
+`{% include amazon-url.html asin="ASIN" %}` or just paste the Amazon URL.
+
+`_plugins/amazon_affiliate.rb` handles the rest at build time:
+
+- Every `amazon.com` link gets the affiliate tag (product links become clean
+  `/dp/ASIN/?tag=…` URLs); every Amazon or `amzn.to` link gets
+  `rel="sponsored nofollow noopener"`.
+- Any page or post that mentions Amazon is flagged `affiliate_links: true`,
+  and the layouts show `_includes/affiliate-note.html` ("As an Amazon
+  Associate I earn from qualifying purchases"): at the top of posts, above
+  the footer on other pages. To place it yourself, include it and set
+  `affiliate_note: inline`; to opt a page out, set `affiliate_links: false`.
+
 ## Deploying
 
 Pushes to `main` build and deploy through GitHub Actions. In the repo's

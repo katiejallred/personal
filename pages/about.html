@@ -6,6 +6,7 @@ last_modified_at: '2026-09-24'
 wordpress_id: 2609
 description: Meet Katie Allred — community strategist, AI educator, author, and consultant helping churches, nonprofits, and mission-driven teams communicate clearly and build real community.
 seo_title: About Katie Allred | Community Strategist & AI Educator
+affiliate_note: inline # shown under the Books section
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 
@@ -17,7 +18,7 @@ seo_title: About Katie Allred | Community Strategist & AI Educator
       <p class="hero-lede">I help churches, nonprofits, creators, and mission-driven teams build communities people actually want to be part of — and use AI in ways that free up time for people instead of replacing them.</p>
       <div class="hero-actions">
         <a class="btn btn-blue" href="{{ book }}">Book a call →</a>
-        <a class="aside" href="{{ '/press-kit/' | relative_url }}">press kit &amp; bios ↓</a>
+        <a class="aside" href="{{ '/press-kit/' | relative_url }}">press kit &amp; bios →</a>
       </div>
     </div>
     <figure class="home-hero-photo">
@@ -130,31 +131,13 @@ seo_title: About Katie Allred | Community Strategist & AI Educator
       <p class="label">Books</p>
       <h2 class="section-title" id="books-title">I wrote the book on it. Literally.</h2>
     </header>
-    <div class="offer-grid">
-      <article class="card">
-        <h3>Church Communications: Methods and Marketing</h3>
-        <p class="offer-price">B&amp;H Academic · 2022</p>
-        <p>The textbook for church communications programs — strategy, branding, social, websites, PR, crisis communications, and leading a team. Used at universities and seminaries.</p>
-        <a href="https://amzn.to/4bVudKw">Buy on Amazon →</a>
-      </article>
-      <article class="card">
-        <h3>AI Prompts for Church Leaders</h3>
-        <p class="offer-price">With Dr. David Thorne · 2025 · Amazon best seller</p>
-        <p>Ready-to-use AI prompts for sermon prep, content, and outreach that keep the personal touch that makes ministry transformative.</p>
-        <a href="https://amzn.to/4bXQCHi">Buy on Amazon →</a>
-      </article>
-      <article class="card">
-        <h3>Instagram Posts That Worked</h3>
-        <p class="offer-price">With Kenny Jahng · 2020</p>
-        <p>Practical strategies for social content that drives real engagement.</p>
-        <a href="https://amzn.to/4dilVPf">Buy on Amazon →</a>
-      </article>
-      <article class="card">
-        <h3>ReThink.Ministry</h3>
-        <p class="offer-price">Foreword by Katie</p>
-        <p>A guide to launching or revamping your ministry's digital strategy.</p>
-      </article>
+    <div class="book-grid">
+      {%- for book in site.data.books %}
+      {% include book-card.html book=book %}
+      {%- endfor %}
     </div>
+    <p class="book-foreword">I also wrote the foreword to <cite>ReThink.Ministry</cite>, a guide to launching or revamping your ministry's digital strategy.</p>
+    {% include affiliate-note.html %}
   </div>
 </section>
 

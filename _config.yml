@@ -31,6 +31,12 @@ contact:
   booking_external: https://meetwithkatie.com
   location: Nolensville, TN
 
+# Amazon Associates. Every Amazon link on the site gets this tag and
+# rel="sponsored" at build time (_plugins/amazon_affiliate.rb), and pages
+# with Amazon links show the disclosure (_includes/affiliate-note.html).
+amazon:
+  tag: kajal04-20
+
 lang: en
 timezone: America/Chicago
 
