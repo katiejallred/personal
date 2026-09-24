@@ -20,7 +20,7 @@ faq:
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 
-<section class="hero home-hero" aria-labelledby="hero-title">
+<section class="hero home-hero churches-hero" aria-labelledby="hero-title">
   <div class="wrap">
     <div>
       <p class="label home-hero-label">For churches &amp; faith communities</p>
@@ -60,8 +60,18 @@ faq:
       <li class="card">
         <h3>Your staff is already using AI.</h3>
         <p>Some love it, some fear it, and nobody has decided what's okay — especially with counseling notes, giving records, and pastoral care.</p>
+        <a href="#ai">See AI for ministry ↓</a>
       </li>
     </ul>
+    <nav class="review-jump" aria-label="Church services">
+      <p class="label">Jump to</p>
+      <ul class="chip-row">
+        <li><a class="chip" href="#start-small">Secret shopper</a></li>
+        <li><a class="chip" href="#ai">AI for ministry</a></li>
+        <li><a class="chip" href="#websites">Church websites</a></li>
+        <li><a class="chip" href="#faq-title">FAQ</a></li>
+      </ul>
+    </nav>
     <p class="section-kicker section-kicker-wide">"The harvest is abundant, but the workers are few." <span class="nowrap">(Matt 9:37)</span> You don't have to carry this alone.</p>
   </div>
 </section>
@@ -80,7 +90,19 @@ faq:
         <li><strong>100+</strong> trainings on communication, community &amp; AI</li>
         <li><strong>25+</strong> years building online community</li>
       </ul>
-      <p class="guide-book">Author of <cite>Church Communications: Methods and Marketing</cite> (B&amp;H Academic) and <cite>AI Prompts for Church Leaders</cite>. Trusted by churches and dioceses including Wellspring Church and the Episcopal Dioceses of Washington, North Carolina, Southern Ohio, and Atlanta.</p>
+      <ul class="book-mini-list book-mini-row">
+        {%- for b in site.data.books limit: 2 %}
+        {%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture %}
+        <li class="book-mini">
+          <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy">
+          <div>
+            <a href="{{ buy }}"><strong><cite>{{ b.title }}</cite></strong></a>
+            <p>{{ b.meta }}</p>
+          </div>
+        </li>
+        {%- endfor %}
+      </ul>
+      <p class="guide-book">Trusted by churches and dioceses including Wellspring Church and the Episcopal Dioceses of Washington, North Carolina, Southern Ohio, and Atlanta.</p>
     </div>
   </div>
 </section>
@@ -125,6 +147,7 @@ faq:
           <li>Debrief call included</li>
           <li>Fully remote</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card tier tier-featured">
         <p class="offer-badge">Most complete</p>
@@ -136,6 +159,7 @@ faq:
           <li>Parking lot to after the benediction, through a guest's eyes</li>
           <li>Written report and debrief call</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
   </div>
@@ -158,6 +182,7 @@ faq:
           <li>Prompt starter kit</li>
           <li>Up to 10 staff</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card tier tier-featured">
         <p class="offer-badge">Best value</p>
@@ -170,6 +195,7 @@ faq:
           <li>Two training sessions</li>
           <li>30 days of follow-up support</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card tier">
         <h4>AI Governance</h4>
@@ -181,6 +207,7 @@ faq:
           <li>All-staff training sessions</li>
           <li>Quarterly policy review</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
     <div class="offer-grid offer-grid-spaced">
@@ -194,6 +221,7 @@ faq:
           <li>Data privacy for sensitive ministry information</li>
           <li>Editable Word or Google Doc</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card offer">
         <h3>Communication Audit</h3>
@@ -205,6 +233,7 @@ faq:
           <li>Audience clarity audit</li>
           <li>Written report, prioritized action plan, and follow-up call</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card offer">
         <h3>Guest Preaching &amp; Leadership Teaching</h3>
@@ -215,6 +244,7 @@ faq:
           <li>Staff and elder training</li>
           <li>Conference or retreat speaking</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
   </div>
@@ -240,6 +270,7 @@ faq:
           <li>Walkthrough training so your staff can edit it</li>
           <li>Copywriting guidance · 30-day post-launch support</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card tier tier-featured">
         <p class="offer-badge">Most requested</p>
@@ -255,6 +286,7 @@ faq:
           <li>SEO keyword strategy + 10 blog post outlines</li>
           <li>60-day post-launch support</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
     <p class="note-bar">Multi-campus church or a larger build? We'll scope it together. Want online sign-ups too? Your new site pairs with <a href="https://signupchurch.com">SignUpChurch</a>.</p>
@@ -276,20 +308,18 @@ faq:
       <p class="label">What church leaders are saying</p>
       <h2 class="section-title" id="reviews-title">Ministry-tested.</h2>
     </header>
-    <div class="quote-grid">
-      <blockquote class="testimonial">
-        <p>“Katie cares about the local church and she cares that it communicates its message with excellence. You add that caring and commitment to the personality — including spunk — that she has, and you have someone who can serve your church well.”</p>
-        <footer>Brian Dodridge, Associate &amp; Executive Pastor · Wellspring Church</footer>
-      </blockquote>
-      <blockquote class="testimonial">
-        <p>“I gained valuable insights into how to prompt effectively and discovered the wide variety of AI tools available. I'm already planning to generate social media content and refine a bishop's appeal letter I started in the workshop.”</p>
-        <footer>Keely Thrall, Staff · Episcopal Diocese of Washington</footer>
-      </blockquote>
-      <blockquote class="testimonial">
-        <p>“Katie gave an outstanding workshop on AI at our conference. She was our first thought when we discussed presenters. Her practical, accessible approach to AI for communicators is exactly what our members need.”</p>
-        <footer>Christine McTaggart, Communications Director · Episcopal Diocese of North Carolina</footer>
-      </blockquote>
+    {%- assign picks = "Brian Dodridge|Keely Thrall|Christine McTaggart" | split: "|" %}
+    <div class="review-grid">
+      {%- for name in picks %}
+      {%- for group in site.data.reviews %}
+      {%- assign r = group.reviews | where: "name", name | first %}
+      {%- if r %}
+      {% include review-card.html review=r %}
+      {%- endif %}
+      {%- endfor %}
+      {%- endfor %}
     </div>
+    <p class="section-cta"><a href="{{ '/reviews/' | relative_url }}">Read more reviews →</a></p>
   </div>
 </section>
 

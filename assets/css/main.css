@@ -2532,7 +2532,8 @@ code, pre, kbd, samp {
 
 /* --- Services --- */
 .services-hero .hero-title,
-.press-hero .hero-title {
+.press-hero .hero-title,
+.churches-hero .hero-title {
   max-width: 13ch;
   font-size: clamp(44px, 6.5vw, 72px);
 }
@@ -2568,7 +2569,8 @@ code, pre, kbd, samp {
 
 @media (max-width: 899px) {
   .services-hero .home-hero-photo,
-  .press-hero .home-hero-photo {
+  .press-hero .home-hero-photo,
+  .churches-hero .home-hero-photo {
     width: min(55%, 240px);
   }
 }
@@ -2766,4 +2768,12 @@ code, pre, kbd, samp {
 .book-mini-text {
   grid-template-columns: 1fr;
   padding-left: calc(56px + var(--space-3));
+}
+
+.book-mini-row {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+}
+
+.book-mini-row a {
+  color: var(--ink);
 }
