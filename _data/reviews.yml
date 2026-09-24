@@ -1,0 +1,163 @@
+# Testimonials shown on /reviews/, grouped by section.
+# To add one, append an entry to a group: quote, name, role, org.
+# `rating` shows stars (workshop evaluations only). `featured: true` pulls a
+# quote out of its grid into the large quote near the top of the page.
+
+- id: ai-training
+  label: AI for ministry training
+  title: Churches learning to use AI, hands-on.
+  intro: >-
+    Katie has trained dozens of ministry leaders, church staff, and
+    communicators to use AI tools with confidence. Here's what participants
+    said after her hands-on AI for Churches workshops.
+  reviews:
+    - quote: >-
+        I feel very comfortable with my understanding of the various AI apps!
+        The clarity of instruction was extremely clear and the hands-on
+        activities were extremely helpful.
+      name: Nicole Grace Frizzo
+      role: Communications Coordinator
+      org: Adelynrood Retreat & Conference Center
+      rating: 5
+    - quote: >-
+        The most valuable insight was learning about the camera on ChatGPT,
+        recording meetings with Otter.ai, and using Illustrator Generative AI
+        to create vector art. It was a real fun workshop. Loved every bit of it!
+      name: Angela Hider
+      role: Staff
+      org: Epicenter
+      rating: 5
+    - quote: >-
+        I gained valuable insights into how to prompt effectively and
+        discovered the wide variety of AI tools available. The instruction was
+        very clear and helpful. I'm already planning to generate June social
+        media content and refine a bishop's appeal letter I started in the
+        workshop.
+      name: Keely Thrall
+      role: Staff
+      org: Episcopal Diocese of Washington
+      rating: 5
+    - quote: >-
+        The most helpful aspect was watching how AI works in real time. It
+        really expanded my knowledge on how to use ChatGPT. I walked away much
+        more comfortable and excited to apply these tools to our ministry
+        communications.
+      name: Nadirah Majied
+      role: Staff
+      org: St. Paul's Rock Creek
+      rating: 5
+
+- id: colleagues
+  label: Colleagues & clients
+  title: From people who've worked alongside Katie.
+  intro: >-
+    Recommendations from church leaders, Meta colleagues, clients, and
+    collaborators.
+  reviews:
+    - quote: >-
+        Katie is a digital native who gets engagement online. A Swiss Army
+        knife of the digital dimension, she can build websites, write
+        StoryBrand copy, teach digital marketing, and manage and grow Facebook
+        groups. Every time I have a challenge involving digital projects, Katie
+        is the sounding board I know I can go to.
+      name: Kenny Jahng
+      role: Founder
+      org: AI for Church Leaders
+    - quote: >-
+        Katie KNOWS community! I saw her bring so much wisdom to how Facebook
+        could support the needs of community leaders, bringing real-world
+        experience to the table along with strong academic credentials. She
+        led workshops for partners, forged key relationships, and always
+        championed her team. I recommend Katie for her dedication to growth,
+        deep knowledge of community management, and supportive management
+        style.
+      name: Eliana Caceres, MBA, PMP
+      role: Program Management & Trust & Safety
+      org: Meta
+    - quote: >-
+        Katie helped me make a massive shift in my business. Having an outside
+        perspective was so good. I feel so much more in alignment with my brand
+        and services after working with Katie.
+      name: Jess Freeman
+      org: JessCreatives.com
+    - quote: >-
+        I had the pleasure of reporting to Katie at Meta. Her ability to mentor
+        a team while managing the outcome of multiple work streams speaks
+        volumes about her business acumen and leadership skills. Her blend of
+        technical acumen, strategic thinking, and leadership skills make her an
+        invaluable asset in any group or organization.
+      name: Emily M.
+      role: Creator Partner Manager
+      org: Meta
+    - quote: >-
+        It's an extremely rare skill to be able to thoughtfully cultivate and
+        sustain healthy connection in online communities and I've been able to
+        watch Katie do just that through Church Communications. She shines
+        heads and shoulders above most with her ability to lead and communicate
+        what matters most.
+      name: Josh Collins
+      role: TEDx Alum & Community Builder
+      org: Church Communications
+    - quote: >-
+        Katie cares about the local church and she cares that it communicates
+        its message with excellence. You add that caring and commitment to the
+        personality, including spunk, that she has, and you have someone who
+        can serve your church well.
+      name: Brian Dodridge
+      role: Associate & Executive Pastor
+      org: Wellspring Church
+    - quote: >-
+        Katie is the pro when it comes to digital communication strategies and
+        ideas, especially for churches and nonprofits. She's innovative,
+        well-informed, and open to new ways of doing things. Skilled in website
+        development, social media marketing, teaching, and public speaking.
+      name: Josh Taylor
+      role: StoryBrand Certified Guide & CMO
+      org: OptSpot
+
+- id: speaking
+  label: Speaking & education
+  title: In the room and in the classroom.
+  intro: >-
+    From conference organizers, event hosts, and the educators who've taught
+    and taught alongside Katie.
+  reviews:
+    - quote: >-
+        Katie gave an outstanding workshop on AI at our conference. She was our
+        first thought when we discussed presenters for our online conference.
+        Her practical, accessible approach to AI for communicators is exactly
+        what our members need.
+      name: Christine McTaggart
+      role: Communications Director
+      org: Episcopal Diocese of North Carolina
+      featured: true
+    - quote: >-
+        Thank you, Katie. This was a most beneficial event. It made a real
+        difference for me.
+      name: Mark Proctor
+      role: Staff
+      org: Tennessee Baptist Mission Board
+    - quote: >-
+        I had the pleasure of working with Katie as a graduate student and then
+        as a Teaching Assistant. She was energetic, genuinely loved the subject
+        matter, and actively participated in discussions, a teacher's dream
+        student. She cared about her students and always had a great positive
+        attitude. I know everywhere she goes, she will make an impact.
+      name: Vonne Smith
+      role: Associate Director of Distance Education
+      org: University of Florida
+    - quote: >-
+        I had the pleasure of working with Katie in a capstone Strategic
+        Management course. This course requires the ultimate in
+        critical-thinking, writing, and oral communication skills, and Katie
+        exhibited stellar performance in all categories. I would recommend
+        Katie without a moment's hesitation!
+      name: Kathy Dunning
+      role: Dean, School of Business
+      org: University of Mobile
+    - quote: >-
+        I've known Katie for 15 years, and I've witnessed nothing but
+        wholehearted excellence in her work and presence. She's not only a
+        gifted technologist, but a sharp communicator. Katie Allred is quality!
+      name: Amy Lamb, MBA
+      role: Nonprofit Leader & Campaign Strategist
