@@ -1,12 +1,15 @@
 # Katie's books. Covers live in assets/images/books/. Buy links are built
 # from `asin` and site.amazon.tag by _includes/amazon-url.html, so every
 # link carries the affiliate tag; don't paste raw Amazon URLs here.
+# `asin` doubles as the ISBN-10 in the Book structured data (_includes/seo.html).
 - title: "Church Communications: Methods and Marketing"
   asin: "1087730171"
   cover: /assets/images/books/church-communications.jpg
   cover_width: 324
   cover_height: 500
   meta: B&amp;H Academic · 2022
+  publisher: B&H Academic
+  published: 2022
   badge: The textbook
   blurb: >-
     The textbook for church communications programs: strategy, branding,
@@ -19,6 +22,8 @@
   cover_width: 333
   cover_height: 500
   meta: With Dr. David Thorne · 2025
+  coauthor: Dr. David Thorne
+  published: 2025
   badge: Amazon best seller
   blurb: >-
     Ready-to-use AI prompts for sermon prep, content, and outreach that keep
@@ -30,6 +35,8 @@
   cover_width: 333
   cover_height: 500
   meta: With Kenny Jahng · 2020
+  coauthor: Kenny Jahng
+  published: 2020
   blurb: >-
     Real-life examples from church communicators across the country, and
     what made their posts drive real engagement.

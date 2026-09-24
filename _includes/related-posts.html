@@ -1,0 +1,24 @@
+{%- comment -%}
+  Up to three newer-first posts that share this post's first category
+  (falling back to the latest posts), for readers and internal linking.
+{%- endcomment -%}
+{%- assign related_pool = site.posts -%}
+{%- if page.categories.size > 0 %}{% assign related_pool = site.categories[page.categories.first] %}{% endif -%}
+{%- assign related = '' | split: '' -%}
+{%- for post in related_pool -%}
+  {%- if post.url != page.url %}{% assign related = related | push: post %}{% endif -%}
+  {%- if related.size == 3 %}{% break %}{% endif -%}
+{%- endfor -%}
+{%- if related.size > 0 %}
+<nav class="related-posts" aria-labelledby="related-title">
+  <h2 class="label" id="related-title">Keep reading</h2>
+  <ul>
+    {%- for post in related %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </li>
+    {%- endfor %}
+  </ul>
+</nav>
+{%- endif %}

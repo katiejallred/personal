@@ -1,0 +1,11 @@
+---
+layout: null
+permalink: /robots.txt
+sitemap: false
+---
+# Search engines and AI assistants are welcome to read and cite this site.
+# /llms.txt has a plain-text summary written for AI answer engines.
+User-agent: *
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

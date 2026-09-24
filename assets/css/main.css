@@ -635,6 +635,70 @@ code, pre, kbd, samp {
   border-top: 2px solid var(--blush);
 }
 
+.card.author-card {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+}
+
+.author-card-photo {
+  flex: none;
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-pill);
+  object-fit: cover;
+}
+
+.author-card > div > * + * {
+  margin-top: var(--space-2);
+}
+
+.author-card-name {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+.author-card-name a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.author-card-links {
+  font-weight: 700;
+}
+
+@media (max-width: 479px) {
+  .card.author-card { flex-direction: column; }
+}
+
+.related-posts {
+  margin-top: var(--space-6);
+}
+
+.related-posts ul {
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.related-posts li {
+  display: flex;
+  flex-direction: column;
+}
+
+.related-posts a {
+  font-weight: 700;
+}
+
+.related-posts time {
+  color: var(--muted);
+  font-size: 14px;
+}
+
 /* --- Prose --- */
 .prose {
   margin-top: var(--space-6);
