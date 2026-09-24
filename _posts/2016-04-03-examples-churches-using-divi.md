@@ -14,20 +14,21 @@ tags:
 - Divi
 wordpress_id: 1561
 seo_title: 15 Powerful Examples of Churches Using the Divi Theme
+description: Fifteen real church websites built with the Divi WordPress theme, plus why Divi is a flexible, cost-effective choice for churches.
 image: /assets/uploads/2016/04/Blog.png
 ---
 
+*This post contains affiliate links to Elegant Themes. If you buy through them, I earn a small commission at no extra cost to you. [Affiliate disclosure](/affiliate-disclosure/)*
+
 Below are 15 examples of churches using Divi. Divi is an amazing Wordpress theme created by Elegant Themes. It's really versatile and I love what it can do.
 
-Divi is also a cost-effective theme for churches. If your church buys the "lifetime" package, you get unlimited updates for life. That's awesome! Not many companies come with that type of pricing.
+[Divi](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} is also a cost-effective theme for churches. If your church buys the "lifetime" package, you get unlimited updates for life. That's awesome! Not many companies come with that type of pricing.
 
-Click here to buy Divi now through my affliate link. If you click on any of affliate links throughout this post, I do get a small commission, but you like me, right?
+[Elegant Themes](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} recently released the newest version of [Divi](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} making the theme much more robust and customizable. Are you a newbie to web design? Just don't want to code? Then Divi is probably the theme for you.
 
-Elegant Themes recently released the newest version of Divi making the theme much more robust and customizable. Are you a newbie to web design? Just don't want to code? Then Divi is probably the theme for you.
+But here's the thing, while the examples provided on their website are great, I wanted more. I know there's the [Divi Showcase](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} website, but I wanted real life examples that I just wasn't finding elsewhere. That's when I took a deep dive with Google.
 
-But here's the thing, while the examples provided on their website are great, I wanted more. I know there's the Divi Showcase website, but I wanted real life examples that I just wasn't finding elsewhere. That's when I took a deep dive with Google.
-
-After spending a couple of hours searching, I realized that compiling a list of the best Divi sites might help someone else looking for inspiration. So here's what I found.
+After spending a couple of hours searching, I realized that compiling a list of the [best Divi sites](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} might help someone else looking for inspiration. So here's what I found.
 
 This post is in a series of posts about Wordpress themes for churches, also check out the post I wrote about the Avada Wordpress Theme.
 
@@ -91,9 +92,9 @@ This post is in a series of posts about Wordpress themes for churches, also chec
 
 ### Conclusion
 
-If you want to buy Divi, then you can visit Elegant Themes.
+If you want to [buy Divi](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}, then you can visit [Elegant Themes](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}.
 
-I recommend the Lifetime package since it's the best deal. If you use my link, I get a small commission. You won't be charged more and I'll give you a virtual high five. 🙏 (Need hosting? Here's my favorite cheap web host.)
+I recommend the Lifetime package since it's the best deal.
 
 Looking to build a personal website? A business website? [Check out these examples.](/10-best-divi-sites/)
 
