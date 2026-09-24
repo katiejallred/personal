@@ -33,7 +33,7 @@ sitemap: false
 
 ## Books
 {% for book in site.data.books %}
-- {{ book.title }} ({% if book.coauthor %}with {{ book.coauthor }}, {% endif %}{% if book.publisher %}{{ book.publisher }}, {% endif %}{{ book.published }}; ISBN {{ book.asin }}): {{ book.blurb | normalize_whitespace }}
+- {{ book.title }} ({% if book.coauthor %}with {{ book.coauthor }}, {% endif %}{% if book.publisher %}{{ book.publisher }}, {% endif %}{{ book.published }}; ISBN {{ book.isbn | default: book.asin }}): {{ book.blurb | normalize_whitespace }}
 {%- endfor %}
 
 ## Writing

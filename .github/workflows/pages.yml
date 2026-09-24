@@ -41,10 +41,13 @@ jobs:
         uses: actions/configure-pages@v5
 
       # url/baseurl come from Pages, so the build is right for a project
-      # site (/personal) today and for a custom domain later.
+      # site (/personal) today and for a custom domain later. Pages reports
+      # an http:// origin until "Enforce HTTPS" is on; always build with
+      # https so canonical URLs and structured data don't split the site.
       - name: Build
         run: |
-          echo 'url: "${{ steps.pages.outputs.origin }}"' > _config.pages.yml
+          origin="${{ steps.pages.outputs.origin }}"
+          echo "url: \"${origin/#http:\/\//https://}\"" > _config.pages.yml
           bundle exec jekyll build --config _config.yml,_config.pages.yml --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
