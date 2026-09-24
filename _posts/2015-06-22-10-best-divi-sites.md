@@ -17,15 +17,15 @@ seo_title: Using Divi? Here are 10 Powerful Examples
 image: /assets/uploads/2015/06/10-divi-theme-examples.png
 ---
 
-Do you use [Divi](/divi)*? Do you even know what Divi is? Divi is a Wordpress theme created by [Elegant Themes](/divi)*–although it's much more than a theme. I would say it's more like a theme builder. (*Affiliate links)
+Do you use Divi*? Do you even know what Divi is? Divi is a Wordpress theme created by Elegant Themes*–although it's much more than a theme. I would say it's more like a theme builder. (*Affiliate links)
 
-Recently, I started using [Divi](/divi) to design client's websites. I'm a little wary of using a theme because I love to code, but some websites are so straight forward that a theme in this example can work for a client.
+Recently, I started using Divi to design client's websites. I'm a little wary of using a theme because I love to code, but some websites are so straight forward that a theme in this example can work for a client.
 
-[Elegant Themes](/divi) recently released the newest version of Divi making the theme much more robust and customizable. Are you a newbie to web design? Just don't want to code? Then [Divi](/divi) is probably the theme for you.
+Elegant Themes recently released the newest version of Divi making the theme much more robust and customizable. Are you a newbie to web design? Just don't want to code? Then Divi is probably the theme for you.
 
-But here's the thing, while the examples provided on their website are great, I wanted more. I know there's the [Divi Showcase](/divi) website, but I wanted real life examples that I just wasn't finding elsewhere. That's when I took a deep dive with Google.
+But here's the thing, while the examples provided on their website are great, I wanted more. I know there's the Divi Showcase website, but I wanted real life examples that I just wasn't finding elsewhere. That's when I took a deep dive with Google.
 
-After spending a couple of hours searching, I realized that compiling a list of the [best Divi sites](/divi) might help someone else looking for inspiration. So here's what I found.
+After spending a couple of hours searching, I realized that compiling a list of the best Divi sites might help someone else looking for inspiration. So here's what I found.
 
 These were made with the first version of Divi. An updated post with more examples soon to come.
 
@@ -75,7 +75,7 @@ Some more, just for thought (list might be updated on occasion, tell me more to 
 2. <http://www.tkangtkd.com/>
 3. <http://mcpactions.com/>
 
-And if you want to [buy Divi](/divi), then you can visit [Elegant Themes](/divi). I recommend the Lifetime package since it's the best deal. If you use my link, I get a small commission. You won't be charged more and I'll give you a virtual high five. 🙏 (Need hosting? [Here's my favorite cheap web host](/hosting).)
+And if you want to buy Divi, then you can visit Elegant Themes. I recommend the Lifetime package since it's the best deal. If you use my link, I get a small commission. You won't be charged more and I'll give you a virtual high five. 🙏 (Need hosting? Here's my favorite cheap web host.)
 
 Looking to build a church site using Divi? [Check out this post.](/examples-churches-using-divi/)
 

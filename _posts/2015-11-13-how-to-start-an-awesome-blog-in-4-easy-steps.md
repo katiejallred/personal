@@ -24,8 +24,8 @@ Everyone, and I mean, everyone has something to teach and everyone has something
 
 ### #1. Get Hosting and Domain
 
-For hosting, I recommend [BlueHost](/hosting) (affiliate link). I set up almost all of my clients on BlueHost because it's affordable and reliable. You also get a free domain name if you go through [my affiliate link](/hosting)!  
-[![BlueHost](/assets/uploads/2015/11/1-1024x525.png)](/hosting)
+For hosting, I recommend BlueHost (affiliate link). I set up almost all of my clients on BlueHost because it's affordable and reliable. You also get a free domain name if you go through my affiliate link!  
+![BlueHost](/assets/uploads/2015/11/1-1024x525.png)
 
 ### #2. Install Wordpress
 
@@ -36,7 +36,7 @@ Installing Wordpress is pretty easy. After you finish purchasing, you will be ta
 
 There are millions of themes out there and if you wade through all of them, you will end up never writing.
 
-For most of my clients, I use [Divi by Elegant Themes](/divi) (affliate link). It's versatile and user-friendly. I can build any type of website with Divi from a blog to a business site. I wrote a post previously on 10 different websites made with Divi.
+For most of my clients, I use Divi by Elegant Themes (affliate link). It's versatile and user-friendly. I can build any type of website with Divi from a blog to a business site. I wrote a post previously on 10 different websites made with Divi.
 
 [![Divi WordPress Theme](http://www.elegantthemes.com/affiliates/banners/divi_468x60.jpg)](http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440_5_1_19)
 
@@ -44,11 +44,11 @@ I recommend purchasing a [lifetime subscription to Elegant Themes](http://www.el
 
 Why?
 
-You won't have to re-purchase to get updates every year, and you'll need the updates since Wordpress itself is updated frequently. Also, Elegant Themes has come out with some really useful plugins like [Bloom](/bloom) and [Monarch](/monarch). Bloom helps with getting email sign ups. It creates really awesome email sign up forms for you and also allows you to hide content until you get an email sign up. It's super useful. Monarch creates really snazzy sharing buttons.
+You won't have to re-purchase to get updates every year, and you'll need the updates since Wordpress itself is updated frequently. Also, Elegant Themes has come out with some really useful plugins like Bloom and Monarch. Bloom helps with getting email sign ups. It creates really awesome email sign up forms for you and also allows you to hide content until you get an email sign up. It's super useful. Monarch creates really snazzy sharing buttons.
 
 [![](http://www.elegantthemes.com/affiliates/banners/570x100.jpg)](http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440_0_1_13)
 
-If you're not in love with any of the [Divi](/divi) or Elegant Theme options you see, then there are plenty of options on [ThemeForest](/themeforest)–just be careful. Choose a theme with a high rating and recent updates.
+If you're not in love with any of the Divi or Elegant Theme options you see, then there are plenty of options on ThemeForest–just be careful. Choose a theme with a high rating and recent updates.
 
 ### #4. Get to Writing!
 
