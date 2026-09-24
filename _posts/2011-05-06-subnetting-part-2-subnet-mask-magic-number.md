@@ -11,6 +11,7 @@ tags:
 - tech tips
 - networking
 wordpress_id: 2639
+description: "Subnetting part 2: IP address classes, default subnet masks, and how to use the magic number to find networks and host ranges."
 ---
 
 |  |  |  |  |

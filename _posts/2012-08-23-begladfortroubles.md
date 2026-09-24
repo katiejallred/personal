@@ -11,6 +11,7 @@ tags:
 - faith
 - devotional
 wordpress_id: 180
+description: "Max Lucado's reminder that problems at work are part of why you're paid, and why handling them cheerfully helps you grow."
 ---
 
 ![](http://www.assoc-amazon.com/e/ir?t=kajal04-20&l=as2&o=1&a=0849920736)

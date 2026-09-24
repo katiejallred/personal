@@ -14,6 +14,7 @@ tags:
 - Facebook
 wordpress_id: 2054
 image: /assets/uploads/2017/02/StockSnap_RALDM02X8S-1-scaled.jpg
+description: "How likes, comments, and shares extend your church's reach on social media, and how to create engaging content that people interact with."
 ---
 
 Social media allows us to communicate with people who might never grace the doors of our church. Through creating interactive, engaging content, we can reach thousands or millions of people. This increases the reach of your church gigantically—and you can reach all of them without paying a cent.

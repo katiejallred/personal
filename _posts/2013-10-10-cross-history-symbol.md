@@ -13,6 +13,7 @@ tags:
 - Easter
 wordpress_id: 694
 image: /assets/uploads/2013/10/cross-364676_1280.jpg
+description: "The history of the cross as a symbol, from ancient cultures to Christianity, and how mass communication theory explains its power."
 ---
 
 ## The History of the Cross as a Symbol

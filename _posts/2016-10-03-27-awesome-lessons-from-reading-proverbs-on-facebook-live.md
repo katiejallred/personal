@@ -15,6 +15,7 @@ tags:
 - Bible
 wordpress_id: 1700
 image: /assets/uploads/2016/10/27-Awesome-Lessons-from-Reading-Proverbs-on-Facebook-Live.jpg
+description: "Why I read a chapter of Proverbs on Facebook Live every day in July 2016, and 27 lessons I took away from it."
 ---
 
 During July 2016, I read a chapter from Proverbs everyday on Facebook Live.

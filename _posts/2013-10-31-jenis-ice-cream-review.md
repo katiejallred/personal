@@ -13,6 +13,7 @@ tags:
 - desserts
 wordpress_id: 761
 image: /assets/uploads/2013/10/9768374163_cdea076d23_b.jpg
+description: "My review of Jeni's Splendid Ice Creams in Nashville, including my favorite flavor so far: Loveless Biscuits and Peach Jam."
 ---
 
 **Jeni's Ice Cream** (located in 12South and on Eastland Ave. in Nashville) is probably the best and most unusual ice cream that I've ever consumed. Since my first visit, two weeks ago, I have probably visited Jeni's five times. That being said, I love it.

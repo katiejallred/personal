@@ -11,6 +11,7 @@ tags:
 - health
 - life hacks
 wordpress_id: 2643
+description: "How I got rid of a plantar wart I picked up in the college dorms, using a $4 wart remover, apple cider vinegar, and a lot of tape."
 ---
 
 Recently, I had a plantar wart. First off, these are CONTAGIOUS and I got it from living in the dorms, not just cause I'm weird and dirty, cause I'm not, but from going barefoot in the dorms. I no longer do that. Anyways, my biggest piece of advice for people living in dorms is to wear some kind of slippers/flip flops all day. I wear my TOMS so it works out great.

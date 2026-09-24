@@ -11,6 +11,7 @@ tags:
 - writing
 wordpress_id: 625
 image: /assets/uploads/2013/06/dead-poets-society-04.jpg
+description: "A favorite quote from Dead Poets Society on why lazy words like \"very\" won't do, and why word choice matters."
 ---
 
 > “So avoid using the word ‘very’ because it’s lazy. A man is not very tired, he is exhausted. Don’t use very sad, use morose. Language was invented for one reason, boys - to woo women - and, in that endeavor, laziness will not do. It also won’t do in your essays.”

@@ -10,6 +10,7 @@ categories:
 tags:
 - life
 wordpress_id: 28
+description: "A college-era to-do list day: laundry, a RamKids interview, and hunting for an affordable Mobile restaurant that could seat 16."
 ---
 
 Today I feel like I have a lot to get done so I thought I'd make a blog about it and see how much gets accomplished.

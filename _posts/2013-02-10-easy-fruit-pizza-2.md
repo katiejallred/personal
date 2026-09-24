@@ -12,6 +12,7 @@ tags:
 - desserts
 - party food
 wordpress_id: 466
+description: "An easy fruit pizza with a sugar cookie crust, cream cheese and Cool Whip frosting, and fresh strawberries, kiwi, and blueberries."
 ---
 
 [![Easy Fruit Pizza](/assets/uploads/2013/02/20130210-231207.jpg)](/assets/uploads/2013/02/20130210-231207.jpg)

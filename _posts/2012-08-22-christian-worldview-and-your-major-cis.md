@@ -12,6 +12,7 @@ tags:
 - college
 - career
 wordpress_id: 162
+description: "A college paper on how my Christian worldview shapes my major in computer information systems and the career I'm working toward."
 ---
 
 *For my Christian Worldview class, I wrote a paper on how my Christian worldview affects my chosen "major" or career field. It was interesting to write and I would hate for it to just sit on my hard drive so now you have it!*

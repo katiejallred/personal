@@ -12,6 +12,7 @@ tags:
 - tech tips
 wordpress_id: 353
 image: /assets/uploads/2013/01/amazon.jpg
+description: "Why I use camelcamelcamel to track Amazon prices and get alerts when tech and other products drop to a price I'm willing to pay."
 ---
 
 I don't know about you, but I like getting a deal. I don't like overpaying for things when I know that they might go lower in a couple of months especially tech stuff. Let's be honest, our tech gear is cool for about 2 years and we're ready for something new. That's why I love [camelcamelcamel.com](http://camelcamelcamel.com). Before I go on, I should say, I'm not being paid for this endorsement, I just found the site extremely useful and wanted to share my knowledge of it with others.

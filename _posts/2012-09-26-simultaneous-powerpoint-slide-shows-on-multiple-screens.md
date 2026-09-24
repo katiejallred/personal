@@ -11,6 +11,7 @@ tags:
 - tech tips
 - Microsoft Office
 wordpress_id: 307
+description: "How to run two PowerPoint slideshows on two monitors at the same time without either pausing. No code or paid software needed."
 ---
 
 You will google this to no avail and be angry that you did. After creating a batch file and using the RUNAS command in command prompt and after seriously considering dropping $100 for PowerShow, I HAVE FINALLY FIGURED IT OUT! And luckily, the solution is all in powerpoint, no programming or money involved.

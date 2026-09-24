@@ -10,6 +10,7 @@ categories:
 tags:
 - just for fun
 wordpress_id: 662
+description: "The time I moved a chair for Jon Acuff at Start Conference. The picture is blurry, but I still feel really cool."
 ---
 
 ![](/assets/uploads/2013/09/wpid-5233a27f839733.96513485.jpg)

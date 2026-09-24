@@ -12,6 +12,7 @@ tags:
 - devotional
 wordpress_id: 2533
 image: /assets/uploads/2019/04/a7112992-42de-4612-ab3f-a4b77786e6e3.jpg
+description: "What the abundant life Jesus promised looks like to me: trusting His purpose, His plans, and that His ways are better than mine."
 ---
 
 Jesus said, if we follow him then we would have abundant life. What does that look like to you?
