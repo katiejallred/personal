@@ -90,4 +90,5 @@ exclude:
   - package-lock.json
   - README.md
   - CLAUDE.md
+  - scripts/
   - vendor/

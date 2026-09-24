@@ -14,3 +14,6 @@
   `description`; put FAQs in `faq:` front matter and render them with
   `faq.html` so the FAQPage data matches the page. See README "SEO and
   answer engines".
+- Share images: pages and posts without `image` get a generated Open Graph
+  card (`_plugins/og_images.rb` + `scripts/og_image.py`, needs Pillow). Set
+  `og_title` when the page title reads badly on the card.
