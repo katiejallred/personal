@@ -940,7 +940,6 @@ code, pre, kbd, samp {
 
 .footer-disclaimer {
   margin-top: var(--space-3);
-  max-width: 62ch;
   font-size: 12px;
   line-height: 18px;
   color: #B39C95;
