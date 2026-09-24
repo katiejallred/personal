@@ -1939,7 +1939,6 @@ code, pre, kbd, samp {
   height: 144px;
   margin: 0 auto;
   object-fit: cover;
-  object-position: 50% 15%;
   border-radius: 50%;
   border: 6px solid #FFFFFF;
   box-shadow: var(--shadow-card);
