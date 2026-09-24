@@ -2,8 +2,11 @@
 # To add one, append an entry to a group: quote, name, role, org.
 # `rating` shows stars (workshop evaluations only). `featured: true` pulls a
 # quote out of its grid into the large quote near the top of the page.
+# `cta_text`/`cta_url` add a link under a group's reviews.
 
 - id: ai-training
+  cta_text: See AI training packages
+  cta_url: /services/#svc-ai
   label: AI for ministry training
   title: Churches learning to use AI, hands-on.
   intro: >-
@@ -48,6 +51,8 @@
       rating: 5
 
 - id: colleagues
+  cta_text: See how we could work together
+  cta_url: /services/
   label: Colleagues & clients
   title: From people who've worked alongside Katie.
   intro: >-
@@ -116,6 +121,8 @@
       org: OptSpot
 
 - id: speaking
+  cta_text: Book Katie to speak
+  cta_url: /press-kit/
   label: Speaking & education
   title: In the room and in the classroom.
   intro: >-

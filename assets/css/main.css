@@ -2788,3 +2788,55 @@ code, pre, kbd, samp {
 .guide-review .review {
   margin-bottom: var(--space-3);
 }
+
+/* --- Reviews --- */
+.review-summary {
+  text-align: left;
+}
+
+.review-summary-count {
+  font: 800 20px/1.1 var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.review-summary-count strong {
+  display: block;
+  font-size: 72px;
+  line-height: 0.9;
+  color: var(--red);
+}
+
+.review-summary .reach-reply {
+  display: block;
+  padding: 8px 12px;
+  border-radius: var(--radius-tile);
+}
+
+.review-summary .reach-reply span {
+  color: var(--red);
+  letter-spacing: 0.08em;
+}
+
+.review-summary .reach-kind {
+  display: block;
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 2px solid var(--blush);
+}
+
+.review-summary-orgs {
+  margin-top: var(--space-2);
+  gap: 6px;
+}
+
+.review-summary-orgs .chip {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+@media (max-width: 899px) {
+  .reviews-hero .reach-card {
+    margin-top: var(--space-6);
+    transform: none;
+  }
+}
