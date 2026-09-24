@@ -13,9 +13,23 @@
     <nav class="footer-col" aria-labelledby="footer-explore">
       <h2 class="footer-heading" id="footer-explore">Explore</h2>
       <ul>
-        {%- for item in site.data.navigation %}
-        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-        {%- endfor %}
+        <li><a href="{{ '/services/' | relative_url }}">Services</a></li>
+        <li><a href="{{ '/churches/' | relative_url }}">Churches</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        <li><a href="{{ '/press-kit/' | relative_url }}">Press kit</a></li>
+        <li><a href="{{ '/reviews/' | relative_url }}">Reviews</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-labelledby="footer-read">
+      <h2 class="footer-heading" id="footer-read">Read</h2>
+      <ul>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/archive/' | relative_url }}">Archive</a></li>
+        <li><a href="{{ '/categories/' | relative_url }}">Categories</a></li>
+        <li><a href="{{ '/tags/' | relative_url }}">Tags</a></li>
+        <li><a href="{{ '/join-my-email-list/' | relative_url }}">Email list</a></li>
         <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
       </ul>
     </nav>
@@ -42,6 +56,14 @@
     <div class="footer-legal-row">
       <p>© {{ 'now' | date: '%Y' }} Katie Allred Consulting, LLC</p>
       <p>Made with <span role="img" aria-label="love">❤️</span> in Nashville, TN</p>
+      <nav aria-label="Legal">
+        <ul class="footer-legal-links">
+          <li><a href="{{ '/privacy-policy/' | relative_url }}">Privacy</a></li>
+          <li><a href="{{ '/terms-of-service/' | relative_url }}">Terms</a></li>
+          <li><a href="{{ '/disclaimer/' | relative_url }}">Disclaimer</a></li>
+          <li><a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate disclosure</a></li>
+        </ul>
+      </nav>
     </div>
     <p class="footer-disclaimer">This is my personal site. The views here are my own and don't reflect those of Meta, Adobe, or any other current or former employer or client.</p>
   </div>
