@@ -526,6 +526,7 @@ code, pre, kbd, samp {
 
 .post-card-image {
   aspect-ratio: 16 / 9;
+  overflow: hidden; /* keeps tall images from stretching the 16:9 frame */
   background: var(--blush);
 }
 
@@ -2838,5 +2839,73 @@ code, pre, kbd, samp {
   .reviews-hero .reach-card {
     margin-top: var(--space-6);
     transform: none;
+  }
+}
+
+/* --- Blog --- */
+.blog-hero .hero-title {
+  max-width: 13ch;
+  font-size: clamp(44px, 6.5vw, 72px);
+}
+
+.content-card .topic-chips {
+  margin-top: var(--space-3);
+  gap: 6px;
+}
+
+.topic-chips .chip span {
+  margin-left: 4px;
+  color: var(--red);
+}
+
+.topic-more {
+  margin-top: var(--space-3);
+  font-size: 14px;
+}
+
+.post-card-placeholder {
+  display: grid;
+  place-items: end start;
+  padding: var(--space-4);
+  background:
+    radial-gradient(circle at 85% 20%, var(--poppy) 0 18%, transparent 19%),
+    var(--ground-blue);
+}
+
+.post-card-placeholder span {
+  font: 800 56px/1 var(--font-display);
+  letter-spacing: -0.03em;
+  color: var(--butter);
+}
+
+/* The first post on each blog page runs the full width of the grid. */
+@media (min-width: 900px) {
+  .post-grid-lead > li:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .post-grid-lead > li:first-child .post-card {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+  }
+
+  .post-grid-lead > li:first-child .post-card-image {
+    aspect-ratio: auto;
+    min-height: 320px;
+  }
+
+  .post-grid-lead > li:first-child .post-card-body {
+    justify-content: center;
+    padding: var(--space-6);
+  }
+
+  .post-grid-lead > li:first-child .post-card-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .post-grid-lead > li:first-child .post-card-excerpt {
+    font-size: 17px;
+    line-height: 26px;
   }
 }

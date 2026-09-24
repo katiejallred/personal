@@ -5,6 +5,11 @@
   <div class="post-card-image">
     <img src="{{ featured | relative_url }}" alt="" loading="lazy" decoding="async">
   </div>
+  {%- else %}
+  {%- comment %} No featured image: a branded panel instead of an empty box. {% endcomment %}
+  <div class="post-card-image post-card-placeholder" aria-hidden="true">
+    <span>{{ post.date | date: "%Y" }}</span>
+  </div>
   {%- endif %}
   <div class="post-card-body">
     {%- if post.categories.size > 0 %}
