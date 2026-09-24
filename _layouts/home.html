@@ -6,14 +6,15 @@ layout: default
 {%- if paginator and paginator.page > 1 %}{% assign first_page = false %}{% endif -%}
 
 {%- if first_page %}
-<section class="hero" aria-labelledby="hero-title">
+<section class="hero blog-hero" aria-labelledby="hero-title">
   <div class="wrap">
     <div>
-      <h1 class="hero-title" id="hero-title">Automate the temporary. Invest in the <em>eternal</em>.</h1>
-      <p class="hero-lede">{{ site.positioning }}</p>
+      <p class="label home-hero-label">The blog</p>
+      <h1 class="hero-title" id="hero-title">Notes on church comms, AI &amp; <em>community</em>.</h1>
+      <p class="hero-lede">Practical ideas for churches, nonprofits, and mission-driven teams. {{ site.posts.size }} posts and counting since 2009.</p>
       <div class="hero-actions">
-        <a class="btn btn-blue" href="{{ site.contact.booking | relative_url }}">Book a call →</a>
-        <p class="aside">the blog's right down here&nbsp;↓</p>
+        <a class="btn btn-blue" href="{{ '/join-my-email-list/' | relative_url }}">Get new posts by email →</a>
+        <a class="aside" href="#latest-title">start reading&nbsp;↓</a>
       </div>
     </div>
 
@@ -27,15 +28,16 @@ layout: default
         </ul>
       </div>
       <div class="content-card content-card-front">
-        <h2>Just posted</h2>
-        <ol>
-          {%- for post in site.posts limit: 3 %}
-          <li>
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
+        <h2>Browse by topic</h2>
+        <ul class="chip-row topic-chips">
+          {%- assign sorted_categories = site.categories | sort %}
+          {%- for category in sorted_categories %}
+          {%- if category[1].size >= 5 %}
+          <li><a class="chip" href="{{ '/categories/' | relative_url }}#{{ category[0] | slugify }}">{{ category[0] }} <span>{{ category[1].size }}</span></a></li>
+          {%- endif %}
           {%- endfor %}
-        </ol>
+        </ul>
+        <p class="topic-more"><a href="{{ '/archive/' | relative_url }}">Archive</a> · <a href="{{ '/tags/' | relative_url }}">Tags</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
       </div>
     </div>
   </div>
@@ -52,7 +54,7 @@ layout: default
     <header class="section-header">
       <p class="label">The blog</p>
       {%- if first_page %}
-      <h2 class="section-title">Latest writing</h2>
+      <h2 class="section-title" id="latest-title">Latest writing</h2>
       {%- else %}
       <h1 class="section-title">Latest writing, page {{ paginator.page }}</h1>
       {%- endif %}
@@ -62,7 +64,7 @@ layout: default
     {{ content }}
 
     {%- if posts.size > 0 %}
-    <ul class="post-grid">
+    <ul class="post-grid post-grid-lead">
       {%- for post in posts %}
       <li>
         {% include post-card.html post=post %}

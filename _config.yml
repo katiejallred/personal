@@ -50,7 +50,7 @@ kramdown:
 permalink: /:year/:month/:day/:title/
 
 # Pagination (jekyll-paginate, used by blog/index.html / home layout)
-paginate: 9
+paginate: 10 # one full-width lead post + a 3-column grid of 9
 paginate_path: "/blog/page/:num/"
 
 # Content behavior — explicit for predictable migrations
