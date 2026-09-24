@@ -34,8 +34,11 @@ Styles in `assets/css/main.css` come from the **Katie Allred** design system
 (https://claude.ai/artifact/DJYQV3tu5rDPEBrhrLuuw6): its color, type, spacing,
 radius and shadow tokens, plus the Button, Chip, Wordmark, WaveBand,
 ContentCard and Footer components. Fonts (Bricolage Grotesque, DM Sans,
-Caveat) load from Google Fonts. When the design system changes, update the
-tokens at the top of `main.css` to match.
+Caveat) are self-hosted in `assets/fonts/` and declared in
+`assets/css/fonts.css`, so pages never call Google's servers. When the design
+system changes, update the tokens at the top of `main.css` to match; to add a
+font or weight, download its woff2 files into `assets/fonts/` and add matching
+`@font-face` rules to `fonts.css`.
 
 ## Books and Amazon affiliate links
 
