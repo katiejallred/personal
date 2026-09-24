@@ -6,8 +6,10 @@ last_modified_at: '2011-05-06 18:50:00'
 author: Katie Allred
 permalink: /subnetting-part-2-subnet-mask-magic-number/
 categories:
-- Legacy
-tags: []
+- AI & Tech
+tags:
+- tech tips
+- networking
 wordpress_id: 2639
 ---
 

@@ -7,14 +7,10 @@ author: Katie Allred
 permalink: /free-stock-photography-sites/
 categories:
 - Church Communications
-- Strategy
 tags:
-- church design
-- church media
-- free resources
+- design
 - photography
-- stock photos
-- visual content
+- resources
 wordpress_id: 666
 description: Top 5 Free Stock Photography Sites for Bloggers, Designers, and Developers.
 image: /assets/uploads/2013/09/wheatwords-scaled.jpg

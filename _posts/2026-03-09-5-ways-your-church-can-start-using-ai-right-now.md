@@ -9,12 +9,10 @@ categories:
 - AI & Tech
 - Church Communications
 tags:
+- AI
 - AI tools
-- artificial intelligence
 - ChatGPT
-- church communications
-- church productivity
-- church technology
+- productivity
 wordpress_id: 3797
 image: /assets/uploads/2026/03/unsplash-y62WKqtOoIw.jpg
 ---

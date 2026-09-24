@@ -6,13 +6,10 @@ last_modified_at: '2013-11-01 18:00:27'
 author: Katie Allred
 permalink: /simple-homemade-biscuits/
 categories:
-- Food
+- Food & Travel
 tags:
-- baking
-- biscuits
-- breakfast
-- homemade
 - recipes
+- baking
 wordpress_id: 812
 description: How to make simple homemade biscuits.
 ---

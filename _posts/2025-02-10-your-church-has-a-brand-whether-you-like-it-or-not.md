@@ -8,11 +8,9 @@ permalink: /your-church-has-a-brand-whether-you-like-it-or-not/
 categories:
 - Church Communications
 tags:
-- brand strategy
-- church branding
 - church communications
-- church identity
-- church logo
+- branding
+- design
 wordpress_id: 3766
 image: /assets/uploads/2026/03/15260921.png
 ---

@@ -7,13 +7,9 @@ author: Katie Allred
 permalink: /how-to-start-an-awesome-blog-in-4-easy-steps/
 categories:
 - Church Communications
-- Strategy
 tags:
 - blogging
-- church blog
 - content strategy
-- digital strategy
-- how to start a blog
 wordpress_id: 1450
 description: Have you ever wanted to start a blog?
 seo_title: How to Start a Blog

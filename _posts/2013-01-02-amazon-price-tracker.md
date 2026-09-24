@@ -6,8 +6,10 @@ last_modified_at: '2021-04-23 20:25:11'
 author: Katie Allred
 permalink: /amazon-price-tracker/
 categories:
-- Legacy
-tags: []
+- Life
+tags:
+- life hacks
+- tech tips
 wordpress_id: 353
 image: /assets/uploads/2013/01/amazon.jpg
 ---

@@ -9,12 +9,10 @@ categories:
 - AI & Tech
 - Church Communications
 tags:
-- AI writing
-- ChatGPT
-- church communications
-- church newsletter
+- AI
+- writing
 - sermon prep
-- social media
+- ChatGPT
 wordpress_id: 3800
 image: /assets/uploads/2026/06/unsplash-n9AaeihA9HI.jpg
 ---

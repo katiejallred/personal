@@ -6,8 +6,11 @@ last_modified_at: '2015-06-23 20:33:50'
 author: Katie Allred
 permalink: /install-wordpress-on-mamp/
 categories:
-- Legacy
-tags: []
+- AI & Tech
+tags:
+- web design
+- WordPress
+- tech tips
 wordpress_id: 1226
 description: Use this terminal script to quickly and easily install Wordpress on MAMP in under 3 minutes.
 seo_title: Quickly Install Wordpress on MAMP

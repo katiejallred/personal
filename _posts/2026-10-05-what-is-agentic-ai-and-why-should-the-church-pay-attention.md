@@ -8,12 +8,9 @@ permalink: /what-is-agentic-ai-and-why-should-the-church-pay-attention/
 categories:
 - AI & Tech
 tags:
-- agentic AI
-- AI future
-- artificial intelligence
-- automation
-- church technology
-- digital ministry
+- AI
+- AI tools
+- productivity
 wordpress_id: 3804
 image: /assets/uploads/2026/10/unsplash-_Itku5P5lfE.jpg
 scheduled: true

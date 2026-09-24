@@ -9,12 +9,10 @@ categories:
 - AI & Tech
 - Church Communications
 tags:
+- AI
 - AI ethics
-- artificial intelligence
 - church communications
-- church leadership
 - digital ministry
-- ministry
 wordpress_id: 3806
 image: /assets/uploads/2026/12/unsplash-BiqFxypY7nc.jpg
 scheduled: true

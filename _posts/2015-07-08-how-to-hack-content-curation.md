@@ -6,14 +6,11 @@ last_modified_at: '2015-07-08 19:00:11'
 author: Katie Allred
 permalink: /how-to-hack-content-curation/
 categories:
-- Church Communications
-- Strategy
+- Social Media
 tags:
-- church communications
-- content curation
 - content strategy
-- productivity
 - social media
+- productivity
 wordpress_id: 1306
 image: /assets/uploads/2015/07/content-curation.png
 ---

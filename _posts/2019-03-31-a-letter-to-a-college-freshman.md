@@ -6,12 +6,10 @@ last_modified_at: '2019-03-31 22:53:53'
 author: Katie Allred
 permalink: /a-letter-to-a-college-freshman/
 categories:
-- Personal
+- Life
 tags:
-- advice
 - college
-- life lessons
-- personal
+- life
 wordpress_id: 2530
 image: /assets/uploads/2019/03/1f08fe85-9fb5-43a9-82bd-242428661bcc.jpg
 ---

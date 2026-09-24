@@ -6,12 +6,9 @@ last_modified_at: '2015-05-06 19:45:14'
 author: Katie Allred
 permalink: /goals-challenging/
 categories:
-- Personal
+- Life
 tags:
-- goals
-- mindset
 - personal growth
-- self improvement
 wordpress_id: 1205
 description: Do you ever meet your goals? If not, stop setting goals and start challenging yourself! Learn how to hustle with the best!
 seo_title: Stop Setting Goals, Start Challenging Yourself

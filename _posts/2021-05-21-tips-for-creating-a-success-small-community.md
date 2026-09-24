@@ -8,11 +8,8 @@ permalink: /tips-for-creating-a-success-small-community/
 categories:
 - Online Community
 tags:
-- community management
-- community strategy
-- community tips
 - online community
-- small group
+- community building
 wordpress_id: 3294
 image: /assets/uploads/2021/05/blogger-communicating-with-followers-in-laptop-online.jpg
 ---

@@ -6,12 +6,11 @@ last_modified_at: '2013-10-10 02:09:15'
 author: Katie Allred
 permalink: /cross-history-symbol/
 categories:
-- Personal
+- Faith
 tags:
+- faith
 - devotional
 - Easter
-- faith
-- personal
 wordpress_id: 694
 image: /assets/uploads/2013/10/cross-364676_1280.jpg
 ---

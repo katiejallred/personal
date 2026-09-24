@@ -6,12 +6,9 @@ last_modified_at: '2015-04-25 11:35:03'
 author: Katie Allred
 permalink: /how-i-survived-braces-and-upper-jaw-surgery/
 categories:
-- Personal
+- Life
 tags:
-- braces
 - health
-- jaw surgery
-- personal
 wordpress_id: 1168
 description: Are you about to have upper jaw surgery? See how I survived it and my results!
 image: /assets/uploads/2015/04/Blog.png

@@ -144,6 +144,15 @@ code, pre, kbd, samp {
   color: var(--red);
 }
 
+.label a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.label a:hover {
+  text-decoration: underline;
+}
+
 /* --- Accessibility --- */
 .skip-link {
   position: absolute;
@@ -790,28 +799,8 @@ code, pre, kbd, samp {
 .site-footer {
   background: var(--footer-bg);
   color: var(--footer-fg);
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.site-footer .wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: var(--space-4);
-  padding-top: var(--space-6);
-  padding-bottom: var(--space-6);
-}
-
-.site-footer .wordmark {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.site-footer .wordmark-tile {
-  width: 30px;
-  height: 30px;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .site-footer a {
@@ -825,23 +814,136 @@ code, pre, kbd, samp {
   border-bottom-color: var(--butter);
 }
 
-.site-footer .book {
-  color: var(--butter);
-  font-weight: 700;
+.footer-main {
+  display: grid;
+  gap: var(--space-6) var(--space-4);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-6);
 }
 
-.footer-links {
+.footer-brand {
+  grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: var(--space-3);
 }
 
-.footer-links ul {
+@media (min-width: 900px) {
+  .footer-main {
+    grid-template-columns: 1.5fr 0.8fr 0.8fr 1.2fr 1fr;
+  }
+
+  .footer-brand {
+    grid-column: auto;
+  }
+}
+
+.site-footer .wordmark,
+.site-footer .wordmark:hover {
+  font-size: 24px;
+  color: var(--footer-fg);
+  border-bottom: 0;
+}
+
+.footer-tagline {
+  font: 800 20px/1.15 var(--font-display);
+  letter-spacing: -0.02em;
+  max-width: 16em;
+}
+
+.footer-contact {
+  color: #D3B9B2;
+}
+
+.btn-butter {
+  background: var(--butter);
+  color: #1C1412;
+}
+
+.site-footer a.btn,
+.site-footer a.btn:hover {
+  color: #1C1412;
+  border-bottom: 0;
+  margin-top: var(--space-2);
+}
+
+.footer-heading {
+  font: 700 13px/16px var(--font-sans);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #D3B9B2;
+  margin-bottom: var(--space-3);
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.site-footer .footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.site-footer .footer-social a {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 243, 238, 0.1);
+  color: var(--footer-fg);
+  transition: background 0.15s, color 0.15s, transform 0.15s;
+}
+
+.site-footer .footer-social a:hover,
+.site-footer .footer-social a:focus-visible {
+  background: var(--butter);
+  color: #1C1412;
+  transform: translateY(-2px);
+}
+
+.icon {
+  display: block;
+}
+
+.site-footer .footer-legal {
+  padding-top: var(--space-4);
+  padding-bottom: var(--space-6);
+  color: #D3B9B2;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.footer-legal-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid rgba(255, 243, 238, 0.16);
+}
+
+.footer-legal-links {
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-2) 18px;
+  gap: var(--space-2) var(--space-3);
+}
+
+.footer-disclaimer {
+  margin-top: var(--space-3);
+  max-width: 62ch;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B39C95;
 }
 
 /* --- Landing (imported WordPress pages) --- */
@@ -1417,7 +1519,40 @@ code, pre, kbd, samp {
 
 @media (prefers-reduced-motion: reduce) {
   .btn,
-  .prose a.button {
+  .prose a.button,
+  .site-footer .footer-social a {
     transition: none;
+  }
+}
+
+/* --- About --- */
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  padding-bottom: var(--space-2);
+}
+
+.about-intro {
+  display: grid;
+  gap: var(--space-4);
+  align-items: center;
+}
+
+.about-intro > div > * + * {
+  margin-top: 1em;
+}
+
+.prose .about-photo {
+  width: 100%;
+  max-width: 260px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+}
+
+@media (min-width: 640px) {
+  .about-intro {
+    grid-template-columns: 220px 1fr;
   }
 }

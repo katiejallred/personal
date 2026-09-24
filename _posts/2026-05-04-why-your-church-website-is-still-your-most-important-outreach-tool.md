@@ -8,12 +8,9 @@ permalink: /why-your-church-website-is-still-your-most-important-outreach-tool/
 categories:
 - Church Communications
 tags:
-- church growth
-- church outreach
 - church website
-- digital ministry
 - web design
-- website tips
+- church outreach
 wordpress_id: 3749
 image: /assets/uploads/2026/05/katiejallred_A_warm_inviting_church_building_exterior_at_gold_deb76060-5fc3-448c-94f3-713013d0e4c7_0.png
 ---

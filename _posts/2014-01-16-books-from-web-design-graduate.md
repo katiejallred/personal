@@ -6,8 +6,11 @@ last_modified_at: '2014-01-16 18:32:50'
 author: Katie Allred
 permalink: /books-from-web-design-graduate/
 categories:
-- Legacy
-tags: []
+- AI & Tech
+tags:
+- web design
+- design
+- books
 wordpress_id: 885
 image: /assets/uploads/2014/01/doctype-hi-res-e1430773401883.jpg
 ---

@@ -7,12 +7,9 @@ author: Katie Allred
 permalink: /digital-ministry-is-real-ministry-why-online-outreach-matters-for-the-church/
 categories:
 - Church Communications
-- Strategy
 tags:
-- church online
-- church outreach
-- digital marketing
 - digital ministry
+- church outreach
 - evangelism
 - SEO
 wordpress_id: 3767

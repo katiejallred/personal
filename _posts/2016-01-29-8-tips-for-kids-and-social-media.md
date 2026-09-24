@@ -8,12 +8,9 @@ permalink: /8-tips-for-kids-and-social-media/
 categories:
 - Media Literacy
 tags:
-- children
-- digital parenting
-- kids
-- online safety
 - parenting
-- screen time
+- online safety
+- media literacy
 - social media
 wordpress_id: 1515
 image: /assets/uploads/2016/01/child-on-iphone-scaled.jpg

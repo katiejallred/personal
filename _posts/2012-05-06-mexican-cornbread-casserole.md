@@ -6,12 +6,10 @@ last_modified_at: '2012-05-06 23:57:00'
 author: Katie Allred
 permalink: /mexican-cornbread-casserole/
 categories:
-- Food
+- Food & Travel
 tags:
-- casserole
-- cornbread
-- Mexican food
 - recipes
+- casseroles
 wordpress_id: 2645
 ---
 

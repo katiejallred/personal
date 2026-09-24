@@ -6,8 +6,11 @@ last_modified_at: '2015-06-22 18:02:53'
 author: Katie Allred
 permalink: /10-best-divi-sites/
 categories:
-- Legacy
-tags: []
+- AI & Tech
+tags:
+- web design
+- WordPress
+- Divi
 wordpress_id: 1241
 description: 10 Live, Real World examples of how the Divi theme is being used across the internet.
 seo_title: Using Divi? Here are 10 Powerful Examples

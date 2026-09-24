@@ -6,12 +6,9 @@ last_modified_at: '2009-04-24 13:23:00'
 author: Katie Allred
 permalink: /love-is-all-i-have-to-give/
 categories:
-- Personal
+- Life
 tags:
-- devotional
-- faith
-- love
-- personal
+- life
 wordpress_id: 28
 ---
 

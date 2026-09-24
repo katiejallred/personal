@@ -6,12 +6,11 @@ last_modified_at: '2013-10-18 00:51:57'
 author: Katie Allred
 permalink: /opry-country-classics-at-the-ryman/
 categories:
-- Food
+- Food & Travel
 tags:
-- entertainment
 - Nashville
-- Ryman
 - travel
+- music
 wordpress_id: 774
 ---
 

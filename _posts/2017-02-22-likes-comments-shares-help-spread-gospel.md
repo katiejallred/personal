@@ -6,15 +6,12 @@ last_modified_at: '2017-02-22 14:41:21'
 author: Katie Allred
 permalink: /likes-comments-shares-help-spread-gospel/
 categories:
-- Church Communications
 - Social Media
 tags:
-- church social media
-- digital ministry
-- engagement
-- evangelism
-- facebook
 - social media
+- digital ministry
+- evangelism
+- Facebook
 wordpress_id: 2054
 image: /assets/uploads/2017/02/StockSnap_RALDM02X8S-1-scaled.jpg
 ---

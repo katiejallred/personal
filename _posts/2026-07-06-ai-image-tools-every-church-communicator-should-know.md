@@ -9,13 +9,9 @@ categories:
 - AI & Tech
 - Church Communications
 tags:
-- AI images
-- church communications
-- church design
-- DALL-E
-- Ideogram
-- Midjourney
-- visual content
+- AI
+- AI tools
+- design
 wordpress_id: 3801
 image: /assets/uploads/2026/07/unsplash-jBcFTWv0TBk.jpg
 ---

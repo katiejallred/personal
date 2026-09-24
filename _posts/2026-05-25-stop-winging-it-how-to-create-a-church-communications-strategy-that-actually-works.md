@@ -7,13 +7,10 @@ author: Katie Allred
 permalink: /stop-winging-it-how-to-create-a-church-communications-strategy-that-actually-works/
 categories:
 - Church Communications
-- Strategy
 tags:
 - church communications
-- church leadership
-- church marketing
 - communications strategy
-- strategy
+- church leadership
 wordpress_id: 3752
 image: /assets/uploads/2026/05/katiejallred_A_diverse_small_team_gathered_around_a_whiteboar_b2389b13-9763-4a96-b68a-5da808d6ecb0_2.png
 ---

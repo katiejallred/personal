@@ -7,14 +7,11 @@ author: Katie Allred
 permalink: /the-art-of-the-prompt-how-to-talk-to-ai-so-it-actually-helps-you/
 categories:
 - AI & Tech
-- Strategy
 tags:
-- AI prompting
-- artificial intelligence
-- ChatGPT tips
-- church communications
+- AI
+- prompting
+- ChatGPT
 - productivity
-- prompts
 wordpress_id: 3799
 image: /assets/uploads/2026/05/unsplash-SoGu-cMfM5c.jpg
 ---

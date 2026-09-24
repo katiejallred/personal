@@ -6,13 +6,10 @@ last_modified_at: '2013-12-06 21:47:04'
 author: Katie Allred
 permalink: /three-lessons-learned-from-grief/
 categories:
-- Personal
+- Faith
 tags:
 - faith
 - grief
-- healing
-- loss
-- personal
 wordpress_id: 856
 image: /assets/uploads/2013/12/sunset-hair-e1430773369575.jpg
 ---

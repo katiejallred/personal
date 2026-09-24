@@ -6,13 +6,11 @@ last_modified_at: '2013-02-10 23:15:12'
 author: Katie Allred
 permalink: /easy-fruit-pizza-2/
 categories:
-- Food
+- Food & Travel
 tags:
-- dessert
-- easy
-- fruit
-- party food
 - recipes
+- desserts
+- party food
 wordpress_id: 466
 ---
 

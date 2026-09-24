@@ -6,8 +6,10 @@ last_modified_at: '2015-05-05 07:26:07'
 author: Katie Allred
 permalink: /online-strategic-communicators-code-of-ethics/
 categories:
-- Legacy
-tags: []
+- Church Communications
+tags:
+- social media
+- communications strategy
 wordpress_id: 1099
 description: Everyone should have a code of ethics.
 image: /assets/uploads/2014/02/Blog-2.png

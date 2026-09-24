@@ -7,13 +7,9 @@ author: Katie Allred
 permalink: /how-to-become-a-better-copywriter/
 categories:
 - Church Communications
-- Strategy
 tags:
-- church communications
-- content creation
-- copywriting
+- writing
 - storytelling
-- writing tips
 wordpress_id: 1175
 description: Have you ever wanted to become a better copywriter? I have! This guide has some great resources for you to become a better copywriter today.
 image: /assets/uploads/2015/04/Blog-1.png

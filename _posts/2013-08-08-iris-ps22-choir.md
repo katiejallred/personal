@@ -6,8 +6,10 @@ last_modified_at: '2013-08-08 16:21:10'
 author: Katie Allred
 permalink: /iris-ps22-choir/
 categories:
-- Legacy
-tags: []
+- Life
+tags:
+- just for fun
+- music
 wordpress_id: 630
 ---
 
