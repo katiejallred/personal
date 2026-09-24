@@ -74,13 +74,13 @@ The symbolism of the Christian cross is concise and important. It is the symbol 
 
 The cross was not used as a symbol of the Christian church for some three centuries after Christ’s resurrection (Benson, 1934). This might be because of the “no graven image” rule, but more than likely it was because the cross was such a gruesome means of execution. The Christian world does not think of the cross as a means of execution, but rather a symbol of Christ’s sacrifice for all those that choose to believe in him. This is dramatically different meaning from the gruesome crucifix. The symbol that once meant fear, now means love and hope.
 
-[![A wooden crucifix with a carved figure of Jesus and the INRI inscription](/assets/uploads/2013/10/crucifix-199x300.jpg)](http://blog.loyola.edu/mission/files/crucifix.jpg)
+![A wooden crucifix with a carved figure of Jesus and the INRI inscription](/assets/uploads/2013/10/crucifix-199x300.jpg)
 
-IMAGE CREDIT: http://blog.loyola.edu/mission/files/crucifix.jpg
+Image credit: Loyola University Maryland
 
-[![A plain black Latin cross](/assets/uploads/2013/10/Cross-211x300.gif)](http://pef.mycpanel.princeton.edu/wp-content/uploads/2012/01/Cross.PEF_.web_.gif)
+![A plain black Latin cross](/assets/uploads/2013/10/Cross-211x300.gif)
 
-IMAGE CREDIT: http://pef.mycpanel.princeton.edu/wp-content/uploads/2012/01/Cross.PEF_.web_.gif
+Image credit: Princeton Evangelical Fellowship
 
 The church has a collective intelligence when it comes to knowledge of the cross. The cross is used to remind people that God’s only son was sacrificed in order for them to have eternal life. The Catholic Church continuously uses the crucifix instead of the empty cross, while Protestants use an empty cross. The Catholic church uses the crucifix, or a cross with Jesus still dying upon it, to remind mankind of the seriousness of sin and to focus on the sacrifice that Jesus made. Protestants use the empty cross because Jesus has risen and is no longer hanging upon the cross. They chose an empty cross because it reminds mankind that Jesus has defeated death and completed the work of Christ. This is a form of propaganda because they took a complex idea like God sending his only son to die for all the world’s sins into a simple message with a simple symbol, the cross.
 
@@ -108,9 +108,9 @@ The cross, a powerful statement of torture, to an instrument of love and sacrifi
 
 ### The Cross as a Fashion Symbol
 
-[![IMAGE CREDIT: http://www.christianitytoday.com/women/2013/august/my-cross-to-wear.html](/assets/uploads/2013/10/Screen-shot-2013-10-09-at-8.49.59-PM-300x201.png)](http://www.christianitytoday.com/women/2013/august/my-cross-to-wear.html)
+![Screenshot of the Christianity Today article "My Cross to Wear"](/assets/uploads/2013/10/Screen-shot-2013-10-09-at-8.49.59-PM-300x201.png)
 
-IMAGE CREDIT: http://www.christianitytoday.com/women/2013/august/my-cross-to-wear.html
+Image credit: *Christianity Today*, "My Cross to Wear" (2013)
 
 The cross continues to change its meaning and symbolism even today. Currently, the cross is trending in fashion. This trend has leant itself to the ever evolving meaning of the cross. The cross being used in fashion is not a new trend, many Roman Catholics wore crosses with their prayer beads, etc. The new trend is that many do not know what they are wearing or the implications behind the cross. This has leant the cross' meaning to becoming ambiguous; so much in fact, that the meaning altogether is lost in history.
 

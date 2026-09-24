@@ -23,7 +23,7 @@ But some of us, ***most of us***, are not that blessed in the gift of copywritin
 
 ## 1. [Kopywriting Kourse](http://kopywritingkourse.com/)
 
-Please forgive this guy's *french*. He's a bit of a sailor, but he's also a bit of a freakin' genius. Just read some of the [blog](http://kopywritingkourse.com/blog/) and you'll fall in love.
+Please forgive this guy's *french*. He's a bit of a sailor, but he's also a bit of a freakin' genius. Just read some of the [blog](https://web.archive.org/web/20150519083435/http://kopywritingkourse.com/blog/) and you'll fall in love.
 
 He's got what you want and I think the course is probably worth the investment. (Albeit, I haven't bought it myself, but the free stuff is good!)
 
@@ -41,7 +41,7 @@ Some favorite posts:
 - [The 8 Types of Images That Increase the Psychological Impact of Your Content](http://www.copyblogger.com/powerful-images/)
 - [Master This Copywriting Formula to Dominate Any Social Media Platform](http://www.copyblogger.com/problem-agitate-solve/)
 
-## 3. [Groove HQ](https://www.groovehq.com/blog/neil-patel-interview)
+## 3. [Groove HQ](https://web.archive.org/web/20150812201523/https://www.groovehq.com/blog/neil-patel-interview)
 
 You know how IT companies have Help Desk software that let's them track tickets? Well that's what Groove HQ does.
 

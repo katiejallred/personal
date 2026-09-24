@@ -36,7 +36,7 @@ Before in my post, I would take a screenshot and then link over to the church us
 11. [Exodus Church](http://exoduschurch.net/)
 12. [New City](http://www.newcityrdu.com/)
 13. [Wesley United](http://wesleyunited.org/)
-14. [Timberlake UMC](http://timberlakeumc.org/)
+14. [Timberlake UMC](https://web.archive.org/web/20240913042631/https://www.timberlakeumc.org/)
 15. [Foothills](https://foothills.org/)
 16. [Eden Baptist](https://edenbaptist.org/)
 17. [Highland Village Church](http://www.hvchurch.com/)

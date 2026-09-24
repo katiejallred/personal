@@ -27,10 +27,10 @@ I love Neville Medora. He could probably write some copy on buying a frog and I'
 
 Favorite posts:
 
-- [Powerwashing Flyers that took business from zero to $13,202 per month](http://kopywritingkourse.com/powerwashing-flyers-copywriting-case-study/)
-- [How To Become A Copywriter (with No Experience)](http://kopywritingkourse.com/how-to-become-a-copywriter/)
-- [Copywriting Headlines That Sell (with Templates & Swipe File)](http://kopywritingkourse.com/copywriting-headlines-that-sell/)
-- [Why this guy is still totally poor](http://kopywritingkourse.com/why-this-guy-is-still-totally-poor/)
+- [Powerwashing Flyers that took business from zero to $13,202 per month](https://web.archive.org/web/20200426041023/https://kopywritingkourse.com/powerwashing-flyers-copywriting-case-study/)
+- [How To Become A Copywriter (with No Experience)](https://web.archive.org/web/20160313022827/http://kopywritingkourse.com/how-to-become-a-copywriter/)
+- [Copywriting Headlines That Sell (with Templates & Swipe File)](https://web.archive.org/web/20160313023316/http://kopywritingkourse.com/copywriting-headlines-that-sell/)
+- [Why this guy is still totally poor](https://web.archive.org/web/20150419153123/http://kopywritingkourse.com/why-this-guy-is-still-totally-poor/)
 
 ### [2. QuickSprout](http://quicksprout.com)
 

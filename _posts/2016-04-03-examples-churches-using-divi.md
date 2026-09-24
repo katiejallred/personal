@@ -48,9 +48,9 @@ This post is in a series of posts about Wordpress themes for churches, also chec
 
 [![First Church - Churches Using Divi](/assets/uploads/2016/04/First-Church-532x1024.jpg)](http://firstchurchok.com/)
 
-### #5 - [People's Church](http://www.peopleschurchvancouver.org/)
+### #5 - [People's Church](https://web.archive.org/web/20160407053626/http://www.peopleschurchvancouver.org:80/?)
 
-[![Peoples Church - Churches Using Divi](/assets/uploads/2016/04/Peoples-Church.jpg)](http://www.peopleschurchvancouver.org/)
+[![Peoples Church - Churches Using Divi](/assets/uploads/2016/04/Peoples-Church.jpg)](https://web.archive.org/web/20160407053626/http://www.peopleschurchvancouver.org:80/?)
 
 ### #6 - [Brazos Fellowship](http://www.brazosfellowship.com/)
 
@@ -60,9 +60,9 @@ This post is in a series of posts about Wordpress themes for churches, also chec
 
 [![First United Methodist Church Arkadelphia - Churches Using Divi](/assets/uploads/2016/04/First-United-Methodist-Church-Arkadelphia-547x1024.jpg)](http://www.fumcark.org/)
 
-### #8 - [Journey Church](http://journey417.com/)
+### #8 - [Journey Church](https://web.archive.org/web/20160403094756/http://journey417.com:80/?)
 
-[![Journey Church - Churches Using Divi](/assets/uploads/2016/04/Journey-Church.jpg)](http://journey417.com/)
+[![Journey Church - Churches Using Divi](/assets/uploads/2016/04/Journey-Church.jpg)](https://web.archive.org/web/20160403094756/http://journey417.com:80/?)
 
 ### #9 - [Bellevue Baptist Church](http://www.bellevue.org/)
 
