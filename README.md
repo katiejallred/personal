@@ -89,6 +89,12 @@ Drawing them needs Python 3 with Pillow (`pip install pillow`; the Pages
 workflow installs it); without it the build warns and pages fall back to
 the headshot.
 
+The favicon set (`favicon.ico`, `favicon.svg`, `apple-touch-icon.png`,
+`assets/images/icon-192.png` and `icon-512.png`, used by `site.webmanifest`)
+is the KA wordmark tile, linked from `_includes/favicons.html`. The files are
+committed; to redraw them, run `python3 scripts/favicon.py` (needs
+`pip install pillow fonttools brotli`).
+
 `/llms.txt` is a plain-text summary of Katie, her key pages, books and
 recent writing for AI assistants, built from the same data. `robots.txt`
 blocks crawlers that only gather AI training data (GPTBot, ClaudeBot,
