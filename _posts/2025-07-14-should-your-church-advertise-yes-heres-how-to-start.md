@@ -14,6 +14,7 @@ tags:
 - church outreach
 wordpress_id: 3771
 image: /assets/uploads/2026/03/cc4stor2oc0.jpg
+featured_image_alt: "The billboards and crowds of Times Square at night"
 ---
 
 The word "advertising" makes some church leaders uncomfortable. It feels too commercial, too corporate. But here's the thing: if you want people to know about your church, your events, or the hope you offer — advertising is simply paying to make sure that message gets in front of the right people.

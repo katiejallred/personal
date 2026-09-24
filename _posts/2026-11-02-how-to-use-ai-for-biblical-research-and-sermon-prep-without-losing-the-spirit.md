@@ -15,6 +15,7 @@ tags:
 - Bible
 wordpress_id: 3805
 image: /assets/uploads/2026/11/unsplash-AbVcWVFw1as.jpg
+featured_image_alt: "An open Bible on a green table with dried leaves"
 scheduled: true
 ---
 

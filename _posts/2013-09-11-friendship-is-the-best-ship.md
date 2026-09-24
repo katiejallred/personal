@@ -13,6 +13,6 @@ wordpress_id: 659
 description: "A photo post from 2013. Friendship is the best ship, and I get to make jokes on occasion."
 ---
 
-![](/assets/uploads/2013/09/wpid-5230d16ee88833.65995021.jpg)
+![Text messages with a friend: "You should do consulting as a career. And cooking." My reply: "Some would call that motherhood."](/assets/uploads/2013/09/wpid-5230d16ee88833.65995021.jpg)
 
 I get to make jokes on occasion.

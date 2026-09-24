@@ -16,6 +16,7 @@ tags:
 - productivity
 wordpress_id: 3753
 image: /assets/uploads/2026/06/katiejallred_A_church_communications_professional_at_a_bright_27968998-49eb-4ed1-acc6-6693b5dcafc0_2.png
+featured_image_alt: "Hands typing on a laptop at a desk in warm evening light"
 ---
 
 If you're a one-person church communications department — or a volunteer who somehow ended up responsible for the website, social media, bulletin, and weekly email — this one's for you.

@@ -13,6 +13,7 @@ tags:
 - books
 wordpress_id: 885
 image: /assets/uploads/2014/01/doctype-hi-res-e1430773401883.jpg
+featured_image_alt: "A desk with a laptop, design books, sketches, and colored pencils"
 description: "My favorite books from the University of Florida's web design graduate program, for anyone starting out as a web designer."
 ---
 

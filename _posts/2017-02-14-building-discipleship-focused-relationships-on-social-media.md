@@ -15,6 +15,7 @@ tags:
 wordpress_id: 2052
 description: Jesus created relationships with people by being himself. We too can create real relationships on social media by sharing more about ourselves.
 image: /assets/uploads/2017/02/ouitrfhneke-ben-white-1-1.jpg
+featured_image_alt: "A person writing notes beside an open Bible with a phone on the table"
 ---
 
 Let me start by telling you a story.

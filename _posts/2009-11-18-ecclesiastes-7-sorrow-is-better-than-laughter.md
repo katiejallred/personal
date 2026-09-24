@@ -38,5 +38,3 @@ Now I'm wondering if I'm going about this all wrong. Understand, I've never real
 >        anything about his future. (Ecc. 7.14)
 
  This is so true. I wish I had some inquisitive things to say about all this, but at the moment that's what I got.
-
-![](https://blogger.googleusercontent.com/tracker/8579765079349674460-1985176613039159359?l=ktallred.blogspot.com)

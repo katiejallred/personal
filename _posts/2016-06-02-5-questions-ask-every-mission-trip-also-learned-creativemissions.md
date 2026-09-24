@@ -13,6 +13,7 @@ tags:
 - faith
 wordpress_id: 1633
 image: /assets/uploads/2016/06/13268596_10208253057216545_4445114709508466584_o.jpg
+featured_image_alt: "A mission trip team posing together outdoors on a rocky shore"
 description: "What I learned serving churches with my web and marketing skills on Creative Missions, plus five questions to ask after any mission trip."
 ---
 

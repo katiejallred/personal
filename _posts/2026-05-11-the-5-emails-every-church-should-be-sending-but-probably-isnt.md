@@ -13,6 +13,7 @@ tags:
 - email marketing
 wordpress_id: 3750
 image: /assets/uploads/2026/05/katiejallred_A_cozy_home_office_desk_scene_persons_hands_hold_3dcab401-4da2-4203-8b5c-8154dd5f3996_2.png
+featured_image_alt: "Hands holding a mug of coffee and a phone over a cozy blanket"
 ---
 
 Most churches treat email like a digital bulletin — a weekly dump of announcements that goes out on Friday afternoon and gets ignored by Saturday morning. And then they wonder why nobody reads it.

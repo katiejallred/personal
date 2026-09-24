@@ -63,5 +63,3 @@ CITER and more coming your way.
 
 If you want to practice subnetting the best thing I've found is: <http://faculty.valleycollege.net/rpowell/jscript/subnet2.htm>  
 It will automatically generate a problem and let you input the solution.
-
-![](https://blogger.googleusercontent.com/tracker/8211801277441843385-6142576003824254073?l=katiejallred.blogspot.com)

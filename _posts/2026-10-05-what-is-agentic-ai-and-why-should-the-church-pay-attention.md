@@ -14,6 +14,7 @@ tags:
 - productivity
 wordpress_id: 3804
 image: /assets/uploads/2026/10/unsplash-_Itku5P5lfE.jpg
+featured_image_alt: "A black and white image of a humanoid robot"
 scheduled: true
 ---
 

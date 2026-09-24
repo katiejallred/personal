@@ -14,6 +14,7 @@ tags:
 wordpress_id: 523
 description: SEO, or Search Engine Optimization, can be a very confusing subject to study at first; however, it’s not really that confusing at all!
 image: /assets/uploads/2013/05/Shopping-centre-free-license-CC0-min-scaled.jpg
+featured_image_alt: "A city street at dusk with blurred storefront lights"
 ---
 
 SEO, or Search Engine Optimization, can be a very confusing subject to study at first; however, it’s not really that confusing at all! If you approach SEO, the way that you would commonly search for things, you’ll soon find out that you already know a lot more about optimizing sites for search engines than you thought.

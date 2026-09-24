@@ -14,6 +14,7 @@ tags:
 - ChatGPT
 wordpress_id: 3798
 image: /assets/uploads/2026/04/unsplash-xvdkNBaja90.jpg
+featured_image_alt: "A phone showing the ChatGPT introduction page, resting on an open book"
 ---
 
 Somewhere in the last two years, the AI tool landscape went from "there's ChatGPT" to "there are seventeen different tools and I have no idea which one to use." If that's where you are, you're not alone — and this post is for you.

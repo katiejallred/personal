@@ -25,7 +25,7 @@ If there are **nonprofit discounts** that I missed, please let me know in the co
 
 ### Nonprofit Discounts for Social Media Management
 
-![](/assets/uploads/2017/04/hootsuite-vs-buffer-vs-sprout-social.jpg)
+![Hootsuite, Buffer, and Sprout Social logos side by side](/assets/uploads/2017/04/hootsuite-vs-buffer-vs-sprout-social.jpg)
 
 - [Hootsuite](http://hootsuite.com) | 20% discount | Find out more [here](https://hootsuite.com/about/hootgiving?hootPostID=fd0d03760f23f9f1fe7a93ed02fbfded).
 - [Buffer](http://buffer.com) | 50% discount | Find out more [here](https://bufferapp.com/nonprofits).

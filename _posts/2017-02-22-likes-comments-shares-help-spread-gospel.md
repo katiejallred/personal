@@ -14,6 +14,7 @@ tags:
 - Facebook
 wordpress_id: 2054
 image: /assets/uploads/2017/02/StockSnap_RALDM02X8S-1-scaled.jpg
+featured_image_alt: "A computer monitor and mouse on a desk"
 description: "How likes, comments, and shares extend your church's reach on social media, and how to create engaging content that people interact with."
 ---
 

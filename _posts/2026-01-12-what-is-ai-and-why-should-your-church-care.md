@@ -13,6 +13,7 @@ tags:
 - digital ministry
 wordpress_id: 3795
 image: /assets/uploads/2026/03/visuals-network-connectivity-ynexm9lwlwgu4z1qns.gif
+featured_image_alt: "An abstract network of glowing green lines and points"
 ---
 
 I know what some of you are thinking. "AI is a tech thing. I'm a church person. These worlds don't overlap for me." I thought that once too — right up until I realized I'd been using AI every single day without knowing it.

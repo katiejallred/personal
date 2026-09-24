@@ -15,6 +15,7 @@ tags:
 - SEO
 wordpress_id: 3767
 image: /assets/uploads/2026/03/4841635.jpeg
+featured_image_alt: "A tablet, stylus, and earbuds on a wooden desk"
 ---
 
 When I was nine years old, I started a Harry Potter forum with some friends from around the world. We had no idea what we were doing — we were just kids who loved books and wanted to find other kids who did too. But what we accidentally created was an online community, a place where people felt less alone.

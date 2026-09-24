@@ -14,6 +14,7 @@ tags:
 - church leadership
 wordpress_id: 3796
 image: /assets/uploads/2026/03/6157258.jpg
+featured_image_alt: "Feet in sneakers balancing on a rail on a forest path"
 ---
 
 Here’s something that doesn’t come up enough in conversations about AI: it can be wrong in ways that matter deeply to the church’s mission.

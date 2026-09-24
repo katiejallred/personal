@@ -13,6 +13,7 @@ tags:
 wordpress_id: 1335
 seo_title: List of Affordable (and Powerful!) Email Tools
 image: /assets/uploads/2015/09/negativespace2-2-min-scaled.jpg
+featured_image_alt: "A notebook, pen, phone, and laptop on a white desk"
 description: "MailChimp, MailerLite, GetResponse, Drip and more, compared on price, features, and nonprofit discounts for churches and ministries."
 ---
 

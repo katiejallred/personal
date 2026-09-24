@@ -14,6 +14,7 @@ wordpress_id: 572
 description: More than enough information to get your grilling in no time! Got a question? Ask in the comments!
 seo_title: How to Grill Steak
 image: /assets/uploads/2013/05/steaks-scaled.jpg
+featured_image_alt: "A steak searing on a grill over hot coals"
 ---
 
 [![How to Grill Steak](/assets/uploads/2013/05/BuRuDZ1369767856.jpg "How to Grill Steak")](/assets/uploads/2013/05/BuRuDZ1369767856.jpg)
@@ -26,7 +27,7 @@ Until Memorial Day this past weekend, I had never grilled a steak before, but it
 
 Marinate your steaks for 30 minutes or more. Don't wait. Do it now. I used Dale's. If you don't have Dale's... Bless your heart.
 
-Buy some on Amazon -[Dale's Liquid Steak Seasoning - 16 oz](http://www.amazon.com/gp/product/B001BCSU08/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001BCSU08&linkCode=as2&tag=kajal04-20)![](http://www.assoc-amazon.com/e/ir?t=kajal04-20&l=as2&o=1&a=B001BCSU08)
+Buy some on Amazon -[Dale's Liquid Steak Seasoning - 16 oz](http://www.amazon.com/gp/product/B001BCSU08/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001BCSU08&linkCode=as2&tag=kajal04-20)
 
 [Dr. Henderson, a great math professor and grillmaster that I aspire to be](http://www.tlhiv.org/), told me on facebook that, "you might find that coarse kosher salt and coarse ground pepper is all that is needed." And that is true as well.
 

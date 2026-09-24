@@ -22,7 +22,7 @@ Open your first slideshow.
 
 Click the Slide Show tab on the ribbon > Click Set Up Slideshow > Click Present by Speaker (Full Screen)
 
-[![](/assets/uploads/2012/09/powerpoint3.jpeg "powerpoint3")](/assets/uploads/2012/09/powerpoint3.jpeg)
+[![PowerPoint Slide Show tab with the Set Up Slide Show button](/assets/uploads/2012/09/powerpoint3.jpeg "powerpoint3")](/assets/uploads/2012/09/powerpoint3.jpeg)
 
 Open your second slideshow. Drag it to the other window. Set that window in the Slide Show tab to "Show On" that monitor.
 

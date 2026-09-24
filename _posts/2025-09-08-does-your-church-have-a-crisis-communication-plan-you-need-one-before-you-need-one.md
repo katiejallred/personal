@@ -15,6 +15,7 @@ tags:
 - church leadership
 wordpress_id: 3773
 image: /assets/uploads/2025/09/unsplash-TOg6IbH2bDk.jpg
+featured_image_alt: "Three people in a serious conversation around a table in a meeting room"
 ---
 
 Let me paint a scenario: It's a Tuesday morning. A screenshot surfaces on social media of something your lead pastor said three years ago. Within two hours, it's been shared 200 times. Your inbox is filling up. Your phone is ringing. Someone from your congregation is already posting about it publicly.

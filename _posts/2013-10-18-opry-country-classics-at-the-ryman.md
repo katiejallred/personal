@@ -15,6 +15,6 @@ wordpress_id: 774
 description: "A photo from Opry Country Classics at the Ryman Auditorium in Nashville."
 ---
 
-![](/assets/uploads/2013/10/wpid-52608601eeb721.013022201.jpg)
+![A performer on stage under purple lights at Opry Country Classics in the Ryman Auditorium](/assets/uploads/2013/10/wpid-52608601eeb721.013022201.jpg)
 
 Opry Country Classics at the Ryman

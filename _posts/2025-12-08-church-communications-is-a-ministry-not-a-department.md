@@ -14,6 +14,7 @@ tags:
 - storytelling
 wordpress_id: 3776
 image: /assets/uploads/2025/12/unsplash-Sghh8m8lM6Y.jpg
+featured_image_alt: "A worship service crowd with a raised hand in front of a stage"
 ---
 
 As this year winds down, I want to say something to every person who spends their days writing church emails no one reads, fixing graphics at 11 PM, managing the social media comments section, and holding the communication thread of a dozen ministries together with nothing but caffeine and grace:

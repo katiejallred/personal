@@ -14,6 +14,7 @@ tags:
 - design
 wordpress_id: 3766
 image: /assets/uploads/2026/03/15260921.png
+featured_image_alt: "The Starbucks logo on the side of a building"
 ---
 
 Let me say something that might ruffle a few feathers: your church already has a brand. You didn't choose it. You may not even like it. But it exists, in the minds of everyone who's ever driven past your building, visited your website, or heard your name mentioned at a backyard barbecue.

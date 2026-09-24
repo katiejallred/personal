@@ -15,6 +15,7 @@ wordpress_id: 752
 description: Best local restaurants and food trucks in Nashville, TN with links to restaurant's websites.
 seo_title: Places to Eat in Nashville
 image: /assets/uploads/2013/10/loveless.jpg
+featured_image_alt: "The neon Loveless Cafe and Motel sign in Nashville"
 ---
 
 **New to Nashville? Me too!** This is a list of tried and true, authentic and only in Nashville (or a "few" select places) restaurants, eateries, and coffee shops.

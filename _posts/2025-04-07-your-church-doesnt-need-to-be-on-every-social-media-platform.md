@@ -15,6 +15,7 @@ tags:
 - Instagram
 wordpress_id: 3768
 image: /assets/uploads/2026/03/998990.jpg
+featured_image_alt: "Social media app icons on a phone screen, including Facebook, Instagram, LinkedIn, and YouTube"
 ---
 
 I talk to a lot of church communicators who are exhausted. They're posting on Facebook, Instagram, Twitter, TikTok, YouTube, LinkedIn, and Pinterest, and doing all of it poorly because they're spread so thin they can't keep up with any of it.

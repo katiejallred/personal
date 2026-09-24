@@ -16,7 +16,7 @@ description: "Before you learn subnetting, master binary to decimal conversion. 
 
 Before you even attempt subnetting please be overly confident in your ability to convert binary to decimal and vice versa. The easiest way I've found is this method.
 
-[![](/assets/uploads/2012/08/coollogo_com-5101882.png "Binary Conversion")](/assets/uploads/2012/08/coollogo_com-5101882.png)
+[!["Binary Conversion" in red and yellow letters on a blue sunburst](/assets/uploads/2012/08/coollogo_com-5101882.png "Binary Conversion")](/assets/uploads/2012/08/coollogo_com-5101882.png)
 
 So you have the number 76 in decimal and you want it in binary, well binary is broken into 8 bits of ones and zeros. Each one or zero represents whether that number is turned on or not. The following numbers never change. The easiest way for me to remember these numbers is to just add 1+1=2, 2+2=4, 4+4=8, 8+8=16, 16+16=32, 32+32=64, 64+64-128
 
@@ -54,5 +54,3 @@ A great place to practice is <http://acc6.its.brooklyn.cuny.edu/~gurwitz/core5/
 The quiz there automatically generates a random number and lets you input your answer and check if it's right!
 
 Well, I hope this helps on your quest to figure out subnetting. The next part will be a little more indepth.
-
-![](https://blogger.googleusercontent.com/tracker/8211801277441843385-900213475625247824?l=katiejallred.blogspot.com)

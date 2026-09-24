@@ -15,6 +15,7 @@ tags:
 - church leadership
 wordpress_id: 3775
 image: /assets/uploads/2025/11/unsplash-gc3MKGke_9g.jpg
+featured_image_alt: "An open blank notebook and pen beside a keyboard"
 ---
 
 The first ninety days in a new church communications role can feel like drinking from a fire hose. Every ministry wants their thing promoted. You don't know where the logo files are. You're not sure what decisions you have authority to make. And Sunday keeps coming.

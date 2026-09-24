@@ -14,6 +14,7 @@ tags:
 - social media
 wordpress_id: 1515
 image: /assets/uploads/2016/01/child-on-iphone-scaled.jpg
+featured_image_alt: "A child in a hoodie playing on a smartphone"
 description: "Eight practical tips to help parents take an active role in their kids' online lives and keep them safe on social media."
 ---
 

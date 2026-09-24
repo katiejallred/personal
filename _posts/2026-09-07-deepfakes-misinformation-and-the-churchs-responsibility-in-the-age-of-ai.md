@@ -16,6 +16,7 @@ tags:
 - church leadership
 wordpress_id: 3803
 image: /assets/uploads/2026/09/unsplash-izRQ870yJO8.jpg
+featured_image_alt: "A stack of folded newspapers"
 scheduled: true
 ---
 
