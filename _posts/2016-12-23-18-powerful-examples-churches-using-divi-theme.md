@@ -17,7 +17,9 @@ description: Divi is the easiest Wordpress theme for churches! Here are 18 power
 image: /assets/uploads/2016/12/CHURCHES-USING-THE-DIVI-THEME.jpg
 ---
 
-I've talked about the Divi Wordpress theme MULTIPLE times on my blog. I actually just switched my blog to Divi. I love it! It's one of the best and easiest themes to use for Wordpress.
+*This post contains affiliate links to Elegant Themes. If you buy through them, I earn a small commission at no extra cost to you. [Affiliate disclosure](/affiliate-disclosure/)*
+
+I've talked about the [Divi Wordpress theme](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} MULTIPLE times on my blog. I actually just switched my blog to Divi. I love it! It's one of the best and easiest themes to use for Wordpress.
 
 Before in my post, I would take a screenshot and then link over to the church using the Divi Wordpress theme. I thought I would do it differently this time by listing them all first so you can open your multiple browser windows and then I would post all of the screenshots.
 
@@ -40,7 +42,7 @@ Before in my post, I would take a screenshot and then link over to the church us
 17. [Highland Village Church](http://www.hvchurch.com/)
 18. [Tabernacle Family](http://tabernaclefamily.org/)
 
-I recommend buying the LIFETIME edition. You know why? Because you don't have to pay for updates and support EVER AGAIN. That saves you tons!
+I recommend buying the [LIFETIME edition](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}. You know why? Because you don't have to pay for updates and support EVER AGAIN. That saves you tons!
 
 Here are the screenshots of the websites as of December 23, 2016.
 
