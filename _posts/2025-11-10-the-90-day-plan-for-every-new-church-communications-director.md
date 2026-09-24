@@ -5,6 +5,7 @@ date: '2025-11-10 08:00:00'
 last_modified_at: '2026-03-30 03:26:51'
 author: Katie Allred
 permalink: /the-90-day-plan-for-every-new-church-communications-director/
+description: "New church communications director? Slow down before you speed up. A 90-day plan: audit, gather collateral, survey your congregation, then build the calendar."
 categories:
 - Church Communications
 tags:

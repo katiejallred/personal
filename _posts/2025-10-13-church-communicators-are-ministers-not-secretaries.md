@@ -5,6 +5,7 @@ date: '2025-10-13 08:00:00'
 last_modified_at: '2026-03-30 03:26:51'
 author: Katie Allred
 permalink: /church-communicators-are-ministers-not-secretaries/
+description: "Church communicators belong in the room where decisions are made. How to be the audience's voice, earn your senior pastor's buy-in, and build your team."
 categories:
 - Church Communications
 tags:

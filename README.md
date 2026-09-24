@@ -15,9 +15,10 @@ bundle exec jekyll build          # output to _site/
 
 ```
 _config.yml        Site metadata, contact details, permalinks, plugins
-_data/             navigation, social links (fixed order), hero links
+_data/             navigation, social links (fixed order), hero links,
+                   books, schema (facts for structured data)
 _layouts/          default, page, post, home, landing, legal, blank
-_includes/         header, footer, post-card, pagination
+_includes/         header, footer, seo, faq, author-card, related-posts…
 .github/workflows/ pages.yml builds and deploys to GitHub Pages
 _posts/            Published posts (YYYY-MM-DD-slug.md)
 _drafts/           Undated drafts, only built with --drafts
@@ -55,6 +56,29 @@ For any other Amazon product, link with
   Associate I earn from qualifying purchases"): at the top of posts, above
   the footer on other pages. To place it yourself, include it and set
   `affiliate_note: inline`; to opt a page out, set `affiliate_links: false`.
+
+## SEO and answer engines
+
+`_includes/seo.html` writes every page's `<title>`, meta description,
+canonical URL, Open Graph and X card tags, and a JSON-LD graph that links
+the page to Katie (`Person`), her business (`ProfessionalService`) and the
+site (`WebSite`), plus `BlogPosting` and breadcrumbs on posts. The facts
+behind it (bio, job title, topics, business address) live in
+`_data/schema.yml`; keep them in step with the press kit.
+
+Front matter it reads: `seo_title` (the full `<title>`), `description`
+(write one for every page and new post, about 150 characters, otherwise
+the first paragraph is used), `image` (share image, otherwise Katie's
+headshot), `schema_type` (`ProfilePage`, `ContactPage`, `CollectionPage`…),
+`schema_books: true` (describe `_data/books.yml` as `Book`s), and
+`noindex: true`. A page's `faq:` list of `q`/`a` pairs renders through
+`{% include faq.html %}` and becomes `FAQPage` data, so questions shown on
+the page and what search and AI engines read stay identical.
+
+`/llms.txt` is a plain-text summary of Katie, her key pages, books and
+recent writing for AI assistants, built from the same data. `robots.txt`
+allows all crawlers and points to the sitemap. Posts end with an author
+card and up to three related posts from the same category.
 
 ## Deploying
 

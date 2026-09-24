@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="article" itemscope itemtype="https://schema.org/BlogPosting">
+<article class="article">
   <header>
     {%- if page.categories.size > 0 %}
     <p class="label">
@@ -11,15 +11,17 @@ layout: default
       {%- endfor -%}
     </p>
     {%- endif %}
-    <h1 class="article-title" itemprop="headline">{{ page.title }}</h1>
+    <h1 class="article-title">{{ page.title }}</h1>
     <p class="article-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: "%B %-d, %Y" }}
       </time>
-      {%- assign author = page.author | default: site.author.name -%}
-      {%- if author %}
-      · <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ author }}</span></span>
+      {%- assign published_day = page.date | date: "%Y-%m-%d" -%}
+      {%- assign updated_day = page.last_modified_at | date: "%Y-%m-%d" -%}
+      {%- if page.last_modified_at and updated_day > published_day %}
+      · Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time>
       {%- endif %}
+      · by <a href="{{ '/about/' | relative_url }}" rel="author">{{ page.author | default: site.author.name }}</a>
       {% assign words = content | strip_html | number_of_words -%}
       · <span class="reading-time">{{ words | divided_by: 200 | at_least: 1 }} min read</span>
     </p>
@@ -28,11 +30,11 @@ layout: default
   {%- assign featured = page.image | default: page.featured_image -%}
   {%- if featured %}
   <figure class="article-image">
-    <img src="{{ featured | relative_url }}" alt="{{ page.featured_image_alt | default: '' }}">
+    <img src="{{ featured | relative_url }}" alt="{{ page.featured_image_alt | default: '' }}" fetchpriority="high">
   </figure>
   {%- endif %}
 
-  <div class="prose" itemprop="articleBody">
+  <div class="prose">
     {%- if page.affiliate_links %}
     {% include affiliate-note.html %}
     {%- endif %}
@@ -48,6 +50,10 @@ layout: default
       {%- endfor %}
     </ul>
     {%- endif %}
+
+    {% include author-card.html %}
+
+    {% include related-posts.html %}
 
     <nav class="post-nav" aria-label="Post navigation">
       {%- if page.previous.url %}

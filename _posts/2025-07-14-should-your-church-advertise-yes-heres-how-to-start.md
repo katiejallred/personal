@@ -5,6 +5,7 @@ date: '2025-07-14 08:00:00'
 last_modified_at: '2026-03-30 03:26:51'
 author: Katie Allred
 permalink: /should-your-church-advertise-yes-heres-how-to-start/
+description: "Advertising isn't selling out. It's stewardship. The difference between marketing and advertising, a 7-step church ad plan, and the free options to try first."
 categories:
 - Church Communications
 tags:

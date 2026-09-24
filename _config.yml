@@ -1,6 +1,6 @@
 # Site metadata
 title: Katie Allred
-description: >- # used by jekyll-seo-tag and the feed
+description: >- # used by _includes/seo.html and the feed
   Community strategist, AI educator, and consultant. Helping organizations
   harness AI and community to create meaningful connections at scale.
 url: "" # set at build time by the Pages workflow; e.g. https://www.katieallred.com
@@ -73,7 +73,6 @@ defaults:
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -90,4 +89,5 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+  - CLAUDE.md
   - vendor/

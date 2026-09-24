@@ -5,6 +5,7 @@ date: '2025-03-10 08:00:00'
 last_modified_at: '2026-03-30 03:26:50'
 author: Katie Allred
 permalink: /digital-ministry-is-real-ministry-why-online-outreach-matters-for-the-church/
+description: "People are online, so the church should be too. Why digital ministry is real ministry, what digital marketing means for churches, and where to start."
 categories:
 - Church Communications
 tags:

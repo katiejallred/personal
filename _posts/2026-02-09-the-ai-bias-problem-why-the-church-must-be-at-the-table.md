@@ -5,6 +5,7 @@ date: '2026-02-09 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /the-ai-bias-problem-why-the-church-must-be-at-the-table/
+description: "AI can be wrong in ways that matter to the church's mission. Where AI bias comes from, why it's an ethical issue, and practical steps your church can take."
 categories:
 - AI & Tech
 tags:

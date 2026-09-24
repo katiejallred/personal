@@ -5,6 +5,7 @@ date: '2026-09-07 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /deepfakes-misinformation-and-the-churchs-responsibility-in-the-age-of-ai/
+description: "Deepfakes and misinformation spread fast in church group chats. What they are, why the church must respond, and why media literacy is discipleship."
 categories:
 - AI & Tech
 - Media Literacy

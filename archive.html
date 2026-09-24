@@ -4,6 +4,7 @@ title: Archive
 permalink: /archive/
 description: "Every post since 2009, grouped by year."
 eyebrow: The blog
+schema_type: CollectionPage
 ---
 
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}

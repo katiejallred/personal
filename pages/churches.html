@@ -6,6 +6,17 @@ last_modified_at: '2026-09-24'
 wordpress_id: 3955
 description: Secret shopper visits, AI staff training, AI policies, communication audits, and church websites built for churches of every size. Packages start at $399.
 seo_title: Church Communications & AI Training | Katie Allred
+faq:
+  - q: "Do you work with small churches or only large ones?"
+    a: "All sizes. Whether you have one person doing everything or a full communications team, every engagement is scoped to fit your context."
+  - q: "We're on a tight budget. Is any of this affordable?"
+    a: "Yes. The Digital Secret Shopper is $399 and AI Basics is $500. For budget-conscious churches, those are often the best places to start: high value, low cost, and clear next steps. Church websites start at $7,000."
+  - q: "What does a \"secret shopper\" actually look at?"
+    a: "Digital: your website, social media, email, and online first impression. On-site: the full guest experience from the parking lot to after the service, seen through a first-timer's eyes. Either way, you get a written report with specific, actionable feedback."
+  - q: "How long do engagements take?"
+    a: "Digital Secret Shopper: 1–2 weeks. Communication Audit: 2–3 weeks. AI Policy Writing: about a week. Training workshops are usually scheduled within 4–6 weeks, and preaching or teaching depends on availability."
+  - q: "Can you work with churches outside Nashville?"
+    a: "Absolutely. Digital services are fully remote. On-site secret shopper visits and preaching or teaching require travel, which is included in or added to the quote depending on location."
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 
@@ -316,26 +327,7 @@ seo_title: Church Communications & AI Training | Katie Allred
       <p class="label">Questions</p>
       <h2 class="section-title" id="faq-title">Frequently asked questions</h2>
     </header>
-    <details>
-      <summary>Do you work with small churches or only large ones?</summary>
-      <p>All sizes. Whether you have one person doing everything or a full communications team, every engagement is scoped to fit your context.</p>
-    </details>
-    <details>
-      <summary>We're on a tight budget. Is any of this affordable?</summary>
-      <p>Yes. The Digital Secret Shopper is $399 and AI Basics is $500. For budget-conscious churches, those are often the best places to start: high value, low cost, and clear next steps. Church websites start at $7,000.</p>
-    </details>
-    <details>
-      <summary>What does a "secret shopper" actually look at?</summary>
-      <p>Digital: your website, social media, email, and online first impression. On-site: the full guest experience from the parking lot to after the service, seen through a first-timer's eyes. Either way, you get a written report with specific, actionable feedback.</p>
-    </details>
-    <details>
-      <summary>How long do engagements take?</summary>
-      <p>Digital Secret Shopper: 1–2 weeks. Communication Audit: 2–3 weeks. AI Policy Writing: about a week. Training workshops are usually scheduled within 4–6 weeks, and preaching or teaching depends on availability.</p>
-    </details>
-    <details>
-      <summary>Can you work with churches outside Nashville?</summary>
-      <p>Absolutely. Digital services are fully remote. On-site secret shopper visits and preaching or teaching require travel, which is included in or added to the quote depending on location.</p>
-    </details>
+    {%- include faq.html %}
   </div>
 </section>
 

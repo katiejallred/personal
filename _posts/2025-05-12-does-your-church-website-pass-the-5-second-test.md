@@ -5,6 +5,7 @@ date: '2025-05-12 08:00:00'
 last_modified_at: '2026-03-30 03:26:50'
 author: Katie Allred
 permalink: /does-your-church-website-pass-the-5-second-test/
+description: "Can a visitor tell what your church is about, when you meet, and where in five seconds? The five things every church website needs, and the step most skip."
 categories:
 - Church Communications
 tags:

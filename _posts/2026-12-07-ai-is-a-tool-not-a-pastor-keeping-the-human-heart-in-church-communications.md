@@ -5,6 +5,7 @@ date: '2026-12-07 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /ai-is-a-tool-not-a-pastor-keeping-the-human-heart-in-church-communications/
+description: "AI can't sit with the grieving or pray with the hurting. Why the human heart still matters most in church communications, and what AI frees you to do instead."
 categories:
 - AI & Tech
 - Church Communications

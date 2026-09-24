@@ -1,0 +1,13 @@
+{%- comment -%}
+  "About the author" box at the end of posts. Tells readers, search engines
+  and AI answer engines who wrote the post and why she's worth listening to.
+{%- endcomment -%}
+<aside class="card author-card" aria-labelledby="author-card-title">
+  <img class="author-card-photo" src="{{ '/assets/images/headshots/katie-allred-avatar.jpg' | relative_url }}" alt="Katie Allred" width="576" height="576" loading="lazy" decoding="async">
+  <div>
+    <p class="label">About the author</p>
+    <h2 class="author-card-name" id="author-card-title"><a href="{{ '/about/' | relative_url }}" rel="author">{{ site.data.schema.person.name }}</a></h2>
+    <p>Katie is a community strategist, AI educator, and author of <cite>Church Communications: Methods and Marketing</cite>. She helps churches, nonprofits, and mission-driven teams build real community and use AI in ways that free up time for people.</p>
+    <p class="author-card-links"><a href="{{ '/about/' | relative_url }}">More about Katie</a> · <a href="{{ site.contact.booking | relative_url }}">Book a call</a></p>
+  </div>
+</aside>
