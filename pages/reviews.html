@@ -9,13 +9,24 @@ seo_title: Reviews - Katie Allred
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 {%- assign featured = nil -%}
+{%- assign review_count = 0 -%}
+{%- assign rated_count = 0 -%}
+{%- assign rating_total = 0 -%}
+{%- assign orgs = "" | split: "" -%}
 {%- for group in site.data.reviews -%}
   {%- for r in group.reviews -%}
     {%- if r.featured -%}{%- assign featured = r -%}{%- endif -%}
+    {%- assign review_count = review_count | plus: 1 -%}
+    {%- if r.rating -%}
+      {%- assign rated_count = rated_count | plus: 1 -%}
+      {%- assign rating_total = rating_total | plus: r.rating -%}
+    {%- endif -%}
+    {%- if r.org -%}{%- assign orgs = orgs | push: r.org -%}{%- endif -%}
   {%- endfor -%}
 {%- endfor -%}
+{%- assign orgs = orgs | uniq -%}
 
-<section class="hero page-hero" aria-labelledby="hero-title">
+<section class="hero home-hero reviews-hero" aria-labelledby="hero-title">
   <div class="wrap">
     <div>
       <p class="label home-hero-label">Reviews &amp; testimonials</p>
@@ -25,6 +36,19 @@ seo_title: Reviews - Katie Allred
         <a class="btn btn-blue" href="{{ book }}">Book a free call →</a>
         <a class="aside" href="#{{ site.data.reviews.first.id }}-title">read what they said ↓</a>
       </div>
+    </div>
+    <div class="reach-card review-summary">
+      <p class="review-summary-count"><strong>{{ review_count }}</strong> reviews</p>
+      {%- if rated_count > 0 %}
+      {%- assign avg = rating_total | times: 1.0 | divided_by: rated_count | round: 1 %}
+      <p class="reach-reply"><span aria-hidden="true">★★★★★</span> {{ avg }} average across {{ rated_count }} workshop evaluations</p>
+      {%- endif %}
+      <p class="reach-kind">From people at</p>
+      <ul class="chip-row review-summary-orgs">
+        {%- for org in orgs %}
+        <li class="chip">{{ org | escape }}</li>
+        {%- endfor %}
+      </ul>
     </div>
   </div>
   <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
@@ -69,6 +93,9 @@ seo_title: Reviews - Katie Allred
       {%- endunless %}
       {%- endfor %}
     </div>
+    {%- if group.cta_url %}
+    <p class="section-cta"><a href="{{ group.cta_url | relative_url }}">{{ group.cta_text | escape }} →</a></p>
+    {%- endif %}
   </div>
 </section>
 {%- endfor %}
