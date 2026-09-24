@@ -77,7 +77,10 @@ the page and what search and AI engines read stay identical.
 
 `/llms.txt` is a plain-text summary of Katie, her key pages, books and
 recent writing for AI assistants, built from the same data. `robots.txt`
-allows all crawlers and points to the sitemap. Posts end with an author
+blocks crawlers that only gather AI training data (GPTBot, ClaudeBot,
+Google-Extended, CCBot…) and allows search engines and AI search bots
+(Googlebot, Bingbot, OAI-SearchBot, Claude-SearchBot, PerplexityBot…), so
+the site can still be found and cited. Posts end with an author
 card and up to three related posts from the same category.
 
 ## Deploying
