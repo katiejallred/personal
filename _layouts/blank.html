@@ -18,6 +18,9 @@
 <body class="blank">
   <main id="main-content">
     {{ content }}
+    {%- if page.affiliate_links and page.affiliate_note != 'inline' %}
+    {% include affiliate-note.html class="affiliate-note-center" %}
+    {%- endif %}
   </main>
 </body>
 </html>

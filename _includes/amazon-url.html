@@ -1,0 +1,5 @@
+{%- comment -%}
+  Affiliate link to an Amazon product. Usage:
+    <a href="{% include amazon-url.html asin="1087730171" %}" rel="sponsored nofollow noopener">…</a>
+{%- endcomment -%}
+https://www.amazon.com/dp/{{ include.asin }}/?tag={{ site.amazon.tag }}

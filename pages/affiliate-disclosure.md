@@ -4,7 +4,7 @@ title: Affiliate Disclosure
 hero_title: Affiliate <em>disclosure</em>.
 permalink: /affiliate-disclosure/
 updated: 2026-01-01
-last_modified_at: '2026-03-29 21:19:50'
+last_modified_at: '2026-09-24'
 wordpress_id: 3710
 description: Katie Allred may earn a commission on products recommended on this site at no extra cost to you.
 seo_title: Affiliate Disclosure - Katie Allred
@@ -17,6 +17,10 @@ summary: >-
 ## What are affiliate links?
 
 Some links on katieallred.com are affiliate links. If you click one and make a purchase, I may receive a small commission from the retailer, **at no additional cost to you**. The price you pay is the same whether you use my link or not.
+
+## Amazon Associates
+
+Katie Allred is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. **As an Amazon Associate I earn from qualifying purchases.** That includes links to my own books.
 
 ## FTC disclosure
 

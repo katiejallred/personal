@@ -23,6 +23,11 @@
 
   <main id="main-content">
     {{ content }}
+    {%- if page.affiliate_links and page.layout != 'post' and page.affiliate_note != 'inline' %}
+    <div class="affiliate-band">
+      <div class="wrap">{% include affiliate-note.html %}</div>
+    </div>
+    {%- endif %}
   </main>
 
   {% include footer.html %}

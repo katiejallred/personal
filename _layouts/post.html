@@ -33,6 +33,9 @@ layout: default
   {%- endif %}
 
   <div class="prose" itemprop="articleBody">
+    {%- if page.affiliate_links %}
+    {% include affiliate-note.html %}
+    {%- endif %}
     {{ content }}
   </div>
 

@@ -1,0 +1,35 @@
+# Katie's books. Covers live in assets/images/books/. Buy links are built
+# from `asin` and site.amazon.tag by _includes/amazon-url.html, so every
+# link carries the affiliate tag; don't paste raw Amazon URLs here.
+- title: "Church Communications: Methods and Marketing"
+  asin: "1087730171"
+  cover: /assets/images/books/church-communications.jpg
+  cover_width: 324
+  cover_height: 500
+  meta: B&amp;H Academic · 2022
+  badge: The textbook
+  blurb: >-
+    The textbook for church communications programs: strategy, branding,
+    social, websites, PR, crisis communications, and leading a team. Used at
+    universities and seminaries.
+
+- title: AI Prompts for Church Leaders
+  asin: "1735196002"
+  cover: /assets/images/books/ai-prompts-for-church-leaders.jpg
+  cover_width: 333
+  cover_height: 500
+  meta: With Dr. David Thorne · 2025
+  badge: Amazon best seller
+  blurb: >-
+    Ready-to-use AI prompts for sermon prep, content, and outreach that keep
+    the personal touch that makes ministry transformative.
+
+- title: Instagram Posts That Worked
+  asin: "1735196029"
+  cover: /assets/images/books/instagram-posts-that-worked.jpg
+  cover_width: 333
+  cover_height: 500
+  meta: With Kenny Jahng · 2020
+  blurb: >-
+    Real-life examples from church communicators across the country, and
+    what made their posts drive real engagement.
