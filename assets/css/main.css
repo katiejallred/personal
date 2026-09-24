@@ -2482,3 +2482,44 @@ code, pre, kbd, samp {
   padding: 0 var(--gutter);
   text-align: center;
 }
+
+/* --- Services --- */
+.services-hero .hero-title {
+  max-width: 13ch;
+  font-size: clamp(44px, 6.5vw, 72px);
+}
+
+.offer-grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+}
+
+.offer-cta {
+  margin-top: auto;
+  padding-top: var(--space-3);
+  border-top: 2px solid var(--blush);
+  font-weight: 700;
+  color: var(--red);
+  text-decoration: none;
+}
+
+.offer-cta:hover,
+.offer-cta:focus-visible {
+  text-decoration: underline;
+}
+
+/* In-page jump targets clear the top of the viewport. */
+#svc-audits,
+#svc-ai,
+#svc-workshops,
+#svc-web,
+#svc-community,
+#svc-training,
+#svc-websites {
+  scroll-margin-top: var(--space-4);
+}
+
+@media (max-width: 899px) {
+  .services-hero .home-hero-photo {
+    width: min(55%, 240px);
+  }
+}
