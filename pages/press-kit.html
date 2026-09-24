@@ -7,7 +7,7 @@ wordpress_id: 3125
 description: Official bios, high-res headshots, speaking topics, books, and booking details for Katie Allred, for event organizers, podcasts, and media.
 seo_title: Press Kit | Katie Allred
 ---
-{%- assign book = site.contact.booking -%}
+{%- assign book = site.contact.booking | relative_url -%}
 
 <section class="hero home-hero" aria-labelledby="hero-title">
   <div class="wrap">

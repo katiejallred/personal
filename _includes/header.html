@@ -9,7 +9,7 @@
         {%- assign item_url = item.url | relative_url %}
         <li><a href="{{ item_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
         {%- endfor %}
-        <li><a class="btn btn-red btn-sm" href="{{ site.contact.booking }}">Book a call</a></li>
+        <li><a class="btn btn-red btn-sm" href="{{ site.contact.booking | relative_url }}">Book a call</a></li>
       </ul>
     </nav>
   </div>

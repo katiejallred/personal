@@ -27,7 +27,8 @@ contact:
   email: katie@katieallred.com
   phone: 205-299-2980
   phone_tel: "+12052992980"
-  booking: https://meetwithkatie.com
+  booking: /schedule-a-call/ # on-site page with the TidyCal embed
+  booking_external: https://meetwithkatie.com
   location: Nolensville, TN
 
 lang: en

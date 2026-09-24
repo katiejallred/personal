@@ -1768,3 +1768,62 @@ code, pre, kbd, samp {
 .card.contact-form-card .label {
   color: var(--red);
 }
+
+/* --- Schedule a call --- */
+.booking-hero .home-hero-photo {
+  width: min(60%, 300px);
+}
+
+.booking-steps {
+  list-style: none;
+  padding: 0;
+  counter-reset: step;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.booking-steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 40px;
+  color: var(--muted);
+}
+
+.booking-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--red);
+  color: var(--on-red);
+  font: 700 14px/1 var(--font-sans);
+}
+
+.booking-steps strong {
+  color: var(--ink);
+}
+
+.card .booking-topics {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.card .booking-topics li {
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--blush);
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.tidycal-embed {
+  min-height: 520px;
+}
