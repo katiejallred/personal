@@ -61,7 +61,6 @@ If you're in the European Union or United Kingdom, I rely on:
 These companies handle information on my behalf. Each has its own privacy policy.
 
 - **GitHub Pages** (site hosting): [GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
-- **Google Fonts** (the site's typefaces load from Google's servers): [Google privacy policy](https://policies.google.com/privacy)
 - **SendFox** (my email list): stores your name and email so I can send newsletters. The sign-up form uses Google reCAPTCHA to block spam. [SendFox privacy policy](https://sendfox.com/privacy)
 - **Tally** (contact and download forms): [Tally privacy policy](https://tally.so/help/privacy-policy)
 - **TidyCal** (booking calls, including [meetwithkatie.com](https://meetwithkatie.com)): collects your name, email, and booking answers, and payment if a session is paid. [TidyCal privacy policy](https://tidycal.com/privacy-policy)
