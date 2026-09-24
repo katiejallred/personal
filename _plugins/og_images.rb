@@ -11,6 +11,8 @@
 # Front matter: `og_title` (card text; otherwise seo_title, then title,
 # minus a leading or trailing "| Katie Allred") and
 # `og_kicker` (the line above it; posts default to their first category).
+# A non-breaking space ("\u00A0" in a double-quoted YAML string) keeps two
+# words on the same line of the card.
 # Set `og_images: false` in _config.yml to turn this off. Needs python3 with
 # Pillow; without them the build warns and pages keep the headshot.
 

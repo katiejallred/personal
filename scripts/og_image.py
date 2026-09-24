@@ -48,8 +48,11 @@ def font(name, size, weight=None):
 
 
 def wrap(draw, text, fnt, width):
+    """Break on plain spaces only, so a non-breaking space keeps words together."""
     lines, line = [], ""
-    for word in text.split():
+    for word in text.split(" "):
+        if not word:
+            continue
         trial = f"{line} {word}".strip()
         if line and draw.textlength(trial, font=fnt) > width * SCALE:
             lines.append(line)
