@@ -968,6 +968,277 @@ code, pre, kbd, samp {
   gap: var(--space-2) 18px;
 }
 
+/* --- StoryBrand home --- */
+.home-hero .label.home-hero-label {
+  color: var(--on-red-soft);
+  margin-bottom: var(--space-3);
+}
+
+.home-hero .aside {
+  text-decoration: none;
+}
+
+.home-hero-photo {
+  margin: 0;
+  justify-self: center;
+  width: min(100%, 380px);
+  transform: rotate(3deg);
+}
+
+.home-hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  border: 6px solid #FFFFFF;
+}
+
+.section-blush {
+  background: var(--blush);
+}
+
+.section-blush + .section,
+.section + .section-blush {
+  border-top: 0;
+}
+
+.card-grid,
+.service-grid,
+.stakes {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.card h3 {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+.card p,
+.card li {
+  color: var(--muted);
+}
+
+.card ul {
+  padding-left: 1.2em;
+}
+
+.card .btn {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.section-kicker {
+  margin-top: var(--space-6);
+  max-width: 48ch;
+  font: 600 28px/32px var(--font-hand);
+  color: var(--red);
+}
+
+.tagline {
+  font-size: 34px;
+  line-height: 38px;
+}
+
+.section-cta {
+  margin-top: var(--space-6);
+}
+
+.guide {
+  display: grid;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .guide {
+    grid-template-columns: 320px 1fr;
+  }
+}
+
+.guide-photo {
+  margin: 0;
+  max-width: 320px;
+}
+
+.guide-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 25%;
+  border-radius: var(--radius-card);
+}
+
+.guide-lede {
+  margin-top: var(--space-4);
+  max-width: 62ch;
+}
+
+.stat-row {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-6);
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.stat-row strong {
+  display: block;
+  font: 800 40px/1 var(--font-display);
+  color: var(--red);
+  letter-spacing: -0.03em;
+}
+
+.guide-book {
+  margin-top: var(--space-4);
+}
+
+.testimonial {
+  margin: var(--space-6) 0 var(--space-4);
+  padding: var(--space-4);
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.testimonial footer {
+  margin-top: var(--space-3);
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.plan-steps {
+  list-style: none;
+  padding: 0;
+  counter-reset: step;
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+}
+
+.plan-steps li {
+  counter-increment: step;
+}
+
+.plan-steps li::before {
+  content: counter(step, decimal-leading-zero);
+  display: block;
+  font: 800 48px/1 var(--font-display);
+  color: var(--red);
+  margin-bottom: var(--space-3);
+}
+
+.plan-steps h3 {
+  font-size: 24px;
+  margin-bottom: var(--space-2);
+}
+
+.plan-steps p {
+  color: var(--muted);
+}
+
+.service-price {
+  font-weight: 700;
+  color: var(--ink) !important;
+}
+
+.church-note {
+  margin-top: var(--space-6);
+  max-width: 62ch;
+}
+
+.product-band {
+  background: var(--ground-blue);
+  color: var(--on-red);
+}
+
+.product-band .label {
+  color: var(--butter);
+}
+
+.product-band a:not(.btn) {
+  color: var(--on-red);
+}
+
+.product {
+  max-width: 48rem;
+}
+
+.product-lede {
+  margin-top: var(--space-4);
+  font-size: 19px;
+  line-height: 29px;
+  color: var(--on-red-soft);
+}
+
+.product-points {
+  margin: var(--space-4) 0 var(--space-6);
+  padding-left: 1.2em;
+  color: var(--on-red-soft);
+}
+
+.stakes-without h3 {
+  color: var(--muted);
+}
+
+.stakes-with {
+  box-shadow: inset 0 0 0 3px var(--red);
+}
+
+.stakes-with h3 {
+  color: var(--red);
+}
+
+.section-header-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--space-3);
+}
+
+.cta-band {
+  background: var(--ground-red);
+  color: var(--on-red);
+  padding: var(--space-8) 0;
+  text-align: center;
+}
+
+.cta-band h2 {
+  font-size: clamp(34px, 6vw, 52px);
+  line-height: 1;
+}
+
+.cta-band p {
+  margin: var(--space-3) auto var(--space-6);
+  max-width: 44ch;
+  color: var(--on-red-soft);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .btn,
   .prose a.button {

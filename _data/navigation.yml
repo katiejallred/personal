@@ -3,9 +3,9 @@
   url: /services/
 - title: Churches
   url: /churches/
+- title: SignUpChurch
+  url: https://signupchurch.com
 - title: About
   url: /about/
 - title: Blog
   url: /blog/
-- title: Contact
-  url: /contact/
