@@ -23,4 +23,4 @@ When you visit [http://www.camelcamelcamel.com](http://camelcamelcamel.com), it'
 
 This camelcamelcamel watch is for a "Timex Ironman Women's Watch". I've had this watch for about 3 years. It's pretty damaged so I'm in the market for a new one and I want the exact same one. Once I find something I like, I stick with it -- which enforces the knowledge of it's easier to keep a customer, than get a new one. So if you're in the market for something new, be sure to check the price on [camelcamelcamel.com](http://camelcamelcamel.com) before you buy, that shiny new gadget might historically be lower in October instead of now.
 
-photo credit: [BurgTender](http://www.flickr.com/photos/burgtender/3703355986/) via [photopin](http://photopin.com) [cc](http://creativecommons.org/licenses/by-sa/2.0/)
+photo credit: [BurgTender](https://web.archive.org/web/20120902074301/http://www.flickr.com/photos/burgtender/3703355986/) via [photopin](http://photopin.com) [cc](http://creativecommons.org/licenses/by-sa/2.0/)

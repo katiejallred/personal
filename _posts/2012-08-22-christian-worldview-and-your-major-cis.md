@@ -63,7 +63,7 @@ Blanchard, Kenneth H., and Phil Hodges. *Lead like Jesus: Lessons from the Grea
 
 Briner, Bob. The Management Methods of Jesus: Ancient Wisdom for Modern Business. Nashville: T. Nelson, 1996. Print.
 
-"BSA Global Software Piracy Study - Home." Global Piracy 2010. BSA.org. Web. 26 Oct. 2011. <http://portal.bsa.org/globalpiracy2010/>.
+"BSA Global Software Piracy Study - Home." Global Piracy 2010. BSA.org. Web. 26 Oct. 2011. <https://web.archive.org/web/20130117163339/http://portal.bsa.org:80/globalpiracy2010/>.
 
 Cosgrove, Mark P. Foundations of Christian Thought: Faith, Learning, and the Christian Worldview. Grand Rapids, MI: Kregel Publications, 2006. Print.
 

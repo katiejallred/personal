@@ -21,11 +21,11 @@ description: "My review of Jeni's Splendid Ice Creams in Nashville, including my
 
 Let's start off with my favorite flavor thus far: **Loveless Biscuits and Peach Jam.**
 
-Who thought of this? Can I kiss them? I'm in love. Delicious, sweet, and savory. You can taste the butter in the biscuits and Nashville in every bite. AND GUYS, [YOU CAN ORDER IT ONLINE!!!](http://www.jenis.com/loveless-biscuits-peach-jam-pint/)
+Who thought of this? Can I kiss them? I'm in love. Delicious, sweet, and savory. You can taste the butter in the biscuits and Nashville in every bite. AND GUYS, [YOU CAN ORDER IT ONLINE!!!](https://web.archive.org/web/20131208171901/http://www.jenis.com:80/loveless-biscuits-peach-jam-pint/)
 
-Also the peach jam was made with in-season Peach Truck Georgia peaches. Can you beat that? Ok, maybe if it was [Clanton peaches](http://www.clanton.al.us/tourism_idx.php)... because my heart is always in my native homeland (someone needs to redo that website, stat!).
+Also the peach jam was made with in-season Peach Truck Georgia peaches. Can you beat that? Ok, maybe if it was [Clanton peaches](https://web.archive.org/web/20200224051016/http://www.clanton.al.us:80/tourism_idx.php)... because my heart is always in my native homeland (someone needs to redo that website, stat!).
 
-I also really love the **[Cloverton](http://www.jenis.com/cloverton-pint/)** (cheese ice cream... I love cheese. I love ice cream. I love cheese ice cream.) and **[Roasted Strawberry Buttermilk](http://www.jenis.com/roasted-strawberry-buttermilk-pint/)** (which is darker than the photo shows).
+I also really love the **[Cloverton](https://web.archive.org/web/20131106004312/http://www.jenis.com/cloverton-pint/)** (cheese ice cream... I love cheese. I love ice cream. I love cheese ice cream.) and **[Roasted Strawberry Buttermilk](https://web.archive.org/web/20131106004253/http://www.jenis.com/roasted-strawberry-buttermilk-pint/)** (which is darker than the photo shows).
 
 If you are visiting Nashville, this ice cream is a must stop for any visitor or resident alike.
 

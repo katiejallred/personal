@@ -28,9 +28,9 @@ image: /assets/uploads/2013/09/wheatwords-scaled.jpg
 
 [![photo credit: faungg's photo via photopin cc](/assets/uploads/2013/09/large_2629566454-300x201.jpg)](/assets/uploads/2013/09/large_2629566454.jpg) photo credit: [faungg's photo](http://www.flickr.com/photos/44534236@N00/2629566454/) via [photopin](http://photopin.com) [cc](http://creativecommons.org/licenses/by-nc-nd/2.0/)
 
-### 3. [SXC.HU](http://www.sxc.hu/)
+### 3. [SXC.HU](https://web.archive.org/web/20130921054330/http://www.sxc.hu/)
 
-### [Free Stock Photography of Trees](http://www.sxc.hu/photo/1425965)
+### Free Stock Photography of Trees
 
 ### 4. [Compfight.com](http://compfight.com/)
 

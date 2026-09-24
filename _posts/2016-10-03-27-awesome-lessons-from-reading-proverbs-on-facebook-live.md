@@ -75,8 +75,8 @@ I almost didn't post this blog because I felt like I needed to share more ("31 l
 
 ### Podcast Interviews Where I Discuss Facebook Live
 
-- [YM Sidekick - Social Media and Communication trends Churches should be aware of](http://ymsidekick.com/2016/08/24/social-media-and-communication-trends/)
-- [ProChurchTools - Facebook Live for Churches](https://prochurchtools.com/pcp133/)
+- YM Sidekick - Social Media and Communication trends Churches should be aware of
+- [ProChurchTools - Facebook Live for Churches](https://web.archive.org/web/20220630221713/https://prochurchtools.com/pcp133/)
 - [UnSeminary](http://www.unseminary.com/katie-allred-on-encouraging-your-team-to-leverage-social-media-for-the-gospel/)
 - [Seminary for Hard Knocks](http://www.sethmuse.com/episode12/)
 

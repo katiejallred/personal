@@ -72,7 +72,7 @@ Whoo, I'm glad we got through that.
 
 > How long should I grill my steaks?
 
-Here's a really [nifty calculator](http://www.howtogrillsteak.com/SteakCalculator.aspx) from the great HowtoGrillSteak website.
+Here's a really [nifty calculator](https://web.archive.org/web/20130527011251/http://www.howtogrillsteak.com:80/SteakCalculator.aspx) from the great HowtoGrillSteak website.
 
 [Dr. Henderson](http://www.tlhiv.org/) also adds:
 

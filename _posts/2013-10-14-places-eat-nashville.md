@@ -26,9 +26,9 @@ featured_image_alt: "The neon Loveless Cafe and Motel sign in Nashville"
 
 - [Jeni's Ice Cream](http://www.jenis.com/) - ***[REVIEW](/jenis-ice-cream-review/ "Jeni’s Ice Cream Review") (new)***
 - [Burger Up](http://www.burger-up.com/)
-- [The Grilled Cheeserie](http://thegrilledcheeserietruck.com/weekly-schedule) Food Truck
+- [The Grilled Cheeserie](https://web.archive.org/web/20140220062502/http://thegrilledcheeserietruck.com:80/weekly-schedule) Food Truck
 - [Puckett's Grocery and Eatery](http://www.puckettsgrocery.com/)
-- [Zolo's Italian Restaurant](http://zolosonline.com/)
+- [Zolo's Italian Restaurant](https://web.archive.org/web/20131026003922/http://zolosonline.com/)
 - [Frothy Monkey](http://frothymonkey.com/)
 - [Ellie's Old-Fashioned Donuts](https://www.facebook.com/pages/Ellies-Old-Fashioned-Doughnuts/172601629437949) (no store front)
 - [Barbara's Home Cooking](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CCwQFjAA&url=http%3A%2F%2Fwww.barbarashomecooking.com%2F&ei=KT9cUsiEM4G69gSw1IDgBA&usg=AFQjCNF5a1BhnyE8FG13fU1wQ4tdkZfm8Q&sig2=nvj3hbEtvCnW6nSJNPL6_Q&bvm=bv.53899372,d.eWU) (Closed Saturday, open M-F, open Sunday 11-3)
@@ -36,7 +36,7 @@ featured_image_alt: "The neon Loveless Cafe and Motel sign in Nashville"
 - [Jack's BBQ](http://jacksbarbque.com/)
 - [Sportman's Grille](http://www.sportsmansgrille.com/)
 - [Loveless Motel and Cafe](http://www.lovelesscafe.com/)
-- [Puffy Muffin](http://www.puffymuffin.com/site/)
+- Puffy Muffin
 - [Coco's Italian Market](http://www.italianmarket.biz/)
 - [Station Inn](http://stationinn.com/index01/)
 
@@ -58,9 +58,9 @@ featured_image_alt: "The neon Loveless Cafe and Motel sign in Nashville"
 - [Edley's BBQ](http://edleysbbq.com/)
 - [Mafiaoza's Pizzeria](http://www.mafiaozas.com/)
 - [Judge Bean's BBQ](http://www.judgebeans.com/)
-- [The Family Wash](http://familywash.com/)
+- [The Family Wash](https://web.archive.org/web/20131004200310/http://familywash.com:80/)
 - [The Loving Pie Company](https://www.facebook.com/TheLovingPieCompany)
-- [The Silly Goose](http://sillygoosenashville.com/)
+- [The Silly Goose](https://web.archive.org/web/20131026113800/http://sillygoosenashville.com/)
 - [Ugly Mugs](http://www.uglymugsnashville.com/html_ver/)
 - [Rosepepper](http://rosepepper.com/)
 - [The Smiling Elephant](http://www.thesmilingelephant.com/) (Thai Food)

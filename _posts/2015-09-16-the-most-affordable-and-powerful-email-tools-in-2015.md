@@ -63,7 +63,7 @@ Additionally, they offer really terrific forms and landing pages, which most of 
 
 ### [Constant Contact](http://www.constantcontact.com/)
 
-**Pro**: Easy to use, many marketers are familiar with, [non-profit discount](http://support2.constantcontact.com/articles/FAQ/1921) (20% monthly or 30% for annual)
+**Pro**: Easy to use, many marketers are familiar with, [non-profit discount](https://web.archive.org/web/20170618204155/http://support2.constantcontact.com:80/articles/FAQ/1921) (20% monthly or 30% for annual)
 
 **Con**: No free tier, a list of 2,500 with unlimited email will be $55/month ($15 more than MailChimp), not a CRM
 
@@ -89,7 +89,7 @@ They were so close to GetResponse in their offerings, but they got a lower ratin
 
 ### Drip
 
-**Pro**: Easily send drip campaigns ([Why should non-profits consider a drip campaign?](http://www.classy.org/blog/a-nonprofit-professionals-introduction-to-drip-campaigns-the-how-and-why/)) , create triggers on page to sign up
+**Pro**: Easily send drip campaigns ([Why should non-profits consider a drip campaign?](https://web.archive.org/web/20220119052643/https://www.classy.org/blog/a-nonprofit-professionals-introduction-to-drip-campaigns-the-how-and-why/)) , create triggers on page to sign up
 
 **Con**: Pricey from $49/month for up to 2,500 subscribers and 20,000 sent emails; no non-profit discount
 

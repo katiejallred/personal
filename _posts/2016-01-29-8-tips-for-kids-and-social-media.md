@@ -32,13 +32,13 @@ Kids are smarter than you and I realize. They know how to erase history and clea
 
 I recommend buying Circle created by Disney. It's an awesome product that let's you set time limits, set a "bed time", filter inappropriate material via age group, "pause" the internet, and gives you insights into what your kids are looking at and how long they are on each application.
 
-[You can buy Circle through my referral link here for $99](http://mbsy.co/cZNPw). Best $99 ever spent on parenting.
+Circle cost me $99, and it was the best $99 I ever spent on parenting.
 
 ### **3: Create rules**
 
 Create time limits for how long your child can be online and stick to them. Keep your computer, even if it’s an iPad, in a central location. The Family Online Institute provides some really great guidelines for children you can see [here](https://www.fosi.org/good-digital-parenting/online-safety-cards-kids-technology-gifts/).
 
-You can also use Circle ([referral link](http://mbsy.co/cZNPw)) to enforce time limits.
+You can also use Circle to enforce time limits.
 
 ### **4: Monitor the pictures that your child puts online**
 

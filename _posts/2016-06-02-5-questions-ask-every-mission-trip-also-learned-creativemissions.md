@@ -27,7 +27,7 @@ This past week, I got the opportunity to go on Creative Missions.
 
 **Wait, you mean to say you applied for something you found on the internet and you knew none of these people?** Yup. That's pretty normal these days.
 
-**So where did you go?** We served the state of Vermont and worked with 15 church planters. We stayed at the [Bishop Booth Conference Center](http://rockpointcenter.wix.com/rockpointcenter#!conference_center/cbhl), beside Lake Champlain. It was BEAUTIFUL.
+**So where did you go?** We served the state of Vermont and worked with 15 church planters. We stayed at the [Bishop Booth Conference Center](https://web.archive.org/web/20160602132739/http://rockpointcenter.wix.com/rockpointcenter), beside Lake Champlain. It was BEAUTIFUL.
 
 > [A photo posted by Katie Allred (@katiejallred)](https://www.instagram.com/p/BF7gdDVlza8/) on May 27, 2016 at 4:52pm PDT
 
@@ -79,7 +79,7 @@ Pancakes. You guys, I ate maple apple bacon pizza, maple melt sub, maple ice cre
 
 ### Biggest victory...
 
-I love love love this website I created [www.faithforlifevt.com](http://www.faithforlifevt.com)
+I love love love this website I created [www.faithforlifevt.com](https://web.archive.org/web/20170918164354/http://faithforlifevt.com/)
 
 > [A photo posted by Katie Allred (@katiejallred)](https://www.instagram.com/p/BFthTx9FzVi/) on May 22, 2016 at 6:30am PDT
 

@@ -71,7 +71,7 @@ The community page for The Church Collective. A place to discuss all things wors
 
 ### [Worship Musicians Worship Leaders](https://www.facebook.com/groups/WMWorshipLeaders/)
 
-[Worshipmusicians.org](http://worshipmusicians.org/) focus group for Worship Leaders. This is a group focused entirely on the ministry of the Worship Leader.
+Worshipmusicians.org focus group for Worship Leaders. This is a group focused entirely on the ministry of the Worship Leader.
 
 ## Preaching/Discipleship/Etc
 

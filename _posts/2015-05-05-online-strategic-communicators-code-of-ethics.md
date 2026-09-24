@@ -37,4 +37,4 @@ ASA Code of Ethics. (n.d.). American Sociological Association: Ethics and the Co
 
 Social media. (n.d.). NPR Ethics Handbook. Retrieved February 24, 2014, from <http://ethics.npr.org/tag/social-media/>
 
-about IABC. (n.d.). IABC: Code of Ethics for Professional Communicators. Retrieved February 24, 2014, from <http://www.iabc.com/about/code.htm>
+about IABC. (n.d.). IABC: Code of Ethics for Professional Communicators. Retrieved February 24, 2014, from <https://web.archive.org/web/20141205114711/http://www.iabc.com/about/code.htm>
