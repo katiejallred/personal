@@ -1,0 +1,86 @@
+---
+layout: default
+title: Join My Email List
+permalink: /join-my-email-list/
+last_modified_at: '2026-09-24'
+wordpress_id: 3892
+description: Get practical communications strategy, AI tips, and community insights delivered to your inbox. Join leaders who trust Katie's weekly email.
+seo_title: Join Katie Allred's Email List
+---
+<section class="hero signup-hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div>
+      <p class="label home-hero-label">The email list</p>
+      <h1 class="hero-title" id="hero-title">Practical ideas, straight to your <em>inbox</em>.</h1>
+      <p class="hero-lede">Tips and insights on AI, online community building, and communication strategy for churches, nonprofits, and mission-driven teams. Written to be useful, not to fill your inbox.</p>
+    </div>
+
+    <div class="card signup-card">
+      <h2 class="subhead">Join the list</h2>
+      <form method="post" action="https://sendfox.com/form/1v6pvm/3o96rz" class="sendfox-form signup-form" id="3o96rz" data-async="true" data-recaptcha="true">
+        <div class="signup-row">
+          <p>
+            <label for="sendfox_form_name">First name</label>
+            <input type="text" id="sendfox_form_name" name="first_name" autocomplete="given-name" required>
+          </p>
+          <p>
+            <label for="sendfox_form_last_name">Last name</label>
+            <input type="text" id="sendfox_form_last_name" name="last_name" autocomplete="family-name" required>
+          </p>
+        </div>
+        <p>
+          <label for="sendfox_form_email">Email</label>
+          <input type="email" id="sendfox_form_email" name="email" autocomplete="email" required>
+        </p>
+        <div style="position:absolute;left:-5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off"></div>
+        <p><button class="btn btn-red" type="submit">Join the list →</button></p>
+      </form>
+      <p class="fine-print">No spam. Unsubscribe anytime. See the <a href="{{ '/privacy-policy/' | relative_url }}">privacy policy</a>.</p>
+    </div>
+  </div>
+  <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
+    <path d="M0 520 C 360 400, 700 600, 1040 470 S 1360 420, 1440 470 L1440 600 L0 600Z" fill="#FF5B3A" opacity=".75"/>
+  </svg>
+</section>
+<script src="https://cdn.sendfox.com/js/form.js" charset="utf-8"></script>
+
+<section class="section section-blush" aria-labelledby="get-title">
+  <div class="wrap">
+    <header class="section-header">
+      <p class="label">What you'll get</p>
+      <h2 class="section-title" id="get-title">Things you can use this week.</h2>
+    </header>
+    <ul class="card-grid">
+      <li class="card">
+        <h3>AI you can actually use</h3>
+        <p>Prompts, tools, and workflows for ministry and nonprofit teams, plus the guardrails to use them responsibly.</p>
+      </li>
+      <li class="card">
+        <h3>Community that sticks</h3>
+        <p>What keeps online communities healthy and growing, from 25+ years of building them.</p>
+      </li>
+      <li class="card">
+        <h3>Communication that lands</h3>
+        <p>Clear, practical strategy for websites, social, and email, so people pay attention and show up.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="blog-title">
+  <div class="wrap">
+    <header class="section-header section-header-row">
+      <div>
+        <p class="label">A taste of what I write</p>
+        <h2 class="section-title" id="blog-title">Latest from the blog</h2>
+      </div>
+      <a href="{{ '/blog/' | relative_url }}">All posts →</a>
+    </header>
+    <ul class="post-grid">
+      {%- for post in site.posts limit: 3 %}
+      <li>{% include post-card.html post=post %}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

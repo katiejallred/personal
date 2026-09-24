@@ -2081,3 +2081,66 @@ code, pre, kbd, samp {
     transition: none;
   }
 }
+
+/* --- Email list --- */
+.signup-hero .label.home-hero-label {
+  color: var(--on-red-soft);
+  margin-bottom: var(--space-3);
+}
+
+.signup-card {
+  color: var(--ink);
+  padding: var(--space-6) var(--space-4);
+  box-shadow: var(--shadow-card);
+}
+
+@media (min-width: 640px) {
+  .signup-card {
+    padding: var(--space-6);
+  }
+}
+
+.signup-form {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.signup-row {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 6px;
+  font: 700 13px/16px var(--font-sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"] {
+  width: 100%;
+  font: 400 16px/1.4 var(--font-sans);
+  padding: 12px 14px;
+  border: 2px solid var(--blush);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.signup-form input:focus-visible {
+  outline: none;
+  border-color: var(--red);
+}
+
+.signup-form button {
+  width: 100%;
+  cursor: pointer;
+}
+
+.signup-card .subhead {
+  margin-bottom: var(--space-4);
+}
