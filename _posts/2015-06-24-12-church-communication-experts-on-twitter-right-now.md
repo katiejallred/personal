@@ -24,7 +24,7 @@ Here are 12 Church Communication experts (in no order) you should follow on Twi
 
 ### Darrel-G1. [Darrel Girardier](http://DarrelGirardier.com)
 
-Darrel is the Creative Director at Brentwood Baptist Church, and yes, he is my boss. I [moved 437 miles](/how-to-know-you-have-a-great-boss/) for him to be my boss–that's how awesome he is.
+Darrel is the Creative Director at a large Nashville church, and yes, he is my boss. I [moved 437 miles](/how-to-know-you-have-a-great-boss/) for him to be my boss–that's how awesome he is.
 
 Darrel shares his blog where he writes and has a podcast. On occasion, he even mentions me.
 
