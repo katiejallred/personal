@@ -14,8 +14,6 @@ wordpress_id: 222
 description: "Free online tutoring and learning resources I've used since 2004, from Khan Academy to math and writing help for K-12 and college."
 ---
 
-![Free Online Tutoring](http://s10.postimage.org/w7ahn1sah/freshgenerator.png "Free Online Tutoring")
-
 Here's a list of resources for tutoring and learning online for free. I've been using some of these since around 2004. Hope they help someone else!
 
 ### K12 and College

@@ -124,8 +124,7 @@ WordPress URL, plus `title`, `date`, `last_modified_at`, `author`,
 (from Rank Math where set), and `wordpress_id`. Media lives under
 `assets/uploads/YYYY/MM/`; scheduled posts have `scheduled: true` and
 future dates (Jekyll skips them until the date arrives — preview with
-`--future`). A few images missing from the import are listed in
-`assets/uploads/MISSING.md`.
+`--future`).
 
 Give every image alt text: `![What the image shows](/assets/uploads/...)` in
 Markdown, and `featured_image_alt:` for a post's featured image (it also

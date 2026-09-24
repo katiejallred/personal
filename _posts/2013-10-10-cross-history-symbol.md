@@ -21,12 +21,12 @@ description: "The history of the cross as a symbol, from ancient cultures to Chr
 
 > “The cross is a symbol more universal in its use and more important in its significance than any other in the world” (Benson, 1934).
 
-![Example of the cross as a symbol (1 of 6)](/assets/uploads/2013/10/1.jpg)
-![Example of the cross as a symbol (2 of 6)](/assets/uploads/2013/10/4.jpg)
-![Example of the cross as a symbol (3 of 6)](/assets/uploads/2013/10/5.jpg)
-![Example of the cross as a symbol (4 of 6)](/assets/uploads/2013/10/6.jpeg)
-![Example of the cross as a symbol (5 of 6)](/assets/uploads/2013/10/9.jpg)
-![Example of the cross as a symbol (6 of 6)](/assets/uploads/2013/10/3.jpg)
+![A silhouette of a large wooden cross against an orange sunset](/assets/uploads/2013/10/1.jpg)
+![A black and white portrait of a woman holding a crucifix in front of her face](/assets/uploads/2013/10/4.jpg)
+![A cross burning at night, surrounded by people in robes](/assets/uploads/2013/10/5.jpg)
+![A tattoo of an ornate cross on a forearm](/assets/uploads/2013/10/6.jpeg)
+![A white skirt printed with black crosses, worn with studded bracelets and a studded clutch](/assets/uploads/2013/10/9.jpg)
+![The silhouette of a person carrying a cross up a hill against a cloudy sky](/assets/uploads/2013/10/3.jpg)
 
 According to Mass Communications Theory, “Symbols must be created, and people must be gradually taught to associate specific emotions such as love or hate with these symbols. If these cultivation strategies are successful, they create what Lasswell referred to as master (or collective) symbols” (Baran & Davis, 2012).
 
