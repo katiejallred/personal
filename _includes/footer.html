@@ -8,6 +8,11 @@
         <a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a>
       </p>
       <a class="btn btn-butter btn-sm" href="{{ site.contact.booking }}">Book a call →</a>
+      <ul class="footer-social" aria-label="Social media">
+        {%- for link in site.data.social %}
+        <li><a href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icons/{{ link.icon }}.svg %}</a></li>
+        {%- endfor %}
+      </ul>
     </div>
 
     <nav class="footer-col" aria-labelledby="footer-explore">
@@ -34,22 +39,16 @@
       </ul>
     </nav>
 
-    <nav class="footer-col" aria-labelledby="footer-connect">
-      <h2 class="footer-heading" id="footer-connect">Connect</h2>
-      <ul class="footer-social">
-        {%- for link in site.data.social %}
-        <li><a href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icons/{{ link.icon }}.svg %}</a></li>
-        {%- endfor %}
-      </ul>
-    </nav>
-
-    <nav class="footer-col" aria-labelledby="footer-more">
-      <h2 class="footer-heading" id="footer-more">More from Katie</h2>
-      <ul>
-        <li><a href="https://academy.katieallred.com">Allred Academy</a></li>
-        <li><a href="https://signupchurch.com">SignUpChurch.com</a></li>
-      </ul>
-    </nav>
+    <div class="footer-col footer-col-more">
+      <nav aria-labelledby="footer-more">
+        <h2 class="footer-heading" id="footer-more">More from Katie</h2>
+        <ul>
+          <li><a href="https://academy.katieallred.com">Allred Academy</a></li>
+          <li><a href="https://signupchurch.com">SignUpChurch.com</a></li>
+        </ul>
+      </nav>
+      <p class="footer-values"><strong>Here's where I stand:</strong> Black lives matter, and LGBTQIA+ rights are human rights. "Love your neighbor" doesn't come with fine print. If you don't agree, we won't be a good fit — and I'd rather you know that up front.</p>
+    </div>
   </div>
 
   <div class="wrap footer-legal">
