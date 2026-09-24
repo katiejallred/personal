@@ -9,7 +9,7 @@ seo_title: Press Kit | Katie Allred
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 
-<section class="hero home-hero" aria-labelledby="hero-title">
+<section class="hero home-hero press-hero" aria-labelledby="hero-title">
   <div class="wrap">
     <div>
       <p class="label home-hero-label">Press kit</p>
@@ -59,6 +59,7 @@ seo_title: Press Kit | Katie Allred
       <p class="section-intro">Written in third person for programs, show notes, and articles. Trim for length if you need to, but please keep the facts as written.</p>
     </header>
     <div class="bio-list">
+      <div class="bio-stack">
       <article class="card bio" aria-labelledby="bio-one-title">
         <div class="bio-head">
           <h3 id="bio-one-title">One line <span>· intros &amp; social</span></h3>
@@ -77,7 +78,8 @@ seo_title: Press Kit | Katie Allred
           <p>Katie Allred is a community strategist, AI educator, and author with more than 25 years of experience building online communities. She co-founded an online community of more than 35,000 church leaders, led global faith partnerships at a Fortune 500 tech company, and manages a 700,000-member creative community on Discord. She wrote <cite>Church Communications: Methods and Marketing</cite> (B&amp;H Academic) and co-wrote <cite>AI Prompts for Church Leaders</cite>. Today she helps churches, nonprofits, and mission-driven teams use AI and community to free up time for people.</p>
         </div>
       </article>
-      <article class="card bio" aria-labelledby="bio-long-title">
+      </div>
+      <article class="card bio bio-long" aria-labelledby="bio-long-title">
         <div class="bio-head">
           <h3 id="bio-long-title">Long <span>· articles &amp; websites</span></h3>
           <button class="btn btn-red btn-sm copy-btn" type="button" data-copy="bio-long" hidden>Copy</button>
@@ -135,8 +137,9 @@ seo_title: Press Kit | Katie Allred
       <h2 class="section-title" id="topics-title">Keynotes &amp; workshops, tailored to your room.</h2>
       <p class="section-intro">From small church staff teams to national conferences. Every topic works as a keynote, breakout, or hands-on workshop, in person or virtual.</p>
     </header>
-    <ul class="card-grid">
-      <li class="card">
+    <ul class="topic-grid">
+      <li class="card topic-featured">
+        <p class="offer-badge">Most requested</p>
         <h3>AI for the Church</h3>
         <p>Practical, responsible AI for pastors, communicators, and ministry teams, without losing the human touch.</p>
       </li>
@@ -166,11 +169,23 @@ seo_title: Press Kit | Katie Allred
     <div>
       <p class="label">Books</p>
       <h2 class="section-title" id="work-title">Published work.</h2>
-      <ul class="plain-list">
-        <li><a href="https://amzn.to/4bVudKw"><strong><cite>Church Communications: Methods and Marketing</cite></strong></a> — B&amp;H Academic, 2022. Used at universities and seminaries.</li>
-        <li><a href="https://amzn.to/4bXQCHi"><strong><cite>AI Prompts for Church Leaders</cite></strong></a> — with Dr. David Thorne, 2025. Amazon best seller.</li>
-        <li><a href="https://amzn.to/4dilVPf"><strong><cite>Instagram Posts That Worked</cite></strong></a> — with Kenny Jahng, 2020.</li>
-        <li><strong><cite>ReThink.Ministry</cite></strong> — foreword by Katie.</li>
+      <ul class="book-mini-list">
+        {%- for b in site.data.books %}
+        {%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture %}
+        <li class="book-mini">
+          <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy">
+          <div>
+            <a href="{{ buy }}"><strong><cite>{{ b.title }}</cite></strong></a>
+            <p>{{ b.meta }}{% if b.badge %} · {{ b.badge }}{% endif %}</p>
+          </div>
+        </li>
+        {%- endfor %}
+        <li class="book-mini book-mini-text">
+          <div>
+            <strong><cite>ReThink.Ministry</cite></strong>
+            <p>Foreword by Katie</p>
+          </div>
+        </li>
       </ul>
     </div>
     <div>

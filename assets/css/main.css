@@ -1592,10 +1592,18 @@ code, pre, kbd, samp {
   font-weight: 500;
 }
 
-.bio-list {
+.bio-list,
+.bio-stack {
   display: grid;
   gap: var(--space-4);
-  max-width: 52rem;
+  align-items: start;
+}
+
+/* The one-line and short bios stack on the left; the long bio sits right. */
+@media (min-width: 900px) {
+  .bio-list {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+  }
 }
 
 .bio-head {
@@ -2459,7 +2467,8 @@ code, pre, kbd, samp {
 }
 
 /* --- Services --- */
-.services-hero .hero-title {
+.services-hero .hero-title,
+.press-hero .hero-title {
   max-width: 13ch;
   font-size: clamp(44px, 6.5vw, 72px);
 }
@@ -2494,7 +2503,8 @@ code, pre, kbd, samp {
 }
 
 @media (max-width: 899px) {
-  .services-hero .home-hero-photo {
+  .services-hero .home-hero-photo,
+  .press-hero .home-hero-photo {
     width: min(55%, 240px);
   }
 }
@@ -2624,4 +2634,72 @@ code, pre, kbd, samp {
 
 .card-grid-2 {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+}
+
+/* --- Press kit --- */
+.topic-grid {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+}
+
+@media (min-width: 900px) {
+  .topic-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .topic-featured {
+    grid-column: span 2;
+  }
+}
+
+.topic-featured {
+  background: var(--ground-blue);
+}
+
+.topic-featured h3 {
+  color: var(--on-red);
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.card.topic-featured p:not(.offer-badge) {
+  color: var(--on-red-soft);
+  max-width: 48ch;
+}
+
+.book-mini-list {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-4);
+  display: grid;
+  gap: var(--space-3);
+}
+
+.book-mini {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.book-mini img {
+  width: 56px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 3px 6px 6px 3px;
+  box-shadow: 0 6px 14px rgba(60, 10, 5, 0.25);
+}
+
+.book-mini p {
+  margin-top: 2px;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.book-mini-text {
+  grid-template-columns: 1fr;
+  padding-left: calc(56px + var(--space-3));
 }
