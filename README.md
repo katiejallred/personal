@@ -71,12 +71,23 @@ behind it (bio, job title, topics, business address) live in
 
 Front matter it reads: `seo_title` (the full `<title>`), `description`
 (write one for every page and new post, about 150 characters, otherwise
-the first paragraph is used), `image` (share image, otherwise Katie's
-headshot), `schema_type` (`ProfilePage`, `ContactPage`, `CollectionPage`…),
+the first paragraph is used), `image` (share image, otherwise a generated
+share card, see below), `schema_type` (`ProfilePage`, `ContactPage`, `CollectionPage`…),
 `schema_books: true` (describe `_data/books.yml` as `Book`s), and
 `noindex: true`. A page's `faq:` list of `q`/`a` pairs renders through
 `{% include faq.html %}` and becomes `FAQPage` data, so questions shown on
 the page and what search and AI engines read stay identical.
+
+Pages and posts without an `image` get a 1200×630 Open Graph share card
+drawn at build time by `_plugins/og_images.rb` and `scripts/og_image.py`:
+the red hero ground and wave, the KA wordmark, the title in Bricolage
+Grotesque, a post's category in Caveat, and Katie's headshot. The card text
+is `og_title` if set, otherwise `seo_title` or `title` without the
+"| Katie Allred" part; `og_kicker` overrides the category line. Cards are
+cached in `.jekyll-cache/og-images` and served from `/assets/images/og/`.
+Drawing them needs Python 3 with Pillow (`pip install pillow`; the Pages
+workflow installs it); without it the build warns and pages fall back to
+the headshot.
 
 `/llms.txt` is a plain-text summary of Katie, her key pages, books and
 recent writing for AI assistants, built from the same data. `robots.txt`

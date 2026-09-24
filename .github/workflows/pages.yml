@@ -31,6 +31,12 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
 
+      # Pillow draws the Open Graph share cards (_plugins/og_images.rb).
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+
       - id: pages
         uses: actions/configure-pages@v5
 
