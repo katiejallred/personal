@@ -9,7 +9,7 @@ seo_title: Katie Allred | Communications, Community & AI Consulting
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 
-<section class="hero home-hero" aria-labelledby="hero-title">
+<section class="hero home-hero front-hero" aria-labelledby="hero-title">
   <div class="wrap">
     <div>
       <p class="label home-hero-label">Consulting &amp; training for mission-driven teams</p>
@@ -17,7 +17,7 @@ seo_title: Katie Allred | Communications, Community & AI Consulting
       <p class="hero-lede">I help churches, nonprofits, and organizations build a clear communication strategy, grow real community, and use AI wisely — so you can stop winging it and get back to the work only you can do.</p>
       <div class="hero-actions">
         <a class="btn btn-blue" href="{{ book }}">Book a free call →</a>
-        <a class="aside" href="{{ '/rate-your-communications/' | relative_url }}">or take the 5-minute quiz ↓</a>
+        <a class="aside" href="{{ '/rate-your-communications/' | relative_url }}">or take the 5-minute quiz →</a>
       </div>
     </div>
     <figure class="home-hero-photo">
@@ -70,11 +70,25 @@ seo_title: Katie Allred | Communications, Community & AI Consulting
         <li><strong>700K+</strong> members in a global creative community I manage on Discord</li>
         <li><strong>5</strong> universities where I've taught marketing, social media &amp; AI</li>
       </ul>
-      <p class="guide-book">Author of <cite>Church Communications: Methods and Marketing</cite> (B&amp;H Academic) · StoryBrand Certified Guide · Facebook Certified Community Manager</p>
-      <blockquote class="testimonial">
-        <p>“Katie helped me make a massive shift in my business. Having an outside perspective was so good. I feel so much more in alignment with my brand and services after working with Katie.”</p>
-        <footer>Jess Freeman, JessCreatives.com</footer>
-      </blockquote>
+      <ul class="book-mini-list book-mini-row">
+        {%- for b in site.data.books limit: 2 %}
+        {%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture %}
+        <li class="book-mini">
+          <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy">
+          <div>
+            <a href="{{ buy }}"><strong><cite>{{ b.title }}</cite></strong></a>
+            <p>{{ b.meta }}</p>
+          </div>
+        </li>
+        {%- endfor %}
+      </ul>
+      <p class="guide-book">StoryBrand Certified Guide · Facebook Certified Community Manager</p>
+      <div class="guide-review">
+        {%- for group in site.data.reviews %}
+        {%- assign r = group.reviews | where: "name", "Jess Freeman" | first %}
+        {%- if r %}{% include review-card.html review=r %}{% endif %}
+        {%- endfor %}
+      </div>
       <p><a href="{{ '/about/' | relative_url }}">Read my story →</a> · <a href="{{ '/reviews/' | relative_url }}">More reviews →</a></p>
     </div>
   </div>
