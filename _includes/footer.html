@@ -7,7 +7,7 @@
         <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br>
         <a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a>
       </p>
-      <a class="btn btn-butter btn-sm" href="{{ site.contact.booking }}">Book a call →</a>
+      <a class="btn btn-butter btn-sm" href="{{ site.contact.booking | relative_url }}">Book a call →</a>
       <ul class="footer-social" aria-label="Social media">
         {%- for link in site.data.social %}
         <li><a href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icons/{{ link.icon }}.svg %}</a></li>

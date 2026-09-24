@@ -7,7 +7,7 @@ wordpress_id: 193
 description: Have a project, speaking inquiry, or question? Send Katie Allred a message, book a free call, or reach out by email or phone.
 seo_title: Contact Katie Allred
 ---
-{%- assign book = site.contact.booking -%}
+{%- assign book = site.contact.booking | relative_url -%}
 
 <section class="hero page-hero" aria-labelledby="hero-title">
   <div class="wrap">

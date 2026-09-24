@@ -12,7 +12,7 @@ layout: default
       <h1 class="hero-title" id="hero-title">Automate the temporary. Invest in the <em>eternal</em>.</h1>
       <p class="hero-lede">{{ site.positioning }}</p>
       <div class="hero-actions">
-        <a class="btn btn-blue" href="{{ site.contact.booking }}">Book a call →</a>
+        <a class="btn btn-blue" href="{{ site.contact.booking | relative_url }}">Book a call →</a>
         <p class="aside">the blog's right down here&nbsp;↓</p>
       </div>
     </div>
@@ -22,7 +22,7 @@ layout: default
         <h2>Elsewhere</h2>
         <ul>
           {%- for link in site.data.links %}
-          <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+          <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
           {%- endfor %}
         </ul>
       </div>
