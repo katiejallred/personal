@@ -830,12 +830,17 @@ code, pre, kbd, samp {
   gap: var(--space-3);
 }
 
+.footer-col-more {
+  grid-column: 1 / -1;
+}
+
 @media (min-width: 900px) {
   .footer-main {
-    grid-template-columns: 2fr 1fr 1fr 1.2fr;
+    grid-template-columns: 1.6fr 0.8fr 0.8fr 1.6fr;
   }
 
-  .footer-brand {
+  .footer-brand,
+  .footer-col-more {
     grid-column: auto;
   }
 }
@@ -948,12 +953,10 @@ code, pre, kbd, samp {
   color: #B39C95;
 }
 
-.footer-values p {
-  padding: var(--space-4) 0 var(--space-4) var(--space-4);
+.footer-values {
+  margin-top: var(--space-4);
+  padding-left: var(--space-3);
   border-left: 4px solid var(--butter);
-  max-width: 44em;
-  font-size: 17px;
-  line-height: 27px;
 }
 
 .footer-values strong {
