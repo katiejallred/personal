@@ -12,6 +12,7 @@ tags:
 - life
 wordpress_id: 2530
 image: /assets/uploads/2019/03/1f08fe85-9fb5-43a9-82bd-242428661bcc.jpg
+featured_image_alt: "A student in a denim jacket carrying books"
 description: "Advice for a college freshman: take your time, ask the hard questions, and don't be afraid of failure, only of not trying."
 ---
 

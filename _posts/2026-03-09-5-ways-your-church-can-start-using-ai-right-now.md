@@ -16,6 +16,7 @@ tags:
 - productivity
 wordpress_id: 3797
 image: /assets/uploads/2026/03/unsplash-y62WKqtOoIw.jpg
+featured_image_alt: "A person drawing on a tablet at a desk with large monitors"
 ---
 
 The most common thing I hear from church communicators when it comes to AI is: "I know I should be using it, but I don't know where to start." Fair. The landscape is enormous, the options are overwhelming, and the last thing you need is another complicated tool to manage.

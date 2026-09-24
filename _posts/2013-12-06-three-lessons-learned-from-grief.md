@@ -12,6 +12,7 @@ tags:
 - grief
 wordpress_id: 856
 image: /assets/uploads/2013/12/sunset-hair-e1430773369575.jpg
+featured_image_alt: "A woman with long hair in a field at golden hour"
 description: "Three lessons I've learned from grief, and practical ways to help a friend who is grieving when you don't know what to say."
 ---
 

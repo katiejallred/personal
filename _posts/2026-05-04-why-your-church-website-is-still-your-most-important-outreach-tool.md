@@ -14,6 +14,7 @@ tags:
 - church outreach
 wordpress_id: 3749
 image: /assets/uploads/2026/05/katiejallred_A_warm_inviting_church_building_exterior_at_gold_deb76060-5fc3-448c-94f3-713013d0e4c7_0.png
+featured_image_alt: "A laptop in front of glowing stained glass windows at sunset"
 ---
 
 I know what you're thinking. Everyone's on social media. Instagram Reels are getting thousands of views. Your pastor just went viral on TikTok. Why would we spend time worrying about a website?

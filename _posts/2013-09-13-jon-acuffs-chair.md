@@ -13,6 +13,6 @@ wordpress_id: 662
 description: "The time I moved a chair for Jon Acuff at Start Conference. The picture is blurry, but I still feel really cool."
 ---
 
-![](/assets/uploads/2013/09/wpid-5233a27f839733.96513485.jpg)
+![Blurry photo of the Start Conference stage with Jon Acuff in the chair](/assets/uploads/2013/09/wpid-5233a27f839733.96513485.jpg)
 
 This one time I moved a chair for Jon Acuff at the #startconf. This is that chair. The picture is blurry. But I still feel really cool.

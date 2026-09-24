@@ -14,6 +14,7 @@ tags:
 - church leadership
 wordpress_id: 3765
 image: /assets/uploads/2025/01/unsplash-OjltJ2_JHjI.jpg
+featured_image_alt: "Three arched stained glass windows in a dark sanctuary"
 ---
 
 It's January. The new year energy is real, and maybe you've already been handed a whiteboard and told to "come up with a social media strategy." I've been there. It's exciting and terrifying at the same time.

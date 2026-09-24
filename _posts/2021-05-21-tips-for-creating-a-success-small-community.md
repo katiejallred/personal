@@ -13,6 +13,7 @@ tags:
 - community building
 wordpress_id: 3294
 image: /assets/uploads/2021/05/blogger-communicating-with-followers-in-laptop-online.jpg
+featured_image_alt: "A smiling woman recording a podcast at a microphone with a laptop"
 ---
 
 Community management can be challenging in a small community. Unlike larger online communities, there are fewer people to interact with and more difficulty getting noticed by others in the industry. Whether you're looking to start a community for your field of interest or find like-minded people who live in your area, there are plenty of ways to create a successful community. If you’re thinking about starting an online community from scratch but don’t know where to start, these tips should quickly help get things off the ground.

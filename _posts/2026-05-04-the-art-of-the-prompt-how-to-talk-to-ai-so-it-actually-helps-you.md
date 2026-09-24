@@ -15,6 +15,7 @@ tags:
 - productivity
 wordpress_id: 3799
 image: /assets/uploads/2026/05/unsplash-SoGu-cMfM5c.jpg
+featured_image_alt: "Hands writing on a tablet with a stylus"
 ---
 
 Think of AI like a new intern. A brilliant, infinitely patient, never-complaining intern who has read more books than any human alive. But here's the catch: this intern has no context about your church, your voice, your situation, or what you actually need. They will do exactly what you ask — no more, no less.

@@ -14,6 +14,7 @@ tags:
 - church outreach
 wordpress_id: 3772
 image: /assets/uploads/2026/03/zua2hyvtbk.jpg
+featured_image_alt: "A person reading a newspaper that hides their face"
 ---
 
 Your church is doing remarkable things. But if no one outside your congregation knows about it, you're leaving a massive opportunity on the table — both for community goodwill and for reaching people who need what you have.

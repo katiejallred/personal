@@ -16,6 +16,7 @@ tags:
 - social media
 wordpress_id: 3770
 image: /assets/uploads/2026/03/w3seyzodn8u.jpg
+featured_image_alt: "A crowded table of people talking and laughing over a meal"
 ---
 
 I'm going to say something that might surprise you: Facebook Groups might be the most underused tool in the church communicator's toolkit.

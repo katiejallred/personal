@@ -11,6 +11,7 @@ tags:
 - writing
 wordpress_id: 625
 image: /assets/uploads/2013/06/dead-poets-society-04.jpg
+featured_image_alt: "A scene from Dead Poets Society: a teacher standing on his desk in front of his students"
 description: "A favorite quote from Dead Poets Society on why lazy words like \"very\" won't do, and why word choice matters."
 ---
 

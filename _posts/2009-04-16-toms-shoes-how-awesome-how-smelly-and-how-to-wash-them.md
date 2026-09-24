@@ -12,6 +12,7 @@ tags:
 wordpress_id: 22
 description: Learn how to clean and wash TOMS shoes. TOMS are awesome and they get stinky, but you can wash them! Learn how to right now.
 image: /assets/uploads/2009/04/Toms-Shoes.jpg
+featured_image_alt: "A pair of colorful floral TOMS shoes"
 ---
 
 TOMS Shoes are quickly becoming a favorite where I live—Mobile, AL.

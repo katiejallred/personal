@@ -15,6 +15,7 @@ tags:
 - SEO
 wordpress_id: 3769
 image: /assets/uploads/2025/05/unsplash-iEiUITs149M.jpg
+featured_image_alt: "A man designing a website on two computer monitors"
 ---
 
 Try this: Go to your church website right now and set a five-second timer. When it goes off, close the tab. Can you remember what your church is about, when you meet, and where you're located?

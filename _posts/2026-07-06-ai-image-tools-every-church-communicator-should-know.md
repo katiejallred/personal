@@ -15,6 +15,7 @@ tags:
 - design
 wordpress_id: 3801
 image: /assets/uploads/2026/07/unsplash-jBcFTWv0TBk.jpg
+featured_image_alt: "An abstract, glitchy pattern of green, yellow, and black"
 ---
 
 Not long ago, creating custom visual content for your church required either a professional designer, a stock photo subscription, or a lot of time on Canva hoping someone else hadn't already used that template. AI image generation has changed that equation completely.

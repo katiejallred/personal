@@ -15,6 +15,7 @@ tags:
 - productivity
 wordpress_id: 3751
 image: /assets/uploads/2026/05/a-church-communications-professional-at-_ReRtFJQCQomPGq98z6S-zA_xHr1wvGXRAGHPs0gmwd16g_cover_hd.png
+featured_image_alt: "A smiling woman working at a laptop at a bright desk"
 ---
 
 Every church communications director has had this moment: it's Thursday afternoon, you haven't posted since Tuesday, someone just texted you asking why the event wasn't on Instagram yet, and you're staring at a blank Canva document with absolutely no idea what to post.

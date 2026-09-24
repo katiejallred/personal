@@ -17,7 +17,7 @@ description: "Finishing Job while reading the Bible chronologically, and what yo
 
 Tonight I finally finished up Job on my quest to read the entire bible chronologically in a year. After getting though his friends arguments, and Job's final discourse, we hear from this character named, Elihu. To be honest, I didn't know there was another guy in this audience besides Job and his three friends, but here comes this young guy who makes sense of everything.  
 
-[![](/assets/uploads/2012/08/coollogo_com-4993246.png "Elihu")](/assets/uploads/2012/08/coollogo_com-4993246.png)
+[!["Elihu" in glowing blue dot-matrix letters](/assets/uploads/2012/08/coollogo_com-4993246.png "Elihu")](/assets/uploads/2012/08/coollogo_com-4993246.png)
 
 ***It* *is not only the old who are wise,* *not only the aged who understand what is right.***
 

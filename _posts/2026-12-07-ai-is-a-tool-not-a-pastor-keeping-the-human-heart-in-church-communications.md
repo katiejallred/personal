@@ -16,6 +16,7 @@ tags:
 - digital ministry
 wordpress_id: 3806
 image: /assets/uploads/2026/12/unsplash-BiqFxypY7nc.jpg
+featured_image_alt: "A small blue church with a white steeple under a clear sky"
 scheduled: true
 ---
 

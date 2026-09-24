@@ -13,6 +13,7 @@ tags:
 - community building
 wordpress_id: 3502
 image: /assets/uploads/2021/07/video-blogger-reading-email.jpg
+featured_image_alt: "A woman in headphones broadcasting from a home studio"
 ---
 
 Online communities are a great way to find like-minded people and share your passions. You can chat with friends, join groups, or start your group on any topic you love. Share photos and videos of what you're up to with the world. And if you need advice about anything at all, there's always someone available for support.

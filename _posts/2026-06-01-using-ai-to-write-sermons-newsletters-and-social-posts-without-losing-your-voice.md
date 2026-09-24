@@ -16,6 +16,7 @@ tags:
 - ChatGPT
 wordpress_id: 3800
 image: /assets/uploads/2026/06/unsplash-n9AaeihA9HI.jpg
+featured_image_alt: "An open lined notebook with a pen and pencils on a wooden desk"
 ---
 
 Let me address the concern I hear most often before we go any further: "If I use AI to write my communications, won't they sound... robotic? Generic? Not like me?"

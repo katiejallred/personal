@@ -13,6 +13,7 @@ tags:
 - Easter
 wordpress_id: 694
 image: /assets/uploads/2013/10/cross-364676_1280.jpg
+featured_image_alt: "A wooden cross against a brick wall"
 description: "The history of the cross as a symbol, from ancient cultures to Christianity, and how mass communication theory explains its power."
 ---
 
@@ -20,12 +21,12 @@ description: "The history of the cross as a symbol, from ancient cultures to Chr
 
 > “The cross is a symbol more universal in its use and more important in its significance than any other in the world” (Benson, 1934).
 
-![](/assets/uploads/2013/10/1.jpg)
-![](/assets/uploads/2013/10/4.jpg)
-![](/assets/uploads/2013/10/5.jpg)
-![](/assets/uploads/2013/10/6.jpeg)
-![](/assets/uploads/2013/10/9.jpg)
-![](/assets/uploads/2013/10/3.jpg)
+![Example of the cross as a symbol (1 of 6)](/assets/uploads/2013/10/1.jpg)
+![Example of the cross as a symbol (2 of 6)](/assets/uploads/2013/10/4.jpg)
+![Example of the cross as a symbol (3 of 6)](/assets/uploads/2013/10/5.jpg)
+![Example of the cross as a symbol (4 of 6)](/assets/uploads/2013/10/6.jpeg)
+![Example of the cross as a symbol (5 of 6)](/assets/uploads/2013/10/9.jpg)
+![Example of the cross as a symbol (6 of 6)](/assets/uploads/2013/10/3.jpg)
 
 According to Mass Communications Theory, “Symbols must be created, and people must be gradually taught to associate specific emotions such as love or hate with these symbols. If these cultivation strategies are successful, they create what Lasswell referred to as master (or collective) symbols” (Baran & Davis, 2012).
 
@@ -35,7 +36,7 @@ The cross is a unique master symbol with a rich history. We will seek to answer 
 
 # Pagan Use and the Beginning
 
-[![](/assets/uploads/2013/10/pngbase64e3d5141f3579d41d-300x180.png)](http://www.theguardian.com/science/2012/mar/11/cave-painting-symbols-language-evolution)
+[![Chart of geometric signs found in ancient cave paintings, including crosses, circles, lines, and hand prints](/assets/uploads/2013/10/pngbase64e3d5141f3579d41d-300x180.png)](http://www.theguardian.com/science/2012/mar/11/cave-painting-symbols-language-evolution)
 
 “Instead of studying those magnificent galloping horses and bisons, researchers are investigating the symbols painted beside them. These signs are rarely mentioned in most studies of ancient cave art...There are triangles, squares, full circles, semicircles, open angles, crosses and groups of dots” (McKie, 2012).
 
@@ -73,11 +74,11 @@ The symbolism of the Christian cross is concise and important. It is the symbol 
 
 The cross was not used as a symbol of the Christian church for some three centuries after Christ’s resurrection (Benson, 1934). This might be because of the “no graven image” rule, but more than likely it was because the cross was such a gruesome means of execution. The Christian world does not think of the cross as a means of execution, but rather a symbol of Christ’s sacrifice for all those that choose to believe in him. This is dramatically different meaning from the gruesome crucifix. The symbol that once meant fear, now means love and hope.
 
-[![](/assets/uploads/2013/10/crucifix-199x300.jpg)](http://blog.loyola.edu/mission/files/crucifix.jpg)
+[![A wooden crucifix with a carved figure of Jesus and the INRI inscription](/assets/uploads/2013/10/crucifix-199x300.jpg)](http://blog.loyola.edu/mission/files/crucifix.jpg)
 
 IMAGE CREDIT: http://blog.loyola.edu/mission/files/crucifix.jpg
 
-[![](/assets/uploads/2013/10/Cross-211x300.gif)](http://pef.mycpanel.princeton.edu/wp-content/uploads/2012/01/Cross.PEF_.web_.gif)
+[![A plain black Latin cross](/assets/uploads/2013/10/Cross-211x300.gif)](http://pef.mycpanel.princeton.edu/wp-content/uploads/2012/01/Cross.PEF_.web_.gif)
 
 IMAGE CREDIT: http://pef.mycpanel.princeton.edu/wp-content/uploads/2012/01/Cross.PEF_.web_.gif
 

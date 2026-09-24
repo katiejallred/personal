@@ -14,6 +14,7 @@ tags:
 - church leadership
 wordpress_id: 3774
 image: /assets/uploads/2025/10/unsplash-049M-iDiNG0.jpg
+featured_image_alt: "A small group of people talking in a church lobby"
 ---
 
 I've heard it more times than I can count. A church communicator is hired, given a modest budget, a desk near the copy machine, and handed a list of announcements to turn into graphics. And then their voice is never heard in the room where the actual decisions happen.

@@ -13,6 +13,7 @@ tags:
 - desserts
 wordpress_id: 761
 image: /assets/uploads/2013/10/9768374163_cdea076d23_b.jpg
+featured_image_alt: "The Jeni's Splendid Ice Creams shop with an orange awning and patio tables"
 description: "My review of Jeni's Splendid Ice Creams in Nashville, including my favorite flavor so far: Loveless Biscuits and Peach Jam."
 ---
 

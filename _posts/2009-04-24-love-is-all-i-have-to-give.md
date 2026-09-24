@@ -28,5 +28,3 @@ Next week I'm gonna have to get ready for my family to come up! Well actually it
 This summer, I will be working at Centrikid/Crosspoint so I wanted to tell ya'll that this is going to be my travel blog also and I can update it through my phone, but it may take at least 3 hours to type a long one, so it might just be short updates or you can follow me on my Twitter (which is connected with my facebook) and I'll be doing pictures and everything! I'm very excited!
 
 Well I must go and do my laundry now!
-
-![](https://blogger.googleusercontent.com/tracker/8579765079349674460-4643505422031679917?l=ktallred.blogspot.com)

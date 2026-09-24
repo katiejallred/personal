@@ -16,6 +16,7 @@ wordpress_id: 1555
 description: Church Facebook Groups are becoming a popular way for church leaders to share ideas, resources, and learn from each other.
 seo_title: 14+ Awesome Facebook Groups for Church Leaders
 image: /assets/uploads/2016/03/Church-Comm-Mockup.jpg
+featured_image_alt: "A laptop showing a Facebook page on a wooden desk with a notebook and coffee"
 ---
 
 Have you found many church Facebook groups lately?

@@ -14,6 +14,7 @@ tags:
 - video
 wordpress_id: 3802
 image: /assets/uploads/2026/08/unsplash-tNbk1kTlSY8.jpg
+featured_image_alt: "A studio condenser microphone against a dark wall"
 ---
 
 Text and images were just the beginning. Generative AI has moved firmly into audio and video — and what's available right now would have seemed like science fiction five years ago.

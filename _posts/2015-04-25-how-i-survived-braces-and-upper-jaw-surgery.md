@@ -12,6 +12,7 @@ tags:
 wordpress_id: 1168
 description: Are you about to have upper jaw surgery? See how I survived it and my results!
 image: /assets/uploads/2015/04/Blog.png
+featured_image_alt: "Before and after: my teeth before braces and jaw surgery, and my smile one year later"
 ---
 
 A lot can happen in the span of a year.

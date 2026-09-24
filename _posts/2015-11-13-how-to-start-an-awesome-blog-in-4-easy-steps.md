@@ -14,6 +14,7 @@ wordpress_id: 1450
 description: Have you ever wanted to start a blog?
 seo_title: How to Start a Blog
 image: /assets/uploads/2015/11/pen.jpg
+featured_image_alt: "A pen resting on a notepad on a wooden desk"
 ---
 
 *This post contains affiliate links to Elegant Themes. If you buy through them, I earn a small commission at no extra cost to you. [Affiliate disclosure](/affiliate-disclosure/)*
@@ -48,7 +49,7 @@ Why?
 
 You won't have to re-purchase to get updates every year, and you'll need the updates since Wordpress itself is updated frequently. Also, Elegant Themes has come out with some really useful plugins like Bloom and Monarch. Bloom helps with getting email sign ups. It creates really awesome email sign up forms for you and also allows you to hide content until you get an email sign up. It's super useful. Monarch creates really snazzy sharing buttons.
 
-[![](https://www.elegantthemes.com/affiliates/banners/570x100.jpg)](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}
+[![Elegant Themes banner](https://www.elegantthemes.com/affiliates/banners/570x100.jpg)](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}
 
 If you're not in love with any of the [Divi](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} or Elegant Theme options you see, then there are plenty of options on ThemeForest–just be careful. Choose a theme with a high rating and recent updates.
 

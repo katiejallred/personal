@@ -127,6 +127,11 @@ future dates (Jekyll skips them until the date arrives — preview with
 `--future`). A few images missing from the import are listed in
 `assets/uploads/MISSING.md`.
 
+Give every image alt text: `![What the image shows](/assets/uploads/...)` in
+Markdown, and `featured_image_alt:` for a post's featured image (it also
+becomes `og:image:alt`). Leave a featured image's alt empty only when it is
+a title graphic that repeats the post title.
+
 Pages were exported from WordPress into `pages/`, each with an explicit
 `permalink`. They use the `landing` layout (the content brings its own
 eyebrow and H1) except `link-in-bio`, which uses `blank` (no header or
