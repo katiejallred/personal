@@ -83,7 +83,12 @@ recent writing for AI assistants, built from the same data. `robots.txt`
 blocks crawlers that only gather AI training data (GPTBot, ClaudeBot,
 Google-Extended, CCBot…) and allows search engines and AI search bots
 (Googlebot, Bingbot, OAI-SearchBot, Claude-SearchBot, PerplexityBot…), so
-the site can still be found and cited. Posts end with an author
+the site can still be found and cited.
+
+`/sitemap.xml` is built by jekyll-sitemap and linked from `robots.txt`. It
+lists every page and post with its `last_modified_at` date. Leave a page out
+with `sitemap: false`; pages with `noindex: true` are left out automatically
+(`_plugins/sitemap_noindex.rb`). Posts end with an author
 card and up to three related posts from the same category.
 
 ## Deploying
