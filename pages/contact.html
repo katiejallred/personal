@@ -1,0 +1,98 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+last_modified_at: '2026-09-24'
+wordpress_id: 193
+description: Have a project, speaking inquiry, or question? Send Katie Allred a message, book a free call, or reach out by email or phone.
+seo_title: Contact Katie Allred
+---
+{%- assign book = site.contact.booking -%}
+
+<section class="hero page-hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div>
+      <p class="label home-hero-label">Contact</p>
+      <h1 class="hero-title" id="hero-title">Let's <em>talk</em>.</h1>
+      <p class="hero-lede">Have a project in mind, a speaking date to fill, or just a question? Send a note or grab a time on my calendar. I usually reply within one business day.</p>
+      <div class="hero-actions">
+        <a class="btn btn-blue" href="{{ book }}">Book a free call →</a>
+        <a class="aside" href="#message-title">or send a message ↓</a>
+      </div>
+    </div>
+  </div>
+  <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
+    <path d="M0 520 C 360 400, 700 600, 1040 470 S 1360 420, 1440 470 L1440 600 L0 600Z" fill="#FF5B3A" opacity=".75"/>
+  </svg>
+</section>
+
+<section class="section" aria-labelledby="message-title">
+  <div class="wrap contact-layout">
+    <div class="card contact-form-card">
+      <p class="label">Send a message</p>
+      <h2 class="section-title" id="message-title">Tell me what you're working on.</h2>
+      <p class="contact-note">For speaking inquiries, include your event date, location, and audience size.</p>
+      {% include tally.html id="7RGdkz" title="Contact Katie Allred" %}
+    </div>
+
+    <aside class="contact-aside" aria-labelledby="other-title">
+      <h2 class="visually-hidden" id="other-title">Other ways to reach Katie</h2>
+      <div class="card contact-call">
+        <h3>Prefer to talk it out?</h3>
+        <p>Book a free 30-minute call. No pitch, just a real conversation about your goals and whether we're a good fit.</p>
+        <a class="btn btn-red btn-sm" href="{{ book }}">Pick a time →</a>
+      </div>
+      <dl class="card contact-details">
+        <div>
+          <dt>Email</dt>
+          <dd><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></dd>
+        </div>
+        <div>
+          <dt>Phone</dt>
+          <dd><a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a></dd>
+        </div>
+        <div>
+          <dt>Based in</dt>
+          <dd>{{ site.contact.location }} · Central Time</dd>
+        </div>
+        <div>
+          <dt>Follow along</dt>
+          <dd>
+            <ul class="contact-social">
+              {%- for link in site.data.social %}
+              <li><a href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icons/{{ link.icon }}.svg %}</a></li>
+              {%- endfor %}
+            </ul>
+          </dd>
+        </div>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<section class="section section-blush" aria-labelledby="route-title">
+  <div class="wrap">
+    <header class="section-header">
+      <p class="label">Find the fastest route</p>
+      <h2 class="section-title" id="route-title">What are you reaching out about?</h2>
+    </header>
+    <ul class="card-grid">
+      <li class="card">
+        <h3>Hiring me for a project</h3>
+        <p>Audits, AI training, community strategy, or a new website. A free call is the quickest way to a clear plan and price.</p>
+        <a class="btn btn-red btn-sm" href="{{ '/services/' | relative_url }}">See services →</a>
+      </li>
+      <li class="card">
+        <h3>Booking a speaker</h3>
+        <p>Keynotes and workshops on AI, community, and church communications. Bios and headshots are ready to download.</p>
+        <a class="btn btn-red btn-sm" href="{{ '/press-kit/' | relative_url }}">Press kit →</a>
+      </li>
+      <li class="card">
+        <h3>Podcasts &amp; media</h3>
+        <p>Send your show or outlet, the topic, and your timeline. I'm glad to talk AI, online community, and faith and tech.</p>
+        <a class="btn btn-red btn-sm" href="mailto:{{ site.contact.email }}?subject=Media%20request">Email me →</a>
+      </li>
+    </ul>
+  </div>
+</section>
