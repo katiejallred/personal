@@ -8,6 +8,11 @@
         <a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a>
       </p>
       <a class="btn btn-butter btn-sm" href="{{ site.contact.booking }}">Book a call →</a>
+      <ul class="footer-social" aria-label="Social media">
+        {%- for link in site.data.social %}
+        <li><a href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icons/{{ link.icon }}.svg %}</a></li>
+        {%- endfor %}
+      </ul>
     </div>
 
     <nav class="footer-col" aria-labelledby="footer-explore">
@@ -34,14 +39,6 @@
       </ul>
     </nav>
 
-    <nav class="footer-col" aria-labelledby="footer-connect">
-      <h2 class="footer-heading" id="footer-connect">Connect</h2>
-      <ul class="footer-social">
-        {%- for link in site.data.social %}
-        <li><a href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icons/{{ link.icon }}.svg %}</a></li>
-        {%- endfor %}
-      </ul>
-    </nav>
 
     <nav class="footer-col" aria-labelledby="footer-more">
       <h2 class="footer-heading" id="footer-more">More from Katie</h2>
@@ -50,6 +47,10 @@
         <li><a href="https://signupchurch.com">SignUpChurch.com</a></li>
       </ul>
     </nav>
+  </div>
+
+  <div class="wrap footer-values">
+    <p><strong>Here's where I stand:</strong> Black lives matter, and LGBTQIA+ rights are human rights. "Love your neighbor" doesn't come with fine print. If you don't agree, we won't be a good fit — and I'd rather you know that up front.</p>
   </div>
 
   <div class="wrap footer-legal">
@@ -65,7 +66,6 @@
         </ul>
       </nav>
     </div>
-    <p class="footer-disclaimer footer-values">Here's where I stand: Black lives matter, and LGBTQIA+ rights are human rights. "Love your neighbor" doesn't come with fine print. If you don't agree, we won't be a good fit — and I'd rather you know that up front.</p>
     <p class="footer-disclaimer">This is my personal site. The views here are my own and don't reflect those of Meta, Adobe, or any other current or former employer or client.</p>
   </div>
 </footer>

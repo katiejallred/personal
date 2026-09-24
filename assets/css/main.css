@@ -832,7 +832,7 @@ code, pre, kbd, samp {
 
 @media (min-width: 900px) {
   .footer-main {
-    grid-template-columns: 1.5fr 0.8fr 0.8fr 1.2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1.2fr;
   }
 
   .footer-brand {
@@ -885,6 +885,9 @@ code, pre, kbd, samp {
 }
 
 .site-footer .footer-social {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-2);
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
@@ -945,8 +948,16 @@ code, pre, kbd, samp {
   color: #B39C95;
 }
 
-.footer-values {
-  color: #D3B9B2;
+.footer-values p {
+  padding: var(--space-4) 0 var(--space-4) var(--space-4);
+  border-left: 4px solid var(--butter);
+  max-width: 44em;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.footer-values strong {
+  color: var(--butter);
 }
 
 /* --- Landing (imported WordPress pages) --- */
