@@ -1077,7 +1077,7 @@ code, pre, kbd, samp {
   height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: 50% 20%;
+  object-position: 50% 0%;
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
   border: 6px solid #FFFFFF;
