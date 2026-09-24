@@ -2180,3 +2180,27 @@ code, pre, kbd, samp {
 .quiz-hero .hero-title {
   font-size: clamp(38px, 9vw, 88px);
 }
+
+/* --- Community playbook --- */
+.playbook-grid {
+  counter-reset: step;
+}
+
+.playbook-grid .card {
+  counter-increment: step;
+}
+
+.playbook-grid .card::before {
+  content: counter(step, decimal-leading-zero);
+  font: 800 36px/1 var(--font-display);
+  color: var(--red);
+}
+
+.playbook-quote {
+  max-width: 48rem;
+  box-shadow: inset 4px 0 0 var(--red);
+}
+
+.signup-card .tally-embed {
+  display: block;
+}
