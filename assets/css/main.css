@@ -1260,10 +1260,6 @@ code, pre, kbd, samp {
   color: var(--ink) !important;
 }
 
-.church-note {
-  margin-top: var(--space-6);
-  max-width: 62ch;
-}
 
 .product-band {
   background: var(--ground-blue);
@@ -2437,11 +2433,6 @@ code, pre, kbd, samp {
   margin-top: auto;
 }
 
-.book-foreword {
-  margin-top: var(--space-6);
-  max-width: 62ch;
-  color: var(--muted);
-}
 
 @media (prefers-reduced-motion: reduce) {
   .book-cover,
@@ -2454,7 +2445,6 @@ code, pre, kbd, samp {
 /* --- Affiliate disclosure --- */
 .affiliate-note {
   margin-top: var(--space-3);
-  max-width: 62ch;
   font-size: 14px;
   line-height: 20px;
   color: var(--muted);
@@ -2522,4 +2512,34 @@ code, pre, kbd, samp {
   .services-hero .home-hero-photo {
     width: min(55%, 240px);
   }
+}
+
+/* --- Note bar ---
+   A short note under a grid of cards. It spans the grid's full width so the
+   section ends on a clean edge instead of a ragged half-line. */
+.note-bar {
+  margin-top: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  background: var(--blush);
+  border-left: 4px solid var(--red);
+  border-radius: 0 var(--radius-tile) var(--radius-tile) 0;
+  color: var(--muted);
+}
+
+.section-blush .note-bar {
+  background: var(--surface);
+}
+
+.note-bar strong {
+  color: var(--ink);
+}
+
+.note-bar > p + p,
+.note-bar > p + .affiliate-note {
+  margin-top: var(--space-2);
+}
+
+.note-bar .affiliate-note {
+  padding-top: var(--space-2);
+  border-top: 1px solid rgba(107, 79, 73, 0.2);
 }
