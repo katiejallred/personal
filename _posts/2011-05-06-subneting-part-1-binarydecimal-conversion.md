@@ -11,6 +11,7 @@ tags:
 - tech tips
 - networking
 wordpress_id: 2638
+description: "Before you learn subnetting, master binary to decimal conversion. Here's the simple bit-value method I use, with a worked example."
 ---
 
 Before you even attempt subnetting please be overly confident in your ability to convert binary to decimal and vice versa. The easiest way I've found is this method.

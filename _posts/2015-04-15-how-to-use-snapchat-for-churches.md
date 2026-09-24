@@ -12,6 +12,7 @@ tags:
 - Snapchat
 wordpress_id: 1089
 image: /assets/uploads/2015/04/How-to-Use-SnapChat-for-Churches.png
+description: "What I've learned about using Snapchat for churches since writing the ChurchM.ag guide, starting with actually remembering to snap."
 ---
 
 We love SnapChat. It's confusing, but we love it. It's a big hit with the kids these days and it's growing. It has a user base of 55+ million and it's not stopping there.

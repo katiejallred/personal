@@ -11,6 +11,7 @@ tags:
 - college
 - resources
 wordpress_id: 222
+description: "Free online tutoring and learning resources I've used since 2004, from Khan Academy to math and writing help for K-12 and college."
 ---
 
 ![](http://s10.postimage.org/w7ahn1sah/freshgenerator.png "Free Online Tutoring")

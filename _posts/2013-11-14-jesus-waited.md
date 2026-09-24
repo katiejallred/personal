@@ -12,6 +12,7 @@ tags:
 - devotional
 wordpress_id: 832
 image: /assets/uploads/2013/11/clock-scaled.jpg
+description: "In John 11, Jesus loved Lazarus and still waited two days. What that story teaches about waiting and God's glory."
 ---
 
 No one likes waiting, but sometimes waiting makes sense and God uses it for His glory.

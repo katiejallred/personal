@@ -11,6 +11,7 @@ tags:
 - recipes
 - casseroles
 wordpress_id: 2645
+description: "A hearty Mexican cornbread casserole with taco-seasoned beef, Rotel, beans, and corn, topped with Jiffy cornbread and cheddar."
 ---
 
 ## Mexican Cornbread Casserole

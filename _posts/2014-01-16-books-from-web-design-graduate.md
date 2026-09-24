@@ -13,6 +13,7 @@ tags:
 - books
 wordpress_id: 885
 image: /assets/uploads/2014/01/doctype-hi-res-e1430773401883.jpg
+description: "My favorite books from the University of Florida's web design graduate program, for anyone starting out as a web designer."
 ---
 
 I finished the web design program at the University of Florida back in the summer of 2014. I compiled a list of my favorite books from that program. Perhaps you'll find them useful if you're just starting out as a web designer.

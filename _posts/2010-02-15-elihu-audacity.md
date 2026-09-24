@@ -12,6 +12,7 @@ tags:
 - devotional
 - Bible
 wordpress_id: 46
+description: "Finishing Job while reading the Bible chronologically, and what young Elihu teaches about the wisdom and audacity of speaking up."
 ---
 
 Tonight I finally finished up Job on my quest to read the entire bible chronologically in a year. After getting though his friends arguments, and Job's final discourse, we hear from this character named, Elihu. To be honest, I didn't know there was another guy in this audience besides Job and his three friends, but here comes this young guy who makes sense of everything.  

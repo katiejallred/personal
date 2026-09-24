@@ -14,6 +14,7 @@ tags:
 - social media
 wordpress_id: 1515
 image: /assets/uploads/2016/01/child-on-iphone-scaled.jpg
+description: "Eight practical tips to help parents take an active role in their kids' online lives and keep them safe on social media."
 ---
 
 You can’t avoid it. Kids are getting on to social media and the internet. Before kids can walk they can learn how to open and close applications on an iPhone. There are some serious benefits to children becoming tech savvy and some disadvantages. One thing is certain: It’s important that you take an active role in your child’s online life. I say “online life” because for most kids and teenagers it becomes really easy to compartmentalise or separate their online life from their actual life. It’s important that early on they understand that one can and does affect the other.

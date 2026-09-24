@@ -12,6 +12,7 @@ tags:
 - resources
 wordpress_id: 1317
 image: /assets/uploads/2015/07/learning-copywriting.png
+description: "Ten of the best free sites for learning copywriting, for web designers, bloggers, and anyone who wants to write copy that sells."
 ---
 
 Maybe you're a great web designer and you want to learn about more about copywriting. Maybe you're just an average blogger, but you want to sell a book or just write better.

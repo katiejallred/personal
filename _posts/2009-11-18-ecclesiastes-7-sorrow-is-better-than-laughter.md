@@ -12,6 +12,7 @@ tags:
 - devotional
 - Bible
 wordpress_id: 44
+description: "Reflections on Ecclesiastes 7 and why the Bible says sorrow is better than laughter, from someone who used to laugh everything off."
 ---
 
 Before reading it would probably be best to read: [Ecclesiastes 7](http://www.biblegateway.com/passage/?search=Ecclesiastes+7&version=NIV)!

@@ -15,6 +15,7 @@ tags:
 wordpress_id: 1650
 seo_title: Best Way to Keep Your Teens Safe on Facebook [10+ Settings]
 image: /assets/uploads/2016/06/HHZ5NPNR1T1.jpg
+description: "More than ten Facebook privacy settings that lock down a teen's account so strangers can't find, contact, or add them."
 ---
 
 These are Facebook privacy setting suggestions for teens using Facebook; however, I would also recommend these settings to parents and adults as well.

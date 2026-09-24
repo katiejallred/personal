@@ -12,6 +12,7 @@ tags:
 - grief
 wordpress_id: 856
 image: /assets/uploads/2013/12/sunset-hair-e1430773369575.jpg
+description: "Three lessons I've learned from grief, and practical ways to help a friend who is grieving when you don't know what to say."
 ---
 
 After the lost of someone important in your life, you will deal with grief. I must say that with each person I've lost that my grief has been different. I've felt differently every time and the same might apply to you. You will deal with your grief differently because your situation was different. As much as I can relate to someone who has lost a father, my relationship with my father might've been different than yours. I can't pretend to know what you're feeling or understand. Then what can you do when someone else is grieving? What can you tell them? Are there practical steps you can take yourself while grieving?

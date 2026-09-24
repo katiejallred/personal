@@ -13,6 +13,7 @@ tags:
 - productivity
 wordpress_id: 1306
 image: /assets/uploads/2015/07/content-curation.png
+description: "How to automate content curation by pairing Digg Reader's RSS feeds with Buffer, so sharing great articles takes minutes."
 ---
 
 Do you love curating content? Ok, you might not know what that means.

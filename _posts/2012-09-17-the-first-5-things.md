@@ -11,6 +11,7 @@ tags:
 - life
 - faith
 wordpress_id: 288
+description: "The first post in a series of five things: five things about me, starting with loving Jesus and still being a sinner."
 ---
 
 I wanted to start writing more and figured that I could handle writing about 5 things of anything so here it goes.

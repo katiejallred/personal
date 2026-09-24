@@ -13,6 +13,7 @@ tags:
 - faith
 wordpress_id: 1633
 image: /assets/uploads/2016/06/13268596_10208253057216545_4445114709508466584_o.jpg
+description: "What I learned serving churches with my web and marketing skills on Creative Missions, plus five questions to ask after any mission trip."
 ---
 
 This past week, I got the opportunity to go on Creative Missions.
