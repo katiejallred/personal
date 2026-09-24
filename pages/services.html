@@ -9,7 +9,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 
-<section class="hero page-hero" aria-labelledby="hero-title">
+<section class="hero home-hero services-hero" aria-labelledby="hero-title">
   <div class="wrap">
     <div>
       <p class="label home-hero-label">Services</p>
@@ -17,8 +17,12 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
       <p class="hero-lede">Whether you need an honest outside look, a team that knows how to use AI well, or a website that finally makes sense, there's a clear next step here. Every engagement starts with a free call.</p>
       <div class="hero-actions">
         <a class="btn btn-blue" href="{{ book }}">Book a free call →</a>
+        <a class="aside" href="#fit-title">find your fit ↓</a>
       </div>
     </div>
+    <figure class="home-hero-photo">
+      <img src="{{ '/assets/images/headshots/katie-allred-blazer.jpg' | relative_url }}" alt="Katie Allred in a camel blazer, arms crossed, smiling" width="1334" height="2000">
+    </figure>
   </div>
   <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
     <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
@@ -49,6 +53,16 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
         <a class="btn btn-red btn-sm" href="#svc-websites">Websites &amp; community ↓</a>
       </li>
     </ul>
+    <nav class="review-jump" aria-label="All services">
+      <p class="label">Or jump to</p>
+      <ul class="chip-row">
+        <li><a class="chip" href="#svc-audits">Audits</a></li>
+        <li><a class="chip" href="#svc-ai">AI training</a></li>
+        <li><a class="chip" href="#svc-workshops">Workshops &amp; keynotes</a></li>
+        <li><a class="chip" href="#svc-web">Websites</a></li>
+        <li><a class="chip" href="#svc-community">Community &amp; copy</a></li>
+      </ul>
+    </nav>
   </div>
 </section>
 
@@ -82,7 +96,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
       <h2 class="section-title" id="audits-title">Start with clarity.</h2>
       <p class="section-intro">Before you can fix anything, you have to know what's broken. These engagements give you an honest picture of where your brand and communications stand, and a direct path forward.</p>
     </header>
-    <div class="offer-grid">
+    <div class="offer-grid offer-grid-2">
       <article class="card offer">
         <p class="offer-badge">Most requested</p>
         <h3>Communication Audit</h3>
@@ -94,6 +108,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Prioritized action plan with quick wins</li>
           <li>60-minute debrief call</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card offer">
         <h3>Brand Experience Audit</h3>
@@ -104,6 +119,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Written report with screenshots and notes</li>
           <li>30-minute debrief call</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card offer">
         <h3>Brand &amp; Messaging Audit</h3>
@@ -115,6 +131,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>A messaging framework you keep</li>
           <li>60-minute strategy debrief</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card offer">
         <h3>Audience Research</h3>
@@ -126,6 +143,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Recommended communication approaches</li>
           <li>Delivered as a shareable slide deck</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
   </div>
@@ -139,7 +157,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
       <p class="section-intro">One-time events rarely create lasting change. These are built to give your team the tools and the confidence to keep going long after the session ends.</p>
     </header>
 
-    <h3 class="subhead">AI training &amp; governance</h3>
+    <h3 class="subhead" id="svc-ai">AI training &amp; governance</h3>
     <p class="subhead-intro">Use AI confidently, consistently, and in line with your values — without losing the human voice that makes you <em>you</em>. Every package includes hands-on "Prompting Well" training.</p>
     <div class="tier-grid">
       <article class="card tier">
@@ -151,6 +169,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Content workflow audit</li>
           <li>Implementation checklist</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card tier tier-featured">
         <p class="offer-badge">Most popular</p>
@@ -163,6 +182,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Brand voice guide for AI use</li>
           <li>30 days of async support</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card tier">
         <h4>AI Governance</h4>
@@ -174,11 +194,12 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Team certification program</li>
           <li>Priority support and advisory access</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
     <p class="fine-print">Pricing varies by team size and scope. Serving a church? See the <a href="{{ '/churches/' | relative_url }}">ministry AI packages</a>, which start lower.</p>
 
-    <div class="offer-grid offer-grid-spaced">
+    <div class="offer-grid offer-grid-spaced" id="svc-workshops">
       <article class="card offer">
         <h3>Social Media &amp; Communications Training</h3>
         <p class="offer-price">Starting at $2,500</p>
@@ -189,10 +210,11 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Workbook and reference materials</li>
           <li>Optional follow-up Q&amp;A</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card offer">
         <h3>Keynotes &amp; Executive Workshops</h3>
-        <p class="offer-price"><a href="{{ book }}">Contact for availability</a></p>
+        <p class="offer-price">Contact for availability</p>
         <p>Talks on online community, communications strategy, and AI with intention — engaging, practical, and grounded in 25+ years of building online.</p>
         <ul>
           <li>Tailored to your theme and audience</li>
@@ -201,6 +223,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Audience Q&amp;A and a post-event resource kit</li>
         </ul>
         <p class="fine-print">Book 6–8 weeks in advance.</p>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card offer">
         <h3>Allred Academy Cohorts</h3>
@@ -211,6 +234,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Peer community between sessions</li>
           <li>Built for teams of one and small staffs</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
   </div>
@@ -224,7 +248,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
       <p class="section-intro">Your online presence is your first impression. These engagements make sure it reflects who you are, speaks to your audience, and works hard for your goals.</p>
     </header>
 
-    <h3 class="subhead">Website creation</h3>
+    <h3 class="subhead" id="svc-web">Website creation</h3>
     <p class="subhead-intro">Every site is strategic, mobile-first, and yours to edit. The difference is how much of the messaging, structure, and content we shape together.</p>
     <div class="tier-grid tier-grid-2">
       <article class="card tier">
@@ -239,6 +263,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Walkthrough training so you can edit it yourself</li>
           <li>Copywriting guidance · 30-day post-launch support</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card tier tier-featured">
         <p class="offer-badge">Most requested</p>
@@ -254,11 +279,12 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>SEO keyword strategy + 10 blog post outlines</li>
           <li>60-day post-launch support</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
     <p class="fine-print">Need something in between, or a larger church or nonprofit build? We'll scope it together.</p>
 
-    <div class="offer-grid offer-grid-spaced">
+    <div class="offer-grid offer-grid-spaced" id="svc-community">
       <article class="card offer">
         <h3>Online Community Strategy &amp; Audit</h3>
         <p class="offer-price">Starting at $2,500</p>
@@ -269,6 +295,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Moderation guidelines and onboarding flows</li>
           <li>60-minute implementation call</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
       <article class="card offer">
         <h3>Copywriting</h3>
@@ -280,6 +307,7 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
           <li>Two rounds of revisions</li>
           <li>Delivered in Google Docs</li>
         </ul>
+        <a class="offer-cta" href="{{ book }}">Talk to me about this →</a>
       </article>
     </div>
   </div>
@@ -291,19 +319,16 @@ seo_title: Communications, Community & AI Training Services | Katie Allred
       <p class="label">What clients are saying</p>
       <h2 class="section-title" id="reviews-title">Real results. Real voices.</h2>
     </header>
-    <div class="quote-grid">
-      <blockquote class="testimonial">
-        <p>“Katie is a digital native who gets engagement online. A Swiss Army knife of the digital dimension — she can build websites, write StoryBrand copy, teach digital marketing, and manage and grow communities.”</p>
-        <footer>Kenny Jahng, Founder · AI for Church Leaders</footer>
-      </blockquote>
-      <blockquote class="testimonial">
-        <p>“Katie KNOWS community. She brought real-world experience and strong academic credentials to the table, led workshops for partners, and always championed her team.”</p>
-        <footer>Eliana Caceres, MBA, PMP · Meta</footer>
-      </blockquote>
-      <blockquote class="testimonial">
-        <p>“Katie is the pro when it comes to digital communication strategies and ideas, especially for churches and nonprofits. She's innovative, well-informed, and open to new ways of doing things.”</p>
-        <footer>Josh Taylor, StoryBrand Certified Guide &amp; CMO · OptSpot</footer>
-      </blockquote>
+    {%- assign picks = "Kenny Jahng|Keely Thrall|Josh Taylor" | split: "|" %}
+    <div class="review-grid">
+      {%- for name in picks %}
+      {%- for group in site.data.reviews %}
+      {%- assign r = group.reviews | where: "name", name | first %}
+      {%- if r %}
+      {% include review-card.html review=r %}
+      {%- endif %}
+      {%- endfor %}
+      {%- endfor %}
     </div>
     <p class="section-cta"><a href="{{ '/reviews/' | relative_url }}">Read more reviews →</a></p>
   </div>
