@@ -5,6 +5,7 @@ date: '2026-05-18 08:00:00'
 last_modified_at: '2026-03-30 01:58:04'
 author: Katie Allred
 permalink: /how-to-build-a-social-media-content-calendar-for-your-church-without-losing-your-mind/
+description: "Stop staring at a blank Canva page on Thursday. Build a church social media calendar with content pillars, batching, the right frequency and a template."
 categories:
 - Social Media
 tags:

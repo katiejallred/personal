@@ -5,6 +5,7 @@ date: '2026-05-04 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /the-art-of-the-prompt-how-to-talk-to-ai-so-it-actually-helps-you/
+description: "Better prompts get better results. The anatomy of a great AI prompt, plus persona-based, iterative and meta-prompting you can practice this week at your church."
 categories:
 - AI & Tech
 tags:

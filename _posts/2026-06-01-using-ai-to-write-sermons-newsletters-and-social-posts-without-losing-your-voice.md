@@ -5,6 +5,7 @@ date: '2026-06-01 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /using-ai-to-write-sermons-newsletters-and-social-posts-without-losing-your-voice/
+description: "Worried AI will make you sound robotic? How to use it for sermon prep, newsletters and social posts as a starting point, and keep your voice your own."
 categories:
 - AI & Tech
 - Church Communications

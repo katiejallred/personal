@@ -5,6 +5,7 @@ date: '2026-04-06 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /chatgpt-claude-or-gemini-which-ai-tool-is-right-for-your-church/
+description: "ChatGPT, Claude or Gemini? A plain-language breakdown of what each AI tool does best for churches, which one to start with, and what to know about privacy."
 categories:
 - AI & Tech
 tags:

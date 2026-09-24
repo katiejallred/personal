@@ -5,6 +5,7 @@ date: '2021-07-07 00:47:58'
 last_modified_at: '2021-07-07 00:49:59'
 author: Katie Allred
 permalink: /a-brief-history-of-online-community/
+description: "Online communities are only a few decades old. Here's how they started, how they've changed, why people are drawn to them, and where they're headed."
 categories:
 - Online Community
 tags:

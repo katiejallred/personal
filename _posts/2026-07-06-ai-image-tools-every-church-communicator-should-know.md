@@ -5,6 +5,7 @@ date: '2026-07-06 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /ai-image-tools-every-church-communicator-should-know/
+description: "Create original church graphics in seconds. What DALL-E, Midjourney and Ideogram each do well, plus tips for getting better AI images for your ministry."
 categories:
 - AI & Tech
 - Church Communications

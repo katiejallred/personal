@@ -5,6 +5,7 @@ date: '2026-08-03 08:00:00'
 last_modified_at: '2026-03-30 03:30:07'
 author: Katie Allred
 permalink: /ai-audio-and-video-tools-the-church-should-be-experimenting-with/
+description: "AI now makes music, voices and video. What SUNO, ElevenLabs and HeyGen can do for your church, and the ethical questions to answer before you use them."
 categories:
 - AI & Tech
 tags:

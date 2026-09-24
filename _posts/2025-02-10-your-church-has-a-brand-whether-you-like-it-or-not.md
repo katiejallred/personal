@@ -5,6 +5,7 @@ date: '2025-02-10 08:00:00'
 last_modified_at: '2026-03-30 03:26:50'
 author: Katie Allred
 permalink: /your-church-has-a-brand-whether-you-like-it-or-not/
+description: "Your church already has a brand. The question is whether you're intentional about it. Five brand audit questions and why consistency matters more than a logo."
 categories:
 - Church Communications
 tags:

@@ -5,6 +5,7 @@ date: '2026-05-25 08:00:00'
 last_modified_at: '2026-03-30 01:58:36'
 author: Katie Allred
 permalink: /stop-winging-it-how-to-create-a-church-communications-strategy-that-actually-works/
+description: "Most churches have a communications habit, not a strategy. Answer four questions and build a one-page church communications strategy that actually works."
 categories:
 - Church Communications
 tags:

@@ -5,6 +5,7 @@ date: '2026-01-12 08:00:00'
 last_modified_at: '2026-03-30 03:30:06'
 author: Katie Allred
 permalink: /what-is-ai-and-why-should-your-church-care/
+description: "You're already using AI every day. A plain-language explanation of what AI is, how it learns, and why it matters for your church, no tech background required."
 categories:
 - AI & Tech
 tags:
