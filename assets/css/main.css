@@ -1154,6 +1154,14 @@ code, pre, kbd, samp {
   color: var(--red);
 }
 
+.section-kicker-wide {
+  max-width: none;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
 .tagline {
   font-size: 34px;
   line-height: 38px;
