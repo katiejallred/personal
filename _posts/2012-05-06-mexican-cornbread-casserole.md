@@ -16,10 +16,6 @@ description: "A hearty Mexican cornbread casserole with taco-seasoned beef, Rote
 
 ## Mexican Cornbread Casserole
 
-![Mexican cornbread casserole](http://cdn.copykat.netdna-cdn.com/wp-content/uploads/2011/10/Mexican-Cornbread-Casserole.jpg "Mexican Cornbread Casserole")
-
-Image Credit: copycat.com
-
 *Preheat oven to 375º.*
 
 #### Ingredients for meat mixture
