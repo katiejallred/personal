@@ -16,7 +16,7 @@ bundle exec jekyll build          # output to _site/
 ```
 _config.yml        Site metadata, contact details, permalinks, plugins
 _data/             navigation, social links (fixed order), hero links
-_layouts/          default, page, post, home, landing, blank
+_layouts/          default, page, post, home, landing, legal, blank
 _includes/         header, footer, post-card, pagination
 .github/workflows/ pages.yml builds and deploys to GitHub Pages
 _posts/            Published posts (YYYY-MM-DD-slug.md)
@@ -59,6 +59,10 @@ future dates (Jekyll skips them until the date arrives — preview with
 Pages were exported from WordPress into `pages/`, each with an explicit
 `permalink`. They use the `landing` layout (the content brings its own
 eyebrow and H1) except `link-in-bio`, which uses `blank` (no header or
-footer). The Elementor inline styles were remapped to the design-system
+footer). The privacy policy, terms, disclaimer and affiliate disclosure
+use the `legal` layout: write each section as a `##` heading in
+markdown and the layout builds the numbered "On this page" list; set
+`updated` (the date shown) and `summary` (the plain-English card) in
+front matter. The Elementor inline styles were remapped to the design-system
 tokens. The contact and Community Playbook forms are Tally embeds
 (`_includes/tally.html`); responses and settings live in Tally.

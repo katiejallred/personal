@@ -1,0 +1,90 @@
+---
+layout: default
+---
+{%- comment -%}
+  Privacy, terms, disclaimer and affiliate disclosure. Pages write their
+  sections as `##` headings in markdown; the "On this page" list is built
+  from those headings, and CSS numbers both. Front matter:
+    hero_title  H1 (may use <em>), falls back to title
+    summary     "In plain English" card above the fine print
+    updated     date shown under the H1 (YYYY-MM-DD)
+    governing_law  optional, shown next to the date
+{%- endcomment -%}
+{%- assign sections = content | split: '<h2 id="' -%}
+{%- capture legal_pages -%}
+/privacy-policy/|Privacy policy
+/terms-of-service/|Terms of service
+/disclaimer/|Disclaimer
+/affiliate-disclosure/|Affiliate disclosure
+{%- endcapture -%}
+
+<section class="hero page-hero legal-hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div>
+      <p class="label home-hero-label">Legal</p>
+      <h1 class="hero-title" id="hero-title">{{ page.hero_title | default: page.title }}</h1>
+      <p class="hero-lede">{{ page.description }}</p>
+      <p class="legal-meta">
+        Last updated <time datetime="{{ page.updated | date: '%Y-%m-%d' }}">{{ page.updated | date: '%B %-d, %Y' }}</time>
+        {%- if page.governing_law %} · Governing law: {{ page.governing_law }}{% endif %}
+      </p>
+    </div>
+  </div>
+  <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
+    <path d="M0 520 C 360 400, 700 600, 1040 470 S 1360 420, 1440 470 L1440 600 L0 600Z" fill="#FF5B3A" opacity=".75"/>
+  </svg>
+</section>
+
+<section class="section">
+  <div class="wrap legal-layout">
+    {%- if page.summary %}
+    <div class="card legal-summary">
+      <p class="label">In plain English</p>
+      <p>{{ page.summary }}</p>
+    </div>
+    {%- endif %}
+
+    <aside class="legal-aside">
+      {%- if sections.size > 1 %}
+      <nav class="legal-toc" aria-labelledby="toc-title">
+        <h2 class="label" id="toc-title">On this page</h2>
+        <ol>
+          {%- for section in sections offset: 1 %}
+          {%- assign id = section | split: '"' | first %}
+          {%- assign heading = section | split: '</h2>' | first | split: '">' | shift | join: '">' | strip_html %}
+          <li><a href="#{{ id }}">{{ heading }}</a></li>
+          {%- endfor %}
+        </ol>
+      </nav>
+      {%- endif %}
+
+      <nav class="legal-pages" aria-labelledby="legal-pages-title">
+        <h2 class="label" id="legal-pages-title">The fine print</h2>
+        <ul>
+          {%- assign rows = legal_pages | strip | newline_to_br | split: '<br />' %}
+          {%- for row in rows %}
+          {%- assign bits = row | strip | split: '|' %}
+          <li><a href="{{ bits[0] | relative_url }}"{% if page.url == bits[0] %} aria-current="page"{% endif %}>{{ bits[1] }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+    </aside>
+
+    <div class="legal-body">
+      <div class="prose legal-prose">
+        {{ content }}
+      </div>
+
+      <div class="card legal-contact">
+        <h2 class="subhead">Questions about any of this?</h2>
+        <p>Email me at <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a> and I'll get back to you within 30 days, usually much sooner.</p>
+        <address>
+          Katie Allred Consulting, LLC<br>
+          PO Box 31<br>
+          Nolensville, TN 37135
+        </address>
+      </div>
+    </div>
+  </div>
+</section>
