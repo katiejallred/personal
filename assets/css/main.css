@@ -1429,7 +1429,7 @@ code, pre, kbd, samp {
   margin: 0;
 }
 
-.faq {
+.faq details {
   max-width: var(--measure);
 }
 
