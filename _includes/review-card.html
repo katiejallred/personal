@@ -1,0 +1,23 @@
+{%- comment -%}
+  One testimonial card. Pass review= an entry from _data/reviews.yml.
+  Initials come from the first and last word of the name, before any
+  credentials ("Amy Lamb, MBA" → AL).
+{%- endcomment -%}
+{%- assign r = include.review -%}
+{%- assign words = r.name | split: "," | first | split: " " -%}
+{%- capture initials -%}{{ words.first | slice: 0 }}{% if words.size > 1 %}{{ words.last | slice: 0 }}{% endif %}{%- endcapture -%}
+<figure class="review">
+  {%- if r.rating %}
+  <p class="review-stars"><span aria-hidden="true">{% for i in (1..r.rating) %}★{% endfor %}</span><span class="visually-hidden">Rated {{ r.rating }} out of 5</span></p>
+  {%- endif %}
+  <blockquote>
+    <p>{{ r.quote | strip | escape }}</p>
+  </blockquote>
+  <figcaption>
+    <span class="review-avatar" aria-hidden="true">{{ initials | upcase }}</span>
+    <span>
+      <strong>{{ r.name | escape }}</strong>
+      <span class="review-role">{% if r.role %}{{ r.role | escape }}{% if r.org %} · {% endif %}{% endif %}{{ r.org | escape }}</span>
+    </span>
+  </figcaption>
+</figure>

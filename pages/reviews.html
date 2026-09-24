@@ -1,0 +1,85 @@
+---
+layout: default
+title: Reviews
+permalink: /reviews/
+last_modified_at: '2026-09-24'
+wordpress_id: 3330
+description: See what clients, event organizers, and community leaders are saying about working with Katie Allred.
+seo_title: Reviews - Katie Allred
+---
+{%- assign book = site.contact.booking | relative_url -%}
+{%- assign featured = nil -%}
+{%- for group in site.data.reviews -%}
+  {%- for r in group.reviews -%}
+    {%- if r.featured -%}{%- assign featured = r -%}{%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+<section class="hero page-hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div>
+      <p class="label home-hero-label">Reviews &amp; testimonials</p>
+      <h1 class="hero-title" id="hero-title">Real results. Real <em>voices</em>.</h1>
+      <p class="hero-lede">From AI workshops and keynotes to church communications consulting, here's what ministry leaders, communicators, and colleagues say about working with Katie.</p>
+      <div class="hero-actions">
+        <a class="btn btn-blue" href="{{ book }}">Book a free call →</a>
+        <a class="aside" href="#{{ site.data.reviews.first.id }}-title">read what they said ↓</a>
+      </div>
+    </div>
+  </div>
+  <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
+    <path d="M0 520 C 360 400, 700 600, 1040 470 S 1360 420, 1440 470 L1440 600 L0 600Z" fill="#FF5B3A" opacity=".75"/>
+  </svg>
+</section>
+
+{%- if featured %}
+<section class="section review-feature" aria-label="Featured review">
+  <div class="wrap">
+    <figure>
+      <blockquote>
+        <p>{{ featured.quote | strip | escape }}</p>
+      </blockquote>
+      <figcaption><strong>{{ featured.name | escape }}</strong> · {{ featured.role | escape }}, {{ featured.org | escape }}</figcaption>
+    </figure>
+    <nav class="review-jump" aria-label="Review categories">
+      <p class="label">Jump to</p>
+      <ul class="chip-row">
+        {%- for group in site.data.reviews %}
+        <li><a class="chip" href="#{{ group.id }}-title">{{ group.label | escape }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</section>
+{%- endif %}
+
+{%- for group in site.data.reviews %}
+<section class="section{% cycle ' section-blush', '', ' section-blush' %}" aria-labelledby="{{ group.id }}-title">
+  <div class="wrap">
+    <header class="section-header">
+      <p class="label">{{ group.label | escape }}</p>
+      <h2 class="section-title" id="{{ group.id }}-title">{{ group.title }}</h2>
+      <p class="section-intro">{{ group.intro }}</p>
+    </header>
+    <div class="review-grid{% if group.reviews.size == 4 %} review-grid-2{% endif %}">
+      {%- for r in group.reviews %}
+      {%- unless r.featured %}
+      {% include review-card.html review=r %}
+      {%- endunless %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endfor %}
+
+<section class="cta-band" aria-labelledby="cta-title">
+  <div class="wrap">
+    <h2 id="cta-title">Ready to bring AI &amp; communications excellence to your team?</h2>
+    <p>Whether you need a keynote, a hands-on AI workshop, or ongoing communications consulting, let's start with a conversation.</p>
+    <div class="cta-actions">
+      <a class="btn btn-blue" href="{{ book }}">Book a free discovery call →</a>
+      <a class="btn btn-butter" href="mailto:{{ site.contact.email }}?subject=A%20review%20for%20Katie">Worked with Katie? Share a review</a>
+    </div>
+  </div>
+</section>
