@@ -2204,3 +2204,133 @@ code, pre, kbd, samp {
 .signup-card .tally-embed {
   display: block;
 }
+
+/* --- Legal pages (privacy, terms, disclaimer, affiliate disclosure) --- */
+.legal-meta {
+  margin-top: var(--space-4);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--on-red-soft);
+}
+
+.legal-layout {
+  display: grid;
+  gap: var(--space-6);
+}
+
+@media (min-width: 900px) {
+  .legal-layout {
+    grid-template-columns: 15rem minmax(0, var(--measure));
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .legal-summary,
+  .legal-body {
+    grid-column: 2;
+  }
+
+  .legal-aside {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    position: sticky;
+    top: var(--space-4);
+    max-height: calc(100vh - 2 * var(--space-4));
+    overflow-y: auto;
+  }
+}
+
+.legal-aside {
+  display: grid;
+  gap: var(--space-6);
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.legal-aside ol,
+.legal-aside ul {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-3);
+  display: grid;
+  gap: var(--space-2);
+}
+
+.legal-toc ol {
+  counter-reset: legal;
+}
+
+.legal-toc li {
+  counter-increment: legal;
+  display: flex;
+  gap: var(--space-2);
+}
+
+.legal-toc li::before,
+.legal-prose h2::before {
+  content: counter(legal, decimal-leading-zero);
+  color: var(--red);
+  font-variant-numeric: tabular-nums;
+}
+
+.legal-toc li::before {
+  font-weight: 700;
+}
+
+.legal-aside a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.legal-aside a:hover {
+  color: var(--red);
+  text-decoration: underline;
+}
+
+.legal-pages a[aria-current="page"] {
+  font-weight: 700;
+  color: var(--red);
+}
+
+.legal-summary {
+  box-shadow: inset 4px 0 0 var(--red);
+}
+
+.legal-summary .label {
+  color: var(--red);
+}
+
+.legal-summary p:last-child {
+  color: var(--ink);
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.legal-prose {
+  counter-reset: legal;
+}
+
+.legal-prose h2 {
+  counter-increment: legal;
+  display: flex;
+  gap: var(--space-3);
+  font-size: 28px;
+  scroll-margin-top: var(--space-4);
+}
+
+.legal-prose h2::before {
+  font-size: 0.8em;
+}
+
+.legal-prose h2:first-child {
+  margin-top: 0;
+}
+
+.legal-body > * + * {
+  margin-top: var(--space-6);
+}
+
+.legal-contact address {
+  font-style: normal;
+  color: var(--muted);
+}

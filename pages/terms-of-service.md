@@ -1,105 +1,100 @@
 ---
-layout: landing
+layout: legal
 title: Terms of Service
+hero_title: Terms of <em>service</em>.
 permalink: /terms-of-service/
-last_modified_at: '2017-02-26 13:49:06'
+updated: 2026-09-24
+last_modified_at: '2026-09-24'
+governing_law: Tennessee, USA
 wordpress_id: 2115
-description: Terms and conditions governing use of katieallred.com and related services.
+description: The ground rules for using katieallred.com and buying consulting, speaking, and digital products from me.
 seo_title: Terms of Service - Katie Allred
+summary: >-
+  Use this site lawfully and don't copy my content without asking. Service
+  fees are non-refundable once work begins, and digital products are final
+  sale. You must be 18 to buy. Tennessee law applies, and we'll try to work
+  out any disagreement together before going to arbitration.
 ---
 
-## LEGAL
+## Agreeing to these terms
 
-# Terms of Service
+By using katieallred.com, you agree to these Terms of Service. If you don't agree, please don't use the site. They apply to everyone: visitors, subscribers, and customers.
 
-{::nomarkdown}
-<style>
-.ka-legal h2{font-family:var(--font-sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:var(--red);margin:40px 0 14px;padding-top:8px;border-top:1px solid rgba(26,46,53,0.12);}
-.ka-legal h2:first-child{margin-top:0;border-top:none;}
-.ka-legal p,.ka-legal li{font-family:var(--font-sans);font-size:16px;font-weight:400;line-height:1.85;color:var(--ink);margin:0 0 14px;}
-.ka-legal ul,.ka-legal ol{margin:0 0 16px;padding-left:24px;}
-.ka-legal li{margin-bottom:6px;}
-.ka-legal a{color:var(--red);text-decoration:underline;}
-.ka-legal .meta{font-family:var(--font-sans);font-size:12px;font-weight:400;color:rgba(26,46,53,0.5);letter-spacing:0.5px;margin-bottom:36px;}
-.ka-legal strong{font-weight:700;}
-.ka-legal .notice{background:rgba(204,43,39,0.06);border-left:3px solid #CC2B27;padding:14px 18px;margin:20px 0 24px;border-radius:0 4px 4px 0;}
-.ka-legal .notice p{margin:0;font-size:14px;}
-</style>
-<div class="ka-legal">
-<p class="meta">Effective date: January 1, 2026 &nbsp;·&nbsp; Governing law: Tennessee, USA</p>
+## Age requirements
 
-<h2>1. Agreement to Terms</h2>
-<p>By accessing or using katieallred.com, you agree to be bound by these Terms of Service. If you do not agree, please do not use this site. These terms apply to all visitors, subscribers, and customers.</p>
+You must be at least **13** to use this site, and at least **18** (or the age of majority where you live) to make a purchase. By buying something, you confirm you meet that age requirement.
 
-<h2>2. Age Requirements</h2>
-<p>You must be at least <strong>13 years old</strong> to use this site. You must be at least <strong>18 years old</strong> (or the age of majority in your jurisdiction) to make a purchase. By completing a purchase, you represent that you meet this age requirement.</p>
+## Services and products
 
-<h2>3. Services and Products</h2>
-<p>Katie Allred Consulting, LLC offers the following through this site:</p>
-<ul>
-  <li>Consulting and strategy services (community strategy, AI training, brand audits, website creation)</li>
-  <li>Keynote speaking and workshop engagements</li>
-  <li>Digital products and online resources</li>
-  <li>Email newsletter content</li>
-</ul>
-<p>Service descriptions, pricing, and availability are subject to change at any time without notice.</p>
+Katie Allred Consulting, LLC offers:
 
-<h2>4. Payment Terms</h2>
-<p>Payments are processed through one of the following platforms depending on the service:</p>
-<ul>
-  <li><strong>Stripe</strong> — credit/debit card payments; <a href="https://stripe.com/ssa" target="_blank" rel="noopener">stripe.com/ssa</a></li>
-  <li><strong>PayPal</strong> — PayPal account and card payments; <a href="https://www.paypal.com/legalhub/useragreement-full" target="_blank" rel="noopener">PayPal User Agreement</a></li>
-  <li><strong>Venmo</strong> — peer-to-peer payments; <a href="https://venmo.com/legal/us-user-agreement/" target="_blank" rel="noopener">Venmo User Agreement</a></li>
-  <li><strong>TidyCal</strong> — scheduling and session booking payments; <a href="https://tidycal.com/terms" target="_blank" rel="noopener">TidyCal Terms</a></li>
-</ul>
-<p>By providing payment information, you represent that you are authorized to use the payment method and agree to the applicable platform's terms. All prices are listed in US dollars unless otherwise noted.</p>
+- Consulting and strategy services, such as community strategy, AI training, brand audits, and website creation
+- Keynote speaking and workshops
+- Digital products and online resources
+- My email newsletter
 
-<h2>5. Refund Policy</h2>
-<p><strong>Services:</strong> Because consulting and strategy engagements involve my time and preparation, all service fees are non-refundable once work has begun. If a project has not yet started, please contact me within 48 hours of purchase to request a refund.</p>
-<p><strong>Digital products:</strong> Due to the nature of digital goods, all sales are final. If you experience a technical issue preventing access, contact me and I will work to resolve it.</p>
-<p><strong>Speaking engagements:</strong> Cancellation terms are outlined in the individual speaking agreement.</p>
+Descriptions, pricing, and availability can change at any time without notice.
 
-<h2>6. Intellectual Property</h2>
-<p>All content on this site — including text, graphics, logos, images, audio, and video — is owned by Katie Allred Consulting, LLC or licensed to it, and is protected by US and international copyright law.</p>
-<p>You may not reproduce, distribute, modify, or create derivative works from any content on this site without my prior written permission. Brief quotations with proper attribution for non-commercial purposes are permitted.</p>
+## Payment
 
-<h2>7. Email List and Communications</h2>
-<p>By subscribing to my email list, you consent to receive periodic emails including newsletters, updates, and promotional content. You may unsubscribe at any time using the link in any email. Unsubscribing does not affect transactional emails related to purchases you've made.</p>
+Depending on the service, payments go through one of these platforms, and their terms apply too:
 
-<h2>8. Prohibited Uses</h2>
-<p>You agree not to:</p>
-<ul>
-  <li>Use this site for any unlawful purpose</li>
-  <li>Reproduce or redistribute my content without permission</li>
-  <li>Attempt to gain unauthorized access to any part of the site or its systems</li>
-  <li>Use automated tools (bots, scrapers) to collect data from this site</li>
-  <li>Submit false or misleading information through any form</li>
-  <li>Engage in any conduct that could damage, disable, or impair the site</li>
-</ul>
+- **Stripe** (card payments): [Stripe Services Agreement](https://stripe.com/legal/ssa)
+- **PayPal** (PayPal account and card payments): [PayPal User Agreement](https://www.paypal.com/legalhub/useragreement-full)
+- **Venmo** (peer-to-peer payments): [Venmo User Agreement](https://venmo.com/legal/us-user-agreement/)
+- **TidyCal** (paid session bookings): [TidyCal Terms](https://tidycal.com/legal/terms)
 
-<h2>9. Third-Party Links</h2>
-<p>This site contains links to third-party websites, including affiliate links. I am not responsible for the content, privacy practices, or terms of those sites. Clicking third-party links is at your own risk.</p>
+By paying, you confirm you're authorized to use that payment method. Prices are in US dollars unless noted otherwise.
 
-<h2>10. Disclaimer of Warranties</h2>
-<p>This site and its content are provided on an "<strong>as is</strong>" and "<strong>as available</strong>" basis without warranties of any kind, express or implied. I do not warrant that the site will be uninterrupted, error-free, or free of viruses or other harmful components.</p>
+## Refunds
 
-<h2>11. Limitation of Liability</h2>
-<p>To the fullest extent permitted by Tennessee law, Katie Allred Consulting, LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use of this site or purchase of services, even if advised of the possibility of such damages. My total liability for any claim arising from these terms shall not exceed the amount you paid me in the 90 days preceding the claim, or $100, whichever is greater.</p>
+**Services:** Consulting and strategy engagements take my time and preparation, so fees are non-refundable once work has begun. If your project hasn't started yet, contact me within 48 hours of purchase to request a refund.
 
-<h2>12. Indemnification</h2>
-<p>You agree to indemnify and hold harmless Katie Allred Consulting, LLC from any claims, damages, losses, or expenses (including reasonable attorneys' fees) arising from your violation of these Terms or your use of this site.</p>
+**Digital products:** All sales are final. If a technical problem keeps you from accessing something you bought, contact me and I'll make it right.
 
-<h2>13. Governing Law and Dispute Resolution</h2>
-<p>These Terms are governed by the laws of the <strong>State of Tennessee</strong>, without regard to conflict of law principles. Any dispute arising from these Terms shall first be attempted to be resolved through good-faith negotiation. If unresolved, disputes shall be submitted to binding arbitration in Nolensville, Tennessee, under the rules of the American Arbitration Association. You waive any right to a jury trial or class action.</p>
+**Speaking engagements:** Cancellation terms are in each speaking agreement.
 
-<h2>14. Changes to These Terms</h2>
-<p>I may update these Terms at any time. The effective date at the top reflects the most recent revision. Continued use of the site after changes constitutes your acceptance of the new terms.</p>
+## Intellectual property
 
-<h2>15. Contact</h2>
-<p>Questions about these Terms:<br>
-<strong>Katie Allred Consulting, LLC</strong><br>
-PO Box 31<br>
-Nolensville, TN 37135<br>
-<a href="mailto:katie@katieallred.com">katie@katieallred.com</a></p>
-</div>
-{:/}
+Everything on this site, including text, graphics, logos, images, audio, and video, is owned by or licensed to Katie Allred Consulting, LLC and protected by US and international copyright law.
+
+Please don't reproduce, distribute, modify, or build on my content without written permission. Short quotes with credit, for non-commercial use, are fine.
+
+## Email list
+
+When you join my email list, you agree to get periodic emails, including newsletters, updates, promotions, and occasional sponsored emails. Unsubscribe anytime with the link in any email. Unsubscribing doesn't stop receipts and other emails about purchases you've made.
+
+## What's not allowed
+
+Please don't:
+
+- Use this site for anything unlawful
+- Copy or redistribute my content without permission
+- Try to get unauthorized access to the site or its systems
+- Use bots or scrapers to collect data from the site
+- Submit false or misleading information in a form
+- Do anything that could damage, disable, or overload the site
+
+## Links to other sites
+
+This site links to other websites, including affiliate links. I'm not responsible for their content, privacy practices, or terms, and you visit them at your own risk.
+
+## No warranties
+
+This site and its content are provided "**as is**" and "**as available**," without warranties of any kind, express or implied. I don't promise the site will always be available, error-free, or free of viruses or other harmful components.
+
+## Limitation of liability
+
+To the fullest extent Tennessee law allows, Katie Allred Consulting, LLC isn't liable for indirect, incidental, special, consequential, or punitive damages arising from your use of this site or purchase of services, even if I've been told such damages are possible. My total liability for any claim under these terms won't exceed the greater of what you paid me in the 90 days before the claim, or $100.
+
+## Indemnification
+
+You agree to indemnify and hold harmless Katie Allred Consulting, LLC from any claims, damages, losses, or expenses (including reasonable attorneys' fees) arising from your breaking these terms or your use of this site.
+
+## Governing law and disputes
+
+These terms are governed by the laws of the **State of Tennessee**, without regard to conflict-of-law rules. If a dispute comes up, we'll first try to resolve it in good faith. If we can't, it will go to binding arbitration in Nolensville, Tennessee, under the rules of the American Arbitration Association. You waive any right to a jury trial or to bring a class action.
+
+## Changes to these terms
+
+I may update these terms at any time. The "last updated" date at the top of this page shows the latest revision. Using the site after a change means you accept the updated terms.
