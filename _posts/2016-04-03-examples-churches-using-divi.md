@@ -21,8 +21,6 @@ Below are 15 examples of churches using Divi. Divi is an amazing Wordpress them
 
 Divi is also a cost-effective theme for churches. If your church buys the "lifetime" package, you get unlimited updates for life. That's awesome! Not many companies come with that type of pricing.
 
-Click here to buy Divi now through my affliate link. If you click on any of affliate links throughout this post, I do get a small commission, but you like me, right?
-
 Elegant Themes recently released the newest version of Divi making the theme much more robust and customizable. Are you a newbie to web design? Just don't want to code? Then Divi is probably the theme for you.
 
 But here's the thing, while the examples provided on their website are great, I wanted more. I know there's the Divi Showcase website, but I wanted real life examples that I just wasn't finding elsewhere. That's when I took a deep dive with Google.
@@ -93,7 +91,7 @@ This post is in a series of posts about Wordpress themes for churches, also chec
 
 If you want to buy Divi, then you can visit Elegant Themes.
 
-I recommend the Lifetime package since it's the best deal. If you use my link, I get a small commission. You won't be charged more and I'll give you a virtual high five. 🙏 (Need hosting? Here's my favorite cheap web host.)
+I recommend the Lifetime package since it's the best deal.
 
 Looking to build a personal website? A business website? [Check out these examples.](/10-best-divi-sites/)
 

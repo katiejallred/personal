@@ -17,7 +17,7 @@ seo_title: Using Divi? Here are 10 Powerful Examples
 image: /assets/uploads/2015/06/10-divi-theme-examples.png
 ---
 
-Do you use Divi*? Do you even know what Divi is? Divi is a Wordpress theme created by Elegant Themes*–although it's much more than a theme. I would say it's more like a theme builder. (*Affiliate links)
+Do you use Divi? Do you even know what Divi is? Divi is a Wordpress theme created by Elegant Themes–although it's much more than a theme. I would say it's more like a theme builder.
 
 Recently, I started using Divi to design client's websites. I'm a little wary of using a theme because I love to code, but some websites are so straight forward that a theme in this example can work for a client.
 
@@ -75,7 +75,7 @@ Some more, just for thought (list might be updated on occasion, tell me more to 
 2. <http://www.tkangtkd.com/>
 3. <http://mcpactions.com/>
 
-And if you want to buy Divi, then you can visit Elegant Themes. I recommend the Lifetime package since it's the best deal. If you use my link, I get a small commission. You won't be charged more and I'll give you a virtual high five. 🙏 (Need hosting? Here's my favorite cheap web host.)
+And if you want to buy Divi, then you can visit Elegant Themes. I recommend the Lifetime package since it's the best deal.
 
 Looking to build a church site using Divi? [Check out this post.](/examples-churches-using-divi/)
 

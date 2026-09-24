@@ -19,8 +19,6 @@ image: /assets/uploads/2016/12/CHURCHES-USING-THE-DIVI-THEME.jpg
 
 I've talked about the Divi Wordpress theme MULTIPLE times on my blog. I actually just switched my blog to Divi. I love it! It's one of the best and easiest themes to use for Wordpress.
 
-**You can buy Divi by using my affiliate link here.** I do make a small commission from this that I then use to keep hosting my blog.
-
 Before in my post, I would take a screenshot and then link over to the church using the Divi Wordpress theme. I thought I would do it differently this time by listing them all first so you can open your multiple browser windows and then I would post all of the screenshots.
 
 1. [Gateway Community Church](http://gatewaycommunity.church/)
@@ -41,8 +39,6 @@ Before in my post, I would take a screenshot and then link over to the church us
 16. [Eden Baptist](https://edenbaptist.org/)
 17. [Highland Village Church](http://www.hvchurch.com/)
 18. [Tabernacle Family](http://tabernaclefamily.org/)
-
-**Again, you can buy Divi by using my affiliate link here.** I do make a small commission from this that I then use to keep hosting my blog.
 
 I recommend buying the LIFETIME edition. You know why? Because you don't have to pay for updates and support EVER AGAIN. That saves you tons!
 
@@ -65,5 +61,3 @@ Here are the screenshots of the websites as of December 23, 2016.
 ![](/assets/uploads/2016/12/Two-Cities-Church.jpg)
 ![](/assets/uploads/2016/12/Wesley-United-Methodist-Church.jpg)
 ![](/assets/uploads/2016/12/Exodus-Church-Wichita-2.jpg)
-
-**Again, you can buy Divi by using my affiliate link here.** I do make a small commission from this that I then use to keep hosting my blog.

@@ -24,7 +24,7 @@ Everyone, and I mean, everyone has something to teach and everyone has something
 
 ### #1. Get Hosting and Domain
 
-For hosting, I recommend BlueHost (affiliate link). I set up almost all of my clients on BlueHost because it's affordable and reliable. You also get a free domain name if you go through my affiliate link!  
+For hosting, I recommend BlueHost. I set up almost all of my clients on BlueHost because it's affordable and reliable.  
 ![BlueHost](/assets/uploads/2015/11/1-1024x525.png)
 
 ### #2. Install Wordpress
@@ -36,7 +36,7 @@ Installing Wordpress is pretty easy. After you finish purchasing, you will be ta
 
 There are millions of themes out there and if you wade through all of them, you will end up never writing.
 
-For most of my clients, I use Divi by Elegant Themes (affliate link). It's versatile and user-friendly. I can build any type of website with Divi from a blog to a business site. I wrote a post previously on 10 different websites made with Divi.
+For most of my clients, I use Divi by Elegant Themes. It's versatile and user-friendly. I can build any type of website with Divi from a blog to a business site. I wrote a post previously on 10 different websites made with Divi.
 
 [![Divi WordPress Theme](http://www.elegantthemes.com/affiliates/banners/divi_468x60.jpg)](http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440_5_1_19)
 
