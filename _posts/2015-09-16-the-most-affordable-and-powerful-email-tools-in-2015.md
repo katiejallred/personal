@@ -27,7 +27,7 @@ An email list is something you get to take and keep with you, no matter what ser
 
 I put these in order of affordability. I say something is affordable when you can get the most for the least amount of money, but also when you can get best quality. It really depends on what you're doing and whether you are a non-profit or not.
 
-### [MailChimp_Logo_NoBackground_DarkMailChimp](/mailchimp)
+### MailChimp_Logo_NoBackground_DarkMailChimp
 
 *(The link above is a referral link so I will get MailChimp credit when you click it and if you open a paid account, but you like me, don't you?)*
 
@@ -35,7 +35,7 @@ I put these in order of affordability. I say something is affordable when you ca
 
 **Con**: Kind've expensive after 2,000. For example: 2,500 subscribers will run about $40/month (unlimited emails). But it is cheaper than many other options discussed. Also MailChimp isn't a complete CRM so tracking your customers with it might be more difficult than it would be in InfusionSoft.
 
-### [mailerlite-logo-new@2x](/mailerlite)[MailerLite](/mailerlite)
+### mailerlite-logo-new@2xMailerLite
 
 *(The link above is an affiliate link.)*
 
@@ -43,7 +43,7 @@ I put these in order of affordability. I say something is affordable when you ca
 
 **Con**: Smaller free tier, but not many cons here. Take a look at the full comparison [here](https://www.mailerlite.com/mailchimp-alternative). No non-profit discount that I could find.
 
-### [Get-ResponseGet Response](/getresponse)
+### Get-ResponseGet Response
 
 *(The link above is an affiliate link meaning I will get commission if you click it and buy it, but you won't be charged anything additional. It's just a nice way for me to make money by helping you. Plus, I saved you all this time comparing all these! Win/Win.)*
 
@@ -91,7 +91,7 @@ They were so close to GetResponse in their offerings, but they got a lower ratin
 
 **Con**: Not as many features or integrations yet.
 
-### [dripDrip](/drip)
+### dripDrip
 
 *(The link above is an affiliate link.)*
 

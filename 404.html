@@ -1,12 +1,53 @@
 ---
-layout: page
+layout: default
 title: Page not found
+description: That page doesn't exist anymore. Find Katie Allred's writing, services, and contact details from here.
 permalink: /404.html
 sitemap: false
 noindex: true
 ---
+{%- assign book = site.contact.booking | relative_url -%}
 
-Sorry, that page doesn't exist (or hasn't been migrated yet).
+<section class="hero home-hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div>
+      <p class="label home-hero-label">Error 404</p>
+      <h1 class="hero-title" id="hero-title">This page <em>wandered off</em>.</h1>
+      <p class="hero-lede">The link may be old, or the page moved when this site left WordPress. Everything I've written since 2009 is still here, so let's get you somewhere useful.</p>
+      <div class="hero-actions">
+        <a class="btn btn-blue" href="{{ '/blog/' | relative_url }}">Browse the blog →</a>
+        <a class="aside" href="{{ '/' | relative_url }}">or head home →</a>
+      </div>
+    </div>
+    <div class="reach-card">
+      <p class="reach-name">Looking for something?</p>
+      <ul class="reach-links">
+        <li><span class="reach-kind">Work with me</span><a href="{{ '/services/' | relative_url }}">Services &amp; training</a></li>
+        <li><span class="reach-kind">For churches</span><a href="{{ '/churches/' | relative_url }}">Church communications &amp; AI</a></li>
+        <li><span class="reach-kind">Every post</span><a href="{{ '/archive/' | relative_url }}">The full archive</a></li>
+        <li><span class="reach-kind">Say hello</span><a href="{{ '/contact/' | relative_url }}">Contact Katie</a></li>
+        <li><span class="reach-kind">Talk it through</span><a href="{{ book }}">Book a free call</a></li>
+      </ul>
+    </div>
+  </div>
+  <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
+    <path d="M0 520 C 360 400, 700 600, 1040 470 S 1360 420, 1440 470 L1440 600 L0 600Z" fill="#FF5B3A" opacity=".75"/>
+  </svg>
+</section>
 
-Try the [home page]({{ '/' | relative_url }}), the [blog]({{ '/blog/' | relative_url }}), or the
-[archive]({{ '/archive/' | relative_url }}).
+<section class="section" aria-labelledby="latest-title">
+  <div class="wrap">
+    <header class="section-header">
+      <p class="label">The blog</p>
+      <h2 class="section-title" id="latest-title">Latest writing</h2>
+    </header>
+    <ul class="post-grid">
+      {%- for post in site.posts limit: 3 %}
+      <li>
+        {% include post-card.html post=post %}
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
