@@ -1716,21 +1716,6 @@ code, pre, kbd, samp {
   color: var(--on-red-soft);
 }
 
-.contact-details {
-  box-shadow: inset 0 0 0 2px var(--blush);
-}
-
-.contact-details dt {
-  font: 700 13px/16px var(--font-sans);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--red);
-}
-
-.contact-details dd {
-  margin-top: var(--space-1);
-  overflow-wrap: anywhere;
-}
 
 .card .contact-social {
   list-style: none;
@@ -2542,4 +2527,101 @@ code, pre, kbd, samp {
 .note-bar .affiliate-note {
   padding-top: var(--space-2);
   border-top: 1px solid rgba(107, 79, 73, 0.2);
+}
+
+/* --- Contact --- */
+.reach-card {
+  justify-self: center;
+  width: min(100%, 360px);
+  padding: var(--space-4);
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  transform: rotate(2deg);
+  text-align: center;
+}
+
+.reach-avatar {
+  width: 96px;
+  height: 96px;
+  margin: calc(var(--space-6) * -1) auto var(--space-2);
+  border-radius: 50%;
+  border: 5px solid var(--surface);
+  object-fit: cover;
+}
+
+.reach-name {
+  font: 800 24px/1.1 var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.reach-reply {
+  display: inline-block;
+  margin-top: var(--space-2);
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--blush);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.reach-reply span {
+  color: #2E9D5B;
+}
+
+.reach-links {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-4);
+  text-align: left;
+  border-top: 2px solid var(--blush);
+}
+
+.reach-links li {
+  display: grid;
+  gap: 2px;
+  padding: var(--space-3) 0;
+  border-bottom: 2px solid var(--blush);
+  overflow-wrap: anywhere;
+}
+
+.reach-links li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.reach-kind {
+  font: 700 12px/16px var(--font-sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.reach-links a {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+}
+
+@media (max-width: 899px) {
+  .contact-hero .reach-card {
+    margin-top: var(--space-6);
+    transform: none;
+  }
+}
+
+.contact-next,
+.contact-follow {
+  box-shadow: inset 0 0 0 2px var(--blush);
+}
+
+.contact-next h3,
+.contact-follow h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.card-grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
 }
