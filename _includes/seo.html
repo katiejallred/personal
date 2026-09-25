@@ -62,6 +62,9 @@
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   {%- endif %}
   <link rel="canonical" href="{{ canonical }}">
+  {%- if site.verification.yandex %}
+  <meta name="yandex-verification" content="{{ site.verification.yandex }}">
+  {%- endif %}
   {%- if paginator.previous_page_path and page_num > 1 %}
   <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
   {%- endif %}

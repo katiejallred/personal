@@ -10,6 +10,11 @@ author:
   email: katie@katieallred.com
 twitter:
   username: katiejallred # handle without the @
+# Search engine ownership codes, written into every page's <head> by
+# _includes/seo.html.
+verification:
+  yandex: ef6249395a126777 # Yandex Webmaster
+
 social:
   name: Katie Allred
   links:
