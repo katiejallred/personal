@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -38,13 +38,13 @@ jobs:
           bundler-cache: true
 
       # Pillow draws the Open Graph share cards (_plugins/og_images.rb).
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - run: pip install pillow
 
       - id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       # url/baseurl come from Pages, so the build is right for a project
       # site (/personal) today and for a custom domain later. Pages reports
@@ -71,14 +71,14 @@ jobs:
             ${{ inputs.indexnow_all && '--all' || '' }} > indexnow-urls.txt
           cat indexnow-urls.txt
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: github.event_name != 'pull_request'
         with:
           name: indexnow-urls
           path: indexnow-urls.txt
           retention-days: 7
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         if: github.event_name != 'pull_request'
 
     outputs:
@@ -93,7 +93,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   # Ping search engines (Bing, Yandex, Naver, Seznam, Yep…) about the pages
   # this deploy added, changed or removed. See scripts/indexnow.py.
@@ -104,8 +104,8 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
         with:
           name: indexnow-urls
       - name: Submit to IndexNow
