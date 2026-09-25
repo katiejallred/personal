@@ -71,6 +71,11 @@ defaults:
       type: "pages"
     values:
       layout: page
+  # Search engine ownership files (e.g. Yandex Webmaster) stay out of the sitemap
+  - scope:
+      path: "yandex_*.html"
+    values:
+      sitemap: false
 
 plugins:
   - jekyll-feed
