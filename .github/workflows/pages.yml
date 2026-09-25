@@ -7,6 +7,11 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+    inputs:
+      indexnow_all:
+        description: "Submit every URL in the sitemap to IndexNow, not just changed ones"
+        type: boolean
+        default: false
   # Rebuild daily so future-dated posts (future: false) go live on their
   # publish date; this also keeps the footer's copyright year current.
   schedule:
@@ -46,15 +51,38 @@ jobs:
       # an http:// origin until "Enforce HTTPS" is on; always build with
       # https so canonical URLs and structured data don't split the site.
       - name: Build
+        id: build
         run: |
           origin="${{ steps.pages.outputs.origin }}"
-          echo "url: \"${origin/#http:\/\//https://}\"" > _config.pages.yml
+          origin="${origin/#http:\/\//https://}"
+          echo "url: \"$origin\"" > _config.pages.yml
           bundle exec jekyll build --config _config.yml,_config.pages.yml --baseurl "${{ steps.pages.outputs.base_path }}"
+          echo "site_url=$origin${{ steps.pages.outputs.base_path }}" >> "$GITHUB_OUTPUT"
         env:
           JEKYLL_ENV: production
 
+      # Compare the new sitemap with the one still live, before deploying
+      # replaces it; the indexnow job submits the difference afterwards.
+      - name: List changed URLs for IndexNow
+        if: github.event_name != 'pull_request'
+        run: |
+          python3 scripts/indexnow.py list --site _site \
+            --live "${{ steps.build.outputs.site_url }}/sitemap.xml" \
+            ${{ inputs.indexnow_all && '--all' || '' }} > indexnow-urls.txt
+          cat indexnow-urls.txt
+
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: indexnow-urls
+          path: indexnow-urls.txt
+          retention-days: 7
+
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
+
+    outputs:
+      site_url: ${{ steps.build.outputs.site_url }}
 
   deploy:
     if: github.event_name != 'pull_request'
@@ -66,3 +94,21 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Ping search engines (Bing, Yandex, Naver, Seznam, Yep…) about the pages
+  # this deploy added, changed or removed. See scripts/indexnow.py.
+  indexnow:
+    if: github.event_name != 'pull_request'
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: indexnow-urls
+      - name: Submit to IndexNow
+        run: |
+          python3 scripts/indexnow.py submit --urls indexnow-urls.txt \
+            --site-url "${{ needs.build.outputs.site_url }}"
