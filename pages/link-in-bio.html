@@ -2,7 +2,7 @@
 layout: blank
 title: Link in Bio
 permalink: /link-in-bio/
-last_modified_at: '2026-09-24'
+last_modified_at: '2026-09-25'
 wordpress_id: 3687
 description: Everything in one place — book a call, courses, my book, the free quiz, and more from Katie Allred.
 seo_title: Link in Bio - Katie Allred
@@ -33,6 +33,14 @@ affiliate_note: inline # the Amazon disclosure is in the page footer
           <span><strong>Book a free call</strong><small>30 minutes to talk strategy, AI, or speaking</small></span>
         </a>
       </li>
+      {%- assign latest = site.posts.first %}
+      {%- if latest %}
+      <li>
+        <a class="bio-link" href="{{ latest.url | relative_url }}">
+          <span><strong>New on the blog</strong><small>{{ latest.title }}</small></span>
+        </a>
+      </li>
+      {%- endif %}
       <li>
         <a class="bio-link" href="{{ '/rate-your-communications/' | relative_url }}">
           <span><strong>Take the free quiz</strong><small>Rate your church or nonprofit's communications</small></span>
