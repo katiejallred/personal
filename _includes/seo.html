@@ -110,10 +110,11 @@
 {%- assign webpage_id = canonical | append: '#webpage' -%}
 {%- assign crumbs_id = canonical | append: '#breadcrumb' -%}
 {%- capture person_ref %}{"@type":"Person","@id":{{ person_id | jsonify }},"name":{{ person.name | jsonify }},"url":{{ '/about/' | absolute_url | jsonify }}}{% endcapture -%}
+{%- assign same_as = site.social.links | concat: person.same_as -%}
 {%- assign nodes = '' | split: '' -%}
 
 {%- capture node -%}
-{"@type":"Person","@id":{{ person_id | jsonify }},"name":{{ person.name | jsonify }},"url":{{ '/about/' | absolute_url | jsonify }},"image":{{ person.image | absolute_url | jsonify }},"jobTitle":{{ person.job_title | jsonify }},"description":{{ person.bio | normalize_whitespace | jsonify }},"email":{{ site.contact.email | prepend: 'mailto:' | jsonify }},"telephone":{{ site.contact.phone_tel | jsonify }},"address":{"@type":"PostalAddress","addressLocality":{{ org.locality | jsonify }},"addressRegion":{{ org.region | jsonify }},"addressCountry":{{ org.country | jsonify }}},"alumniOf":{"@type":"CollegeOrUniversity","name":{{ person.alumni_of | jsonify }}},"knowsAbout":{{ person.knows_about | jsonify }},"worksFor":{"@id":{{ org_id | jsonify }}},"sameAs":{{ site.social.links | jsonify }}}
+{"@type":"Person","@id":{{ person_id | jsonify }},"name":{{ person.name | jsonify }},"url":{{ '/about/' | absolute_url | jsonify }},"image":{{ person.image | absolute_url | jsonify }},"jobTitle":{{ person.job_title | jsonify }},"description":{{ person.bio | normalize_whitespace | jsonify }},"email":{{ site.contact.email | prepend: 'mailto:' | jsonify }},"telephone":{{ site.contact.phone_tel | jsonify }},"address":{"@type":"PostalAddress","addressLocality":{{ org.locality | jsonify }},"addressRegion":{{ org.region | jsonify }},"addressCountry":{{ org.country | jsonify }}},"alumniOf":{"@type":"CollegeOrUniversity","name":{{ person.alumni_of | jsonify }}},"knowsAbout":{{ person.knows_about | jsonify }},"worksFor":{"@id":{{ org_id | jsonify }}},"sameAs":{{ same_as | jsonify }}}
 {%- endcapture -%}
 {%- assign nodes = nodes | push: node -%}
 
@@ -179,7 +180,8 @@
 {%- for book in site.data.books -%}
 {%- capture buy %}{% include amazon-url.html asin=book.asin %}{% endcapture -%}
 {%- capture node -%}
-{"@type":"Book","@id":{{ home | append: '#book-' | append: book.asin | jsonify }},"name":{{ book.title | jsonify }},"isbn":{{ book.asin | jsonify }},"bookFormat":"https://schema.org/Paperback","inLanguage":"en-US","image":{{ book.cover | absolute_url | jsonify }},"description":{{ book.blurb | normalize_whitespace | jsonify }},"url":{{ buy | strip | jsonify }},"datePublished":{{ book.published | append: '' | jsonify }},"author":[{{ person_ref }}{% if book.coauthor %},{"@type":"Person","name":{{ book.coauthor | jsonify }}}{% endif %}]
+{"@type":"Book","@id":{{ home | append: '#book-' | append: book.asin | jsonify }},"name":{{ book.title | jsonify }},"isbn":{{ book.isbn | default: book.asin | jsonify }},"bookFormat":"https://schema.org/Paperback","inLanguage":"en-US","image":{{ book.cover | absolute_url | jsonify }},"description":{{ book.blurb | normalize_whitespace | jsonify }},"url":{{ buy | strip | jsonify }},"datePublished":{{ book.published | append: '' | jsonify }},"author":[{{ person_ref }}{% if book.coauthor %},{"@type":"Person","name":{{ book.coauthor | jsonify }}}{% endif %}]
+{%- if book.google_books %},"sameAs":{{ book.google_books | jsonify }}{% endif -%}
 {%- if book.publisher %},"publisher":{"@type":"Organization","name":{{ book.publisher | jsonify }}}{% endif -%}
 }
 {%- endcapture -%}

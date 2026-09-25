@@ -69,6 +69,13 @@ site (`WebSite`), plus `BlogPosting` and breadcrumbs on posts. The facts
 behind it (bio, job title, topics, business address) live in
 `_data/schema.yml`; keep them in step with the press kit.
 
+Google matches Katie across the web through the Person's `sameAs` list:
+the social links in `_config.yml` plus the author and publisher profiles
+in `person.same_as` in `_data/schema.yml` (Amazon, Goodreads, B&H,
+Substack). Add a profile there when she gets a new one. Each book in
+`_data/books.yml` also carries its 13-digit `isbn` and, where it has one,
+its `google_books` page.
+
 Front matter it reads: `seo_title` (the full `<title>`), `description`
 (write one for every page and new post, about 150 characters, otherwise
 the first paragraph is used), `image` (share image, otherwise a generated
@@ -113,7 +120,9 @@ card and up to three related posts from the same category.
 Pushes to `main` build and deploy through GitHub Actions. In the repo's
 Settings → Pages, set **Source** to **GitHub Actions**. The workflow sets
 `url` and `baseurl` from Pages, so the same build works on
-`<user>.github.io/personal` now and on a custom domain later.
+`<user>.github.io/personal` now and on a custom domain later. It always
+builds with `https://`, even when Pages reports an `http://` origin; keep
+**Enforce HTTPS** ticked in Settings → Pages so visitors land there too.
 
 ## Content
 

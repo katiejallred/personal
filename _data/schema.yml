@@ -25,6 +25,14 @@ person:
     - Social media strategy
     - Nonprofit marketing
     - Crisis communications
+  # Author and publisher profiles that describe Katie. Added to the Person's
+  # sameAs after the social links in _config.yml, so Google can match her
+  # books and bylines elsewhere to this site. Only list pages that are hers.
+  same_as:
+    - https://www.amazon.com/stores/author/B08PH642Y2
+    - https://www.goodreads.com/author/show/15490106.Katie_Allred
+    - https://bhacademic.bhpublishinggroup.com/contributors/katie-allred/
+    - https://www.onlinecommunityhub.com/
 
 organization:
   name: Katie Allred Consulting
