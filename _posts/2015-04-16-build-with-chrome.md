@@ -5,6 +5,7 @@ date: '2015-04-16 21:00:54'
 last_modified_at: '2015-04-16 21:00:54'
 author: Katie Allred
 permalink: /build-with-chrome/
+noindex: true # Build with Chrome shut down; live, but kept out of search
 published: false
 categories:
 - Life
