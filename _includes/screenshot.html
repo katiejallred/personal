@@ -1,0 +1,17 @@
+{%- comment -%}
+  A screenshot in a browser frame, with a caption.
+    {% include screenshot.html src="/assets/uploads/2026/divi/x.jpg" alt="..." caption="..." %}
+  Optional: url="example.com/page" shows in the address bar; tall=true
+  crops a long page screenshot to a scrollable window.
+{%- endcomment -%}
+<figure class="screenshot{% if include.tall %} screenshot-tall{% endif %}">
+  <div class="screenshot-frame">
+    <div class="screenshot-bar" aria-hidden="true"><span></span><span></span><span></span>{% if include.url %}<em>{{ include.url }}</em>{% endif %}</div>
+    <div class="screenshot-view"{% if include.tall %} tabindex="0" role="region" aria-label="{{ include.alt | escape }} (scrollable)"{% endif %}>
+      <img src="{{ include.src | relative_url }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async">
+    </div>
+  </div>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {%- endif %}
+</figure>

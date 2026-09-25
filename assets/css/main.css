@@ -2909,3 +2909,287 @@ code, pre, kbd, samp {
     line-height: 26px;
   }
 }
+
+/* --- Post components: screenshot frame, series box, CTA, checklist,
+   plan calculator (_includes/screenshot.html, divi-series.html,
+   divi-cta.html, checklist.html, divi-calculator.html) --- */
+.prose .screenshot {
+  margin: var(--space-6) 0;
+}
+
+.screenshot-frame {
+  overflow: hidden;
+  background: var(--surface);
+  border-radius: var(--radius-tile);
+  box-shadow: 0 0 0 1px var(--blush), 0 16px 32px rgba(60, 10, 5, 0.14);
+}
+
+.screenshot-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  background: var(--blush);
+}
+
+.screenshot-bar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--poppy);
+  opacity: 0.55;
+}
+
+.screenshot-bar em {
+  flex: 1;
+  min-width: 0;
+  margin-left: var(--space-2);
+  padding: 2px 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background: var(--surface);
+  border-radius: var(--radius-pill);
+  color: var(--muted);
+  font: 400 12px/18px var(--font-sans);
+}
+
+.prose .screenshot img {
+  display: block;
+  width: 100%;
+  border-radius: 0;
+}
+
+.screenshot-tall .screenshot-view {
+  max-height: min(70vh, 560px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.series-box,
+.divi-cta,
+.checklist,
+.divi-calc {
+  margin: var(--space-6) 0;
+  padding: var(--space-4);
+  border-radius: var(--radius-card);
+}
+
+.series-box {
+  background: var(--blush);
+}
+
+.series-kicker,
+.divi-cta-kicker {
+  font: 700 24px/1 var(--font-hand);
+  color: var(--red);
+}
+
+.prose .series-box ol {
+  margin-top: var(--space-2);
+}
+
+.series-box li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.divi-cta {
+  background: var(--ground-blue);
+  color: var(--on-red);
+}
+
+.divi-cta .divi-cta-kicker {
+  color: var(--butter);
+}
+
+.divi-cta-title {
+  margin-top: var(--space-1);
+  font: 800 clamp(24px, 4vw, 30px)/1.1 var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.divi-cta-text {
+  margin-top: var(--space-2);
+  color: var(--on-red-soft);
+}
+
+.divi-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.prose .divi-cta a.btn {
+  color: var(--on-red);
+  text-decoration: none;
+}
+
+.divi-cta-note {
+  font-size: 14px;
+  color: var(--on-red-soft);
+}
+
+.checklist,
+.divi-calc {
+  background: var(--surface);
+  box-shadow: 0 0 0 2px var(--blush);
+}
+
+.checklist-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+
+.checklist-title,
+.divi-calc-title {
+  font: 800 22px/1.2 var(--font-display);
+}
+
+.checklist-count {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.checklist-meter {
+  height: 8px;
+  margin-top: var(--space-3);
+  background: var(--blush);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.checklist-meter span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--red);
+  transition: width 0.25s;
+}
+
+.prose .checklist ul {
+  margin-top: var(--space-3);
+  padding: 0;
+  list-style: none;
+}
+
+.checklist li + li {
+  margin-top: 0;
+  border-top: 1px solid var(--blush);
+}
+
+.checklist label {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.checklist input,
+.divi-calc-check input {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+  accent-color: var(--red);
+}
+
+.checklist input:checked + span {
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.checklist-done {
+  margin-top: var(--space-3);
+  padding: var(--space-3);
+  background: var(--butter);
+  color: #1C1412;
+  border-radius: var(--radius-tile);
+  font-weight: 700;
+}
+
+.checklist-reset {
+  margin-top: var(--space-3);
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--muted);
+  font: 400 14px/1 var(--font-sans);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.divi-calc-row {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.divi-calc-row output {
+  flex: none;
+  font-weight: 700;
+}
+
+.divi-calc input[type="range"] {
+  width: 100%;
+  margin-top: var(--space-2);
+  accent-color: var(--red);
+}
+
+.divi-calc-check {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.divi-calc-results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.divi-calc-results > div {
+  padding: var(--space-3);
+  background: var(--shell);
+  border-radius: var(--radius-tile);
+  text-align: center;
+}
+
+.divi-calc-label {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.divi-calc-num {
+  font: 800 clamp(26px, 5vw, 34px)/1.1 var(--font-display);
+}
+
+.divi-calc-verdict {
+  margin-top: var(--space-3);
+  font-weight: 700;
+  color: var(--red);
+}
+
+.divi-calc-fine {
+  margin-top: var(--space-3);
+  font-size: 13px;
+  line-height: 19px;
+  color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .checklist-meter span {
+    transition: none;
+  }
+}

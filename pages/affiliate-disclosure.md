@@ -22,6 +22,10 @@ Some links on katieallred.com are affiliate links. If you click one and make a p
 
 Katie Allred is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. **As an Amazon Associate I earn from qualifying purchases.** That includes links to my own books.
 
+## Elegant Themes (Divi)
+
+I'm an affiliate of Elegant Themes, the company that makes the Divi WordPress theme. If you buy Divi or another Elegant Themes product through a link on this site, I may earn a commission, **at no additional cost to you**. I've used and recommended Divi for client, church, and nonprofit websites for years.
+
 ## FTC disclosure
 
 Under the Federal Trade Commission's guidelines (16 CFR Part 255), I'm required to disclose when I have a material connection to products or services I recommend. Affiliate links are that kind of connection, and this page, along with disclosures in the content itself where they apply, meets that requirement.

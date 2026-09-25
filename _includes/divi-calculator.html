@@ -1,0 +1,42 @@
+{%- comment -%}
+  Yearly vs. lifetime Divi cost calculator. Prices from _data/divi.yml.
+{%- endcomment -%}
+{%- assign p = site.data.divi.prices -%}
+<div class="divi-calc" data-yearly="{{ p.yearly }}" data-lifetime="{{ p.lifetime }}" data-pro="{{ p.pro_yearly }}" data-lifetime-pro="{{ p.lifetime_pro }}" data-pro-addon="{{ p.pro_addon }}">
+  <p class="divi-calc-title">Yearly or lifetime? Run your numbers</p>
+  <label class="divi-calc-row" for="divi-years-{{ include.id | default: 'calc' }}">
+    <span>How many years will this website run on WordPress?</span>
+    <output data-years-out>4 years</output>
+  </label>
+  <input id="divi-years-{{ include.id | default: 'calc' }}" type="range" min="1" max="10" value="4" data-years>
+  <label class="divi-calc-check"><input type="checkbox" data-pro-toggle> I want the Pro services too (Divi AI, Divi Cloud, VIP support, Teams)</label>
+  <div class="divi-calc-results">
+    <div><p class="divi-calc-label">Pay yearly</p><p class="divi-calc-num" data-yearly-out></p></div>
+    <div><p class="divi-calc-label">Lifetime</p><p class="divi-calc-num" data-lifetime-out></p></div>
+  </div>
+  <p class="divi-calc-verdict" data-verdict aria-live="polite"></p>
+  <p class="divi-calc-fine">Divi prices as of {{ site.data.divi.prices_checked }}: ${{ p.yearly }}/year or ${{ p.lifetime }} once; Divi Pro is ${{ p.pro_yearly }}/year. <span data-pro-fine hidden>With Pro, the yearly column is Divi Pro and the lifetime column is Divi Lifetime + Pro (${{ p.lifetime_pro }} once) plus ${{ p.pro_addon }} for each year you keep the Pro services, counted every year to be safe.</span> Check <a href="{{ site.data.divi.affiliate_url }}" rel="sponsored noopener">current pricing</a> before you buy.</p>
+</div>
+<script>
+(function () {
+  var c = document.currentScript.previousElementSibling;
+  var Y = +c.dataset.yearly, L = +c.dataset.lifetime, P = +c.dataset.pro, LP = +c.dataset.lifetimePro, A = +c.dataset.proAddon;
+  var years = c.querySelector("[data-years]"), pro = c.querySelector("[data-pro-toggle]");
+  var money = function (n) { return "$" + n.toLocaleString("en-US"); };
+  function update() {
+    var n = +years.value, withPro = pro.checked;
+    var yearly = (withPro ? P : Y) * n;
+    var lifetime = withPro ? LP + A * n : L;
+    c.querySelector("[data-years-out]").textContent = n + (n === 1 ? " year" : " years");
+    c.querySelector("[data-yearly-out]").textContent = money(yearly);
+    c.querySelector("[data-lifetime-out]").textContent = money(lifetime);
+    c.querySelector("[data-pro-fine]").hidden = !withPro;
+    var diff = yearly - lifetime, v;
+    if (diff > 0) v = "Lifetime saves you about " + money(diff) + " over " + n + (n === 1 ? " year." : " years.");
+    else if (diff < 0) v = "Yearly costs " + money(-diff) + " less over " + n + (n === 1 ? " year" : " years") + ". Go yearly if this is a short-term project.";
+    else v = "It's a wash at " + n + " years. Pick lifetime if you might stay longer.";
+    c.querySelector("[data-verdict]").textContent = v;
+  }
+  years.addEventListener("input", update); pro.addEventListener("change", update); update();
+})();
+</script>
