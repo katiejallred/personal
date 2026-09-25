@@ -10,7 +10,7 @@ categories:
 tags:
 - health
 wordpress_id: 1168
-description: Are you about to have upper jaw surgery? See how I survived it and my results!
+description: "Facing upper jaw surgery? My story of braces, jaw surgery, and a full year of recovery, including the numbness that lingered and the results I'm grateful for."
 image: /assets/uploads/2015/04/Blog.png
 featured_image_alt: "Before and after: my teeth before braces and jaw surgery, and my smile one year later"
 ---

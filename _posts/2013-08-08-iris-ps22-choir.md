@@ -5,6 +5,7 @@ date: '2013-08-08 16:21:10'
 last_modified_at: '2013-08-08 16:21:10'
 author: Katie Allred
 permalink: /iris-ps22-choir/
+noindex: true # thin 2013 post: live, but kept out of search
 categories:
 - Life
 tags:

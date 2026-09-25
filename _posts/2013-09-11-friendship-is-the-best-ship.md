@@ -5,6 +5,7 @@ date: '2013-09-11 20:25:03'
 last_modified_at: '2013-09-11 20:25:03'
 author: Katie Allred
 permalink: /friendship-is-the-best-ship/
+noindex: true # thin 2013 post: live, but kept out of search
 categories:
 - Life
 tags:

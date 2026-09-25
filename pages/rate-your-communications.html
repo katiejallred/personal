@@ -6,6 +6,17 @@ last_modified_at: '2026-09-24'
 wordpress_id: 3726
 description: Take this free 5-minute quiz to score your organization's communications strategy. Get personalized insights and a clear action plan.
 seo_title: Rate Your Organization's Communications | Free 5-Minute Quiz
+faq:
+  - q: "Who is this quiz for?"
+    a: "Churches, nonprofits, and other mission-driven teams that want an honest look at how their communications are working. It's written for the people who run the website, email, and social accounts, whether that's a staff team or one volunteer."
+  - q: "How is my score calculated?"
+    a: "You answer ten questions across five areas: strategy, brand clarity, digital presence, community, and consistency. Your answers add up to a score out of 100 that shows where you're strong and where the biggest gap is."
+  - q: "What do the results mean?"
+    a: "Scores fall into three groups. Flying Blind means lots of heart and no plan yet, so start with the foundation. Building Momentum means the pieces are there and need to be connected into a system. Almost There means you have something solid, with a smaller gap than you think."
+  - q: "What should I do after I get my score?"
+    a: "Pick the lowest-scoring area and work on that first. If you want help deciding where to start, bring your score to a free 30-minute call and we'll talk it through."
+  - q: "Should I take it more than once?"
+    a: "Yes. Take it again after you've made changes, or have a few people on your team take it separately and compare answers. Different scores from the same team are often the most useful result."
 ---
 <section class="hero page-hero quiz-hero" aria-labelledby="hero-title">
   <div class="wrap">
@@ -58,6 +69,16 @@ seo_title: Rate Your Organization's Communications | Free 5-Minute Quiz
         </dl>
       </div>
     </aside>
+  </div>
+</section>
+
+<section class="section section-blush" aria-labelledby="faq-title">
+  <div class="wrap faq">
+    <header class="section-header">
+      <p class="label">Questions</p>
+      <h2 class="section-title" id="faq-title">About the quiz</h2>
+    </header>
+    {%- include faq.html %}
   </div>
 </section>
 

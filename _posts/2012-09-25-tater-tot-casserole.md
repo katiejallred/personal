@@ -11,7 +11,7 @@ tags:
 - recipes
 - casseroles
 wordpress_id: 301
-description: "An easy tater tot casserole with ground beef, green beans, and cream of mushroom soup, plus a dairy-free option."
+description: "An easy tater tot casserole with ground beef, French-cut green beans, and cream of mushroom soup, baked at 400° in a 13x9 pan. Includes a dairy-free option."
 ---
 
 I have got to get a camera to post pictures until that day, you'll just have to imagine.

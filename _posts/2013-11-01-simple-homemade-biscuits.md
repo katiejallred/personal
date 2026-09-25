@@ -11,7 +11,7 @@ tags:
 - recipes
 - baking
 wordpress_id: 812
-description: How to make simple homemade biscuits.
+description: "My grandma's easy homemade biscuits: self-rising White Lily flour, Crisco, and buttermilk, cut together, dropped on the pan, and baked at 500° in 10 minutes."
 ---
 
 I love making grandma's biscuits. I'm also all about easy recipes and this has to be one of the easiest. I don't know many people who could mess this up!

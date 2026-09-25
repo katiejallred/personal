@@ -12,7 +12,7 @@ tags:
 - WordPress
 - Divi
 wordpress_id: 1241
-description: 10 Live, Real World examples of how the Divi theme is being used across the internet.
+description: "Ten real, live websites built with the Divi WordPress theme, from a New Orleans hotel to nonprofits and a software company, to show what Divi can do for you."
 seo_title: Using Divi? Here are 10 Powerful Examples
 image: /assets/uploads/2015/06/10-divi-theme-examples.png
 ---

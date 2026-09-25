@@ -12,7 +12,7 @@ tags:
 - restaurants
 - travel
 wordpress_id: 752
-description: Best local restaurants and food trucks in Nashville, TN with links to restaurant's websites.
+description: "New to Nashville? My list of local restaurants, food trucks, and coffee shops, from Jeni's and Burger Up to Frothy Monkey and Puckett's, plus spots to try next."
 seo_title: Places to Eat in Nashville
 image: /assets/uploads/2013/10/loveless.jpg
 featured_image_alt: "The neon Loveless Cafe and Motel sign in Nashville"

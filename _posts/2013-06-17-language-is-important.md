@@ -5,6 +5,7 @@ date: '2013-06-17 20:01:33'
 last_modified_at: '2013-06-17 20:01:33'
 author: Katie Allred
 permalink: /language-is-important/
+noindex: true # thin 2013 post: live, but kept out of search
 categories:
 - Life
 tags:

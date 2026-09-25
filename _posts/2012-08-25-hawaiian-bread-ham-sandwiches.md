@@ -11,7 +11,7 @@ tags:
 - recipes
 - party food
 wordpress_id: 205
-description: Poppy Hawaiian Bread Ham Sandwiches that are easy to make and delicious!
+description: "Baked Hawaiian roll ham and Swiss sandwiches with a poppy seed, Dijon, and brown sugar butter sauce. An easy crowd-pleaser for Bible study or a potluck."
 ---
 
 [![Slap yo momma good – Hawaiian Bread Ham Sandwiches](/assets/uploads/2012/08/20120826-080839.jpg)](/assets/uploads/2012/08/20120826-080839.jpg)

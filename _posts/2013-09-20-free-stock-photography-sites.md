@@ -5,6 +5,7 @@ date: '2013-09-20 03:04:27'
 last_modified_at: '2013-09-20 03:04:27'
 author: Katie Allred
 permalink: /free-stock-photography-sites/
+noindex: true # thin 2013 post: live, but kept out of search
 categories:
 - Church Communications
 tags:

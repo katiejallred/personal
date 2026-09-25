@@ -6,7 +6,7 @@ permalink: /affiliate-disclosure/
 updated: 2026-01-01
 last_modified_at: '2026-09-24'
 wordpress_id: 3710
-description: Katie Allred may earn a commission on products recommended on this site at no extra cost to you.
+description: "How affiliate links work on katieallred.com: I may earn a commission, including as an Amazon Associate, on products I recommend, at no extra cost to you."
 seo_title: Affiliate Disclosure - Katie Allred
 summary: >-
   Some links on this site earn me a small commission if you buy something,

@@ -6,6 +6,15 @@ last_modified_at: '2026-09-24'
 wordpress_id: 3892
 description: Get practical communications strategy, AI tips, and community insights delivered to your inbox. Join leaders who trust Katie's weekly email.
 seo_title: Join Katie Allred's Email List
+faq:
+  - q: "Who is the email list for?"
+    a: "Church staff, nonprofit leaders, communicators, and anyone on a mission-driven team who wants practical help with AI, online community, and communication strategy."
+  - q: "What will I get in my inbox?"
+    a: "Practical ideas you can use right away: AI prompts, tools, and workflows with guardrails for using them responsibly, lessons on keeping online communities healthy, and clear strategy for websites, social media, and email."
+  - q: "Will you share or sell my email address?"
+    a: "No. I don't sell, rent, or trade your information. Your name and email are stored with SendFox, the service I use to send the newsletter. Occasionally I send a sponsored email from a partner I've vetted, but I write and send it myself, and the sponsor never gets your information."
+  - q: "Can I unsubscribe?"
+    a: "Anytime. Every email has an unsubscribe link, and once you leave the list you stop getting emails. The privacy policy explains what's stored and for how long."
 ---
 <section class="hero signup-hero" aria-labelledby="hero-title">
   <div class="wrap">
@@ -82,5 +91,15 @@ seo_title: Join Katie Allred's Email List
       <li>{% include post-card.html post=post %}</li>
       {%- endfor %}
     </ul>
+  </div>
+</section>
+
+<section class="section section-blush" aria-labelledby="faq-title">
+  <div class="wrap faq">
+    <header class="section-header">
+      <p class="label">Questions</p>
+      <h2 class="section-title" id="faq-title">Before you sign up</h2>
+    </header>
+    {%- include faq.html %}
   </div>
 </section>

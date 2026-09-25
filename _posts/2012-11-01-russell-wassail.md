@@ -11,7 +11,7 @@ tags:
 - recipes
 - Christmas
 wordpress_id: 325
-description: "The Russell family wassail recipe: cranberry juice, cider, cinnamon, and cloves simmered into a warm Christmas drink."
+description: "The Russell family wassail recipe: cranberry juice, apple cider, sugar, cinnamon sticks, and whole cloves simmered on the stove into a warm Christmas drink."
 ---
 
 Wassail is an amazing Christmas drink. If you haven't had it yet, that's just sad. You should make yourself some immediately.

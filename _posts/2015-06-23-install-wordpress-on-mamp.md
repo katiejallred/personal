@@ -12,7 +12,7 @@ tags:
 - WordPress
 - tech tips
 wordpress_id: 1226
-description: Use this terminal script to quickly and easily install Wordpress on MAMP in under 3 minutes.
+description: "Install WordPress on MAMP in under five minutes with a free shell script. Answer a few quick prompts and it does the rest, so local setup stops eating your day."
 seo_title: Quickly Install Wordpress on MAMP
 image: /assets/uploads/2015/06/Wordpress-MAMP.png
 ---

@@ -11,7 +11,7 @@ tags:
 - social media
 - communications strategy
 wordpress_id: 1099
-description: Everyone should have a code of ethics.
+description: "A code of ethics for online strategic communicators, built on integrity, accountability, excellence, and free speech, for anyone who posts for an organization."
 image: /assets/uploads/2014/02/Blog-2.png
 ---
 

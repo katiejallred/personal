@@ -11,7 +11,7 @@ tags:
 - blogging
 - content strategy
 wordpress_id: 1450
-description: Have you ever wanted to start a blog?
+description: "Start a blog in four easy steps: get hosting and a domain, install WordPress, choose a theme, and start writing. Everyone has something worth teaching."
 seo_title: How to Start a Blog
 image: /assets/uploads/2015/11/pen.jpg
 featured_image_alt: "A pen resting on a notepad on a wooden desk"

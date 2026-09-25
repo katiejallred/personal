@@ -11,7 +11,7 @@ tags:
 - life
 - faith
 wordpress_id: 288
-description: "The first post in a series of five things: five things about me, starting with loving Jesus and still being a sinner."
+description: "Five things about me, from loving Jesus while still being a sinner to loving technology and all things nerdy. The first post in my series of five things."
 ---
 
 I wanted to start writing more and figured that I could handle writing about 5 things of anything so here it goes.
