@@ -114,7 +114,22 @@ the site can still be found and cited.
 `/sitemap.xml` is built by jekyll-sitemap and linked from `robots.txt`. It
 lists every page and post with its `last_modified_at` date. Leave a page out
 with `sitemap: false`; pages with `noindex: true` are left out automatically
-(`_plugins/sitemap_noindex.rb`). Posts end with an author
+(`_plugins/sitemap_noindex.rb`).
+
+Each deploy also pings IndexNow, so Bing, Yandex, Naver, Seznam, Yep and
+the other participating engines hear about new, updated and removed pages
+right away instead of on their next crawl. Before deploying, the Pages
+workflow compares the new sitemap with the live one
+(`scripts/indexnow.py list`); after deploying, it posts the URLs that are
+new, gone, or have a newer `last_modified_at` to api.indexnow.org
+(`scripts/indexnow.py submit`). So when you edit a page or post, bump its
+`last_modified_at`, or IndexNow won't hear about it. To resubmit every URL,
+run the workflow by hand (Actions → Deploy site to GitHub Pages → Run
+workflow) with "Submit every URL" ticked. The key is the 32-character
+`<key>.txt` file at the repo root, which engines fetch to confirm the
+submission is ours; it is public by design. To change it, replace that file
+with a new random hex name and matching contents. A failed submission only
+warns; it never fails the deploy. Posts end with an author
 card and up to three related posts from the same category.
 
 ## Deploying

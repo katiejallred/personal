@@ -20,3 +20,6 @@ deploying, content conventions). The repo is public: never commit secrets.
 - Share images: pages and posts without `image` get a generated Open Graph
   card (`_plugins/og_images.rb` + `scripts/og_image.py`, needs Pillow). Set
   `og_title` when the page title reads badly on the card.
+- IndexNow: each deploy submits new, removed and updated URLs (by sitemap
+  `last_modified_at`) via `scripts/indexnow.py`. Bump `last_modified_at` when
+  editing a page or post. See MAINTAINING.md "SEO and answer engines".
