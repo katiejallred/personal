@@ -13,6 +13,8 @@ tags:
 - church website
 - SEO
 - WordPress
+image: /assets/uploads/2026/09/indexnow-church-website-laptop-stained-glass.jpg
+featured_image_alt: "A laptop showing a church events page on a wooden desk in a sunlit church office, beside a green banker's lamp and a stained-glass window"
 faq:
   - q: "What is IndexNow?"
     a: "IndexNow is a free, open protocol that lets your website tell participating search engines the moment a page is added, updated, or removed, instead of waiting for their crawlers to find the change on their own."
