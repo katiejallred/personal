@@ -7,13 +7,15 @@ description: A free printable 90-day plan for new church communications director
 seo_title: Free 90-Day Plan for New Church Communications Directors | Katie Allred
 og_title: "Your First 90 Days as a Church Communications Director"
 og_kicker: Free workbook
+# SendFox form that adds people to the list; its ID is the end of the form's URL.
+sendfox_form: 3o96rz
 faq:
   - q: "Who is the 90-day plan for?"
     a: "Anyone who just started running communications at a church: a new communications director, a pastor or admin who inherited the job, or a volunteer who said yes. It also works if you've been in the role a while and want a fresh start."
   - q: "What format is it?"
     a: "An 11-page printable PDF, sized for US letter paper. Print it, keep it on your desk, and write in it."
   - q: "Is it really free?"
-    a: "Yes. Enter your name and email and you can download it right away."
+    a: "Yes. Enter your first name and email and you can download it right away. You'll also get my emails on church communications and AI, and you can unsubscribe anytime."
   - q: "What if I'm already past my first 90 days?"
     a: "Start anyway. The audit, the brand and login inventory, and the congregation survey are just as useful in year three as in week one, and they give you a clear place to begin a reset."
   - q: "Can you help me work through it?"
@@ -32,8 +34,8 @@ faq:
 
     <div class="card signup-card" id="get">
       <h2 class="subhead">Get the free plan</h2>
-      {% include tally.html id="Zj0Q7y" title="Get the 90-Day Plan" %}
-      <p class="fine-print">Free 11-page PDF · No spam, ever</p>
+      {% include sendfox-form.html form=page.sendfox_form button="Send me the free plan →" thanks="/90-day-plan/thanks/" %}
+      <p class="fine-print">Free 11-page PDF. You'll also get my emails on church communications and AI; unsubscribe anytime. See the <a href="{{ '/privacy-policy/' | relative_url }}">privacy policy</a>.</p>
     </div>
   </div>
   <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">

@@ -170,14 +170,19 @@ use the `legal` layout: write each section as a `##` heading in
 markdown and the layout builds the numbered "On this page" list; set
 `updated` (the date shown) and `summary` (the plain-English card) in
 front matter. The Elementor inline styles were remapped to the design-system
-tokens. The contact, 90-day plan and Community Playbook forms are Tally
-embeds (`_includes/tally.html`); responses and settings live in Tally.
+tokens. The contact and Community Playbook forms are Tally embeds
+(`_includes/tally.html`); responses and settings live in Tally. Email
+signups use SendFox forms through `_includes/sendfox-form.html`; each form's
+list, opt-in and welcome email are set in SendFox.
 
 ## Free downloads
 
 The main free resource is the 90-day plan for new church communications
-directors (`/90-day-plan/`, Tally form `Zj0Q7y`). Its thank-you page links
-the PDF in `assets/downloads/`. The PDF is drawn from
+directors (`/90-day-plan/`). Its SendFox form (`sendfox_form` in the page's
+front matter) adds people to the email list, then sends them to
+`/90-day-plan/thanks/`, which links the PDF in `assets/downloads/`. To give
+the plan its own list, make a new form in SendFox, set its redirect URL to
+the thanks page, and put the new form ID in `sendfox_form`. The PDF is drawn from
 `scripts/freebies/90-day-plan.html`, which uses the design-system fonts and
 colors; after editing it, run `python3 scripts/freebies/build.py` (needs
 Chromium or Chrome) and commit the new PDF. The Community Playbook

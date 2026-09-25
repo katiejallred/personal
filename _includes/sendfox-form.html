@@ -1,0 +1,47 @@
+{%- comment -%}
+  SendFox signup form. Usage:
+    {% include sendfox-form.html form="3o96rz" button="Join the list →" %}
+  form:      the form's ID, the last part of its URL in SendFox
+             (sendfox.com/form/1v6pvm/<form>).
+  last_name: true to ask for a last name too.
+  button:    submit button text.
+  thanks:    optional page to send people to after they sign up. SendFox's
+             own "redirect URL" setting on the form wins when it is set;
+             this covers forms where it isn't.
+  Each form's list, double opt-in and welcome email are set in SendFox.
+{%- endcomment -%}
+{%- assign sf_id = include.form -%}
+<form method="post" action="https://sendfox.com/form/1v6pvm/{{ sf_id }}" class="sendfox-form signup-form" id="{{ sf_id }}" data-async="true" data-recaptcha="true"{% if include.thanks %} data-thanks="{{ include.thanks | relative_url }}"{% endif %}>
+  <div class="signup-row">
+    <p>
+      <label for="sf-{{ sf_id }}-first">First name</label>
+      <input type="text" id="sf-{{ sf_id }}-first" name="first_name" autocomplete="given-name" required>
+    </p>
+    {%- if include.last_name %}
+    <p>
+      <label for="sf-{{ sf_id }}-last">Last name</label>
+      <input type="text" id="sf-{{ sf_id }}-last" name="last_name" autocomplete="family-name" required>
+    </p>
+    {%- endif %}
+  </div>
+  <p>
+    <label for="sf-{{ sf_id }}-email">Email</label>
+    <input type="email" id="sf-{{ sf_id }}-email" name="email" autocomplete="email" required>
+  </p>
+  <div style="position:absolute;left:-5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off"></div>
+  <p><button class="btn btn-red" type="submit">{{ include.button | default: "Sign up →" }}</button></p>
+</form>
+{%- if include.thanks %}
+<script>
+  // SendFox's script shows a success message after an async signup. When the
+  // form has no redirect URL in SendFox, send people to the thank-you page.
+  (function () {
+    var form = document.getElementById({{ sf_id | jsonify }});
+    if (!form || !window.MutationObserver) return;
+    new MutationObserver(function () {
+      if (form.querySelector(".sendfox-message.success")) location.href = form.dataset.thanks;
+    }).observe(form, { childList: true });
+  })();
+</script>
+{%- endif %}
+<script src="https://cdn.sendfox.com/js/form.js" charset="utf-8"></script>
