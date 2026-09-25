@@ -2,7 +2,7 @@
 layout: post
 title: 18 Powerful Examples of Churches Using the Divi Theme
 date: '2016-12-23 17:33:56'
-last_modified_at: '2016-12-23 17:33:56'
+last_modified_at: '2026-09-25'
 author: Katie Allred
 permalink: /18-powerful-examples-churches-using-divi-theme/
 categories:
@@ -15,7 +15,18 @@ tags:
 wordpress_id: 2006
 description: Divi is the easiest Wordpress theme for churches! Here are 18 powerful examples that you can use to help build your church's wordpress site.
 image: /assets/uploads/2016/12/CHURCHES-USING-THE-DIVI-THEME.jpg
+faq:
+  - q: "Is Divi a good theme for church websites?"
+    a: "Yes. Divi's visual builder and premade layouts let a small church team build and update a WordPress site without writing code, which is why I still recommend it for churches that want to own and maintain their own site."
+  - q: "What should be on a church website homepage?"
+    a: "Service times, your address, a clear next step for first-time guests like a Plan a Visit page, real photos of your people, and easy links to sermons, events, and online giving. Make sure it all works well on a phone."
+  - q: "Do the churches in this list still use Divi?"
+    a: "Some may, but these screenshots are from December 2016. Many churches have redesigned or changed platforms since then, so use the list as inspiration rather than a current directory."
+  - q: "Should I buy the yearly or lifetime Divi plan?"
+    a: "I have long recommended the lifetime plan because you pay once and keep getting updates and support. If you only need a site for a short time, the yearly plan costs less up front. Check Elegant Themes for current pricing."
 ---
+
+*Updated September 2026 with a note on how these sites have changed, what makes a good church website, getting-started steps, and answers to common questions.*
 
 *This post contains affiliate links to Elegant Themes. If you buy through them, I earn a small commission at no extra cost to you. [Affiliate disclosure](/affiliate-disclosure/)*
 
@@ -63,3 +74,40 @@ Here are the screenshots of the websites as of December 23, 2016.
 ![Screenshot of Two Cities Church's homepage: "Let there be light" for its Christmas Eve service](/assets/uploads/2016/12/Two-Cities-Church.jpg)
 ![Screenshot of Wesley United Methodist Church's homepage: "Welcome to Wesley" over a sanctuary choir](/assets/uploads/2016/12/Wesley-United-Methodist-Church.jpg)
 ![Screenshot of Exodus Church's homepage: "Redeemed people. Renewed mission. Restored kingdom." with its logo](/assets/uploads/2016/12/Exodus-Church-Wichita-2.jpg)
+
+## Looking back at these churches in 2026
+
+These screenshots are a snapshot of December 2016. Websites change constantly, and many of these churches have redesigned, moved to a different platform, or changed their web address since then. That's normal and healthy. Treat the list as inspiration for layouts and ideas, not as a list of sites that still look like this today. If a link doesn't load or looks different, that's why.
+
+Divi itself is still around and still actively developed by Elegant Themes, and I still think it's one of the friendliest ways for a church team of one to build and maintain a WordPress site without a developer on call. For more examples, see my earlier roundup of [15 churches using the Divi theme](/examples-churches-using-divi/) and [10 powerful examples of Divi sites](/10-best-divi-sites/).
+
+## What makes a good church website?
+
+Here's the thing: a great theme doesn't make a great church website. Clarity does. A beautiful homepage that hides your service times is still a frustrating website. Before you pick a layout, make sure your site answers the questions a first-time guest is really asking.
+
+- **When and where do you meet?** Put service times and your address on the homepage, near the top, and make the address tap to open in maps.
+- **What should I expect?** A simple "Plan a Visit" or "I'm New" page covers parking, what to wear, what happens with kids, and how long the service lasts.
+- **Who are you?** Use real photos of your people and your building, not only stock photos.
+- **What's my next step?** Give every page one clear call to action, whether that's planning a visit, watching a sermon, or joining a group.
+- **Does it work on my phone?** Most guests will see your site on a phone first. Test every page on one.
+- **Is it current?** Old events and last year's Easter banner tell visitors nobody is minding the front door.
+
+A few more things I always check: sermons that are easy to find, a simple way to give online, readable text with good color contrast, and alt text on images so people using screen readers aren't left out. Your website is often the first place someone meets your church, long before they walk through the doors. That makes it ministry, not just maintenance.
+
+If you want a quick gut check, run your homepage through the [5-second test](/does-your-church-website-pass-the-5-second-test/), and read why [your church website is still your most important outreach tool](/why-your-church-website-is-still-your-most-important-outreach-tool/).
+
+## Getting started with Divi for your church
+
+1. **Write down your goals first.** Who is the site for, and what do you want them to do? A plan makes every design decision easier.
+2. **Gather your content before you design.** Service times, staff photos, ministry descriptions, and a few great photos of your people.
+3. **Start from a layout.** Divi comes with a large library of premade layouts. Pick one close to what you want and customize it rather than starting from a blank page.
+4. **Keep it simple.** Five to seven main menu items is plenty. Clear, not cute.
+5. **Assign an owner.** Someone needs to update the site every week, even if it's just the calendar and the latest sermon.
+
+If your team needs help with the strategy behind the site, take a look at [how I work with churches](/churches/). You don't need a perfect website. You need a clear one that helps people take their next step toward Jesus.
+
+## Frequently asked questions
+
+<div class="faq">
+{% include faq.html %}
+</div>
