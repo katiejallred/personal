@@ -2,7 +2,7 @@
 layout: post
 title: The 90-Day Plan for Every New Church Communications Director
 date: '2025-11-10 08:00:00'
-last_modified_at: '2026-03-30 03:26:51'
+last_modified_at: '2026-09-25 09:00:00'
 author: Katie Allred
 permalink: /the-90-day-plan-for-every-new-church-communications-director/
 description: "New church communications director? Slow down before you speed up. A 90-day plan: audit, gather collateral, survey your congregation, then build the calendar."
@@ -59,6 +59,8 @@ If ninety days of planning feels overwhelming, start with thirty. Plan one month
 This is a marathon, not a sprint. You will be tempted to come in fast, change everything, and prove yourself in the first few weeks. Resist it. The most respected communicators I know spent their first months listening, learning, and earning trust — and then built something remarkable from that foundation.
 
 Don't burn out. This job needs you for the long haul.
+
+**Want this plan as a workbook?** [Get the free 90-day plan](/90-day-plan/): an 11-page printable PDF with the channel audit, interview and survey questions, a brand and login inventory, and calendar worksheets.
 
 ---
 

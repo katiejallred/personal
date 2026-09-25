@@ -170,5 +170,16 @@ use the `legal` layout: write each section as a `##` heading in
 markdown and the layout builds the numbered "On this page" list; set
 `updated` (the date shown) and `summary` (the plain-English card) in
 front matter. The Elementor inline styles were remapped to the design-system
-tokens. The contact and Community Playbook forms are Tally embeds
-(`_includes/tally.html`); responses and settings live in Tally.
+tokens. The contact, 90-day plan and Community Playbook forms are Tally
+embeds (`_includes/tally.html`); responses and settings live in Tally.
+
+## Free downloads
+
+The main free resource is the 90-day plan for new church communications
+directors (`/90-day-plan/`, Tally form `Zj0Q7y`). Its thank-you page links
+the PDF in `assets/downloads/`. The PDF is drawn from
+`scripts/freebies/90-day-plan.html`, which uses the design-system fonts and
+colors; after editing it, run `python3 scripts/freebies/build.py` (needs
+Chromium or Chrome) and commit the new PDF. The Community Playbook
+(`/community-playbook/`, a Notion template) stays up but is no longer
+featured on the home page.
