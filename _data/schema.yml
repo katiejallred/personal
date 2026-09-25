@@ -16,6 +16,10 @@ person:
     she helps churches, nonprofits, and mission-driven teams use AI and
     community to free up time for people.
   alumni_of: University of Florida
+  # Stated on the About page ("Quick facts") so Wikidata can cite it for
+  # sex or gender (P21) and country of citizenship (P27).
+  gender: Female
+  nationality: United States
   knows_about:
     - Church communications
     - Online community building
