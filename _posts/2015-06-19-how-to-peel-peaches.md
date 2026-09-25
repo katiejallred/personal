@@ -11,7 +11,7 @@ tags:
 - recipes
 - life hacks
 wordpress_id: 1229
-description: Peel peaches, lots of peaches, quickly and easily with no fuss.
+description: "The easy way to peel lots of peaches: dip them in boiling water for 30 seconds, cool them in cold water, and slip the skins off. From a Clanton, Alabama native."
 image: /assets/uploads/2015/06/peel-peaches.png
 ---
 

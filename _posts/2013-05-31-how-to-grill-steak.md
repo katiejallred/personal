@@ -11,7 +11,7 @@ tags:
 - recipes
 - grilling
 wordpress_id: 572
-description: More than enough information to get your grilling in no time! Got a question? Ask in the comments!
+description: "How to grill a steak: marinate it in Dale's, get the coals hot, oil the grates, and flip once. Plus charcoal vs. propane and grilling tips from friends."
 seo_title: How to Grill Steak
 image: /assets/uploads/2013/05/steaks-scaled.jpg
 featured_image_alt: "A steak searing on a grill over hot coals"

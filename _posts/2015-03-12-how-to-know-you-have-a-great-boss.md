@@ -13,7 +13,7 @@ tags:
 wordpress_id: 1053
 image: /assets/uploads/2015/03/computer-glasses-e1430773427592.jpg
 featured_image_alt: "Glasses resting on a closed laptop on a wooden desk"
-description: "Three signs you have a great boss, starting with one who gives away credit, and how you can be that kind of leader too."
+description: "Three signs you have a great boss, starting with one who gives away credit in front of others, and how you can become that kind of leader for your own team."
 ---
 
 I've had some great bosses in the past and I've also had some awful bosses. Leading doesn't suit everyone well.

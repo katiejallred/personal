@@ -5,6 +5,7 @@ date: '2013-09-13 23:41:17'
 last_modified_at: '2013-09-13 23:41:17'
 author: Katie Allred
 permalink: /jon-acuffs-chair/
+noindex: true # thin 2013 post: live, but kept out of search
 categories:
 - Life
 tags:

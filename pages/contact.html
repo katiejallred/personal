@@ -7,6 +7,17 @@ wordpress_id: 193
 description: Have a project, speaking inquiry, or question? Send Katie Allred a message, book a free call, or reach out by email or phone.
 seo_title: Contact Katie Allred
 schema_type: ContactPage
+faq:
+  - q: "How quickly will I hear back?"
+    a: "Within one business day. Messages from the form come straight to my inbox, and I'll reply with answers or a couple of questions."
+  - q: "What should I include in a speaking inquiry?"
+    a: "Your event date, location, and audience size, plus the topic you have in mind. Keynotes, breakouts, and workshops on AI, community, and church communications all work in person or virtually. Bios and headshots are in the press kit."
+  - q: "Do you work with clients outside Tennessee?"
+    a: "Yes. I'm based in Nolensville, Tennessee, on Central Time, and digital services are fully remote. On-site work like secret shopper visits or speaking includes travel in the quote, depending on location."
+  - q: "Is it better to send a message or book a call?"
+    a: "If you know what you need, send a message. If you'd rather talk it through, book a free 30-minute call. There's no pitch, just a real conversation about your goals and whether we're a good fit."
+  - q: "Can I call or email instead of using the form?"
+    a: "Yes. Email katie@katieallred.com or call 205-299-2980. The form just makes sure I get the details I need to reply well."
 ---
 {%- assign book = site.contact.booking | relative_url -%}
 
@@ -102,5 +113,15 @@ schema_type: ContactPage
         <a class="btn btn-red btn-sm" href="{{ '/churches/' | relative_url }}">Church packages →</a>
       </li>
     </ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-title">
+  <div class="wrap faq">
+    <header class="section-header">
+      <p class="label">Questions</p>
+      <h2 class="section-title" id="faq-title">Before you reach out</h2>
+    </header>
+    {%- include faq.html %}
   </div>
 </section>

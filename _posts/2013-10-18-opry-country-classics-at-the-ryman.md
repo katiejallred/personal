@@ -5,6 +5,7 @@ date: '2013-10-18 00:51:57'
 last_modified_at: '2013-10-18 00:51:57'
 author: Katie Allred
 permalink: /opry-country-classics-at-the-ryman/
+noindex: true # thin 2013 post: live, but kept out of search
 categories:
 - Food & Travel
 tags:

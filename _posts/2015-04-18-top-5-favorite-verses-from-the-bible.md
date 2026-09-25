@@ -11,7 +11,7 @@ tags:
 - faith
 - Bible
 wordpress_id: 69
-description: You can never have too many.
+description: "My five favorite Bible verses, from Habakkuk 1:5 to Ecclesiastes 3:11, and why each one has shaped my faith, my patience, and how I trust God's timing."
 image: /assets/uploads/2014/02/Blog.png
 ---
 

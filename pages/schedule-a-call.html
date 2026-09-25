@@ -7,6 +7,19 @@ wordpress_id: 3360
 description: Book a free 30-minute call with Katie Allred to talk communications strategy, AI training, community, or a speaking engagement.
 seo_title: Schedule a Call with Katie Allred
 schema_type: ContactPage
+faq:
+  - q: "Is the call really free?"
+    a: "Yes. It's a free 30-minute conversation with no pitch and no pressure. You'll leave with a clear next step for your organization, whether or not we end up working together."
+  - q: "How do we meet?"
+    a: "Over video. Once you pick a time, you'll get a calendar invite and a video link by email. Times on the calendar show in your own time zone; I'm based in Nolensville, Tennessee, on Central Time."
+  - q: "What should I have ready?"
+    a: "Just your goals. It helps to know what you've already tried, what's getting in the way, and what better would look like for you. If you've taken the free communications quiz, bring your score and we'll start there."
+  - q: "What kinds of projects can we talk about?"
+    a: "Communication audits and strategy, AI training for your team, community strategy, church and nonprofit websites, and keynotes or workshops. If you're not sure where your question fits, book anyway and we'll sort it out together."
+  - q: "Can I book a call about a speaking engagement?"
+    a: "Yes. Every topic works as a keynote, breakout, or hands-on workshop, in person or virtual. Bring your event date, location, and audience size, and see the press kit for bios and headshots."
+  - q: "What if none of the times work for me?"
+    a: "Book directly on TidyCal at meetwithkatie.com, or email katie@katieallred.com with a few times that suit you and I'll find a slot."
 ---
 <section class="hero home-hero booking-hero" aria-labelledby="hero-title">
   <div class="wrap">
@@ -61,5 +74,15 @@ schema_type: ContactPage
         <a class="btn btn-red btn-sm" href="{{ '/services/' | relative_url }}">See services →</a>
       </div>
     </aside>
+  </div>
+</section>
+
+<section class="section section-blush" aria-labelledby="faq-title">
+  <div class="wrap faq">
+    <header class="section-header">
+      <p class="label">Questions</p>
+      <h2 class="section-title" id="faq-title">Before you book</h2>
+    </header>
+    {%- include faq.html %}
   </div>
 </section>

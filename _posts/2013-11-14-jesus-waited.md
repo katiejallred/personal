@@ -13,7 +13,7 @@ tags:
 wordpress_id: 832
 image: /assets/uploads/2013/11/clock-scaled.jpg
 featured_image_alt: "A black and white close-up of a clock face"
-description: "In John 11, Jesus loved Lazarus and still waited two days. What that story teaches about waiting and God's glory."
+description: "In John 11, Jesus loved Lazarus, Mary, and Martha, and still waited two days before He came. What that story teaches about waiting, grief, and the glory of God."
 ---
 
 No one likes waiting, but sometimes waiting makes sense and God uses it for His glory.
