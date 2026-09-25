@@ -23,7 +23,7 @@ sitemap: false
 - Topics: {{ person.knows_about | join: ', ' }}
 
 ## Key pages
-{% assign key_pages = "/about/,/services/,/churches/,/press-kit/,/reviews/,/contact/,/schedule-a-call/,/rate-your-communications/,/community-playbook/,/join-my-email-list/" | split: "," -%}
+{% assign key_pages = "/about/,/services/,/churches/,/press-kit/,/reviews/,/contact/,/schedule-a-call/,/rate-your-communications/,/90-day-plan/,/community-playbook/,/join-my-email-list/" | split: "," -%}
 {% for url in key_pages -%}
 {%- assign p = site.pages | where: "url", url | first -%}
 {%- if p %}

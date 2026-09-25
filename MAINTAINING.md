@@ -171,4 +171,20 @@ markdown and the layout builds the numbered "On this page" list; set
 `updated` (the date shown) and `summary` (the plain-English card) in
 front matter. The Elementor inline styles were remapped to the design-system
 tokens. The contact and Community Playbook forms are Tally embeds
-(`_includes/tally.html`); responses and settings live in Tally.
+(`_includes/tally.html`); responses and settings live in Tally. Email
+signups use SendFox forms through `_includes/sendfox-form.html`; each form's
+list, opt-in and welcome email are set in SendFox.
+
+## Free downloads
+
+The main free resource is the 90-day plan for new church communications
+directors (`/90-day-plan/`). Its SendFox form (`sendfox_form` in the page's
+front matter, form `3oydlv`) adds people to the church leaders list, then sends them to
+`/90-day-plan/thanks/`, which links the PDF in `assets/downloads/`. To send
+signups to a different list, use that list's SendFox form ID in
+`sendfox_form`. The PDF is drawn from
+`scripts/freebies/90-day-plan.html`, which uses the design-system fonts and
+colors; after editing it, run `python3 scripts/freebies/build.py` (needs
+Chromium or Chrome) and commit the new PDF. The Community Playbook
+(`/community-playbook/`, a Notion template) stays up but is no longer
+featured on the home page.

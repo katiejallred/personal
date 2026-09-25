@@ -1,0 +1,523 @@
+<!doctype html>
+<!--
+  Source for the free workbook "Your First 90 Days" (a plan for new church
+  communications directors). Rebuild the PDF with:
+    python3 scripts/freebies/build.py
+  The PDF is served from /assets/downloads/ and linked from the
+  /90-day-plan/ landing page and its Tally form.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Your First 90 Days: A Plan for New Church Communications Directors</title>
+<meta name="author" content="Katie Allred">
+<link rel="stylesheet" href="../../assets/css/fonts.css">
+<style>
+  :root {
+    --shell: #FFF3EE;
+    --blush: #FFDCD2;
+    --red: #D92B20;
+    --poppy: #FF5B3A;
+    --butter: #F7C548;
+    --blue: #0B3C75;
+    --ink: #1C1412;
+    --muted: #6B4F49;
+    --wave-back: #E4402F;
+    --line: #E8CFC7;
+    --font-display: "Bricolage Grotesque", "Arial Black", sans-serif;
+    --font-sans: "DM Sans", system-ui, sans-serif;
+    --font-hand: "Caveat", cursive;
+  }
+  @page { size: Letter; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-sans);
+    color: var(--ink);
+    font-size: 10.5pt;
+    line-height: 1.5;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 8.5in;
+    height: 11in;
+    padding: 0.7in 0.75in 0.8in;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+    background: #fff;
+  }
+  .page:last-child { page-break-after: auto; }
+  .folio {
+    position: absolute;
+    left: 0.75in; right: 0.75in; bottom: 0.4in;
+    display: flex; justify-content: space-between;
+    font-size: 8pt; color: var(--muted);
+    border-top: 1px solid var(--line);
+    padding-top: 6px;
+  }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 800; line-height: 1.05; margin: 0; }
+  h2 { font-size: 26pt; letter-spacing: -0.01em; margin-bottom: 10px; }
+  h3 { font-size: 13pt; margin: 18px 0 6px; }
+  p { margin: 0 0 9px; }
+  em { font-style: italic; }
+  .kicker {
+    font-family: var(--font-hand);
+    font-size: 19pt;
+    color: var(--red);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .phase-tag {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 8.5pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--red);
+    border-radius: 999px;
+    padding: 3px 11px;
+    margin-bottom: 10px;
+  }
+  .goal {
+    background: var(--shell);
+    border-left: 5px solid var(--red);
+    border-radius: 0 13px 13px 0;
+    padding: 10px 14px;
+    margin: 12px 0 6px;
+  }
+  .goal strong { color: var(--red); }
+  .note {
+    background: #FFF7DD;
+    border-radius: 13px;
+    padding: 9px 13px;
+    font-size: 9.5pt;
+    margin-top: 12px;
+  }
+  .note strong { color: var(--blue); }
+
+  /* Write-in tables */
+  table { width: 100%; border-collapse: collapse; font-size: 9pt; margin-top: 6px; }
+  th {
+    text-align: left; font-weight: 700; color: #fff; background: var(--blue);
+    padding: 5px 7px; font-size: 8.5pt;
+  }
+  th:first-child { border-radius: 8px 0 0 0; }
+  th:last-child { border-radius: 0 8px 0 0; }
+  td { border-bottom: 1px solid var(--line); padding: 0 7px; height: 25px; vertical-align: middle; }
+  td:first-child { font-weight: 600; }
+  tr:nth-child(even) td { background: #FFFAF8; }
+  table.tall td { height: 30px; }
+  table.roomy td { height: 46px; }
+
+  /* Checklists */
+  ul.check { list-style: none; padding: 0; margin: 4px 0 0; }
+  ul.check li { position: relative; padding-left: 24px; margin-bottom: 5px; }
+  ul.check li::before {
+    content: ""; position: absolute; left: 0; top: 2px;
+    width: 13px; height: 13px; border: 2px solid var(--red); border-radius: 4px;
+  }
+  ul.plain { padding-left: 18px; margin: 4px 0 0; }
+  ul.plain li { margin-bottom: 4px; }
+  ol.qs { padding-left: 20px; margin: 4px 0 0; }
+  ol.qs li { margin-bottom: 5px; }
+
+  .lines { margin-top: 6px; }
+  .lines div { border-bottom: 1px solid var(--line); height: 24px; }
+  .label-line { font-weight: 700; font-size: 9.5pt; margin-top: 12px; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+
+  /* Cover */
+  .cover {
+    background: var(--red);
+    color: #fff;
+    padding: 0.9in 0.85in;
+  }
+  .cover .wordmark {
+    font-family: var(--font-display); font-weight: 800; font-size: 20pt;
+    width: 54px; height: 54px; border-radius: 13px; background: #fff; color: var(--red);
+    display: flex; align-items: center; justify-content: center; letter-spacing: -0.02em;
+  }
+  .cover .kicker { color: var(--butter); font-size: 26pt; margin-top: 1.3in; }
+  .cover h1 { font-size: 64pt; letter-spacing: -0.02em; margin: 6px 0 18px; }
+  .cover h1 span { color: var(--butter); }
+  .cover .sub { font-size: 16pt; line-height: 1.35; max-width: 5.2in; color: #FFE7E0; }
+  .cover .by {
+    position: absolute; left: 0.85in; bottom: 0.8in; z-index: 2;
+    font-weight: 700; font-size: 11pt;
+  }
+  .cover .by span { display: block; font-weight: 400; color: #FFE7E0; }
+  .cover svg { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 3.4in; }
+
+  /* Roadmap */
+  .roadmap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 14px; }
+  .roadmap div {
+    background: var(--shell); border-radius: 13px; padding: 12px 11px; font-size: 9pt;
+  }
+  .roadmap b {
+    display: block; font-family: var(--font-display); font-size: 12pt; color: var(--red); margin-bottom: 2px;
+  }
+  .roadmap i { display: block; font-style: normal; font-weight: 700; margin-bottom: 4px; }
+
+  .scripture {
+    font-family: var(--font-hand); font-size: 17pt; line-height: 1.2; color: var(--blue);
+    margin: 16px 0 4px;
+  }
+  .signoff { font-family: var(--font-hand); font-size: 22pt; color: var(--red); margin-top: 6px; }
+
+  /* Closing */
+  .close { background: var(--blue); color: #fff; }
+  .close h2 { color: #fff; }
+  .close .kicker, .close .signoff { color: var(--butter); }
+  .close .prayer { font-size: 12pt; line-height: 1.6; max-width: 6in; }
+  .next {
+    background: #fff; color: var(--ink); border-radius: 18px; padding: 18px 20px; margin-top: 26px;
+  }
+  .next h3 { margin-top: 0; color: var(--red); }
+  .next ul { padding-left: 18px; margin: 6px 0 12px; }
+  .next li { margin-bottom: 5px; }
+  .next a, .close a { color: inherit; font-weight: 700; }
+  .contact { display: flex; gap: 28px; font-weight: 700; font-size: 11pt; margin-top: 4px; }
+  .contact span { color: var(--red); }
+  .close .folio { color: #C9D6E8; border-color: rgba(255,255,255,.25); }
+</style>
+</head>
+<body>
+
+<!-- 1. Cover -->
+<section class="page cover">
+  <div class="wordmark">KA</div>
+  <p class="kicker">a free workbook for church communicators</p>
+  <h1>Your First<br><span>90 Days</span></h1>
+  <p class="sub">A plan for new church communications directors: listen first, find the keys, ask your people, then build the calendar.</p>
+  <p class="by">Katie Allred <span>katieallred.com</span></p>
+  <svg viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 420 C 300 200, 560 520, 880 300 S 1300 160, 1440 260 L1440 600 L0 600Z" fill="#E4402F"/>
+    <path d="M0 520 C 360 400, 700 600, 1040 470 S 1360 420, 1440 470 L1440 600 L0 600Z" fill="#FF5B3A" opacity=".75"/>
+  </svg>
+</section>
+
+<!-- 2. Welcome -->
+<section class="page">
+  <p class="kicker">before you start</p>
+  <h2>Slow down before you speed up.</h2>
+  <p>It's your first week. Every ministry leader has stopped by your desk with something that needs to be promoted. You don't know where the logo files are. You're not sure which decisions are yours to make. And Sunday keeps coming.</p>
+  <p>Take a breath. Your first ninety days aren't about output. They're about learning.</p>
+  <p>You'll be tempted to come in fast, change everything, and prove yourself in the first few weeks. Resist it. The most respected communicators I know spent their first months listening, learning, and earning trust, and then built something remarkable on that foundation.</p>
+  <p>I've sat in your chair. I managed web, email, and social for one of Nashville's largest multi-campus churches, and I've spent the years since teaching church communicators, writing the textbook on church communications, and helping churches of every size. This workbook is the plan I'd hand you on day one.</p>
+  <p class="scripture">"For which of you, wanting to build a tower, doesn't first sit down and calculate the cost…?" (Luke 14:28)</p>
+  <p>Ninety days of listening is how you count the cost. Here's the road ahead:</p>
+
+  <div class="roadmap">
+    <div><b>Days 1–14</b><i>Listen and audit</i>Review every channel. Interview your pastor, ministry leaders, and a few members.</div>
+    <div><b>Days 15–30</b><i>Find the keys</i>Track down the brand files, the logins, and the weekly rhythms nobody wrote down.</div>
+    <div><b>Days 31–60</b><i>Ask your people</i>Survey the congregation. Bring your findings, and your solutions, to your pastor.</div>
+    <div><b>Days 61–90</b><i>Build the calendar</i>Plan the big moments of the year, then the next thirty days, then report back.</div>
+  </div>
+
+  <h3>How to use this workbook</h3>
+  <ul class="plain">
+    <li><strong>Print it and write all over it.</strong> Keep it on your desk. The blank lines are for you.</li>
+    <li><strong>Go in order.</strong> Each phase builds on the one before it. Skipping the audit is how new directors end up redesigning things that were working.</li>
+    <li><strong>Behind already?</strong> That's okay. Start wherever you are and keep moving.</li>
+  </ul>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>2</span></div>
+</section>
+
+<!-- 3. Phase 1: channel audit -->
+<section class="page">
+  <span class="phase-tag">Phase 1 · Days 1–14</span>
+  <h2>Listen and audit.</h2>
+  <p>Before you change anything, understand everything. A communication audit is simply an honest inventory: what exists, who runs it, and whether it's doing its job.</p>
+  <div class="goal"><strong>Your goal:</strong> by day 14, you can name every channel your church uses, who has access to it, and one thing that's working or confusing about each.</div>
+
+  <h3>The channel audit</h3>
+  <table>
+    <thead><tr><th style="width:24%">Channel</th><th style="width:19%">Who has access?</th><th style="width:15%">Last updated</th><th style="width:13%">Working?</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Website</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Google Business Profile</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Facebook</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Instagram</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>YouTube / livestream</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Email newsletter</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Text messaging</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Church app / church database</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Bulletin / print</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Signage &amp; screens</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td>Staff communication tools</td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td></td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+      <tr><td></td><td></td><td></td><td>Y · N · ?</td><td></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Google your church</h3>
+  <p>Search for your church the way a stranger would. Then do it on your phone. What shows up first? Are the service times right? Are there recent photos of real people? Is there a clear next step for a first-time guest, or do they have to dig for it?</p>
+  <p class="label-line">What a first-time guest would find:</p>
+  <div class="lines"><div></div><div></div><div></div></div>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>3</span></div>
+</section>
+
+<!-- 4. Phase 1: interviews -->
+<section class="page">
+  <span class="phase-tag">Phase 1 · Days 1–14</span>
+  <h2>Interview your people.</h2>
+  <p>Your pastor, your ministry leaders, and your members already know where communication breaks down. They just don't usually say so unless someone asks. Schedule short conversations, take notes, and mostly listen.</p>
+
+  <h3>Who to talk to</h3>
+  <div class="two-col">
+    <ul class="check">
+      <li>Lead pastor</li>
+      <li>Executive or administrative pastor</li>
+      <li>Every ministry leader who sends you requests</li>
+      <li>Your predecessor, if you can</li>
+    </ul>
+    <ul class="check">
+      <li>A few key volunteers</li>
+      <li>Someone who started attending this year</li>
+      <li>A long-time member</li>
+      <li>The front office (they hear everything)</li>
+    </ul>
+  </div>
+
+  <h3>Questions to ask</h3>
+  <ol class="qs">
+    <li>How do you usually find out what's happening at church?</li>
+    <li>What's working in how we communicate right now?</li>
+    <li>What feels cluttered or confusing?</li>
+    <li>What do you wish the communications team did differently?</li>
+    <li>What's one thing I should be careful not to change?</li>
+    <li>If you could fix one thing tomorrow, what would it be?</li>
+  </ol>
+
+  <div class="goal"><strong>Ask your pastor this one:</strong> "A year from now, what would make you say communications is going really well?" Their answer tells you what a win looks like, and buy-in from your lead pastor comes before any strategy.</div>
+
+  <p class="label-line">What I keep hearing (patterns across interviews):</p>
+  <div class="lines"><div></div><div></div><div></div><div></div><div></div></div>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>4</span></div>
+</section>
+
+<!-- 5. Phase 2: brand + access -->
+<section class="page">
+  <span class="phase-tag">Phase 2 · Days 15–30</span>
+  <h2>Find the keys.</h2>
+  <p>Where are the logo files? What are the approved colors? Who has the password to the church Instagram? This sounds boring. It's crucial. You can't build consistent communications until you know what the brand actually looks like, and you'd be surprised how often these files are scattered across personal computers and old shared folders, or don't exist at all.</p>
+
+  <h3>Brand kit checklist</h3>
+  <div class="two-col">
+    <ul class="check">
+      <li>Logo: full color, one color, and white</li>
+      <li>Logo as a vector file (SVG, AI, or EPS)</li>
+      <li>Ministry and campus logos</li>
+      <li>Brand colors (with hex codes)</li>
+    </ul>
+    <ul class="check">
+      <li>Fonts, and where they're licensed</li>
+      <li>Photo library, with permission to use</li>
+      <li>Templates for slides, social, and print</li>
+      <li>A style guide, even a one-page one</li>
+    </ul>
+  </div>
+  <p class="label-line">All of this now lives in:</p>
+  <div class="lines"><div></div></div>
+
+  <h3>Accounts and access</h3>
+  <table>
+    <thead><tr><th style="width:26%">Platform</th><th style="width:30%">Login email</th><th style="width:20%">Admins</th><th style="width:12%">2-step on?</th><th>Saved?</th></tr></thead>
+    <tbody>
+      <tr><td>Website host / builder</td><td></td><td></td><td>Y · N</td><td>Y · N</td></tr>
+      <tr><td>Domain registrar</td><td></td><td></td><td>Y · N</td><td>Y · N</td></tr>
+      <tr><td>Google Business Profile</td><td></td><td></td><td>Y · N</td><td>Y · N</td></tr>
+      <tr><td>Meta (Facebook, Instagram)</td><td></td><td></td><td>Y · N</td><td>Y · N</td></tr>
+      <tr><td>YouTube</td><td></td><td></td><td>Y · N</td><td>Y · N</td></tr>
+      <tr><td>Email platform</td><td></td><td></td><td>Y · N</td><td>Y · N</td></tr>
+      <tr><td>Church database / app</td><td></td><td></td><td>Y · N</td><td>Y · N</td></tr>
+      <tr><td></td><td></td><td></td><td>Y · N</td><td>Y · N</td></tr>
+    </tbody>
+  </table>
+  <div class="note"><strong>Don't write passwords on this page.</strong> Store them in a password manager the church owns, make sure at least two staff members can get into every account, and move any account tied to someone's personal email onto a church address.</div>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>5</span></div>
+</section>
+
+<!-- 6. Phase 2: rhythms -->
+<section class="page">
+  <span class="phase-tag">Phase 2 · Days 15–30</span>
+  <h2>Learn the weekly rhythm.</h2>
+  <p>Every church has a rhythm, whether or not anyone wrote it down. The bulletin locks on a certain day. Announcements are due to the pastor at a certain time. The newsletter goes out when someone remembers. Write down how it really works today before you try to improve it.</p>
+
+  <h3>Our week as it works today</h3>
+  <table class="tall">
+    <thead><tr><th style="width:18%">Day</th><th style="width:52%">What's due or goes out</th><th>Who owns it</th></tr></thead>
+    <tbody>
+      <tr><td>Monday</td><td></td><td></td></tr>
+      <tr><td>Tuesday</td><td></td><td></td></tr>
+      <tr><td>Wednesday</td><td></td><td></td></tr>
+      <tr><td>Thursday</td><td></td><td></td></tr>
+      <tr><td>Friday</td><td></td><td></td></tr>
+      <tr><td>Saturday</td><td></td><td></td></tr>
+      <tr><td>Sunday</td><td></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <h3>How requests reach you</h3>
+  <p>How does a ministry leader ask for help today? A form, an email, a hallway conversation, a text at 10 p.m.? Don't overhaul it yet. Just notice.</p>
+  <ul class="check">
+    <li>Requests come in through: ______________________________________________</li>
+    <li>Average notice I get before an event: ____________________________________</li>
+    <li>The request that surprised me most: _____________________________________</li>
+  </ul>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>6</span></div>
+</section>
+
+<!-- 7. Phase 3: survey -->
+<section class="page">
+  <span class="phase-tag">Phase 3 · Days 31–60</span>
+  <h2>Ask your people.</h2>
+  <p>Your church members have opinions about how well the church communicates. A simple survey surfaces them. Keep it short, five to seven questions, so people actually finish it. Send it by email, link it on social, and put a card and a QR code in the seats on a Sunday.</p>
+
+  <h3>Survey questions to start from</h3>
+  <ol class="qs">
+    <li>How do you prefer to hear from the church? (email, text, app, social, bulletin, announcements from the stage)</li>
+    <li>Where do you go first when you want to know what's happening?</li>
+    <li>In the last month, did you miss something you would have wanted to attend? How did you find out about it, if you did?</li>
+    <li>What do we communicate well?</li>
+    <li>What feels cluttered or confusing?</li>
+    <li>If you invited a friend, where would you send them first?</li>
+    <li>Anything else you want the communications team to know?</li>
+  </ol>
+
+  <h3>What we heard</h3>
+  <div class="two-col">
+    <div>
+      <p class="label-line">Top 3 things that are working</p>
+      <div class="lines"><div></div><div></div><div></div></div>
+    </div>
+    <div>
+      <p class="label-line">Top 3 things that confuse people</p>
+      <div class="lines"><div></div><div></div><div></div></div>
+    </div>
+  </div>
+  <p class="label-line">What surprised me:</p>
+  <div class="lines"><div></div><div></div></div>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>7</span></div>
+</section>
+
+<!-- 8. Phase 3: pastor meeting -->
+<section class="page">
+  <span class="phase-tag">Phase 3 · Days 31–60</span>
+  <h2>Bring solutions, not just judgments.</h2>
+  <p>By now you've seen a lot, and some of it probably made you wince. Here's the difference between a critic and a leader: a critic points out the problem. A leader brings the problem, a proposed fix, and a reason it matters. Sit down with your pastor and walk through what you found.</p>
+
+  <h3>My findings, in one page</h3>
+  <table class="tall">
+    <thead><tr><th style="width:34%">What I found</th><th style="width:40%">What I recommend</th><th>Why it matters</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Agree on these before you leave the room</h3>
+  <ul class="check">
+    <li>Our top three communication priorities for the rest of the year</li>
+    <li>Which decisions are mine to make, and which need approval</li>
+    <li>How ministries will send requests from now on (one door, not five)</li>
+    <li>How much notice a request needs: ________ weeks</li>
+    <li>What gets announced from the stage, and who decides</li>
+  </ul>
+  <div class="note"><strong>About boundaries:</strong> a request process protects your time and makes every ministry's work better. You'll explain the why over and over. That's normal. Say it kindly, and keep saying it.</div>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>8</span></div>
+</section>
+
+<!-- 9. Phase 4: annual calendar -->
+<section class="page">
+  <span class="phase-tag">Phase 4 · Days 61–90</span>
+  <h2>Build the calendar.</h2>
+  <p>A communications calendar is the tool that turns reactive scrambling into proactive strategy. Start with the big moments of the year and work backward. How many weeks of promotion does each one need? Put it on the calendar. What gets scheduled gets done.</p>
+
+  <h3>The big moments of our year</h3>
+  <table>
+    <thead><tr><th style="width:27%">Event or season</th><th style="width:14%">Date</th><th style="width:16%">Promo starts</th><th style="width:25%">Channels</th><th>Owner</th></tr></thead>
+    <tbody>
+      <tr><td>Easter</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>Christmas</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>Vacation Bible School</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>Fall kickoff</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>Sermon series launches</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>Baptism Sundays</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>Student &amp; kids camps</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>Giving or missions emphasis</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+  <div class="note"><strong>"There's no way I can plan ninety days out."</strong> That's okay. Start with thirty. Plan one month at a time until looking ninety days ahead feels normal. Then keep going.</div>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>9</span></div>
+</section>
+
+<!-- 10. Phase 4: next 30 days -->
+<section class="page">
+  <span class="phase-tag">Phase 4 · Days 61–90</span>
+  <h2>Plan the next thirty days.</h2>
+  <p>Now zoom in. Using the big moments and the weekly rhythm you mapped, plan the next four weeks: what's being promoted, where, and when.</p>
+  <table class="roomy">
+    <thead><tr><th style="width:14%">Week of</th><th style="width:32%">What we're promoting</th><th style="width:30%">Channels</th><th>Ready by</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Day 90: report back</h3>
+  <p>Close the loop. Give your pastor a one-page summary. It shows what the last three months produced and sets up the next three.</p>
+  <div class="two-col">
+    <div>
+      <p class="label-line">What I learned</p>
+      <div class="lines"><div></div><div></div><div></div></div>
+      <p class="label-line">What I fixed</p>
+      <div class="lines"><div></div><div></div><div></div></div>
+    </div>
+    <div>
+      <p class="label-line">Our priorities for the next 90 days</p>
+      <div class="lines"><div></div><div></div><div></div></div>
+      <p class="label-line">What I need (tools, help, training)</p>
+      <div class="lines"><div></div><div></div><div></div></div>
+    </div>
+  </div>
+  <p style="margin-top:14px">Then celebrate. You made it through the hardest part of any new role.</p>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>10</span></div>
+</section>
+
+<!-- 11. Close -->
+<section class="page close">
+  <p class="kicker">one more thing</p>
+  <h2>This is a marathon, not a race.</h2>
+  <p class="prayer">Your work will often be unseen and rarely thanked. I won't pretend otherwise. But you are a storyteller on a mission. Jesus said, "The harvest is abundant, but the workers are few" (Matt 9:37), and you are one of those workers.</p>
+  <p class="prayer">My prayer for you, church communicator, is that you'd have the patience to listen before you build, the courage to say no so you can say yes to what matters most, and joy in the work, even on the hardest Monday. Don't burn out. This job needs you for the long haul.</p>
+  <p class="signoff">— Katie</p>
+
+  <div class="next">
+    <h3>Want a second set of eyes?</h3>
+    <p>If you'd like help with any part of this plan, I work with churches of every size:</p>
+    <ul>
+      <li><strong>Digital Secret Shopper</strong>: I look at your website, social, and email the way a first-time guest would, then send you a written report.</li>
+      <li><strong>Communication Audit</strong>: a full outside review of your channels with a clear action plan.</li>
+      <li><strong>Free 5-minute quiz</strong>: score your church's communications at <a href="https://katieallred.com/rate-your-communications/">katieallred.com/rate-your-communications</a>.</li>
+    </ul>
+    <div class="contact">
+      <div><span>Book a free call</span><br><a href="https://meetwithkatie.com">meetwithkatie.com</a></div>
+      <div><span>Email me</span><br><a href="mailto:katie@katieallred.com">katie@katieallred.com</a></div>
+    </div>
+  </div>
+  <div class="folio"><span>Your First 90 Days · Katie Allred</span><span>katieallred.com</span></div>
+</section>
+
+</body>
+</html>
