@@ -152,6 +152,10 @@ WordPress URL, plus `title`, `date`, `last_modified_at`, `author`,
 future dates (Jekyll skips them until the date arrives — preview with
 `--future`).
 
+For long posts, set `toc: true` in front matter to add an "On this page"
+table of contents built from the post's `##` headings: a sticky column on
+the left on wide screens, a box above the text on phones.
+
 Give every image alt text: `![What the image shows](/assets/uploads/...)` in
 Markdown, and `featured_image_alt:` for a post's featured image (it also
 becomes `og:image:alt`). Leave a featured image's alt empty only when it is

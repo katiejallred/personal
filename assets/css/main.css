@@ -636,6 +636,82 @@ code, pre, kbd, samp {
   border-top: 2px solid var(--blush);
 }
 
+/* Table of contents (`toc: true`): a box above the text on narrow screens,
+   a sticky left column beside the article on wide ones. */
+.article-toc {
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  box-shadow: inset 4px 0 0 var(--red);
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.article-toc ol {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-3);
+  display: grid;
+  gap: var(--space-2);
+  counter-reset: toc;
+}
+
+.article-toc li {
+  counter-increment: toc;
+  display: flex;
+  gap: var(--space-2);
+}
+
+.article-toc li::before {
+  content: counter(toc, decimal-leading-zero);
+  color: var(--red);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.article-toc a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.article-toc a:hover {
+  color: var(--red);
+  text-decoration: underline;
+}
+
+.has-toc .prose h2 {
+  scroll-margin-top: var(--space-4);
+}
+
+@media (min-width: 1100px) {
+  .article.has-toc {
+    max-width: calc(var(--measure) + 15rem + var(--space-8) + 2 * var(--gutter));
+    display: grid;
+    grid-template-columns: 15rem minmax(0, var(--measure));
+    column-gap: var(--space-8);
+    align-items: start;
+  }
+
+  .has-toc > * {
+    grid-column: 2;
+  }
+
+  .has-toc > .article-toc {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    position: sticky;
+    top: var(--space-4);
+    max-height: calc(100vh - 2 * var(--space-4));
+    overflow-y: auto;
+    margin-top: 0;
+    padding: 2px 4px;
+    margin-left: -4px;
+    background: none;
+    box-shadow: none;
+  }
+}
+
 .card.author-card {
   flex-direction: row;
   align-items: flex-start;
