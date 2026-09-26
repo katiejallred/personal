@@ -15,7 +15,7 @@
   {%- for b in mentioned %}
   {%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture %}
   <div class="book-mention-item">
-    <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy" decoding="async">
+    <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" sizes="88px" loading="lazy" decoding="async">
     <div>
       <p class="book-mention-title"><cite>{{ b.title }}</cite></p>
       <p class="book-mention-meta">{{ b.meta }}</p>
