@@ -38,7 +38,7 @@ layout: default
   {%- assign featured = page.image | default: page.featured_image -%}
   {%- if featured %}
   <figure class="article-image">
-    <img src="{{ featured | relative_url }}" alt="{{ page.featured_image_alt | default: '' }}" fetchpriority="high">
+    <img src="{{ featured | relative_url }}" alt="{{ page.featured_image_alt | default: '' }}" sizes="(min-width: 1000px) 936px, calc(100vw - 32px)" fetchpriority="high">
   </figure>
   {%- endif %}
 

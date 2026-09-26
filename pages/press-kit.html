@@ -21,7 +21,7 @@ seo_title: Press Kit | Katie Allred
       </div>
     </div>
     <figure class="home-hero-photo">
-      <img src="{{ '/assets/images/headshots/katie-allred-blazer.jpg' | relative_url }}" alt="Katie Allred in a camel blazer, arms crossed, smiling" width="1334" height="2000">
+      <img src="{{ '/assets/images/headshots/katie-allred-blazer.jpg' | relative_url }}" alt="Katie Allred in a camel blazer, arms crossed, smiling" width="1334" height="2000" sizes="(min-width: 900px) 404px, (min-width: 480px) 255px, 55vw">
     </figure>
   </div>
   <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
@@ -105,21 +105,21 @@ seo_title: Press Kit | Katie Allred
     </header>
     <ul class="headshot-grid">
       <li class="card headshot">
-        <img src="{{ '/assets/images/headshots/katie-allred-blazer.jpg' | relative_url }}" alt="Katie Allred in a camel blazer, arms crossed" width="1334" height="2000" loading="lazy">
+        <img src="{{ '/assets/images/headshots/katie-allred-blazer.jpg' | relative_url }}" alt="Katie Allred in a camel blazer, arms crossed" width="1334" height="2000" sizes="(min-width: 640px) 340px, calc(100vw - 32px)" loading="lazy">
         <div class="headshot-meta">
           <p><strong>Camel blazer</strong><br>1334 × 2000 · JPG</p>
           <a class="btn btn-red btn-sm" href="{{ '/assets/images/headshots/katie-allred-blazer.jpg' | relative_url }}" download>Download ↓</a>
         </div>
       </li>
       <li class="card headshot">
-        <img src="{{ '/assets/images/headshots/katie-allred-arms-crossed.jpg' | relative_url }}" alt="Katie Allred in a blue shirt, arms crossed" width="1334" height="2000" loading="lazy">
+        <img src="{{ '/assets/images/headshots/katie-allred-arms-crossed.jpg' | relative_url }}" alt="Katie Allred in a blue shirt, arms crossed" width="1334" height="2000" sizes="(min-width: 640px) 340px, calc(100vw - 32px)" loading="lazy">
         <div class="headshot-meta">
           <p><strong>Blue shirt</strong><br>1334 × 2000 · JPG</p>
           <a class="btn btn-red btn-sm" href="{{ '/assets/images/headshots/katie-allred-arms-crossed.jpg' | relative_url }}" download>Download ↓</a>
         </div>
       </li>
       <li class="card headshot">
-        <img src="{{ '/assets/images/headshots/katie-allred-closeup.jpg' | relative_url }}" alt="Close-up headshot of Katie Allred" width="1334" height="2000" loading="lazy">
+        <img src="{{ '/assets/images/headshots/katie-allred-closeup.jpg' | relative_url }}" alt="Close-up headshot of Katie Allred" width="1334" height="2000" sizes="(min-width: 640px) 340px, calc(100vw - 32px)" loading="lazy">
         <div class="headshot-meta">
           <p><strong>Close-up</strong><br>1334 × 2000 · JPG</p>
           <a class="btn btn-red btn-sm" href="{{ '/assets/images/headshots/katie-allred-closeup.jpg' | relative_url }}" download>Download ↓</a>
@@ -173,7 +173,7 @@ seo_title: Press Kit | Katie Allred
         {%- for b in site.data.books %}
         {%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture %}
         <li class="book-mini">
-          <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy">
+          <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" sizes="56px" loading="lazy">
           <div>
             <a href="{{ buy }}"><strong><cite>{{ b.title }}</cite></strong></a>
             <p>{{ b.meta }}{% if b.badge %} · {{ b.badge }}{% endif %}</p>

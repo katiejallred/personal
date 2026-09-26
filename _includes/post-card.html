@@ -3,7 +3,7 @@
 <article class="post-card">
   {%- if featured %}
   <div class="post-card-image">
-    <img src="{{ featured | relative_url }}" alt="" loading="lazy" decoding="async">
+    <img src="{{ featured | relative_url }}" alt="" sizes="(min-width: 900px) 410px, (min-width: 640px) 584px, calc(100vw - 32px)" loading="lazy" decoding="async">
   </div>
   {%- else %}
   {%- comment %} No featured image: a branded panel instead of an empty box. {% endcomment %}

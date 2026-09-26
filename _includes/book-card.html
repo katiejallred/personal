@@ -6,7 +6,7 @@
 {%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture -%}
 <article class="book">
   <a class="book-cover" href="{{ buy }}" rel="sponsored nofollow noopener" tabindex="-1" aria-hidden="true">
-    <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy">
+    <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" sizes="200px" loading="lazy">
   </a>
   <div class="book-body">
     {%- if b.badge %}

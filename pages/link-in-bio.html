@@ -18,7 +18,7 @@ affiliate_note: inline # the Amazon disclosure is in the page footer
   </div>
 
   <div class="bio-inner">
-    <img class="bio-avatar" src="{{ '/assets/images/headshots/katie-allred-avatar.jpg' | relative_url }}" alt="Katie Allred smiling" width="576" height="576">
+    <img class="bio-avatar" sizes="144px" src="{{ '/assets/images/headshots/katie-allred-avatar.jpg' | relative_url }}" alt="Katie Allred smiling" width="576" height="576">
     <h1 class="bio-name">Katie Allred</h1>
     <p class="bio-role">AI &amp; community strategist · author · speaker</p>
 
@@ -45,7 +45,7 @@ affiliate_note: inline # the Amazon disclosure is in the page footer
       <li>
         <a class="bio-link" href="{{ latest.url | relative_url }}">
           {%- if latest_image %}
-          <img class="bio-thumb" src="{{ latest_image | relative_url }}" alt="" loading="lazy" decoding="async">
+          <img class="bio-thumb" sizes="56px" src="{{ latest_image | relative_url }}" alt="" loading="lazy" decoding="async">
           {%- endif %}
           <span><strong>New on the blog</strong><small>{{ latest.title }}</small></span>
         </a>
@@ -59,7 +59,7 @@ affiliate_note: inline # the Amazon disclosure is in the page footer
       {%- assign bio_book = site.data.books.first %}
       <li>
         <a class="bio-link" href="{% include amazon-url.html asin=bio_book.asin %}">
-          <img class="bio-thumb bio-thumb-book" src="{{ bio_book.cover | relative_url }}" alt="" width="{{ bio_book.cover_width }}" height="{{ bio_book.cover_height }}" loading="lazy" decoding="async">
+          <img class="bio-thumb bio-thumb-book" sizes="40px" src="{{ bio_book.cover | relative_url }}" alt="" width="{{ bio_book.cover_width }}" height="{{ bio_book.cover_height }}" loading="lazy" decoding="async">
           <span><strong>Get my book</strong><small><cite>{{ bio_book.title }}</cite></small></span>
         </a>
       </li>

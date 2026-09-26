@@ -192,6 +192,20 @@ automatically (`_plugins/lazy_images.rb`).
 images load. For an image hosted elsewhere, set the size yourself:
 `![Alt](https://…/banner.jpg){: width="468" height="60"}`.
 
+Large images are also served in smaller sizes. At build time
+`_plugins/responsive_images.rb` saves copies of every JPEG, PNG and WebP
+under `assets/uploads` and `assets/images` at 320, 640, 960, 1280 and
+1600px wide (only widths smaller than the original, and only copies that
+come out clearly smaller in bytes), using `scripts/resize_images.py`
+(Pillow). Each `<img>` then gets a `srcset` listing them, and the browser
+downloads the smallest one that looks sharp on that screen. The copies are
+cached in `.jekyll-cache/responsive-images` and published under
+`/assets/images/resized/`; the first build after cloning takes about
+40 seconds longer. Images in posts use a default `sizes` for the article
+column; a template that shows an image at another width sets its own
+`sizes` (for example `sizes="320px"`). Without Pillow the build warns and
+images keep a plain `src`.
+
 Pages were exported from WordPress into `pages/`, each with an explicit
 `permalink`. They use the `landing` layout (the content brings its own
 eyebrow and H1) except `link-in-bio`, which uses `blank` (no header or
