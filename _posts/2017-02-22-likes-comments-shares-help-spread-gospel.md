@@ -2,7 +2,7 @@
 layout: post
 title: How Likes, Comments, and Shares Help to Spread the Gospel
 date: '2017-02-22 14:41:21'
-last_modified_at: '2017-02-22 14:41:21'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /likes-comments-shares-help-spread-gospel/
 categories:
@@ -20,7 +20,7 @@ description: "How likes, comments, and shares extend your church's reach on soci
 
 Social media allows us to communicate with people who might never grace the doors of our church. Through creating interactive, engaging content, we can reach thousands or millions of people. This increases the reach of your church gigantically—and you can reach all of them without paying a cent.
 
-### However, how do I create interactive, engaging content?
+## However, how do I create interactive, engaging content?
 
 As much as we want to think that people care about our church, they do not. At the core, people care mostly about themselves. Any copywriter will tell you that good copy consists mostly of “you” statements—making the individual the center of attention.
 
@@ -32,7 +32,7 @@ Here are some examples of text that went viral for us in the past, you can gathe
 
 All of these are “you” statements. It invites the user to think about themselves and say, “Hey, I felt that just today” or “I really needed to hear that.”
 
-### Another thing you need to remember about creating engaging content is to ask questions.
+## Another thing you need to remember about creating engaging content is to ask questions.
 
 Again, people love to talk about themselves and by asking questions, you open up an opportunity for them to share with the church what’s going in their lives. Another bonus of asking questions and receiving comments, it increases the reach of the post—the more that someone likes, comments, or shares the post, the more it gets seen by others. We want to do whatever is possible to get the Good News in front of people.
 
@@ -42,7 +42,7 @@ But isn’t it like that in all evangelism? Sometimes we share the gospel, and i
 
 A tweet from AlecJRoss said: “If Paul Revere had been a modern day citizen, he wouldn’t have ridden down Main Street. He would have tweeted.”
 
-### Here's some stats:
+## Here's some stats:
 
 - Facebook has the third largest population behind China and India.
 - More than half of the world’s population is under 30, and more people own a mobile device than a toothbrush.

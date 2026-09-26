@@ -48,6 +48,17 @@ a menu button; the links open in a panel under it. The toggle is a few
 lines of script in `_includes/header.html`; without JavaScript the links
 simply stay visible. Menu items come from `_data/navigation.yml`.
 
+## Accessibility
+
+The site aims for WCAG 2.2 AA. Keep text at 4.5:1 contrast or better:
+`--red` is the darker text red (#BF2419); `--ground-red` (#D92B20) is for
+buttons, the hero and other red fills, with `--on-red` or `--on-red-soft`
+text on top. Focus rings are blue, and white on red and dark grounds.
+Headings in posts start at `##` (the title is the only h1) and step down
+one level at a time. Give embeds a title, e.g.
+`{% include youtube.html id="…" title="What the video shows" %}`. Wide
+tables and code blocks in posts become keyboard-scrollable automatically.
+
 ## Books and Amazon affiliate links
 
 Katie is an Amazon Associate (tag `kajal04-20`, set as `amazon.tag` in

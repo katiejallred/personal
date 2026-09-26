@@ -15,4 +15,4 @@ wordpress_id: 630
 description: "The PS22 Chorus, a fifth-grade choir from Staten Island, singing \"Iris.\" One of my favorite performances of 2013."
 ---
 
-{% include youtube.html id="oU5za0waA8Q" %}
+{% include youtube.html id="oU5za0waA8Q" title="The PS22 Chorus sings Iris" %}

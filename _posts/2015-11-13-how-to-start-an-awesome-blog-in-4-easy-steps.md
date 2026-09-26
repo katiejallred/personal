@@ -2,7 +2,7 @@
 layout: post
 title: How to Start an Awesome Blog in 4 Easy Steps
 date: '2015-11-13 13:39:24'
-last_modified_at: '2015-11-13 13:39:24'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /how-to-start-an-awesome-blog-in-4-easy-steps/
 categories:
@@ -25,17 +25,17 @@ Everyone, and I mean, everyone has something to teach and everyone has something
 
 ![pablo](/assets/uploads/2015/11/pablo.png)
 
-### #1. Get Hosting and Domain
+## #1. Get Hosting and Domain
 
 For hosting, I recommend BlueHost. I set up almost all of my clients on BlueHost because it's affordable and reliable.  
 ![BlueHost](/assets/uploads/2015/11/1-1024x525.jpg)
 
-### #2. Install Wordpress
+## #2. Install Wordpress
 
 Installing Wordpress is pretty easy. After you finish purchasing, you will be taken to your dashboard. You should be able to find "Wordpress" on the list of options. Click that and it will take you through the process.  
 ![Image](/assets/uploads/2015/11/Image.jpg)
 
-### #3. Choose a Theme
+## #3. Choose a Theme
 
 There are millions of themes out there and if you wade through all of them, you will end up never writing.
 
@@ -53,6 +53,6 @@ You won't have to re-purchase to get updates every year, and you'll need the upd
 
 If you're not in love with any of the [Divi](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} or Elegant Theme options you see, then there are plenty of options on ThemeForest–just be careful. Choose a theme with a high rating and recent updates.
 
-### #4. Get to Writing!
+## #4. Get to Writing!
 
 A blog is only as useful as the person writing it. You have ideas to share and stories to tell. Let's hear them!

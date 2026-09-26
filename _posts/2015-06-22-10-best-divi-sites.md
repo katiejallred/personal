@@ -2,7 +2,7 @@
 layout: post
 title: Using Divi? Here are 10 Powerful Examples of the Theme
 date: '2015-06-22 18:02:53'
-last_modified_at: '2015-06-22 18:02:53'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /10-best-divi-sites/
 categories:
@@ -31,43 +31,43 @@ After spending a couple of hours searching, I realized that compiling a list of 
 
 These were made with the first version of Divi. An updated post with more examples soon to come.
 
-### 1. [Hotel Monteleone](http://hotelmonteleone.com/)
+## 1. [Hotel Monteleone](http://hotelmonteleone.com/)
 
 [![New Orleans Hotel Luxury French Quarter Hotel Hotel Monteleone](/assets/uploads/2015/06/New-Orleans-Hotel-Luxury-French-Quarter-Hotel-Hotel-Monteleone1-990x1024.jpg)](http://hotelmonteleone.com/)
 
-### 2. [Sunflower Creative Arts](http://sunflowercreativearts.org/)
+## 2. [Sunflower Creative Arts](http://sunflowercreativearts.org/)
 
 [![Early Childhood Education Sunflower Creative Arts](/assets/uploads/2015/06/Early-Childhood-Education-Sunflower-Creative-Arts-990x1024.jpg)](http://sunflowercreativearts.org/)
 
-### 3. [KillBill](http://killbill.io/)
+## 3. [KillBill](http://killbill.io/)
 
 [![Open Source Subscription Billing Payment Platform Kill Bill](/assets/uploads/2015/06/Open-Source-Subscription-Billing-Payment-Platform-Kill-Bill-990x1024.png)](http://killbill.io/)
 
-### 4. [PetFest Milwaukee](http://petfestmke.com/)
+## 4. [PetFest Milwaukee](http://petfestmke.com/)
 
 [![Fromm Petfest August 29 2015 Milwaukee WI](/assets/uploads/2015/06/Fromm-Petfest-August-29-2015-Milwaukee-WI-990x1024.jpg)](http://petfestmke.com/)
 
-### 5. [Art and Craft](http://artandcraftfilm.com/)
+## 5. [Art and Craft](http://artandcraftfilm.com/)
 
 [![ART AND CRAFT a documentary film](/assets/uploads/2015/06/ART-AND-CRAFT-a-documentary-film-990x1024.jpg)](http://artandcraftfilm.com/)
 
-### 6. [BTRG Inc.](http://www.btrgroup.com/)
+## 6. [BTRG Inc.](http://www.btrgroup.com/)
 
 [![BTRG Inc. PeopleSoft 9.2 Upgrades Oracle Cloud Solutions Data Security BTRGroup.com](/assets/uploads/2015/06/BTRG-Inc.-PeopleSoft-9.2-Upgrades-Oracle-Cloud-Solutions-Data-Security-BTRGroup.com_-990x1024.jpg)](http://www.btrgroup.com/)
 
-### 7. [Power Financial](https://www.powerfi.org/)
+## 7. [Power Financial](https://www.powerfi.org/)
 
 [![PowerFi.org Power Financial Credit Union](/assets/uploads/2015/06/PowerFi.org-Power-Financial-Credit-Union-990x1024.jpg)](https://www.powerfi.org/)
 
-### 8. [Fehr Peers](http://www.fehrandpeers.com/)
+## 8. [Fehr Peers](http://www.fehrandpeers.com/)
 
 [![Fehr Peers Transportation Consultants](/assets/uploads/2015/06/Fehr-Peers-Transportation-Consultants-990x1024.jpg)](http://www.fehrandpeers.com/)
 
-### 9. [Religions for Peace USA](http://www.rfpusa.org/)
+## 9. [Religions for Peace USA](http://www.rfpusa.org/)
 
 [![Religions for Peace USA](/assets/uploads/2015/06/Religions-for-Peace-USA--990x1024.jpg)](http://www.rfpusa.org/)
 
-### 10. [Eagle Village](http://eaglevillage.org/)
+## 10. [Eagle Village](http://eaglevillage.org/)
 
 [![eaglevillage.org](/assets/uploads/2015/06/eaglevillage.org_-990x1024.jpg)](http://eaglevillage.org/)
 

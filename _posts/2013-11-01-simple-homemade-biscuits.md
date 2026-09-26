@@ -2,7 +2,7 @@
 layout: post
 title: How to Make Simple Homemade Biscuits
 date: '2013-11-01 18:00:27'
-last_modified_at: '2026-09-25'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /simple-homemade-biscuits/
 categories:
@@ -29,7 +29,7 @@ I love making grandma's biscuits. I'm also all about easy recipes and this has t
 
 Preheat Oven to 500°. Spray pan. Bake for 10-12 minutes.
 
-### Ingredients
+## Ingredients
 
 - 2 Cups Self-rising White Lily Flour
 - 1/4 cup of Crisco Shortening

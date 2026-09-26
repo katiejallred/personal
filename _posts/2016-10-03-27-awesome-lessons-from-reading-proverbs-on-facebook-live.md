@@ -2,7 +2,7 @@
 layout: post
 title: 27 Awesome Lessons from Reading Proverbs on Facebook Live
 date: '2016-10-03 18:02:32'
-last_modified_at: '2016-10-03 18:02:32'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /27-awesome-lessons-from-reading-proverbs-on-facebook-live/
 categories:
@@ -20,7 +20,7 @@ description: "Why I read a chapter of Proverbs on Facebook Live every day in Jul
 
 During July 2016, I read a chapter from Proverbs everyday on Facebook Live.
 
-### Why did I do this?
+## Why did I do this?
 
 Let's start off by saying, I didn't do this to show off. I'm not an incredible reader. I have no special talents for reading. I didn't do this to say, "I'm holier than thou."
 
@@ -32,13 +32,13 @@ Being a digital missionary is becoming more important and relevant with each pas
 
 I chose to use Facebook Live because I have a pretty engaging audience on Facebook. I chose to use my personal Facebook profile rather than my Facebook fan page. I knew the viewership on my personal profile would be higher.
 
-### Why Proverbs?
+## Why Proverbs?
 
 *Why not Proverbs?* It was 31 chapters and July was coming up so I thought it would be perfect.
 
 *Was it perfect?* Nope. Proverbs is hard to read. It's hard to understand. I decided not to try to break down the scripture after reading it. Actually, I didn't read it all before reading it live. I sometimes turned red when Solomon went off the deep end about promiscuous women, but nevertheless, there's a lot of good advice in Proverbs.
 
-### So what did you learn?
+## So what did you learn?
 
 Lessons 1-22 are what I learned from the book of Proverbs. Lessons 23-27 are what I learned about reading scripture on Facebook Live.
 
@@ -73,14 +73,14 @@ Lessons 1-22 are what I learned from the book of Proverbs. Lessons 23-27 are wha
 
 I almost didn't post this blog because I felt like I needed to share more ("31 lessons would've been better!" I would tell myself), but when are you ever ready to share?! That's why I did this experiment. **The point isn't to be perfect, it's to be willing!**
 
-### Podcast Interviews Where I Discuss Facebook Live
+## Podcast Interviews Where I Discuss Facebook Live
 
 - YM Sidekick - Social Media and Communication trends Churches should be aware of
 - [ProChurchTools - Facebook Live for Churches](https://web.archive.org/web/20220630221713/https://prochurchtools.com/pcp133/)
 - [UnSeminary](http://www.unseminary.com/katie-allred-on-encouraging-your-team-to-leverage-social-media-for-the-gospel/)
 - [Seminary for Hard Knocks](http://www.sethmuse.com/episode12/)
 
-### Wanna watch? Here's a few select entries.
+## Wanna watch? Here's a few select entries.
 
 - [July 1](https://www.facebook.com/katie.allred/videos/10208503220070460/)
 - [July 5](https://www.facebook.com/katie.allred/videos/10208525880916967/)

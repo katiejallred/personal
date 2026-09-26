@@ -2,7 +2,7 @@
 layout: post
 title: Russell Wassail
 date: '2012-11-01 16:47:48'
-last_modified_at: '2026-09-25'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /russell-wassail/
 categories:
@@ -29,7 +29,7 @@ Wassail is an amazing Christmas drink. If you haven't had it yet, that's just sa
 
 Here's how:
 
-### Russell Wassail (From the Russell Family)
+## Russell Wassail (From the Russell Family)
 
 - Combine 2 cups of cranberry juice, 6 cups of cider, 1/4 cup of sugar
 - In a cheese cloth, combine 6 sticks of cinnamon, 16 whole cloves

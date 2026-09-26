@@ -5,6 +5,8 @@
              (sendfox.com/form/1v6pvm/<form>).
   last_name: true to ask for a last name too.
   button:    submit button text.
+  Success and error messages from SendFox are read out through the
+  status line at the end of the form.
   thanks:    optional page to send people to after they sign up. SendFox's
              own "redirect URL" setting on the form wins when it is set;
              this covers forms where it isn't.
@@ -29,19 +31,23 @@
     <input type="email" id="sf-{{ sf_id }}-email" name="email" autocomplete="email" required>
   </p>
   <div style="position:absolute;left:-5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off"></div>
+  <p class="signup-required">All fields are required.</p>
   <p><button class="btn btn-red" type="submit">{{ include.button | default: "Sign up →" }}</button></p>
+  <p class="visually-hidden" role="status" data-sf-status></p>
 </form>
-{%- if include.thanks %}
 <script>
-  // SendFox's script shows a success message after an async signup. When the
-  // form has no redirect URL in SendFox, send people to the thank-you page.
+  // SendFox's script adds a success or error message after an async signup.
+  // Read it out, and when the form has no redirect URL in SendFox, send
+  // people to the thank-you page.
   (function () {
     var form = document.getElementById({{ sf_id | jsonify }});
     if (!form || !window.MutationObserver) return;
+    var status = form.querySelector("[data-sf-status]");
     new MutationObserver(function () {
-      if (form.querySelector(".sendfox-message.success")) location.href = form.dataset.thanks;
+      var message = form.querySelector(".sendfox-message");
+      if (message) status.textContent = message.textContent;
+      if (form.dataset.thanks && form.querySelector(".sendfox-message.success")) location.href = form.dataset.thanks;
     }).observe(form, { childList: true });
   })();
 </script>
-{%- endif %}
 <script src="https://cdn.sendfox.com/js/form.js" charset="utf-8"></script>

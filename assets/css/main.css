@@ -9,14 +9,14 @@
   --shell: #FFF3EE;
   --blush: #FFDCD2;
   --surface: #FFFFFF;
-  --red: #D92B20;
+  --red: #BF2419; /* text red; #D92B20 stays as --ground-red for fills */
   --poppy: #FF5B3A;
   --butter: #F7C548;
   --blue: #0B3C75;
   --ink: #1C1412;
   --muted: #6B4F49;
   --on-red: #FFFFFF;
-  --on-red-soft: #FFE7E0;
+  --on-red-soft: #FFF6F2;
 
   /* Brand grounds keep their light values in both themes so text on them
      keeps its contrast. */
@@ -124,6 +124,13 @@ a:hover {
 :focus-visible {
   outline: 3px solid var(--blue);
   outline-offset: 3px;
+}
+
+/* Blue is lost on the red and dark grounds; ring in white there. */
+.hero :focus-visible,
+.cta-band :focus-visible,
+.site-footer :focus-visible {
+  outline-color: #FFFFFF;
 }
 
 code, pre, kbd, samp {
@@ -474,6 +481,7 @@ code, pre, kbd, samp {
   position: relative;
   z-index: 1;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--space-6);
   align-items: center;
 }
@@ -485,6 +493,7 @@ code, pre, kbd, samp {
 }
 
 .hero-title {
+  overflow-wrap: break-word;
   font-size: clamp(48px, 9vw, 88px);
   line-height: 0.92;
   letter-spacing: -0.035em;
@@ -1201,6 +1210,15 @@ code, pre, kbd, samp {
   width: 100%;
 }
 
+/* Wide tables get a focusable scrolling wrapper from the post script. */
+.prose .table-scroll {
+  overflow-x: auto;
+}
+
+.prose .table-scroll > table {
+  overflow: visible;
+}
+
 .prose th,
 .prose td {
   text-align: left;
@@ -1559,8 +1577,7 @@ code, pre, kbd, samp {
 }
 
 /* --- StoryBrand home --- */
-.home-hero .label.home-hero-label,
-.page-hero .label.home-hero-label {
+.hero .label.home-hero-label {
   color: var(--on-red-soft);
   margin-bottom: var(--space-3);
 }
@@ -1881,6 +1898,7 @@ code, pre, kbd, samp {
   color: var(--muted);
 }
 
+.tier h3,
 .tier h4 {
   font-size: 24px;
   line-height: 28px;
@@ -2186,6 +2204,7 @@ code, pre, kbd, samp {
 /* --- Contact --- */
 .contact-layout {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--space-4);
   align-items: start;
 }
@@ -2675,15 +2694,20 @@ code, pre, kbd, samp {
   width: 100%;
   font: 400 16px/1.4 var(--font-sans);
   padding: 12px 14px;
-  border: 2px solid var(--blush);
+  border: 2px solid var(--muted);
   border-radius: 12px;
   background: var(--surface);
   color: var(--ink);
 }
 
 .signup-form input:focus-visible {
-  outline: none;
   border-color: var(--red);
+}
+
+.signup-form .signup-required {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--muted);
 }
 
 .signup-form button {
@@ -2727,7 +2751,7 @@ code, pre, kbd, samp {
 .quiz-facts li {
   padding: 6px 14px;
   border-radius: var(--radius-pill);
-  background: rgba(255, 255, 255, 0.16);
+  background: rgba(28, 20, 18, 0.18);
   color: var(--on-red);
   font: 700 14px/1.4 var(--font-sans);
 }
@@ -3352,7 +3376,13 @@ code, pre, kbd, samp {
 
 .topic-chips .chip span {
   margin-left: 4px;
-  color: var(--red);
+  color: #BF2419;
+}
+
+/* The front card stays light in dark mode, so its chips do too. */
+.content-card-front .chip {
+  background: #FFDCD2;
+  color: #1C1412;
 }
 
 .topic-more {
@@ -3700,7 +3730,7 @@ code, pre, kbd, samp {
 
 .book-mention-item {
   display: grid;
-  grid-template-columns: 88px 1fr;
+  grid-template-columns: 88px minmax(0, 1fr);
   gap: var(--space-4);
   align-items: center;
   padding: var(--space-4);
@@ -3721,6 +3751,7 @@ code, pre, kbd, samp {
 }
 
 .book-mention-title {
+  overflow-wrap: break-word;
   font: 800 22px/1.15 var(--font-display);
   letter-spacing: -0.02em;
 }

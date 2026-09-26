@@ -2,7 +2,7 @@
 layout: post
 title: How to Grill Steak
 date: '2013-05-31 19:58:34'
-last_modified_at: '2013-05-31 19:58:34'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /how-to-grill-steak/
 categories:
@@ -23,7 +23,7 @@ Until Memorial Day this past weekend, I had never grilled a steak before, but it
 
 **I got some GREAT feedback about grilling from Facebook so I thought I would add it here for future reference.**
 
-# Marinate your steaks
+## Marinate your steaks
 
 Marinate your steaks for 30 minutes or more. Don't wait. Do it now. I used Dale's. If you don't have Dale's... Bless your heart.
 
@@ -33,7 +33,7 @@ Buy some on Amazon -[Dale's Liquid Steak Seasoning - 16 oz](http://www.amazon.co
 
 Oh, you're not an [Amazon Prime](http://www.amazon.com/gp/student/signup/info?ie=UTF8&refcust=67O52JRBPGHQKO2FJN5V6EE3AM&ref_type=generic) member, so you won't get it in two days? That's sad. [You should become one](http://www.amazon.com/gp/student/signup/info?ie=UTF8&refcust=67O52JRBPGHQKO2FJN5V6EE3AM&ref_type=generic).
 
-# Charcoal or propane?
+## Charcoal or propane?
 
 I'm a charcoal fan. I might be a fan of the convenience that propane grills have to offer later in life, but right now, I'm all about some charcoal.
 

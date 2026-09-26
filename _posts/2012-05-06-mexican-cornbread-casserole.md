@@ -2,7 +2,7 @@
 layout: post
 title: Mexican Cornbread Casserole
 date: '2012-05-06 23:57:00'
-last_modified_at: '2026-09-25'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /mexican-cornbread-casserole/
 categories:
@@ -29,7 +29,7 @@ faq:
 
 *Preheat oven to 375º.*
 
-#### Ingredients for meat mixture
+### Ingredients for meat mixture
 
 - 1 lb ground beef
 - Taco seasoning (packet or 1/4 cup)
@@ -38,7 +38,7 @@ faq:
 - 1 can of kidney beans
 - 1 can of chilies
 
-#### Ingredients for Cornbread
+### Ingredients for Cornbread
 
 - 2 boxes of Jiffy mix
 - Whatever goes in the jiffy mix
@@ -48,7 +48,7 @@ faq:
 - 2 can of chilies
 - 2 cans of cream corn
 
-#### Additional ingredients/necessities
+### Additional ingredients/necessities
 
 - Cheddar cheese
 - Crisco (to grease pan)
@@ -56,7 +56,7 @@ faq:
 - Toothpicks (to test done-ness)
 - Sour cream
 
-#### Directions
+### Directions
 
 Boil ground beef in water (enough for it to be submerged) for 10 minutes. (Boiling ground beef makes the beef texture better, cook more thoroughly, and healthier because you drain off all the fat). Drain off meat. Add taco seasoning, kidney beans, corn, rotel, and chilies. Mix well. Taste!
 

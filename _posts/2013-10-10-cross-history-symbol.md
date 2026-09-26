@@ -2,7 +2,7 @@
 layout: post
 title: The Cross
 date: '2013-10-10 02:09:15'
-last_modified_at: '2013-10-10 02:09:15'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /cross-history-symbol/
 categories:
@@ -34,7 +34,7 @@ The cross is the ultimate symbol being used from the very beginning of time. It 
 
 The cross is a unique master symbol with a rich history. We will seek to answer the question of its portrayal as a master symbol and its different meanings.
 
-# Pagan Use and the Beginning
+## Pagan Use and the Beginning
 
 [![Chart of geometric signs found in ancient cave paintings, including crosses, circles, lines, and hand prints](/assets/uploads/2013/10/pngbase64e3d5141f3579d41d-300x180.png)](http://www.theguardian.com/science/2012/mar/11/cave-painting-symbols-language-evolution)
 
@@ -44,7 +44,7 @@ The origin of the cross is mysterious. We do not know who first created the whee
 
 There are generally two types of crosses seen in ancient times - either simple or complex. The simple cross may or may not have held any sacred significance; however, the more complicated crosses were often overloaded with decoration. There are a variety of pagan crosses including those that are the letter “x”, the swastika, and a capital “Z” type cross (Benson, 1934).
 
-## Swastika
+### Swastika
 
 [![IMAGE CREDIT: http://fcit.coedu.usf.edu/HOLOCAUST/ARTS/swastika/swastika.htm](/assets/uploads/2013/10/10.gif)](http://fcit.coedu.usf.edu/HOLOCAUST/ARTS/swastika/swastika.htm)
 
@@ -60,13 +60,13 @@ Hitler chose this symbol because of its simplicity and as quoted in Mass Communi
 
 > “Fritz Hippler, head of Nazi Germany’s film propaganda division, said that the secret to effective propaganda is to (a) simplify a complex issue and (b) repeat that simplification over and over again” (Baran & Davis, 2012).
 
-# Crucifixion
+## Crucifixion
 
 Crucifixion was a means of capital punishment among many different groups, particularly the Romans, from the 6th century to the 4th century. Usually the victims would be whipped before having to carry their cross to where it would be fixed to the ground. This method of execution was most frequently used to punish political or religious agitators (Crucifixion, 2013).
 
 Tradition was that the cross was somewhere between ten to fifteen feet high. The Jews believed that, “...anyone who is hung on a pole is under God’s curse” (The Holy Bible, 1984, Deuteronomy 21:23). This made Jesus’ death on a cross all that more significant. It also made the cross a symbol to fear. “Crucifixion sent a message: we, the Romans, are in control. Defy us and die a horrible death” (Fraser, 2012).
 
-# Christianity
+## Christianity
 
 The symbolism of the Christian cross is concise and important. It is the symbol to those who believe of eternal life, of resurrection and redemption through faith. While Joan of Arc was being burned at the stake, the one thing that she asked for was a cross (Benson,1934). What kind of symbol would drive a dying woman to cry out for it? She would cry out for the symbol most significant to her: the cross. That symbol, alone, would offer the profound, healing balm for which she pleaded.
 
@@ -114,7 +114,7 @@ Image credit: *Christianity Today*, "My Cross to Wear" (2013)
 
 The cross continues to change its meaning and symbolism even today. Currently, the cross is trending in fashion. This trend has leant itself to the ever evolving meaning of the cross. The cross being used in fashion is not a new trend, many Roman Catholics wore crosses with their prayer beads, etc. The new trend is that many do not know what they are wearing or the implications behind the cross. This has leant the cross' meaning to becoming ambiguous; so much in fact, that the meaning altogether is lost in history.
 
-# Theories
+## Theories
 
 There are many theories that are represented throughout the evolution of the cross. Since this symbol has changed so much throughout the years, it can relate to many different theories. For the most part the cross relates to hermeneutics - the study of understanding and interpreting action and text. Hermeneutics focuses on the understanding the culture of the users of a specific text. In this case, with the cross for the most part it has largely been related to Christianity and the symbolism of the cross cannot be fully known without study of the Bible and scriptures (Baran & Davis, 2013).
 
@@ -124,7 +124,7 @@ The cross belongs to the era of meaning-making but it has been used and manipula
 
 The magic bullet theory can be applied to the symbolism of the cross. The intended message of the gospel, of Jesus’ death and resurrection, is generally accepted when someone gazes upon the cross. It can be direct, immediate, and have a powerful effect over many.
 
-# Personal Reflections on the Cross
+## Personal Reflections on the Cross
 
 I grew up in church with a large wooden cross hung high and illuminated. I sang many a hymn about the "old rugged cross" and according to Johnny Cash, it was the number one requested piece in sheet music. Today, I’m still a church-goer. Actually, I work at one of the largest and fastest growing churches in America. When I came to know Christ, or chose to believe in Christianity, the cross played a role in that. The cross is everywhere, but the cross is changing. Its history is vast and exhaustive. The cross has changed the lives of so many people throughout history and is still relevant today.
 

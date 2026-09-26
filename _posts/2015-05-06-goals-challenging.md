@@ -2,7 +2,7 @@
 layout: post
 title: Why I Stopped Setting Goals and Started Challenging Myself
 date: '2015-05-06 19:45:14'
-last_modified_at: '2026-09-25'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /goals-challenging/
 categories:
@@ -45,7 +45,7 @@ Goals sound lofty–they seem distant and not something I can do today. Challeng
 
 So here are a few of the things I'm challenging myself with.
 
-### Health
+## Health
 
 1. Eat more whole grains daily.
 2. Eat more greens daily.
@@ -55,7 +55,7 @@ So here are a few of the things I'm challenging myself with.
 
 > Challenges instead of goals. Challenges are things to beat daily.
 
-### Hustle
+## Hustle
 
 1. Blog weekly.
 2. Avidly read about copywriting, content marketing, and blogging.

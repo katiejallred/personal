@@ -2,7 +2,7 @@
 layout: post
 title: Subnetting Part 2 - Subnet Mask, Magic Number
 date: '2011-05-06 18:50:00'
-last_modified_at: '2011-05-06 18:50:00'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /subnetting-part-2-subnet-mask-magic-number/
 categories:
@@ -14,9 +14,8 @@ wordpress_id: 2639
 description: "Subnetting part 2: IP address classes, default subnet masks, and how to use the magic number to find networks and host ranges."
 ---
 
-|  |  |  |  |
+| Class | Host address range | Network address | Default mask |
 | --- | --- | --- | --- |
-| **Class** | **Host address range** | **Network address** | **Default mask** |
 | A | 0.0.0.0 - 127.255.255.255 | x.0.0.0 | 255.0.0.0 |
 | B | 128.0.0.0 - 191.255.255.255 | x.x.0.0 | 255.255.0.0 |
 | C | 192.0.0.0 - 223.255.255.255 | x.x.x.0 | 255.255.255.0 |

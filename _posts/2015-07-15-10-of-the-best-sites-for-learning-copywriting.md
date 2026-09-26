@@ -2,7 +2,7 @@
 layout: post
 title: 10 of the Best Sites for Learning Copywriting
 date: '2015-07-15 19:35:26'
-last_modified_at: '2015-07-15 19:35:26'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /10-of-the-best-sites-for-learning-copywriting/
 categories:
@@ -21,7 +21,7 @@ Either way–you could benefit from learning copywriting.
 
 I've spent the last year learning about copywriting. Actually, I've already wrote a post on [how to become a better copywriter](/how-to-become-a-better-copywriter/). While there are many paid courses out there, you can easily get a free education through many of these sites. Without further ado, here are 10 of the best sites for learning copywriting.
 
-### [1. Kopywriting Kourse](http://kopywritingkourse.com)
+## [1. Kopywriting Kourse](http://kopywritingkourse.com)
 
 I love Neville Medora. He could probably write some copy on buying a frog and I'd want to buy a frog. While his "kopywriting kourse" cost money (and is worth it), his blog is free. He offers so much great insight into why people buy and sell.
 
@@ -32,7 +32,7 @@ Favorite posts:
 - [Copywriting Headlines That Sell (with Templates & Swipe File)](https://web.archive.org/web/20160313023316/http://kopywritingkourse.com/copywriting-headlines-that-sell/)
 - [Why this guy is still totally poor](https://web.archive.org/web/20150419153123/http://kopywritingkourse.com/why-this-guy-is-still-totally-poor/)
 
-### [2. QuickSprout](http://quicksprout.com)
+## [2. QuickSprout](http://quicksprout.com)
 
 Neil Patel is another favorite. I would also buy a frog from him, if he was selling frogs. Neil works on so many outlets. You look on some random website and there's Neil! If you're just getting started writing or selling online, you've got to follow Neil.
 
@@ -43,7 +43,7 @@ Favorite posts:
 - [When Concise Marketing Copy Converts Better](http://www.quicksprout.com/2014/02/03/when-concise-marketing-converts-better/)
 - [Latest Trends in Headline Creation and Their Success](http://www.quicksprout.com/2014/04/02/latest-trends-in-headline-creation-and-their-success/)
 
-### [3. ProBlogger](http://problogger.net)
+## [3. ProBlogger](http://problogger.net)
 
 Darren Rowse has been blogging since 2002. His blog offers an interesting perspective on content marketing, blogging, and copywriting.
 
@@ -54,7 +54,7 @@ Favorite posts:
 - [Top 15 FREE Internet Marketing Tools To Boost Your Online Business](http://www.problogger.net/archives/2015/02/25/top-15-free-internet-marketing-tools-to-boost-your-online-business/)
 - [A Social Media Etiquette Guide You Might Find Useful](http://www.problogger.net/archives/2014/10/24/a-social-media-etiquette-guide-you-might-find-useful/)
 
-### [4. Copyblogger](http://copyblogger.com)
+## [4. Copyblogger](http://copyblogger.com)
 
 CopyBlogger is the brainchild of Brian Clark. He's created a kingdom of Wordpress, copy, and content resources. Copyblogger has morphed from a blog to also include podcasts and educational resources like seminars.
 
@@ -65,7 +65,7 @@ Favorite posts:
 - [The ABCs of Landing Pages That Work [Infographic]](http://www.copyblogger.com/landing-pages-that-work/)
 - [What to Do When You Absolutely, Positively Must Know if Your Content Will Rock](http://www.copyblogger.com/surefire-content/)
 
-### [5. Copy Hackers](http://copyhackers.com/)
+## [5. Copy Hackers](http://copyhackers.com/)
 
 CopyHackers is brought to you by Joanna Wiebe and Lance Jones. While I'm pretty new to Copy Hackers, they have some great content on how to write and how to improve your writing.
 
@@ -76,7 +76,7 @@ Favorite posts:
 - [To measure the copy you write, use this graphic](http://copyhackers.com/2015/03/measure-your-copy-infographic/)
 - [How Long Should Your Pages Be?](http://copyhackers.com/2014/07/long-pages/)
 
-### [6. Make A Living Writing](http://www.makealivingwriting.com/)
+## [6. Make A Living Writing](http://www.makealivingwriting.com/)
 
 Carol Tice started "Make a Living Writing" in 2005. For 10 years, she's shared big wins in her own freelancing and helped freelance writers win too.
 
@@ -87,7 +87,7 @@ Favorite posts:
 - [Writing an Article vs. Writing a Blog Post: What's the Difference?](http://www.makealivingwriting.com/writing-an-article-vs-writing-blog-post-differences/)
 - [Why You Should Stop Writing Blog Posts (and What to Do Instead)](http://www.makealivingwriting.com/stop-writing-blog-posts-do-this-instead/)
 
-### [7. Copywriter's Crucible](http://copywriterscrucible.com/blog/)
+## [7. Copywriter's Crucible](http://copywriterscrucible.com/blog/)
 
 Matt Ambrose's blog, the Copywriter's Crucible, is a highly rated resource for copywriters and business owners.
 
@@ -98,7 +98,7 @@ Favorite posts:
 - [7 Steps to Creating Exceptional Content](http://copywriterscrucible.com/7-steps-to-creating-exceptional-content/)
 - [11 Tools to Power Your Content Marketing Planning in 2015](http://copywriterscrucible.com/11-tools-to-power-your-content-marketing-planning-in-2015/)
 
-### [8. Copywriter's Roundtable](http://copywritersroundtable.com/)
+## [8. Copywriter's Roundtable](http://copywritersroundtable.com/)
 
 John Forde will teach you how to sell with writing. His blog comes recommended from many other copywriters.
 
@@ -109,7 +109,7 @@ Favorite posts:
 - [Writing Ads That Let You Sleep at Night](http://copywritersroundtable.com/2014/07/21/writing-ads-that-let-you-sleep-at-night/)
 - [What Copywriters Should Know About Copyrights](http://copywritersroundtable.com/2015/05/30/what-copywriters-should-know-about-copyrights/)
 
-### [9. Kissmetrics](https://blog.kissmetrics.com)
+## [9. Kissmetrics](https://blog.kissmetrics.com)
 
 Kissmetrics actually sells analytics software, but who better to tell you about copywriting than 1) a company that sells stuff using copy and 2) a company that knows analytics. Oh, and Neil Patel is on here (cause he's everywhere!).
 
@@ -120,7 +120,7 @@ Favorite posts:
 - [How To Set Marketing Goals You Can Actually Achieve: Advice From The Experts](https://blog.kissmetrics.com/set-achievable-marketing-goals/)
 - [Why SEO Is Actually All About Content Marketing](https://blog.kissmetrics.com/seo-is-content-marketing/)
 
-### [10. Buffer](https://blog.bufferapp.com/)
+## [10. Buffer](https://blog.bufferapp.com/)
 
 I write about Buffer's blog a lot. I love Buffer–their blog, their service, their happiness heros that I want to hug. I would cuddle with Buffer, if Buffer was a person. They're just so reliable, ya know?
 
@@ -130,7 +130,7 @@ Favorite posts:
 - [8 Simple Copywriting Tips, Backed By Science](https://blog.bufferapp.com/data-backed-copywriting)
 - [The Time It Takes to Write a Buffer Blog Post (And How We Spend Every Minu](https://blog.bufferapp.com/how-to-write-a-blog-post)te)
 
-### Not a full list!
+## Not a full list!
 
 While I listed my favorites, this is not a conclusive list. It would probably take me all day to track down all the copywriting websites online.
 
