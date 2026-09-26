@@ -43,6 +43,11 @@ system changes, update the tokens at the top of `main.css` to match; to add a
 font or weight, download its woff2 files into `assets/fonts/` and add matching
 `@font-face` rules to `fonts.css`.
 
+Below 900px wide the header shows the wordmark, a "Book a call" button and
+a menu button; the links open in a panel under it. The toggle is a few
+lines of script in `_includes/header.html`; without JavaScript the links
+simply stay visible. Menu items come from `_data/navigation.yml`.
+
 ## Books and Amazon affiliate links
 
 Katie is an Amazon Associate (tag `kajal04-20`, set as `amazon.tag` in
