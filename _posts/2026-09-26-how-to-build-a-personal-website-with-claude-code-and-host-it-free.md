@@ -16,8 +16,8 @@ tags:
 - Claude
 - website
 - web design
-image: /assets/uploads/2026/09/katieallred-com-home-page-built-with-claude-code.jpg
-featured_image_alt: "The katieallred.com home page, built with Claude Code: a red hero with the headline 'Clear message. Real community. AI that gives you time back.' beside a photo of Katie Allred"
+image: /assets/uploads/2026/09/katieallred-com-laptop-mockup-built-with-claude-code.jpg
+featured_image_alt: "A laptop on a wooden desk showing the katieallred.com home page, built with Claude Code, with the headline 'Clear message. Real community. AI that gives you time back.' beside a coffee mug, a potted plant and an open notebook"
 faq:
   - q: "Do I need to know how to code to build a website with Claude Code?"
     a: "No. You describe what you want in plain English and Claude Code writes the code, runs it, and explains what it changed. It helps to learn a few words like repository, commit, and pull request, but you do not need to write code yourself."
