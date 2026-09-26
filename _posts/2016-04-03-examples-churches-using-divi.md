@@ -2,7 +2,7 @@
 layout: post
 title: 15 Powerful Examples of Churches Using the Divi Theme
 date: '2016-04-03 19:52:45'
-last_modified_at: '2016-04-03 19:52:45'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /examples-churches-using-divi/
 categories:
@@ -32,65 +32,65 @@ After spending a couple of hours searching, I realized that compiling a list of 
 
 This post is in a series of posts about Wordpress themes for churches, also check out the post I wrote about the Avada Wordpress Theme.
 
-### #1 - [Two Rivers Church](http://www.2rc.org/)
+## #1 - [Two Rivers Church](http://www.2rc.org/)
 
 [![Two Rivers Church - Churches Using Divi](/assets/uploads/2016/04/Two-Rivers-Church-e1472049074559-662x1024.jpg)](http://www.2rc.org/)
 
-### #2 - [City Awakening Church](http://cityawakening.org/)
+## #2 - [City Awakening Church](http://cityawakening.org/)
 
 [![City Awakening Church - Churches Using Divi](/assets/uploads/2016/04/City-Awakening-Church.jpg)](http://cityawakening.org/)
 
-### #3 - [Two Cities Church](http://twocitieschurch.net/)
+## #3 - [Two Cities Church](http://twocitieschurch.net/)
 
 [![Two Cities Church - Churches Using Divi](/assets/uploads/2016/04/Two-Cities-Church.jpg)](http://twocitieschurch.net/)
 
-### #4 - [First Church OK](http://firstchurchok.com/)
+## #4 - [First Church OK](http://firstchurchok.com/)
 
 [![First Church - Churches Using Divi](/assets/uploads/2016/04/First-Church-532x1024.jpg)](http://firstchurchok.com/)
 
-### #5 - [People's Church](https://web.archive.org/web/20160407053626/http://www.peopleschurchvancouver.org:80/?)
+## #5 - [People's Church](https://web.archive.org/web/20160407053626/http://www.peopleschurchvancouver.org:80/?)
 
 [![Peoples Church - Churches Using Divi](/assets/uploads/2016/04/Peoples-Church.jpg)](https://web.archive.org/web/20160407053626/http://www.peopleschurchvancouver.org:80/?)
 
-### #6 - [Brazos Fellowship](http://www.brazosfellowship.com/)
+## #6 - [Brazos Fellowship](http://www.brazosfellowship.com/)
 
 [![Brazos Fellowship - Churches Using Divi](/assets/uploads/2016/04/Brazos-Fellowship.jpg)](http://www.brazosfellowship.com/)
 
-### #7 - [First United Methodist Arkadelphia](http://www.fumcark.org/)
+## #7 - [First United Methodist Arkadelphia](http://www.fumcark.org/)
 
 [![First United Methodist Church Arkadelphia - Churches Using Divi](/assets/uploads/2016/04/First-United-Methodist-Church-Arkadelphia-547x1024.jpg)](http://www.fumcark.org/)
 
-### #8 - [Journey Church](https://web.archive.org/web/20160403094756/http://journey417.com:80/?)
+## #8 - [Journey Church](https://web.archive.org/web/20160403094756/http://journey417.com:80/?)
 
 [![Journey Church - Churches Using Divi](/assets/uploads/2016/04/Journey-Church.jpg)](https://web.archive.org/web/20160403094756/http://journey417.com:80/?)
 
-### #9 - [Bellevue Baptist Church](http://www.bellevue.org/)
+## #9 - [Bellevue Baptist Church](http://www.bellevue.org/)
 
 [![Bellevue Baptist Church - Churches Using Divi](/assets/uploads/2016/04/Bellevue-Baptist-Church-583x1024.jpg)](http://www.bellevue.org/)
 
-### #10 - [Life Church](http://www.lifechurch.net/)
+## #10 - [Life Church](http://www.lifechurch.net/)
 
-### [Life Church - Churches Using Divi](http://www.lifechurch.net/)#11 - [Threehouse](http://threehouse.org/)
+## [Life Church - Churches Using Divi](http://www.lifechurch.net/)#11 - [Threehouse](http://threehouse.org/)
 
 [![Threehouse - Churches Using Divi](/assets/uploads/2016/04/Threehouse.jpg)](http://threehouse.org/)
 
-### #12 - [Grace United Methodist Church](http://gracedesmoines.org/)
+## #12 - [Grace United Methodist Church](http://gracedesmoines.org/)
 
 [![Grace United - Churches Using Divi](/assets/uploads/2016/04/Grace-United.jpg)](http://gracedesmoines.org/)
 
-### #13 - [Grace Baptist Church](http://waverlygrace.org/)
+## #13 - [Grace Baptist Church](http://waverlygrace.org/)
 
 ![Grace Baptist Church - Churches Using Divi](/assets/uploads/2016/04/Grace-Baptist-Church-.jpg)
 
-### #14 - [First Christian Church](http://fccclearwater.org/)
+## #14 - [First Christian Church](http://fccclearwater.org/)
 
 [![First Christian Church - Churches Using Divi](/assets/uploads/2016/04/First-Christian-Church.jpg)](http://fccclearwater.org/)
 
-### #15 - [Glencoe First Baptist Church](http://www.glencoefbc.com/)
+## #15 - [Glencoe First Baptist Church](http://www.glencoefbc.com/)
 
 [![First Baptist Church of Glencoe OK - Churches Using Divi](/assets/uploads/2016/04/First-Baptist-Church-of-Glencoe-OK.jpg)](http://www.glencoefbc.com/)
 
-### Conclusion
+## Conclusion
 
 If you want to [buy Divi](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}, then you can visit [Elegant Themes](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}.
 

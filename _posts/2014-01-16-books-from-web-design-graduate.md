@@ -2,7 +2,7 @@
 layout: post
 title: Best Books from the Web Design Graduate Program
 date: '2014-01-16 18:32:50'
-last_modified_at: '2014-01-16 18:32:50'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /books-from-web-design-graduate/
 categories:
@@ -19,15 +19,15 @@ description: "My favorite books from the University of Florida's web design grad
 
 I finished the web design program at the University of Florida back in the summer of 2014. I compiled a list of my favorite books from that program. Perhaps you'll find them useful if you're just starting out as a web designer.
 
-### 1. White Space is Not Your Enemy: A Beginner's Guide to Communicating Visually through Graphic, Web & Multimedia Design
+## 1. White Space is Not Your Enemy: A Beginner's Guide to Communicating Visually through Graphic, Web & Multimedia Design
 
 If you're a designer, you probably love whitespace or maybe you're a bit confused about it – either way, this book can help. This book teaches some timeless design skills and I've returned to it frequently. Whether you're a novice or you're skilled, this book is a handy guide to timeless design. [Buy the book?](http://www.amazon.com/gp/product/0240824148/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0240824148&amp;linkCode=as2&amp;tag=kajal04-20)
 
-### 2. Designing Brand Identity: An Essential Guide for the Whole Branding Team
+## 2. Designing Brand Identity: An Essential Guide for the Whole Branding Team
 
 If you're into marketing, this book is for you, even if you're not a designer. Many examples of good branding throughout this book and some great ideas of what to do next for your clients. Also it can double as a cool coffee table book because of it's great visuals and fun cover. [Buy the book?](http://www.amazon.com/gp/product/0240824148/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0240824148&amp;linkCode=as2&amp;tag=kajal04-20)
 
-### 3. 100 Things Every Designer Needs to Know About People (Voices That Matter)
+## 3. 100 Things Every Designer Needs to Know About People (Voices That Matter)
 
 This book provides terrific insight into the mind's of people.
 
@@ -38,7 +38,7 @@ This book provides terrific insight into the mind's of people.
 
 [Buy the book?](http://www.amazon.com/gp/product/0321767535/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321767535&amp;linkCode=as2&amp;tag=kajal04-20)
 
-### 4. Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (3rd Edition) (Voices That Matter)
+## 4. Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (3rd Edition) (Voices That Matter)
 
 If you buy any of these books, make it this one! Wow. This books says everything that I've been screaming about on the internet for years.
 

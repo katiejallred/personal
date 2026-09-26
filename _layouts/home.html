@@ -4,6 +4,8 @@ layout: default
 {%- assign posts = paginator.posts | default: site.posts -%}
 {%- assign first_page = true -%}
 {%- if paginator and paginator.page > 1 %}{% assign first_page = false %}{% endif -%}
+{%- comment %} Later pages have no h2 above the cards, so their titles step up to h2. {% endcomment -%}
+{%- if first_page %}{% assign card_heading = 'h3' %}{% else %}{% assign card_heading = 'h2' %}{% endif -%}
 
 {%- if first_page %}
 <section class="hero blog-hero" aria-labelledby="hero-title">
@@ -67,7 +69,7 @@ layout: default
     <ul class="post-grid post-grid-lead">
       {%- for post in posts %}
       <li>
-        {% include post-card.html post=post %}
+        {% include post-card.html post=post heading=card_heading %}
       </li>
       {%- endfor %}
     </ul>

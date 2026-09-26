@@ -2,7 +2,7 @@
 layout: post
 title: '5 Questions You Should Ask Yourself After Every Mission Trip (Also What I Learned from #CreativeMissions)'
 date: '2016-06-02 19:20:03'
-last_modified_at: '2016-06-02 19:20:03'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /5-questions-ask-every-mission-trip-also-learned-creativemissions/
 categories:
@@ -45,7 +45,7 @@ Here's the official stats on what we were able to get done in 6 days:
 
 (See more at: [Church Marketing Sucks)](http://www.churchmarketingsucks.com/2016/05/vermont-creative-missions-2016-wrap/)
 
-### 5 Questions After a Mission Trip
+## 5 Questions After a Mission Trip
 
 When I started traveling back, my friend [Jessica](https://www.instagram.com/jessicaclairebolton/) sent me this list of questions. I'm pretty sure this is a standard list of questions she must ask all her missionary friends, but it's a pretty good list of questions and I challenge you to ask yourself these next time you serve somewhere.
 
@@ -55,7 +55,7 @@ When I started traveling back, my friend [Jessica](https://www.instagram.com/jes
 4. Things you expected and didn't find?
 5. Biggest victory?
 
-### Favorite part...
+## Favorite part...
 
 Being told that we were “just in time” and that what we had to offer was needed. They said a lot of mission trips that come there want to paint a house, or feed the hungry, and then it takes that church planter a lot of time to plan a trip like that and then to find a need for them to meet, and often their own congregants can do that.
 
@@ -65,19 +65,19 @@ This trip, we were coming to help the people with relationships already in place
 >
 > A photo posted by Cleve Persinger (@cleve) on May 23, 2016 at 1:44pm PDT
 
-### Worst part....
+## Worst part....
 
 Getting these weird insect bites, but it was after playing laser tag in the woods right off the ridge of Lake Champlain, so a girl can't complain that much.
 
-### I didn’t expect...
+## I didn’t expect...
 
 For our team or the teams, to work together as well as they did. I love that no one complained and we got the job done. I also didn't expect for drones to be this trendy.
 
-### Things you expected and didn't find...
+## Things you expected and didn't find...
 
 Pancakes. You guys, I ate maple apple bacon pizza, maple melt sub, maple ice cream, maple soft serve, maple donuts, and maple cream, but NO PANCAKES. WHO ARE YOU PEOPLE?
 
-### Biggest victory...
+## Biggest victory...
 
 I love love love this website I created [www.faithforlifevt.com](https://web.archive.org/web/20170918164354/http://faithforlifevt.com/)
 

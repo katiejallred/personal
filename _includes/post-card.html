@@ -15,9 +15,10 @@
     {%- if post.categories.size > 0 %}
     <p><a class="chip" href="{{ '/categories/' | relative_url }}#{{ post.categories.first | slugify }}">{{ post.categories.first }}</a></p>
     {%- endif %}
-    <h3 class="post-card-title">
+    {%- assign heading = include.heading | default: 'h3' %}
+    <{{ heading }} class="post-card-title">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
+    </{{ heading }}>
     <p class="post-card-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
     </p>

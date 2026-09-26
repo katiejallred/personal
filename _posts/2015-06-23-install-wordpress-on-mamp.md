@@ -2,7 +2,7 @@
 layout: post
 title: The Quick and Easy Way to Install Wordpress on MAMP
 date: '2015-06-23 20:33:50'
-last_modified_at: '2026-09-25'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /install-wordpress-on-mamp/
 categories:
@@ -35,7 +35,7 @@ It's not that it's that complicated. It's just time consuming. You have time to 
 
 Well, I finally found a script that will do this all for me and all I have to answer are some quick little prompts.
 
-### Install Wordpress on MAMP in under 5 minutes.
+## Install Wordpress on MAMP in under 5 minutes.
 
 [Click here](https://github.com/logoscreative/new-wp-mamp-shell) to see this script on Github or use the form below to download it now.
 

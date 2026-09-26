@@ -2,7 +2,7 @@
 layout: post
 title: Tater Tot Casserole
 date: '2012-09-25 17:47:33'
-last_modified_at: '2026-09-25'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /tater-tot-casserole/
 categories:
@@ -27,7 +27,7 @@ faq:
 
 I have got to get a camera to post pictures until that day, you'll just have to imagine.
 
-# Tater Tot Casserole
+## Tater Tot Casserole
 
 *Borrowed from Ashley Shelton's Dad*
 

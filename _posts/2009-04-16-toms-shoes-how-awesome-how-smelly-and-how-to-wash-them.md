@@ -2,7 +2,7 @@
 layout: post
 title: TOMS Shoes - How awesome, how smelly, and how to wash them!
 date: '2009-04-16 13:04:00'
-last_modified_at: '2009-04-16 13:04:00'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /toms-shoes-how-awesome-how-smelly-and-how-to-wash-them/
 categories:
@@ -27,7 +27,7 @@ For every pair of TOMS you buy a child in need gets a pair. To check it out and 
 
 Anyways, the one down side of these shoes is that they get smelly fast, especially if you walk in water. I highly recommend NOT walking in water. Also, I have sweaty feet so they get smelly even faster. I thought I couldn't wash these shoes because the insole is made of leather so I bought some Odor Eaters and kept truckin, but now I have found a way to successfully clean them!
 
-### How to clean TOMS Shoes
+## How to clean TOMS Shoes
 
 First, you'll want to wash **TOMS Shoes** by *themselves* on the most gentle cycle you have in the washing machine. Add laundry detergent, whatever. Wash. I like to add some baking soda to the soles and let it sit for a few minutes before washing. You can do this or don't.
 
@@ -37,4 +37,4 @@ SIDE NOTE: *When you get TOMS Shoes out of the dryer and put them back on your 
 
 Now go out and wear some TOMS shoes, support kids in need, and don't be smelly unless necessary!
 
-### Toms Shoes Advertisements
+## Toms Shoes Advertisements

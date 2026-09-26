@@ -2,7 +2,7 @@
 layout: post
 title: How to Peel Peaches Quickly and Easily 🍑
 date: '2015-06-19 19:13:45'
-last_modified_at: '2015-06-19 19:13:45'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /how-to-peel-peaches/
 categories:
@@ -23,7 +23,7 @@ Peeling peaches should be easy, but it's not. When you attempt to peel a peach, 
 
 So is there a better way to peel peaches? Yes!
 
-### What you need
+## What you need
 
 - [Large boiling pot](http://amzn.to/1LoNRuI)
 - [Large bowls](http://amzn.to/1d6J19s)
@@ -33,7 +33,7 @@ So is there a better way to peel peaches? Yes!
 - [Fruit Fresh](http://amzn.to/1QHlYET)
 - Very ripe peaches (if they aren't slightly soft then they won't peel easily)
 
-### What you'll do
+## What you'll do
 
 1. Fill up a large boiling pot about half way.
 2. Put boiler on high heat.
