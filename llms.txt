@@ -16,8 +16,7 @@ sitemap: false
 {{ person.bio | normalize_whitespace }}
 
 - Based in: {{ site.contact.location }}
-- Email: {{ site.contact.email }}
-- Phone: {{ site.contact.phone }}
+- Contact form: {{ '/contact/' | absolute_url }}
 - Book a free 30-minute call: {{ site.contact.booking_external }}
 - Business: {{ site.data.schema.organization.legal_name }}
 - Topics: {{ person.knows_about | join: ', ' }}

@@ -3,10 +3,6 @@
     <div class="footer-brand">
       <a class="wordmark" href="{{ '/' | relative_url }}"><span class="wordmark-tile" aria-hidden="true">KA</span>{{ site.title }}</a>
       <p class="footer-tagline">Automate the temporary. Invest in the eternal.</p>
-      <p class="footer-contact">
-        <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br>
-        <a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a>
-      </p>
       <a class="btn btn-butter btn-sm" href="{{ site.contact.booking | relative_url }}">Book a call →</a>
       <ul class="footer-social" aria-label="Social media">
         {%- for link in site.data.social %}

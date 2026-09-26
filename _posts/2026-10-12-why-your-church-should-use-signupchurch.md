@@ -102,4 +102,4 @@ My prayer for you, church communicator, is that the next time someone raises the
 
 {% include faq.html %}
 
-*Have questions about getting your church set up? Email me at [katie@katieallred.com](mailto:katie@katieallred.com) or book a time at [meetwithkatie.com](https://meetwithkatie.com).*
+*Have questions about getting your church set up? Book a time at [meetwithkatie.com](https://meetwithkatie.com).*

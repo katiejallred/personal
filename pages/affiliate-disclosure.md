@@ -4,7 +4,7 @@ title: Affiliate Disclosure
 hero_title: Affiliate <em>disclosure</em>.
 permalink: /affiliate-disclosure/
 updated: 2026-01-01
-last_modified_at: '2026-09-24'
+last_modified_at: '2026-09-26'
 wordpress_id: 3710
 description: "How affiliate links work on katieallred.com: I may earn a commission, including as an Amazon Associate, on products I recommend, at no extra cost to you."
 seo_title: Affiliate Disclosure - Katie Allred
