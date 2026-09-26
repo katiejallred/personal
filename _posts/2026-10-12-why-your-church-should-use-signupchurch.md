@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Why Your Church Should Retire the Clipboard (and Use SignUpChurch Instead)'
-last_modified_at: '2026-09-26 09:00:00'
+date: '2026-10-12 08:00:00'
+last_modified_at: '2026-10-12 08:00:00'
 author: Katie Allred
 permalink: /why-your-church-should-use-signupchurch/
 description: "Clipboards, group texts and copy-paste Mondays cost your church volunteers. Why I built SignUpChurch, what it does, and how to start free today."
@@ -13,6 +14,7 @@ tags:
 - church communications
 - church software
 - SignUpChurch
+scheduled: true
 faq:
 - q: What is SignUpChurch?
   a: SignUpChurch is an online sign-up sheet tool built for churches. You build a sheet for a potluck, nursery shift, meal train, carpool or serve team, share one link or QR code, and people sign up without creating an account or downloading an app.
