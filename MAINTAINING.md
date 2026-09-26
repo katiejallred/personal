@@ -51,6 +51,12 @@ Katie is an Amazon Associate (tag `kajal04-20`, set as `amazon.tag` in
 For any other Amazon product, link with
 `{% include amazon-url.html asin="ASIN" %}` or just paste the Amazon URL.
 
+A post that links one of Katie's books, by its `asin` or by its SiteStripe
+`short_link` (both in `_data/books.yml`), automatically ends with that
+book's cover card and a tagged "Get it on Amazon" button
+(`_includes/book-mention.html`). Nothing to add to the post; when a new
+book gets a SiteStripe link, add it as the book's `short_link`.
+
 `_plugins/amazon_affiliate.rb` handles the rest at build time:
 
 - Every `amazon.com` link gets the affiliate tag (product links become clean
@@ -129,8 +135,7 @@ workflow) with "Submit every URL" ticked. The key is the 32-character
 `<key>.txt` file at the repo root, which engines fetch to confirm the
 submission is ours; it is public by design. To change it, replace that file
 with a new random hex name and matching contents. A failed submission only
-warns; it never fails the deploy. Posts end with an author
-card and up to three related posts from the same category.
+warns; it never fails the deploy.
 
 ## Deploying
 
@@ -158,6 +163,15 @@ the left on wide screens, a box above the text on phones.
 Every post ends with a "Share this post" panel (`_includes/share.html`):
 Facebook, X, email, copy link and print. Posts with a table of contents
 repeat it under the contents list on wide screens.
+
+After the article, `_layouts/post.html` adds, in order: the book cover card
+when the post links one of Katie's books (see "Books and Amazon affiliate
+links"), the share panel, the tags, a "Get the next post in your inbox" box
+linking to `/join-my-email-list/`, the author card, up to three related
+posts from the same category as picture cards (`_includes/related-posts.html`;
+posts without an image show their year instead), and older/newer post
+cards. The share panel, email box, related posts and post links are hidden
+when printing.
 
 Give every image alt text: `![What the image shows](/assets/uploads/...)` in
 Markdown, and `featured_image_alt:` for a post's featured image (it also
