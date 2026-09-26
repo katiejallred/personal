@@ -2371,6 +2371,34 @@ code, pre, kbd, samp {
   color: var(--red);
 }
 
+.bio-thumb {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-tile);
+  object-fit: cover;
+}
+
+.bio-thumb-book {
+  width: 40px;
+  height: 60px;
+  border-radius: 2px 5px 5px 2px;
+  box-shadow: 0 4px 10px rgba(60, 10, 5, 0.25);
+}
+
+.bio-badge {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--butter);
+  color: #1C1412;
+  font: 700 11px/1.2 var(--font-sans);
+  font-style: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .bio-link-featured {
   background: var(--ground-blue);
   box-shadow: var(--shadow-button);
