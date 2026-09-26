@@ -1,11 +1,14 @@
 # Katie's books. Covers live in assets/images/books/. Buy links are built
 # from `asin` and site.amazon.tag by _includes/amazon-url.html, so every
 # link carries the affiliate tag; don't paste raw Amazon URLs here.
+# A post that links a book (by ASIN or short_link) shows its cover card at
+# the end (_includes/book-mention.html).
 # `isbn` is the 13-digit ISBN used in the Book structured data
 # (_includes/seo.html) and /llms.txt; `google_books` is the book's Google
 # Books page, if it has one.
 - title: "Church Communications: Methods and Marketing"
   asin: "1087730171"
+  short_link: https://amzn.to/4bVudKw # SiteStripe link used in older posts
   isbn: "9781087730172"
   google_books: https://books.google.com/books/about/Church_Communications.html?id=QHR_EAAAQBAJ
   cover: /assets/images/books/church-communications.jpg
@@ -22,6 +25,7 @@
 
 - title: AI Prompts for Church Leaders
   asin: "1735196002"
+  short_link: https://amzn.to/4bXQCHi # SiteStripe link used in older posts
   isbn: "9781735196008"
   cover: /assets/images/books/ai-prompts-for-church-leaders.jpg
   cover_width: 333
@@ -36,6 +40,7 @@
 
 - title: Instagram Posts That Worked
   asin: "1735196029"
+  short_link: https://amzn.to/4dilVPf # SiteStripe link used in older posts
   isbn: "9781735196022"
   cover: /assets/images/books/instagram-posts-that-worked.jpg
   cover_width: 333

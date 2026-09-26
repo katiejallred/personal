@@ -1,0 +1,27 @@
+{%- comment -%}
+  Cover cards for Katie's books that a post links to, by ASIN or by the
+  book's SiteStripe short link in _data/books.yml. Usage, in the post layout:
+  {% include book-mention.html content=content %}
+{%- endcomment -%}
+{%- assign mentioned = '' | split: '' -%}
+{%- for b in site.data.books -%}
+  {%- if include.content contains b.asin or b.short_link and include.content contains b.short_link -%}
+    {%- assign mentioned = mentioned | push: b -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if mentioned.size > 0 %}
+<aside class="book-mention" aria-labelledby="book-mention-title">
+  <h2 class="label" id="book-mention-title">{% if mentioned.size == 1 %}The book{% else %}The books{% endif %} from this post</h2>
+  {%- for b in mentioned %}
+  {%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture %}
+  <div class="book-mention-item">
+    <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy" decoding="async">
+    <div>
+      <p class="book-mention-title"><cite>{{ b.title }}</cite></p>
+      <p class="book-mention-meta">{{ b.meta }}</p>
+      <a class="btn btn-blue btn-sm" href="{{ buy }}">Get it on Amazon →</a>
+    </div>
+  </div>
+  {%- endfor %}
+</aside>
+{%- endif %}
