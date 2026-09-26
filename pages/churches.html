@@ -32,7 +32,7 @@ faq:
       </div>
     </div>
     <figure class="home-hero-photo">
-      <img src="{{ '/assets/images/headshots/katie-allred-closeup.jpg' | relative_url }}" alt="Katie Allred, smiling" width="1334" height="2000">
+      <img src="{{ '/assets/images/headshots/katie-allred-closeup.jpg' | relative_url }}" alt="Katie Allred, smiling" width="1334" height="2000" sizes="(min-width: 900px) 404px, (min-width: 480px) 255px, 55vw">
     </figure>
   </div>
   <svg class="waveband" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
@@ -79,7 +79,7 @@ faq:
 <section class="section section-blush" aria-labelledby="guide-title">
   <div class="wrap guide">
     <figure class="guide-photo">
-      <img src="{{ '/assets/images/headshots/katie-allred-arms-crossed.jpg' | relative_url }}" alt="Katie Allred, arms crossed, smiling" loading="lazy" width="1334" height="2000">
+      <img src="{{ '/assets/images/headshots/katie-allred-arms-crossed.jpg' | relative_url }}" alt="Katie Allred, arms crossed, smiling" loading="lazy" width="1334" height="2000" sizes="320px"">
     </figure>
     <div>
       <p class="label">Your guide</p>
@@ -94,7 +94,7 @@ faq:
         {%- for b in site.data.books limit: 2 %}
         {%- capture buy %}{% include amazon-url.html asin=b.asin %}{% endcapture %}
         <li class="book-mini">
-          <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" loading="lazy">
+          <img src="{{ b.cover | relative_url }}" alt="" width="{{ b.cover_width }}" height="{{ b.cover_height }}" sizes="56px" loading="lazy">
           <div>
             <a href="{{ buy }}"><strong><cite>{{ b.title }}</cite></strong></a>
             <p>{{ b.meta }}</p>
