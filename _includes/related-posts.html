@@ -14,9 +14,17 @@
   <h2 class="label" id="related-title">Keep reading</h2>
   <ul>
     {%- for post in related %}
+    {%- assign image = post.image | default: post.featured_image %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <a class="related-card" href="{{ post.url | relative_url }}">
+        {%- if image %}
+        <img src="{{ image | relative_url }}" alt="" loading="lazy" decoding="async">
+        {%- else %}
+        <span class="post-card-placeholder" aria-hidden="true"><span>{{ post.date | date: "%Y" }}</span></span>
+        {%- endif %}
+        <strong>{{ post.title }}</strong>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      </a>
     </li>
     {%- endfor %}
   </ul>
