@@ -657,25 +657,25 @@ code, pre, kbd, samp {
   counter-reset: toc;
 }
 
-.article-toc li {
+.article-toc ol li {
   counter-increment: toc;
   display: flex;
   gap: var(--space-2);
 }
 
-.article-toc li::before {
+.article-toc ol li::before {
   content: counter(toc, decimal-leading-zero);
   color: var(--red);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
 
-.article-toc a {
+.article-toc ol a {
   color: var(--ink);
   text-decoration: none;
 }
 
-.article-toc a:hover {
+.article-toc ol a:hover {
   color: var(--red);
   text-decoration: underline;
 }
@@ -684,7 +684,7 @@ code, pre, kbd, samp {
   scroll-margin-top: var(--space-4);
 }
 
-.article-toc a[aria-current] {
+.article-toc ol a[aria-current] {
   color: var(--red);
   font-weight: 700;
 }
@@ -724,6 +724,108 @@ code, pre, kbd, samp {
 
   .has-toc:not(:has(> .article-image)) > .article-toc {
     grid-row: 2 / span 2;
+  }
+}
+
+/* Share panel: at the end of every post, and under the contents list on
+   wide screens when a post has one. */
+.share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.share-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.share-button {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--blush);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, transform 0.15s;
+}
+
+.share-button:hover,
+.share-button:focus-visible {
+  background: var(--red);
+  color: var(--on-red);
+  transform: translateY(-2px);
+}
+
+.share-status {
+  flex-basis: 100%;
+  min-height: 20px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.share-status:empty {
+  min-height: 0;
+  flex-basis: 0;
+}
+
+.share-side {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  .has-toc .share-side {
+    display: block;
+    margin: var(--space-6) 0 0;
+  }
+
+  .share-side .share-list {
+    margin-top: var(--space-3);
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+
+  .share-side .share-button {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .article-toc,
+  .share,
+  .related-posts,
+  .post-nav {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .article {
+    max-width: none;
+    padding: 0;
+  }
+
+  .prose a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    word-break: break-all;
   }
 }
 
