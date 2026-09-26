@@ -1271,16 +1271,6 @@ code, pre, kbd, samp {
   color: #B39C95;
 }
 
-.footer-values {
-  margin-top: var(--space-4);
-  padding-left: var(--space-3);
-  border-left: 4px solid var(--butter);
-}
-
-.footer-values strong {
-  color: var(--butter);
-}
-
 /* --- Landing (imported WordPress pages) --- */
 .landing {
   max-width: var(--wide);
