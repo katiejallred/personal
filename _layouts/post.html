@@ -54,6 +54,7 @@ layout: default
         {%- endfor %}
       </ol>
     </nav>
+    {% include share.html id="share-title-side" class="share-side" %}
   </aside>
   <script>
     // Mark the section being read in the contents list.
@@ -89,6 +90,8 @@ layout: default
   </div>
 
   <footer class="article-footer">
+    {% include share.html id="share-title" %}
+
     {%- if page.tags.size > 0 %}
     <h2 class="visually-hidden">Tags</h2>
     <ul class="chip-row">
@@ -112,3 +115,22 @@ layout: default
     </nav>
   </footer>
 </article>
+<script>
+  // Share panel: reveal and wire up the copy-link and print buttons.
+  for (const button of document.querySelectorAll('[data-share]')) {
+    const kind = button.dataset.share;
+    if (kind === 'copy' && !navigator.clipboard) continue;
+    button.parentElement.hidden = false;
+    button.addEventListener('click', async () => {
+      if (kind === 'print') return print();
+      const status = button.closest('.share').querySelector('.share-status');
+      try {
+        await navigator.clipboard.writeText(button.dataset.url);
+        status.textContent = 'Link copied';
+      } catch {
+        status.textContent = 'Could not copy the link';
+      }
+      setTimeout(() => { status.textContent = ''; }, 2500);
+    });
+  }
+</script>

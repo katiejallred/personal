@@ -155,6 +155,9 @@ future dates (Jekyll skips them until the date arrives — preview with
 For long posts, set `toc: true` in front matter to add an "On this page"
 table of contents built from the post's `##` headings: a sticky column on
 the left on wide screens, a box above the text on phones.
+Every post ends with a "Share this post" panel (`_includes/share.html`):
+Facebook, X, email, copy link and print. Posts with a table of contents
+repeat it under the contents list on wide screens.
 
 Give every image alt text: `![What the image shows](/assets/uploads/...)` in
 Markdown, and `featured_image_alt:` for a post's featured image (it also
