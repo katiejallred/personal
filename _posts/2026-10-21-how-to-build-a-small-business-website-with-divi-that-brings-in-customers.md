@@ -4,6 +4,7 @@ title: How to Build a Small Business Website with Divi That Actually Brings In C
 date: '2026-10-21 08:00:00'
 author: Katie Allred
 permalink: /small-business-website-with-divi/
+toc: true
 description: "A step-by-step plan for local and service businesses building a website with Divi: the pages that bring in calls, Quick Sites, local search, and a 5-second test."
 og_title: A Small Business Website with Divi That Brings In Customers
 series: divi

@@ -4,6 +4,7 @@ title: How to Build a Coach, Consultant, or Speaker Website with Divi
 date: '2026-11-04 08:00:00'
 author: Katie Allred
 permalink: /coach-consultant-website-with-divi/
+toc: true
 description: "A practical guide for coaches, consultants, and speakers building a website with Divi: the pages that book calls, an email list, a speaker page, and proof."
 og_title: A Coach, Consultant, or Speaker Website with Divi
 series: divi

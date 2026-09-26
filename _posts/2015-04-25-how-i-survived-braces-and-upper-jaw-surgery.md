@@ -5,6 +5,7 @@ date: '2015-04-25 11:35:03'
 last_modified_at: '2026-09-25'
 author: Katie Allred
 permalink: /how-i-survived-braces-and-upper-jaw-surgery/
+toc: true
 categories:
 - Life
 tags:
