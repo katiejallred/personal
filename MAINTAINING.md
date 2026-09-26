@@ -187,6 +187,10 @@ Keep uploads small: at most 1600 px wide, saved as JPEG (quality ~82) for
 photos and screenshots, which is usually under 300 KB. Use PNG only for
 graphics that need transparency. Images inside posts lazy-load
 automatically (`_plugins/lazy_images.rb`).
+`_plugins/image_dimensions.rb` adds each local image's `width` and
+`height` at build time (read from the file), so pages don't jump as
+images load. For an image hosted elsewhere, set the size yourself:
+`![Alt](https://…/banner.jpg){: width="468" height="60"}`.
 
 Pages were exported from WordPress into `pages/`, each with an explicit
 `permalink`. They use the `landing` layout (the content brings its own
