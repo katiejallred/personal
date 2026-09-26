@@ -4,6 +4,7 @@ title: How to Build a Sermon Archive and Events Page Your Church Will Actually K
 date: '2026-10-28 08:00:00'
 author: Katie Allred
 permalink: /church-sermon-archive-events-divi/
+toc: true
 description: "Use Divi's Theme Builder, dynamic content, and display conditions to build a sermon archive and events page that practically updates itself."
 og_title: A Sermon Archive and Events Page with Divi
 series: divi

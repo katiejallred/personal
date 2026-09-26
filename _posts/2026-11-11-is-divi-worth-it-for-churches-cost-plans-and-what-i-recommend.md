@@ -4,6 +4,7 @@ title: "Is Divi Worth It for Churches? Cost, Plans, and What I Recommend"
 date: '2026-11-11 08:00:00'
 author: Katie Allred
 permalink: /is-divi-worth-it-for-churches/
+toc: true
 description: "What Divi costs a church, yearly vs. lifetime vs. Pro, how it compares to monthly church website platforms, and which plan I recommend. With a cost calculator."
 og_title: Is Divi Worth It for Churches?
 series: divi

@@ -5,6 +5,7 @@ date: '2013-10-22 19:00:20'
 last_modified_at: '2026-09-25'
 author: Katie Allred
 permalink: /how-to-quickly-create-labels/
+toc: true
 categories:
 - AI & Tech
 tags:

@@ -5,6 +5,7 @@ date: '2015-05-05 07:26:07'
 last_modified_at: '2026-09-25'
 author: Katie Allred
 permalink: /online-strategic-communicators-code-of-ethics/
+toc: true
 categories:
 - Church Communications
 tags:

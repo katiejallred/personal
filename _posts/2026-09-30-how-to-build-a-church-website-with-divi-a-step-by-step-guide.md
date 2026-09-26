@@ -4,6 +4,7 @@ title: "How to Build a Church Website with Divi: A Step-by-Step Guide"
 date: '2026-09-30 08:00:00'
 author: Katie Allred
 permalink: /how-to-build-a-church-website-with-divi/
+toc: true
 description: "A plain-language, step-by-step plan for building your church website with Divi: the pages to build first, the order to build them in, and a launch checklist."
 og_title: How to Build a Church Website with Divi
 series: divi

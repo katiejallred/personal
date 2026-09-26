@@ -4,6 +4,7 @@ title: 7 Divi Features Every Church Communicator Should Be Using
 date: '2026-10-14 08:00:00'
 author: Katie Allred
 permalink: /divi-features-for-church-communicators/
+toc: true
 description: "Already on Divi? These seven features will save your church communications team hours every month, from Theme Builder templates to presets and Divi AI."
 og_title: 7 Divi Features for Church Communicators
 series: divi

@@ -4,6 +4,7 @@ title: How to Build a Donation-Ready Nonprofit Website with Divi
 date: '2026-10-07 08:00:00'
 author: Katie Allred
 permalink: /nonprofit-website-with-divi/
+toc: true
 description: "A practical guide for nonprofits building a website with Divi: tell your story, make giving easy, recruit volunteers, and keep it updated on a small budget."
 og_title: A Donation-Ready Nonprofit Website with Divi
 series: divi

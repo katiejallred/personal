@@ -4,6 +4,7 @@ title: Why Divi Is Still My Pick for Freelance Web Designers
 date: '2026-11-18 08:00:00'
 author: Katie Allred
 permalink: /divi-for-freelance-web-designers/
+toc: true
 description: "Why Divi works for freelancers and small agencies building client sites: unlimited sites, client-friendly editing, reusable systems, Divi Pro, and a client handoff checklist."
 og_title: Why Divi Is Still My Pick for Freelancers
 series: divi
