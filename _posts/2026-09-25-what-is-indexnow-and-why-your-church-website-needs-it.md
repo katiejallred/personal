@@ -2,11 +2,12 @@
 layout: post
 title: What Is IndexNow and Why Your Church Website Needs It
 date: '2026-09-25 08:00:00'
-last_modified_at: '2026-09-25'
+last_modified_at: '2026-09-26'
 author: Katie Allred
 permalink: /what-is-indexnow-and-why-your-church-website-needs-it/
 description: "IndexNow tells Bing and other search engines the moment your church website changes. What it is, how to turn it on in WordPress, and what to ask your developer."
 og_title: IndexNow for Church Websites
+toc: true
 categories:
 - Church Communications
 tags:

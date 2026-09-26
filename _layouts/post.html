@@ -1,7 +1,15 @@
 ---
 layout: default
 ---
-<article class="article">
+{%- comment -%}
+  Set `toc: true` in a post's front matter to list its `##` headings as an
+  "On this page" table of contents: a sticky column on the left on wide
+  screens, a box above the article text on narrow ones.
+{%- endcomment -%}
+{%- if page.toc -%}
+{%- assign toc_sections = content | split: '<h2 id="' -%}
+{%- endif -%}
+<article class="article{% if toc_sections.size > 1 %} has-toc{% endif %}">
   <header>
     {%- if page.categories.size > 0 %}
     <p class="label">
@@ -32,6 +40,21 @@ layout: default
   <figure class="article-image">
     <img src="{{ featured | relative_url }}" alt="{{ page.featured_image_alt | default: '' }}" fetchpriority="high">
   </figure>
+  {%- endif %}
+
+  {%- if toc_sections.size > 1 %}
+  <aside class="article-toc">
+    <nav aria-labelledby="toc-title">
+      <h2 class="label" id="toc-title">On this page</h2>
+      <ol>
+        {%- for section in toc_sections offset: 1 %}
+        {%- assign id = section | split: '"' | first %}
+        {%- assign heading = section | split: '</h2>' | first | split: '">' | shift | join: '">' | strip_html %}
+        <li><a href="#{{ id }}">{{ heading }}</a></li>
+        {%- endfor %}
+      </ol>
+    </nav>
+  </aside>
   {%- endif %}
 
   <div class="prose">
