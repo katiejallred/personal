@@ -301,6 +301,166 @@ code, pre, kbd, samp {
   border-bottom: 0;
 }
 
+/* The bar's own "Book a call" shows only while the menu is collapsed;
+   otherwise the one inside the menu does. */
+.header-cta {
+  display: none;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+/* Phones and small tablets: wordmark, "Book a call" and a menu button on
+   one row; the links open in a panel below. (.has-nav-toggle is added by
+   the header's script, so without JavaScript the links stay visible.) */
+@media (max-width: 899px) {
+  .site-header .wrap {
+    flex-wrap: wrap;
+    gap: 0 var(--space-3);
+    padding-top: var(--space-3);
+    padding-bottom: var(--space-3);
+  }
+
+  .site-header .wordmark {
+    margin-right: auto;
+  }
+
+  .has-nav-toggle .header-cta {
+    display: inline-block;
+    color: var(--on-red);
+    padding: 10px 16px;
+  }
+
+  .has-nav-toggle .nav-toggle {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 2px solid var(--ink);
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .has-nav-toggle .site-nav {
+    display: none;
+    flex-basis: 100%;
+  }
+
+  .has-nav-toggle.nav-open .site-nav {
+    display: block;
+    padding: var(--space-3) 0 var(--space-2);
+  }
+
+  .has-nav-toggle .site-nav ul {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .has-nav-toggle .site-nav li + li {
+    border-top: 1px solid var(--blush);
+  }
+
+  .has-nav-toggle .site-nav a {
+    display: block;
+    padding: 14px 0;
+    font: 800 22px/1.1 var(--font-display);
+    letter-spacing: -0.02em;
+    border-bottom: 0;
+  }
+
+  .has-nav-toggle .site-nav a[aria-current="page"] {
+    color: var(--red);
+  }
+
+  .has-nav-toggle .nav-cta {
+    display: none;
+  }
+}
+
+@media (max-width: 399px) {
+  .site-header .wrap {
+    column-gap: var(--space-2);
+  }
+
+  .site-header .wordmark {
+    gap: 8px;
+    font-size: 19px;
+  }
+
+  .site-header .wordmark-tile {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .has-nav-toggle .header-cta {
+    padding: 9px 13px;
+    font-size: 13px;
+  }
+}
+
+/* Hamburger that turns into an X while the menu is open. */
+.nav-toggle-icon,
+.nav-toggle-icon::before,
+.nav-toggle-icon::after,
+.nav-toggle-icon span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+}
+
+.nav-toggle-icon {
+  position: relative;
+  background: transparent;
+}
+
+.nav-toggle-icon::before,
+.nav-toggle-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: transform 0.2s;
+}
+
+.nav-toggle-icon::before {
+  top: -6px;
+}
+
+.nav-toggle-icon::after {
+  top: 6px;
+}
+
+.nav-toggle-icon span {
+  transition: opacity 0.2s;
+}
+
+.nav-open .nav-toggle-icon::before {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.nav-open .nav-toggle-icon::after {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.nav-open .nav-toggle-icon span {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-toggle-icon::before,
+  .nav-toggle-icon::after,
+  .nav-toggle-icon span {
+    transition: none;
+  }
+}
+
 /* --- Hero + WaveBand --- */
 .hero {
   position: relative;
@@ -1262,6 +1422,47 @@ code, pre, kbd, samp {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2) var(--space-3);
+}
+
+/* Phones: less empty space and roomier tap targets. */
+@media (max-width: 899px) {
+  .footer-main {
+    padding-top: var(--space-6);
+    padding-bottom: var(--space-4);
+    gap: var(--space-4) var(--space-3);
+  }
+
+  .footer-brand {
+    gap: var(--space-2);
+  }
+
+  .footer-heading {
+    margin-bottom: var(--space-1);
+  }
+
+  .footer-col ul {
+    gap: 0;
+  }
+
+  .footer-col a {
+    display: inline-block;
+    padding: 6px 0;
+  }
+
+  .footer-legal-row {
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .footer-legal-links {
+    gap: 0 var(--space-4);
+    margin-top: var(--space-1);
+  }
+
+  .footer-legal-links a {
+    display: inline-block;
+    padding: 6px 0;
+  }
 }
 
 .footer-disclaimer {
