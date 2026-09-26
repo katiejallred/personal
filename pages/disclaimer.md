@@ -4,7 +4,7 @@ title: Disclaimer
 hero_title: The <em>disclaimer</em>.
 permalink: /disclaimer/
 updated: 2026-09-24
-last_modified_at: '2026-09-24'
+last_modified_at: '2026-09-26'
 wordpress_id: 3709
 description: "What my advice is and isn't, what results you can expect from consulting and courses, and how I handle affiliate links and sponsorships on katieallred.com."
 seo_title: Disclaimer - Katie Allred

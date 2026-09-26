@@ -7,7 +7,6 @@ url: "" # set at build time by the Pages workflow; e.g. https://www.katieallred.
 baseurl: "" # subpath of your site, e.g. /blog — leave empty for root
 author:
   name: Katie Allred
-  email: katie@katieallred.com
 twitter:
   username: katiejallred # handle without the @
 social:
@@ -25,9 +24,6 @@ positioning: >-
   Community strategist, AI educator, and consultant. Helping organizations
   harness AI and community to create meaningful connections at scale.
 contact:
-  email: katie@katieallred.com
-  phone: 205-299-2980
-  phone_tel: "+12052992980"
   booking: /schedule-a-call/ # on-site page with the TidyCal embed
   booking_external: https://meetwithkatie.com
   location: Nolensville, TN

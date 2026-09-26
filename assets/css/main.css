@@ -1336,10 +1336,6 @@ code, pre, kbd, samp {
   max-width: 16em;
 }
 
-.footer-contact {
-  color: #D3B9B2;
-}
-
 .btn-butter {
   background: var(--butter);
   color: #1C1412;

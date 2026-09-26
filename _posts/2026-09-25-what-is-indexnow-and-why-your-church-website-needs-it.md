@@ -146,7 +146,7 @@ So here's your next step: log in to WordPress this week, find your SEO plugin, a
 
 Jesus told us the harvest is plentiful (Matt 9:37). Some of that harvest is searching for you online tonight. Let's make sure they find the front door open.
 
-If you'd like a second set of eyes on your church website, you can [book a time with me](https://meetwithkatie.com) or email me at [katie@katieallred.com](mailto:katie@katieallred.com).
+If you'd like a second set of eyes on your church website, you can [book a time with me](https://meetwithkatie.com).
 
 ## Frequently asked questions
 

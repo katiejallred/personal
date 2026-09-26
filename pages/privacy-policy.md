@@ -3,8 +3,8 @@ layout: legal
 title: Privacy Policy
 hero_title: Privacy <em>policy</em>.
 permalink: /privacy-policy/
-updated: 2026-09-24
-last_modified_at: '2026-09-24'
+updated: 2026-09-26
+last_modified_at: '2026-09-26'
 governing_law: Tennessee, USA
 wordpress_id: 3
 description: What I collect when you use katieallred.com, why I collect it, who helps me handle it, and how to get it changed or deleted.
@@ -21,7 +21,7 @@ summary: >-
 
 Katie Allred Consulting, LLC ("**I**," "**me**," or "**Katie Allred**") runs katieallred.com from Nolensville, Tennessee, USA. This policy explains what information I collect when you visit this site or buy from me, and what I do with it.
 
-Questions or requests go to [katie@katieallred.com](mailto:katie@katieallred.com).
+Send questions or requests through the [contact form]({{ '/contact/' | relative_url }}#message-title).
 
 ## What I collect
 
@@ -96,7 +96,7 @@ You can block or clear cookies in your browser settings. Some embedded forms or 
 
 **EU and UK residents (GDPR/UK GDPR)** also have the right to data portability, to restrict processing, and to complain to your local data protection authority.
 
-To make a request, email [katie@katieallred.com](mailto:katie@katieallred.com). I'll respond within 30 days.
+To make a request, send a message through the [contact form]({{ '/contact/' | relative_url }}#message-title). I'll respond within 30 days.
 
 ## Children
 

@@ -4,7 +4,7 @@ title: Terms of Service
 hero_title: Terms of <em>service</em>.
 permalink: /terms-of-service/
 updated: 2026-09-24
-last_modified_at: '2026-09-24'
+last_modified_at: '2026-09-26'
 governing_law: Tennessee, USA
 wordpress_id: 2115
 description: "The terms for using katieallred.com and buying consulting, speaking, and digital products from Katie Allred Consulting: payments, refunds, and content use."

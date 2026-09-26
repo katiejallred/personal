@@ -211,7 +211,7 @@ The first time you merge a pull request and watch your change go live two minute
 
 That's what I love about tools like this. They take care of the temporary, technical parts, so you can spend your time on the people you're trying to reach and the message you want them to hear.
 
-If you'd like help planning your own site, or you're trying to decide between this and WordPress, you can [book a time with me](https://meetwithkatie.com) or email me at [katie@katieallred.com](mailto:katie@katieallred.com).
+If you'd like help planning your own site, or you're trying to decide between this and WordPress, you can [book a time with me](https://meetwithkatie.com).
 
 ## Frequently asked questions
 
