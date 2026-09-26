@@ -3,7 +3,7 @@ layout: blank
 title: Link in Bio
 permalink: /link-in-bio/
 noindex: true # a link hub for social bios, not a search landing page
-last_modified_at: '2026-09-25'
+last_modified_at: '2026-09-26'
 wordpress_id: 3687
 description: Everything in one place — book a call, courses, my book, the free quiz, and more from Katie Allred.
 seo_title: Link in Bio - Katie Allred
@@ -34,10 +34,19 @@ affiliate_note: inline # the Amazon disclosure is in the page footer
           <span><strong>Book a free call</strong><small>30 minutes to talk strategy, AI, or speaking</small></span>
         </a>
       </li>
+      <li>
+        <a class="bio-link" href="{{ '/90-day-plan/' | relative_url }}">
+          <span><em class="bio-badge">Free download</em><strong>Your first 90 days</strong><small>A printable plan for new church communications directors</small></span>
+        </a>
+      </li>
       {%- assign latest = site.posts.first %}
       {%- if latest %}
+      {%- assign latest_image = latest.image | default: latest.featured_image %}
       <li>
         <a class="bio-link" href="{{ latest.url | relative_url }}">
+          {%- if latest_image %}
+          <img class="bio-thumb" src="{{ latest_image | relative_url }}" alt="" loading="lazy" decoding="async">
+          {%- endif %}
           <span><strong>New on the blog</strong><small>{{ latest.title }}</small></span>
         </a>
       </li>
@@ -47,9 +56,11 @@ affiliate_note: inline # the Amazon disclosure is in the page footer
           <span><strong>Take the free quiz</strong><small>Rate your church or nonprofit's communications</small></span>
         </a>
       </li>
+      {%- assign bio_book = site.data.books.first %}
       <li>
-        <a class="bio-link" href="https://amzn.to/4uDqdqC">
-          <span><strong>Get my book</strong><small><cite>Church Communications: Methods and Marketing</cite></small></span>
+        <a class="bio-link" href="{% include amazon-url.html asin=bio_book.asin %}">
+          <img class="bio-thumb bio-thumb-book" src="{{ bio_book.cover | relative_url }}" alt="" width="{{ bio_book.cover_width }}" height="{{ bio_book.cover_height }}" loading="lazy" decoding="async">
+          <span><strong>Get my book</strong><small><cite>{{ bio_book.title }}</cite></small></span>
         </a>
       </li>
       <li>
