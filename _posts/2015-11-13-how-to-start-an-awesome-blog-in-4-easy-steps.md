@@ -41,7 +41,7 @@ There are millions of themes out there and if you wade through all of them, you 
 
 For most of my clients, I use [Divi by Elegant Themes](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}. It's versatile and user-friendly. I can build any type of website with Divi from a blog to a business site. I wrote a post previously on 10 different websites made with Divi.
 
-[![Divi WordPress Theme](https://www.elegantthemes.com/affiliates/banners/divi_468x60.jpg)](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}
+[![Divi WordPress Theme](https://www.elegantthemes.com/affiliates/banners/divi_468x60.jpg){: width="468" height="60"}](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}
 
 I recommend purchasing a [lifetime subscription to Elegant Themes](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}.
 
@@ -49,7 +49,7 @@ Why?
 
 You won't have to re-purchase to get updates every year, and you'll need the updates since Wordpress itself is updated frequently. Also, Elegant Themes has come out with some really useful plugins like Bloom and Monarch. Bloom helps with getting email sign ups. It creates really awesome email sign up forms for you and also allows you to hide content until you get an email sign up. It's super useful. Monarch creates really snazzy sharing buttons.
 
-[![Elegant Themes banner](https://www.elegantthemes.com/affiliates/banners/570x100.jpg)](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}
+[![Elegant Themes banner](https://www.elegantthemes.com/affiliates/banners/570x100.jpg){: width="570" height="100"}](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"}
 
 If you're not in love with any of the [Divi](https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=29440){:rel="sponsored noopener"} or Elegant Theme options you see, then there are plenty of options on ThemeForest–just be careful. Choose a theme with a high rating and recent updates.
 
