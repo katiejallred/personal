@@ -55,6 +55,30 @@ layout: default
       </ol>
     </nav>
   </aside>
+  <script>
+    // Mark the section being read in the contents list.
+    addEventListener('DOMContentLoaded', () => {
+      const links = [...document.querySelectorAll('.article-toc a')];
+      const heads = links.map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean);
+      let queued = false;
+      const update = () => {
+        queued = false;
+        let current = null;
+        for (const h of heads) {
+          if (h.getBoundingClientRect().top > innerHeight * 0.3) break;
+          current = h;
+        }
+        for (const a of links) {
+          if (current && a.hash === '#' + current.id) a.setAttribute('aria-current', 'location');
+          else a.removeAttribute('aria-current');
+        }
+      };
+      addEventListener('scroll', () => {
+        if (!queued) { queued = true; requestAnimationFrame(update); }
+      }, { passive: true });
+      update();
+    });
+  </script>
   {%- endif %}
 
   <div class="prose">
