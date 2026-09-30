@@ -12,10 +12,12 @@ on:
         description: "Submit every URL in the sitemap to IndexNow, not just changed ones"
         type: boolean
         default: false
-  # Rebuild daily so future-dated posts (future: false) go live on their
-  # publish date; this also keeps the footer's copyright year current.
+  # Rebuild hourly so future-dated posts (future: false) go live soon after
+  # their publish time; this also keeps the footer's copyright year current.
+  # GitHub often starts scheduled runs hours late, so a single daily run
+  # could leave a new post 404ing for most of its first day.
   schedule:
-    - cron: "15 14 * * *"
+    - cron: "7 * * * *"
 
 permissions:
   contents: read
