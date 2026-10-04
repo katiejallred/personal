@@ -3,6 +3,12 @@
 @MAINTAINING.md holds the full maintainer notes (structure, design, SEO,
 deploying, content conventions). The repo is public: never commit secrets.
 
+- Screenshots: never commit screenshots you take while working (before/after
+  views, previews, browser-automation captures). Keep them in a scratch
+  directory and share them in chat. Only images meant for the public site go
+  in `assets/`, and never ones showing logged-in dashboards, inboxes,
+  analytics, billing, client data or credentials.
+
 - Amazon links: Katie is an Amazon Associate (tag in `_config.yml` →
   `amazon.tag`). Always link Amazon products through
   `_includes/amazon-url.html` (or `book-card.html` for her books in
