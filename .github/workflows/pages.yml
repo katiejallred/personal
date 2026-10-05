@@ -14,8 +14,9 @@ on:
         default: false
   # Rebuild hourly so future-dated posts (future: false) go live soon after
   # their publish time; this also keeps the footer's copyright year current.
-  # GitHub often starts scheduled runs hours late, so a single daily run
-  # could leave a new post 404ing for most of its first day.
+  # GitHub often starts scheduled runs hours late or skips them, so a
+  # Cloudflare Worker (cloudflare/rebuild-cron/) also starts this workflow
+  # through workflow_dispatch every hour; this schedule is the backup.
   schedule:
     - cron: "7 * * * *"
 

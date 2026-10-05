@@ -162,6 +162,38 @@ Settings → Pages, set **Source** to **GitHub Actions**. The workflow sets
 builds with `https://`, even when Pages reports an `http://` origin; keep
 **Enforce HTTPS** ticked in Settings → Pages so visitors land there too.
 
+### Hourly rebuilds
+
+Scheduled posts only appear when the site is rebuilt after their date, so
+the site rebuilds every hour. GitHub's own `schedule:` trigger is the
+backup: it often runs hours late or not at all. The on-time rebuild comes
+from a small Cloudflare Worker, `cloudflare/rebuild-cron/worker.js`, whose
+cron trigger asks GitHub to run the Pages workflow at five past every hour
+(the same as Actions → Deploy site to GitHub Pages → Run workflow).
+
+To set it up or replace it:
+
+1. On GitHub, open Settings → Developer settings → Personal access tokens →
+   Fine-grained tokens → Generate new token. Name it "Cloudflare rebuild
+   cron", set an expiration (a year is fine; put a renewal reminder on your
+   calendar), choose **Only select repositories → katiejallred/personal**,
+   and under Repository permissions set **Actions: Read and write**.
+   Nothing else. Copy the token.
+2. In the Cloudflare dashboard, open Workers & Pages → Create → Create
+   Worker, name it `katieallred-rebuild-cron`, deploy the starter, then
+   Edit code: replace everything with `worker.js` and Deploy.
+3. In the Worker's Settings → Variables and Secrets, add a **Secret** named
+   `GITHUB_TOKEN` with the token from step 1.
+4. In Settings → Trigger events, add a **Cron trigger** `5 * * * *`.
+5. Check it: after the next :05, Actions should show a "Deploy site to
+   GitHub Pages" run started by `workflow_dispatch`. If not, the Worker's
+   Logs tab shows GitHub's answer (a 401 or 403 means the token is wrong or
+   expired).
+
+When the token expires, create a new one the same way and replace the
+`GITHUB_TOKEN` secret. `wrangler.toml` in the same folder lets you deploy
+from the command line instead (`npx wrangler deploy`).
+
 ## Content
 
 Posts were migrated from WordPress (katieallred.com) via `wp2jekyll.py`.
@@ -171,8 +203,8 @@ WordPress URL, plus `title`, `date`, `last_modified_at`, `author`,
 (from Rank Math where set), and `wordpress_id`. Media lives under
 `assets/uploads/YYYY/MM/`; scheduled posts have `scheduled: true` and
 future dates (Jekyll skips them until the date arrives — preview with
-`--future`). The Pages workflow rebuilds every hour, so a scheduled post
-goes live within an hour or two of its `date`; to publish one right away,
+`--future`). The site rebuilds every hour (see "Hourly rebuilds"), so a
+scheduled post goes live within an hour of its `date`; to publish one right away,
 run the workflow by hand (Actions → Deploy site to GitHub Pages → Run
 workflow).
 
