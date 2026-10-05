@@ -171,7 +171,10 @@ WordPress URL, plus `title`, `date`, `last_modified_at`, `author`,
 (from Rank Math where set), and `wordpress_id`. Media lives under
 `assets/uploads/YYYY/MM/`; scheduled posts have `scheduled: true` and
 future dates (Jekyll skips them until the date arrives — preview with
-`--future`).
+`--future`). The Pages workflow rebuilds every hour, so a scheduled post
+goes live within an hour or two of its `date`; to publish one right away,
+run the workflow by hand (Actions → Deploy site to GitHub Pages → Run
+workflow).
 
 For long posts, set `toc: true` in front matter to add an "On this page"
 table of contents built from the post's `##` headings: a sticky column on
