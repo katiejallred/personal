@@ -215,7 +215,9 @@ come out clearly smaller in bytes), using `scripts/resize_images.py`
 downloads the smallest one that looks sharp on that screen. The copies are
 cached in `.jekyll-cache/responsive-images` and published under
 `/assets/images/resized/`; the first build after cloning takes about
-40 seconds longer. Images in posts use a default `sizes` for the article
+40 seconds longer. The Pages workflow keeps this cache (and the share
+cards') between runs with `actions/cache`, so deploys only draw images
+that are new or changed. Images in posts use a default `sizes` for the article
 column; a template that shows an image at another width sets its own
 `sizes` (for example `sizes="320px"`). Without Pillow the build warns and
 images keep a plain `src`.
