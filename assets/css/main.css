@@ -1333,21 +1333,59 @@ code, pre, kbd, samp {
   grid-column: 1 / -1;
 }
 
-/* Credly badges: their script swaps each div for a 150x270 iframe. */
-.footer-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-3);
+/* Certification badges: self-hosted images linking to Credly. */
+.footer-certs {
   margin-top: var(--space-4);
-  min-height: 270px;
 }
 
-.footer-badges iframe {
-  display: block;
-  border: 0;
+.site-footer .footer-badges {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.site-footer a.footer-badge {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3) var(--space-2) var(--space-2);
+  border: 1px solid rgba(255, 243, 238, 0.12);
   border-radius: var(--radius-tile);
-  background: #FFFFFF;
-  color-scheme: light;
+  background: rgba(255, 243, 238, 0.04);
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.site-footer a.footer-badge:hover,
+.site-footer a.footer-badge:focus-visible {
+  border-color: var(--butter);
+  background: rgba(255, 243, 238, 0.08);
+}
+
+.footer-badge img {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.footer-badge-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.footer-badge-name {
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.footer-badge-verify {
+  font-size: 13px;
+  line-height: 18px;
+  color: #B39C95;
+}
+
+.footer-badge-verify::after {
+  content: " \2192";
 }
 
 @media (min-width: 900px) {
