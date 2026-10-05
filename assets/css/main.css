@@ -1333,6 +1333,23 @@ code, pre, kbd, samp {
   grid-column: 1 / -1;
 }
 
+/* Credly badges: their script swaps each div for a 150x270 iframe. */
+.footer-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+  min-height: 270px;
+}
+
+.footer-badges iframe {
+  display: block;
+  border: 0;
+  border-radius: var(--radius-tile);
+  background: #FFFFFF;
+  color-scheme: light;
+}
+
 @media (min-width: 900px) {
   .footer-main {
     grid-template-columns: 1.6fr 0.8fr 0.8fr 1.6fr;
