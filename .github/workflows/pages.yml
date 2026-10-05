@@ -45,6 +45,20 @@ jobs:
           python-version: "3.12"
       - run: pip install pillow
 
+      # Keep the resized image copies (_plugins/responsive_images.rb) and
+      # share cards between runs; drawing them from scratch takes about 30
+      # seconds. The key only changes when images, pages or the drawing
+      # scripts do, so the hourly rebuilds reuse the same cache instead of
+      # saving a new one each time; a changed key starts from the newest
+      # cache and only draws what's new.
+      - uses: actions/cache@v5
+        with:
+          path: |
+            .jekyll-cache/responsive-images
+            .jekyll-cache/og-images
+          key: images-${{ hashFiles('assets/uploads/**', 'assets/images/**', '_posts/**', 'pages/**', '*.html', 'scripts/resize_images.py', 'scripts/og_image.py') }}
+          restore-keys: images-
+
       - id: pages
         uses: actions/configure-pages@v6
 
