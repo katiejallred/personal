@@ -153,6 +153,16 @@ submission is ours; it is public by design. To change it, replace that file
 with a new random hex name and matching contents. A failed submission only
 warns; it never fails the deploy.
 
+## Analytics
+
+Google Analytics 4 runs on every page: `_includes/analytics.html` loads
+gtag.js with the measurement ID in `_config.yml` → `google_analytics`
+(`G-Q2XK5V65JV`). It is included in the `default` and `blank` layouts and
+only renders in production builds (`JEKYLL_ENV=production`, as the Pages
+workflow sets), so local previews aren't counted. To turn analytics off,
+empty `google_analytics`; if you add or swap a tracking service, update the
+privacy policy (`pages/privacy-policy.md`) to match.
+
 ## Deploying
 
 Pushes to `main` build and deploy through GitHub Actions. In the repo's
