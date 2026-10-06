@@ -267,6 +267,28 @@ tokens. The contact and Community Playbook forms are Tally embeds
 signups use SendFox forms through `_includes/sendfox-form.html`; each form's
 list, opt-in and welcome email are set in SendFox.
 
+## Sharing posts on social media
+
+Blog posts are promoted through Zernio. A share that goes out before its
+post is live sends people to a 404 page and gives the networks a link
+preview with no title or picture, which they cache. So before scheduling,
+publishing or retrying any social post that links the site:
+
+1. Run `python3 scripts/check_live.py _posts/<the post>.md` (or the live
+   URL; `--date YYYY-MM-DD` checks every post dated that day, `--recent 14`
+   the last two weeks). It checks the live page answers 200, isn't the 404
+   page, isn't noindex, has the right canonical URL, has an `og:title` and
+   an `og:image` that loads, and is in the live sitemap.
+2. Only share posts it reports as LIVE. If one is NOT READY, find out why
+   (future `date`, the hourly rebuild hasn't run, a failed deploy in
+   Actions, a wrong `permalink`) and fix it first.
+3. Schedule each share after its post goes live. Post `date`s are Central
+   time and the site rebuilds at five past each hour, so a post dated
+   08:00 is live by about 09:15; schedule shares for 10:00 Central or later
+   that day. If a post's date moves, move its shares too.
+4. Use the post's `permalink` exactly (`https://katieallred.com/<slug>/`),
+   not the file name, which is often longer.
+
 ## Free downloads
 
 The main free resource is the 90-day plan for new church communications
