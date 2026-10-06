@@ -37,6 +37,12 @@ amazon:
 # Google Analytics 4 measurement ID. The tag loads only in production builds
 # (_includes/analytics.html); leave empty to turn analytics off.
 google_analytics: G-Q2XK5V65JV
+# Where analytics cookies wait for consent in the cookie banner: the
+# EU/EEA, UK and Switzerland (ISO 3166 codes). Elsewhere they're on unless
+# the visitor declines under "Cookie settings".
+analytics_consent_regions: # quoted: bare NO would read as false
+  ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV",
+   "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]
 
 lang: en
 timezone: America/Chicago

@@ -3,8 +3,8 @@ layout: legal
 title: Terms of Service
 hero_title: Terms of <em>service</em>.
 permalink: /terms-of-service/
-updated: 2026-09-24
-last_modified_at: '2026-09-26'
+updated: 2026-10-06
+last_modified_at: '2026-10-06'
 governing_law: Tennessee, USA
 wordpress_id: 2115
 description: "The terms for using katieallred.com and buying consulting, speaking, and digital products from Katie Allred Consulting: payments, refunds, and content use."
@@ -74,6 +74,10 @@ Please don't:
 - Use bots or scrapers to collect data from the site
 - Submit false or misleading information in a form
 - Do anything that could damage, disable, or overload the site
+
+## Privacy and cookies
+
+My [privacy policy]({{ '/privacy-policy/' | relative_url }}) explains what information I collect and how I use it, and is part of these terms. This site uses Google Analytics cookies (in the EU/EEA, UK, and Switzerland, only if you accept them in the cookie banner); you can change your choice anytime under **Cookie settings** at the bottom of any page.
 
 ## Links to other sites
 

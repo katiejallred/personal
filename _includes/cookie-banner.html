@@ -1,0 +1,70 @@
+{%- comment -%}
+  Cookie consent banner for Google Analytics (see _includes/analytics.html).
+  It opens by itself only for visitors whose browser time zone is in
+  Europe (a static site can't look up location; Google applies the
+  matching regional default from the visitor's real location), until they
+  choose. The choice is kept in localStorage as `ka-consent`. Any element
+  with `data-cookie-settings` (the footer's "Cookie settings" button)
+  opens it for anyone. Without JavaScript analytics never runs, so the
+  banner stays hidden.
+{%- endcomment -%}
+{%- if site.google_analytics %}
+<section class="cookie-banner" id="cookie-banner" aria-labelledby="cookie-banner-title" hidden>
+  <div class="cookie-banner-inner">
+    <div class="cookie-banner-text">
+      <h2 class="cookie-banner-title" id="cookie-banner-title">Cookies, but only if you say so</h2>
+      <p>I'd like to use Google Analytics cookies to see which pages are helpful. No ads, and I never sell your data. <a href="{{ '/privacy-policy/' | relative_url }}#cookies">Privacy policy</a></p>
+    </div>
+    <div class="cookie-banner-actions">
+      <button type="button" class="btn btn-sm btn-ghost" data-consent="denied">Decline</button>
+      <button type="button" class="btn btn-sm btn-red" data-consent="granted">Accept</button>
+    </div>
+  </div>
+</section>
+<script>
+  (function () {
+    var banner = document.getElementById('cookie-banner');
+    var KEY = 'ka-consent';
+    function stored() {
+      try { return localStorage.getItem(KEY); } catch (e) { return null; }
+    }
+    function clearGaCookies() {
+      document.cookie.split(';').forEach(function (c) {
+        var name = c.split('=')[0].trim();
+        if (name.indexOf('_ga') !== 0) return;
+        var host = location.hostname.replace(/^www\./, '');
+        ['', '; domain=' + host, '; domain=.' + host].forEach(function (d) {
+          document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d;
+        });
+      });
+    }
+    function choose(value) {
+      try { localStorage.setItem(KEY, value); } catch (e) {}
+      if (typeof gtag === 'function') {
+        gtag('consent', 'update', { analytics_storage: value });
+      }
+      if (value === 'denied') clearGaCookies();
+      banner.hidden = true;
+    }
+    banner.addEventListener('click', function (e) {
+      var button = e.target.closest('[data-consent]');
+      if (button) choose(button.getAttribute('data-consent'));
+    });
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('[data-cookie-settings]')) return;
+      banner.hidden = false;
+      banner.querySelector('[data-consent="granted"]').focus();
+    });
+    document.querySelectorAll('[data-cookie-settings]').forEach(function (el) {
+      el.hidden = false;
+    });
+    function inEurope() {
+      var tz = '';
+      try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+      return /^Europe\//.test(tz) ||
+        /^(Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)|Arctic\/Longyearbyen)$/.test(tz);
+    }
+    if (!stored() && inEurope()) banner.hidden = false;
+  })();
+</script>
+{%- endif %}

@@ -4,7 +4,7 @@ title: Privacy Policy
 hero_title: Privacy <em>policy</em>.
 permalink: /privacy-policy/
 updated: 2026-10-06
-last_modified_at: '2026-10-06'
+last_modified_at: '2026-10-06T12:00:00-05:00'
 governing_law: Tennessee, USA
 wordpress_id: 3
 description: What I collect when you use katieallred.com, why I collect it, who helps me handle it, and how to get it changed or deleted.
@@ -13,8 +13,9 @@ summary: >-
   I collect your name and email when you join my list, fill out a form, or
   book a call, and payment details when you buy something (handled by the
   payment company, not me). I never sell or hand your information to
-  sponsors or anyone else. I use Google Analytics to see which pages people
-  read; the site runs no ad trackers.
+  sponsors or anyone else. Google Analytics cookies help me see which
+  pages people read (in Europe and the UK, only if you say yes), and you
+  can turn them off anytime. The site runs no ad trackers.
   You can unsubscribe, or ask me to delete your information, anytime.
 ---
 
@@ -35,7 +36,7 @@ Send questions or requests through the [contact form]({{ '/contact/' | relative_
 **Information collected automatically:**
 
 - **Server logs.** The company that hosts this site (GitHub) records basic request data such as your IP address, browser, and the page you asked for, to keep the site running and secure.
-- **Analytics.** Google Analytics records how visitors use the site: pages viewed, how you arrived (for example, from a search or a link), your general location, device, and browser. I use it to see which pages are helpful and what to write next. Google Analytics doesn't share your full IP address with me.
+- **Analytics.** Google Analytics records how visitors use the site: pages viewed, how you arrived (for example, from a search or a link), your general location, device, and browser. I use it to see which pages are helpful and what to write next. If you're in the European Union/EEA, the United Kingdom, or Switzerland, analytics cookies are only set if you choose **Accept** in the cookie banner. Everywhere else they're on by default, and you can turn them off with **Cookie settings** at the bottom of any page. If you decline (or, in those regions, don't choose), Google receives only basic, cookieless signals (such as a page view) that can't recognize you from one visit to the next. Google Analytics doesn't share your IP address with me.
 - **Embedded tools.** Forms, the booking calendar, the email sign-up form, and videos load from the services listed under [Services I use](#services-i-use). When they load, those services receive your IP address and browser details and may set their own cookies.
 
 Apart from Google Analytics, this site doesn't use advertising pixels or tracking cookies.
@@ -54,15 +55,15 @@ I do **not** sell, rent, or trade your personal information, and I don't share i
 If you're in the European Union or United Kingdom, I rely on:
 
 - **Contract**: to deliver services you've bought
-- **Consent**: for my email list (withdraw it anytime by unsubscribing)
-- **Legitimate interests**: to reply to messages you send, keep the site secure, and understand how the site is used
+- **Consent**: for my email list (withdraw it anytime by unsubscribing) and for analytics cookies (change your choice anytime under **Cookie settings** at the bottom of any page)
+- **Legitimate interests**: to reply to messages you send and keep the site secure
 - **Legal obligation**: to keep records the law requires
 
 ## Services I use
 
 These companies handle information on my behalf. Each has its own privacy policy.
 
-- **Google Analytics** (site statistics): sets cookies to tell visits apart and count returning visitors. You can opt out with Google's [browser add-on](https://tools.google.com/dlpage/gaoptout) or by blocking cookies. [Google privacy policy](https://policies.google.com/privacy) and [how Google uses this data](https://policies.google.com/technologies/partner-sites)
+- **Google Analytics** (site statistics): sets cookies (in the EU/EEA, UK, and Switzerland only with your consent) to tell visits apart and count returning visitors. Ad features are turned off. You can also opt out with Google's [browser add-on](https://tools.google.com/dlpage/gaoptout) or by blocking cookies. [Google privacy policy](https://policies.google.com/privacy) and [how Google uses this data](https://policies.google.com/technologies/partner-sites)
 - **GitHub Pages** (site hosting): [GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 - **SendFox** (my email list): stores your name and email so I can send newsletters. The sign-up form uses Google reCAPTCHA to block spam. [SendFox privacy policy](https://sendfox.com/privacy)
 - **Tally** (contact and download forms): [Tally privacy policy](https://tally.so/help/privacy-policy)
@@ -72,9 +73,11 @@ These companies handle information on my behalf. Each has its own privacy policy
 
 ## Cookies
 
+If you visit from the European Union/EEA, the United Kingdom, or Switzerland, a banner asks whether you're OK with analytics cookies, and none are set until you choose **Accept**. Visitors elsewhere have analytics cookies on by default. Anyone can change their choice anytime with **Cookie settings** at the bottom of any page. If you decline, I delete the analytics cookies this site set. Your choice is saved in your browser's local storage (not a cookie) so the banner doesn't keep asking.
+
 Cookies on this site come from:
 
-- **Google Analytics**, which sets first-party cookies (named `_ga`) to count visits and returning visitors
+- **Google Analytics** (in the EU/EEA, UK, and Switzerland, only if you accept), which sets first-party cookies (named `_ga`) to count visits and returning visitors
 - **Embedded tools** listed above, when they load or when you use them
 - **Affiliate programs**, set by the retailer's site after you click an affiliate link, so the retailer knows I referred you (see my [affiliate disclosure]({{ '/affiliate-disclosure/' | relative_url }}))
 

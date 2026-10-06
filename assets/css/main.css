@@ -1003,6 +1003,7 @@ code, pre, kbd, samp {
   .site-footer,
   .article-toc,
   .share,
+  .cookie-banner,
   .related-posts,
   .post-subscribe,
   .post-nav {
@@ -1496,6 +1497,81 @@ code, pre, kbd, samp {
   gap: var(--space-2) var(--space-3);
 }
 
+/* "Cookie settings" reopens the cookie banner; styled like the links. */
+.footer-link-button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.footer-link-button:hover,
+.footer-link-button:focus-visible {
+  border-bottom-color: var(--butter);
+}
+
+/* --- Cookie banner (_includes/cookie-banner.html) --- */
+.cookie-banner {
+  position: fixed;
+  z-index: 100;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: var(--gutter);
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: var(--space-4);
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--blush);
+}
+
+.cookie-banner[hidden],
+.footer-link-button[hidden] {
+  display: none;
+}
+
+.cookie-banner-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-4);
+}
+
+.cookie-banner-text {
+  flex: 1 1 18rem;
+}
+
+.cookie-banner-title {
+  font: 800 18px/1.2 var(--font-display);
+  margin: 0 0 var(--space-1);
+}
+
+.cookie-banner-text p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.cookie-banner-text a {
+  color: var(--red);
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+/* .btn-sm's drop shadow would replace the ghost button's outline. */
+.cookie-banner .btn-ghost {
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+
 /* Phones: less empty space and roomier tap targets. */
 @media (max-width: 899px) {
   .footer-main {
@@ -1531,7 +1607,8 @@ code, pre, kbd, samp {
     margin-top: var(--space-1);
   }
 
-  .footer-legal-links a {
+  .footer-legal-links a,
+  .footer-link-button {
     display: inline-block;
     padding: 6px 0;
   }
