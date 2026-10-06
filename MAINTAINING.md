@@ -167,32 +167,32 @@ builds with `https://`, even when Pages reports an `http://` origin; keep
 Scheduled posts only appear when the site is rebuilt after their date, so
 the site rebuilds every hour. GitHub's own `schedule:` trigger is the
 backup: it often runs hours late or not at all. The on-time rebuild comes
-from a small Cloudflare Worker, `cloudflare/rebuild-cron/worker.js`, whose
-cron trigger asks GitHub to run the Pages workflow at five past every hour
-(the same as Actions → Deploy site to GitHub Pages → Run workflow).
+from a free [cron-job.org](https://cron-job.org) job that asks GitHub to
+run the Pages workflow at five past every hour (the same as Actions →
+Deploy site to GitHub Pages → Run workflow).
 
 To set it up or replace it:
 
 1. On GitHub, open Settings → Developer settings → Personal access tokens →
-   Fine-grained tokens → Generate new token. Name it "Cloudflare rebuild
-   cron", set an expiration (a year is fine; put a renewal reminder on your
-   calendar), choose **Only select repositories → katiejallred/personal**,
+   Fine-grained tokens → Generate new token. Name it "Hourly rebuild
+   cron", choose **Only select repositories → katiejallred/personal**,
    and under Repository permissions set **Actions: Read and write**.
    Nothing else. Copy the token.
-2. In the Cloudflare dashboard, open Workers & Pages → Create → Create
-   Worker, name it `katieallred-rebuild-cron`, deploy the starter, then
-   Edit code: replace everything with `worker.js` and Deploy.
-3. In the Worker's Settings → Variables and Secrets, add a **Secret** named
-   `GITHUB_TOKEN` with the token from step 1.
-4. In Settings → Trigger events, add a **Cron trigger** `5 * * * *`.
-5. Check it: after the next :05, Actions should show a "Deploy site to
-   GitHub Pages" run started by `workflow_dispatch`. If not, the Worker's
-   Logs tab shows GitHub's answer (a 401 or 403 means the token is wrong or
-   expired).
+2. On cron-job.org, Create cronjob:
+   - URL: `https://api.github.com/repos/katiejallred/personal/actions/workflows/pages.yml/dispatches`
+   - Schedule: every hour, at minute 5.
+   - Advanced → Request method `POST`; request body `{"ref":"main"}`;
+     headers `Authorization: Bearer <token>`,
+     `Accept: application/vnd.github+json` and
+     `User-Agent: katieallred-rebuild-cron`.
+   - Turn on failure notifications.
+3. Click **Test run**. GitHub answers `204` and Actions shows a new
+   "Deploy site to GitHub Pages" run started by `workflow_dispatch`. A
+   `401` means the token is wrong or expired; `404` means the URL has a
+   typo or the token can't see the repo; `422` means the body is wrong.
 
-When the token expires, create a new one the same way and replace the
-`GITHUB_TOKEN` secret. `wrangler.toml` in the same folder lets you deploy
-from the command line instead (`npx wrangler deploy`).
+If the token is replaced, paste the new one into the job's
+`Authorization` header (keep the `Bearer ` in front).
 
 ## Content
 
