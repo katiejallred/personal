@@ -92,7 +92,6 @@ exclude:
   - package-lock.json
   - README.md
   - CLAUDE.md
-  - cloudflare/
   - MAINTAINING.md
   - scripts/
   - vendor/

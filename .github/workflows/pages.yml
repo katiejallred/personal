@@ -15,8 +15,8 @@ on:
   # Rebuild hourly so future-dated posts (future: false) go live soon after
   # their publish time; this also keeps the footer's copyright year current.
   # GitHub often starts scheduled runs hours late or skips them, so a
-  # Cloudflare Worker (cloudflare/rebuild-cron/) also starts this workflow
-  # through workflow_dispatch every hour; this schedule is the backup.
+  # cron-job.org job (MAINTAINING.md, "Hourly rebuilds") also starts this
+  # workflow through workflow_dispatch every hour; this schedule is the backup.
   schedule:
     - cron: "7 * * * *"
 
