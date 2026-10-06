@@ -29,3 +29,8 @@ deploying, content conventions). The repo is public: never commit secrets.
 - IndexNow: each deploy submits new, removed and updated URLs (by sitemap
   `last_modified_at`) via `scripts/indexnow.py`. Bump `last_modified_at` when
   editing a page or post. See MAINTAINING.md "SEO and answer engines".
+- Social media (Zernio): never share, schedule or publish a social post that
+  links a blog post until `python3 scripts/check_live.py <post file or URL>`
+  says LIVE. Schedule shares for after the post is live (a post dated 08:00
+  Central is live by about 09:15). See MAINTAINING.md "Sharing posts on
+  social media".
