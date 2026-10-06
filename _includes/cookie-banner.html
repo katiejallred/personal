@@ -1,9 +1,12 @@
 {%- comment -%}
   Cookie consent banner for Google Analytics (see _includes/analytics.html).
-  Shown until the visitor chooses; the choice is kept in localStorage as
-  `ka-consent`. Any element with `data-cookie-settings` (the footer's
-  "Cookie settings" button) opens it again. Without JavaScript analytics
-  never runs, so the banner stays hidden.
+  It opens by itself only for visitors whose browser time zone is in
+  Europe (a static site can't look up location; Google applies the
+  matching regional default from the visitor's real location), until they
+  choose. The choice is kept in localStorage as `ka-consent`. Any element
+  with `data-cookie-settings` (the footer's "Cookie settings" button)
+  opens it for anyone. Without JavaScript analytics never runs, so the
+  banner stays hidden.
 {%- endcomment -%}
 {%- if site.google_analytics %}
 <section class="cookie-banner" id="cookie-banner" aria-labelledby="cookie-banner-title" hidden>
@@ -55,7 +58,13 @@
     document.querySelectorAll('[data-cookie-settings]').forEach(function (el) {
       el.hidden = false;
     });
-    if (!stored()) banner.hidden = false;
+    function inEurope() {
+      var tz = '';
+      try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+      return /^Europe\//.test(tz) ||
+        /^(Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)|Arctic\/Longyearbyen)$/.test(tz);
+    }
+    if (!stored() && inEurope()) banner.hidden = false;
   })();
 </script>
 {%- endif %}

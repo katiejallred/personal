@@ -163,15 +163,20 @@ workflow sets), so local previews aren't counted. To turn analytics off,
 empty `google_analytics`; if you add or swap a tracking service, update the
 privacy policy (`pages/privacy-policy.md`) to match.
 
-Analytics cookies wait for consent. The tag sets Google Consent Mode to
-"denied" by default (ad signals are always denied), so until a visitor
-accepts, Google gets only cookieless pings. `_includes/cookie-banner.html`,
-included at the end of both layouts, shows a banner until the visitor
-picks Accept or Decline, saves the choice in localStorage (`ka-consent`),
-and updates the consent; declining also deletes any `_ga` cookies. The
-footer's "Cookie settings" button (any element with `data-cookie-settings`)
-opens the banner again. The banner shows in local previews too, so you can
-test it there; clear `ka-consent` in the browser's storage to see it again.
+In the EU/EEA, the UK and Switzerland (`analytics_consent_regions` in
+`_config.yml`), analytics cookies wait for consent: Google Consent Mode
+defaults to "denied" there, and Google works out each visitor's region,
+so until they accept it gets only cookieless pings. Everywhere else the
+default is "granted". Ad signals are always denied.
+`_includes/cookie-banner.html`, included at the end of both layouts,
+opens a banner by itself only when the browser's time zone is in Europe
+(a static site can't look up location), saves the choice in localStorage
+(`ka-consent`), and updates the consent; declining also deletes any `_ga`
+cookies. A saved choice applies in every region. The footer's "Cookie
+settings" button (any element with `data-cookie-settings`) opens the
+banner for anyone. The banner works in local previews too; to test it
+outside Europe, use the browser's dev tools to set a European time zone
+(Sensors → Location), and clear `ka-consent` to see it again.
 
 ## Deploying
 

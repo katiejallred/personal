@@ -4,11 +4,14 @@
   (JEKYLL_ENV=production, as in the Pages workflow) load it, so local
   previews don't count as visits.
 
-  Analytics cookies stay off until the visitor accepts them in the cookie
-  banner (_includes/cookie-banner.html), which stores the choice in
-  localStorage as `ka-consent` ("granted" or "denied"). Until then Google
-  gets only cookieless pings. Ad signals are always denied: the site runs
-  no ads.
+  In the regions listed in `analytics_consent_regions` (_config.yml: the
+  EU/EEA, UK and Switzerland) analytics cookies stay off until the visitor
+  accepts them in the cookie banner (_includes/cookie-banner.html); Google
+  works out the visitor's region and sends only cookieless pings until
+  then. Elsewhere they're on unless the visitor declines under "Cookie
+  settings". A choice is stored in localStorage as `ka-consent`
+  ("granted" or "denied") and wins everywhere. Ad signals are always
+  denied: the site runs no ads.
 {%- endcomment -%}
 {%- if site.google_analytics and jekyll.environment == 'production' %}
   <script>
@@ -16,12 +19,19 @@
     function gtag(){dataLayer.push(arguments);}
     var kaConsent = null;
     try { kaConsent = localStorage.getItem('ka-consent'); } catch (e) {}
-    gtag('consent', 'default', {
-      analytics_storage: kaConsent === 'granted' ? 'granted' : 'denied',
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied'
-    });
+    var kaAds = { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' };
+    function kaDefault(analytics, region) {
+      var d = { analytics_storage: analytics };
+      for (var k in kaAds) d[k] = kaAds[k];
+      if (region) d.region = region;
+      gtag('consent', 'default', d);
+    }
+    if (kaConsent === 'granted' || kaConsent === 'denied') {
+      kaDefault(kaConsent);
+    } else {
+      kaDefault('denied', {{ site.analytics_consent_regions | jsonify }});
+      kaDefault('granted');
+    }
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
   </script>

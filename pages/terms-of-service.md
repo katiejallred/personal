@@ -77,7 +77,7 @@ Please don't:
 
 ## Privacy and cookies
 
-My [privacy policy]({{ '/privacy-policy/' | relative_url }}) explains what information I collect and how I use it, and is part of these terms. This site uses Google Analytics cookies only if you accept them in the cookie banner; you can change your choice anytime under **Cookie settings** at the bottom of any page.
+My [privacy policy]({{ '/privacy-policy/' | relative_url }}) explains what information I collect and how I use it, and is part of these terms. This site uses Google Analytics cookies (in the EU/EEA, UK, and Switzerland, only if you accept them in the cookie banner); you can change your choice anytime under **Cookie settings** at the bottom of any page.
 
 ## Links to other sites
 
