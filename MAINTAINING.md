@@ -163,6 +163,16 @@ workflow sets), so local previews aren't counted. To turn analytics off,
 empty `google_analytics`; if you add or swap a tracking service, update the
 privacy policy (`pages/privacy-policy.md`) to match.
 
+Analytics cookies wait for consent. The tag sets Google Consent Mode to
+"denied" by default (ad signals are always denied), so until a visitor
+accepts, Google gets only cookieless pings. `_includes/cookie-banner.html`,
+included at the end of both layouts, shows a banner until the visitor
+picks Accept or Decline, saves the choice in localStorage (`ka-consent`),
+and updates the consent; declining also deletes any `_ga` cookies. The
+footer's "Cookie settings" button (any element with `data-cookie-settings`)
+opens the banner again. The banner shows in local previews too, so you can
+test it there; clear `ka-consent` in the browser's storage to see it again.
+
 ## Deploying
 
 Pushes to `main` build and deploy through GitHub Actions. In the repo's
