@@ -20,3 +20,4 @@ playwright-report/
 
 # Amazon product images fetched at build time (scripts/amazon_products.py)
 _data/amazon_products.json
+__pycache__/
