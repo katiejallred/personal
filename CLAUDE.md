@@ -16,6 +16,15 @@ deploying, content conventions). The repo is public: never commit secrets.
   disclosure. The build plugin `_plugins/amazon_affiliate.rb` adds the tag,
   `rel="sponsored"`, and the disclosure note automatically; see MAINTAINING.md
   "Books and Amazon affiliate links".
+- Amazon product pictures: Associates rules only allow images from the
+  Product Advertising API, loaded from Amazon's own URLs. Never download,
+  screenshot or commit an Amazon product image. For a post that lists
+  products, set `product_images: true` in its front matter: the Pages
+  workflow runs `scripts/amazon_products.py` (keys from repository secrets)
+  to write `_data/amazon_products.json` (gitignored), and
+  `_plugins/amazon_product_images.rb` puts a linked thumbnail in front of
+  each table cell or list item that starts with an Amazon product link. See
+  MAINTAINING.md "Amazon product thumbnails".
 - Styles come from the Katie Allred design system; use the tokens at the top
   of `assets/css/main.css`.
 - SEO/AEO: `_includes/seo.html` builds all head metadata and JSON-LD from

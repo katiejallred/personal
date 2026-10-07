@@ -4,6 +4,8 @@ title: "Small Dog Favorites I Actually Buy (and What's on Sale)"
 date: '2026-10-06 12:10:00'
 author: Katie Allred
 permalink: /small-dog-favorites-i-actually-buy-and-whats-on-sale/
+last_modified_at: '2026-10-07 09:00:00'
+product_images: true
 description: "Food, toys and grooming picks for small dogs from my own Amazon order history, with the Prime Big Deal Days markdowns listed first."
 categories:
 - Life

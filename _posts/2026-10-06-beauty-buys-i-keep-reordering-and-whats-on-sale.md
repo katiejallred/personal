@@ -4,6 +4,8 @@ title: "Beauty Buys I Keep Reordering (and What's on Sale)"
 date: '2026-10-06 12:05:00'
 author: Katie Allred
 permalink: /beauty-buys-i-keep-reordering-and-whats-on-sale/
+last_modified_at: '2026-10-07 09:00:00'
+product_images: true
 description: "Skin care, makeup and hair products from my own Amazon order history, with the ones marked down for Prime Big Deal Days listed first."
 categories:
 - Life

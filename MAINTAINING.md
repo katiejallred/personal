@@ -84,6 +84,43 @@ book gets a SiteStripe link, add it as the book's `short_link`.
   the footer on other pages. To place it yourself, include it and set
   `affiliate_note: inline`; to opt a page out, set `affiliate_links: false`.
 
+### Amazon product thumbnails
+
+Amazon's Associates rules only allow product images that come from the
+Product Advertising API (PA-API) and are served from Amazon's own image
+servers, so product pictures are never downloaded, screenshotted or committed
+to the repo. Instead, a post that lists products sets `product_images: true`
+in its front matter and the build fetches the pictures:
+
+1. Before `jekyll build`, the Pages workflow step "Fetch Amazon product
+   images" runs `scripts/amazon_products.py` with the PA-API keys from the
+   repository secrets `AMAZON_PAAPI_ACCESS_KEY` and `AMAZON_PAAPI_SECRET_KEY`
+   (partner tag: `amazon.tag` in `_config.yml`). It collects every ASIN
+   linked from flagged posts (`/dp/ASIN` or `/gp/product/ASIN` links), asks
+   PA-API GetItems for them ten at a time, and writes the image URLs and
+   titles to `_data/amazon_products.json`. The file is gitignored. The step
+   never fails the build: without keys, or when the API returns an error, it
+   writes an empty file and the posts simply render without thumbnails. Its
+   log says how many images it fetched and quotes any API error, so check it
+   (Actions → the run → build → Fetch Amazon product images) when thumbnails
+   are missing. The keys are never printed.
+2. After a flagged post renders, `_plugins/amazon_product_images.rb` puts a
+   small linked thumbnail (`.product-thumb`, styled at the end of
+   `assets/css/main.css`) in front of each table cell or list item that
+   starts with a link to a product in that file. The thumbnail links to the
+   same tagged URL with `rel="sponsored nofollow noopener"` and is hidden
+   from assistive technology, since the text link beside it names the
+   product. An ASIN the API didn't return (or an `amzn.to` short link) just
+   shows the text link as before.
+
+To preview thumbnails locally without keys, write a small
+`_data/amazon_products.json` by hand (`{"ASIN": {"images": {"medium":
+{"url": "https://m.media-amazon.com/…", "width": 160, "height": 160}}}}`)
+and build; with the keys exported in the shell, run the script first.
+PA-API allows about one request a second and needs the Associates account
+to have recent qualifying sales, so a `TooManyRequests` or access error in
+the log usually means wait, or check the account, rather than a bug.
+
 ## SEO and answer engines
 
 `_includes/seo.html` writes every page's `<title>`, meta description,

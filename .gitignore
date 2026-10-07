@@ -17,3 +17,6 @@ playwright-report/
 *.har
 .env
 .env.*
+
+# Amazon product images fetched at build time (scripts/amazon_products.py)
+_data/amazon_products.json
