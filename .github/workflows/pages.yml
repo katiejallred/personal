@@ -64,11 +64,12 @@ jobs:
         uses: actions/configure-pages@v6
 
       # Product thumbnails for posts with `product_images: true`: ask the
-      # Amazon Product Advertising API for each linked product's image and
-      # write _data/amazon_products.json (scripts/amazon_products.py). The
-      # step never fails the build: without keys or on an API error it writes
-      # an empty file and the posts render without thumbnails. The log says
-      # how many images were fetched and any error the API returned.
+      # Amazon Creators API for each linked product's image and write
+      # _data/amazon_products.json (scripts/amazon_products.py). The secrets
+      # hold the Creators API credential ID and secret. The step never fails
+      # the build: without them or on an API error it writes an empty file
+      # and the posts render without thumbnails. The log says how many
+      # images were fetched and any error Amazon returned.
       - name: Fetch Amazon product images
         run: python3 scripts/amazon_products.py
         env:

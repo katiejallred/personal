@@ -1,11 +1,11 @@
 # Amazon product thumbnails for posts that set `product_images: true`.
 #
-# Amazon Associates only allows product images that come from the Product
-# Advertising API and load from Amazon's own image servers, so nothing is
-# downloaded or stored in the repo. Before the build, scripts/amazon_products.py
-# asks PA-API for every ASIN those posts link and writes the image URLs to
-# _data/amazon_products.json (gitignored; the Pages workflow runs the script
-# with the API keys from the repository secrets).
+# Amazon Associates only allows product images that come from Amazon's API
+# and load from Amazon's own image servers, so nothing is downloaded or
+# stored in the repo. Before the build, scripts/amazon_products.py asks the
+# Amazon Creators API for every ASIN those posts link and writes the image
+# URLs to _data/amazon_products.json (gitignored; the Pages workflow runs the
+# script with the API credential from the repository secrets).
 #
 # After a flagged page or post renders, each table cell or list item that
 # starts with a link to an Amazon product (/dp/ASIN or /gp/product/ASIN) with

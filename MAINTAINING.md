@@ -86,24 +86,29 @@ book gets a SiteStripe link, add it as the book's `short_link`.
 
 ### Amazon product thumbnails
 
-Amazon's Associates rules only allow product images that come from the
-Product Advertising API (PA-API) and are served from Amazon's own image
-servers, so product pictures are never downloaded, screenshotted or committed
-to the repo. Instead, a post that lists products sets `product_images: true`
-in its front matter and the build fetches the pictures:
+Amazon's Associates rules only allow product images that come from Amazon's
+API and are served from Amazon's own image servers, so product pictures are
+never downloaded, screenshotted or committed to the repo. Instead, a post
+that lists products sets `product_images: true` in its front matter and the
+build fetches the pictures from the Amazon Creators API (the successor to
+Product Advertising API 5; same GetItems operation, OAuth 2.0 sign-in):
 
 1. Before `jekyll build`, the Pages workflow step "Fetch Amazon product
-   images" runs `scripts/amazon_products.py` with the PA-API keys from the
-   repository secrets `AMAZON_PAAPI_ACCESS_KEY` and `AMAZON_PAAPI_SECRET_KEY`
-   (partner tag: `amazon.tag` in `_config.yml`). It collects every ASIN
-   linked from flagged posts (`/dp/ASIN` or `/gp/product/ASIN` links), asks
-   PA-API GetItems for them ten at a time, and writes the image URLs and
-   titles to `_data/amazon_products.json`. The file is gitignored. The step
-   never fails the build: without keys, or when the API returns an error, it
-   writes an empty file and the posts simply render without thumbnails. Its
-   log says how many images it fetched and quotes any API error, so check it
-   (Actions → the run → build → Fetch Amazon product images) when thumbnails
-   are missing. The keys are never printed.
+   images" runs `scripts/amazon_products.py` with the Creators API
+   credential from the repository secrets: `AMAZON_PAAPI_ACCESS_KEY` holds
+   the credential ID (`amzn1.application-oa2-client.…`) and
+   `AMAZON_PAAPI_SECRET_KEY` the credential secret, both from Associates
+   Central → Tools → Creators API → the "Personal" application. The partner
+   tag is `amazon.tag` in `_config.yml`. The script swaps the credential for
+   a one-hour bearer token at Login with Amazon, collects every ASIN linked
+   from flagged posts (`/dp/ASIN` or `/gp/product/ASIN` links), asks
+   GetItems for them ten at a time, and writes the image URLs and titles to
+   `_data/amazon_products.json`. The file is gitignored. The step never
+   fails the build: without a credential, or when Amazon returns an error,
+   it writes an empty file and the posts simply render without thumbnails.
+   Its log says how many images it fetched and quotes any error, so check
+   it (Actions → the run → build → Fetch Amazon product images) when
+   thumbnails are missing. The credential is never printed.
 2. After a flagged post renders, `_plugins/amazon_product_images.rb` puts a
    small linked thumbnail (`.product-thumb`, styled at the end of
    `assets/css/main.css`) in front of each table cell or list item that
@@ -113,13 +118,20 @@ in its front matter and the build fetches the pictures:
    product. An ASIN the API didn't return (or an `amzn.to` short link) just
    shows the text link as before.
 
-To preview thumbnails locally without keys, write a small
+Creators API access to product data needs the Associates account to have
+at least ten qualifying sales in the past 30 days, and a new credential can
+take up to 48 hours to be approved; until then the log shows an
+`AssociateNotEligible` error and the posts have no thumbnails. A
+`TooManyRequests` error means the hourly rebuilds are hitting the rate
+limit; wait rather than fix. Credential versions 3.2 (Europe) and 3.3 (Far
+East) sign in at a different host: set `AMAZON_CREATORS_API_VERSION` in the
+workflow step's `env` if the credential is ever reissued for another
+region (3.1, North America, is the default).
+
+To preview thumbnails locally without a credential, write a small
 `_data/amazon_products.json` by hand (`{"ASIN": {"images": {"medium":
 {"url": "https://m.media-amazon.com/…", "width": 160, "height": 160}}}}`)
-and build; with the keys exported in the shell, run the script first.
-PA-API allows about one request a second and needs the Associates account
-to have recent qualifying sales, so a `TooManyRequests` or access error in
-the log usually means wait, or check the account, rather than a bug.
+and build; with the credential exported in the shell, run the script first.
 
 ## SEO and answer engines
 
