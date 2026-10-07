@@ -22,6 +22,9 @@ back to a default image.
 
 The writing, photos and book covers belong to Katie Allred and may not be
 reused without permission. Links to Amazon are affiliate links: as an Amazon
-Associate, Katie earns from qualifying purchases.
+Associate, Katie earns from qualifying purchases. Product pictures in posts
+that set `product_images: true` come from the Amazon Creators API at build
+time (`scripts/amazon_products.py`) and load from Amazon's servers; none are
+stored in this repository.
 
 To get in touch, use the [contact page](https://www.katieallred.com/contact/).

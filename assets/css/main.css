@@ -3966,3 +3966,50 @@ code, pre, kbd, samp {
     padding: 4px 0;
   }
 }
+
+/* --- Amazon product thumbnails (_plugins/amazon_product_images.rb) --- */
+/* A small product picture floated in front of the link that starts a table
+   cell or list item; the text wraps beside it. The picture is served from
+   Amazon's servers and sits on white, as Amazon's product shots do, so the
+   tile keeps a white ground in dark mode too. */
+.prose .product-thumb {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin: 0 var(--space-3) var(--space-1) 0;
+  padding: var(--space-1);
+  background: #FFFFFF;
+  border: 1px solid var(--blush);
+  border-radius: var(--radius-tile);
+}
+
+.prose .product-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+/* Contain the float so a short line of text doesn't let the next row's
+   text wrap around the picture; list items keep their bullet. */
+.prose .has-product-thumb::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.prose li.has-product-thumb + li {
+  margin-top: var(--space-2);
+}
+
+/* Table columns are narrow on phones; there the picture sits above the
+   product name instead of beside it. List items keep the float. */
+@media (max-width: 639px) {
+  .prose td.has-product-thumb .product-thumb {
+    float: none;
+    margin: 0 0 var(--space-1);
+  }
+}

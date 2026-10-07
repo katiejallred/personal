@@ -4,6 +4,8 @@ title: 'Creator Gear Worth Buying During Prime Big Deal Days'
 date: '2026-10-06 12:00:00'
 author: Katie Allred
 permalink: /creator-gear-worth-buying-during-prime-big-deal-days/
+last_modified_at: '2026-10-07 09:00:00'
+product_images: true
 description: "Cameras, microphones, lights and desk gear for creators that are marked down for Prime Big Deal Days, sorted by the problem each one solves."
 categories:
 - AI & Tech
