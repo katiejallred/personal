@@ -128,6 +128,22 @@ East) sign in at a different host: set `AMAZON_CREATORS_API_VERSION` in the
 workflow step's `env` if the credential is ever reissued for another
 region (3.1, North America, is the default).
 
+### Deal cards
+
+A deals post (the Prime Big Deal Days roundups) sets `deal_cards: true`
+and writes each group of products as an ordinary Markdown table with the
+product link in the first column, a "Sale price" and a "List price"
+column, and one more column of notes ("What it is", "Best for", "What it
+fixes"). `_plugins/deal_cards.rb` turns each such table into a list of
+product cards after the post renders: the product picture when the
+Creators API returned one (see above), the name as a heading linking to
+the product, the notes with their column heading as a label, the deal
+price beside the crossed-out list price with a percent-off badge, and a
+"Buy on Amazon" button. Tables without those two price columns, and
+posts without the flag, keep their tables. Styles are under "Deal cards"
+at the end of `assets/css/main.css`. Bulleted product lists stay lists
+and only get the small thumbnail.
+
 To preview thumbnails locally without a credential, write a small
 `_data/amazon_products.json` by hand (`{"ASIN": {"images": {"medium":
 {"url": "https://m.media-amazon.com/…", "width": 160, "height": 160}}}}`)
