@@ -4,8 +4,11 @@ title: "Small Dog Favorites I Actually Buy (and What's on Sale)"
 date: '2026-10-06 12:10:00'
 author: Katie Allred
 permalink: /small-dog-favorites-i-actually-buy-and-whats-on-sale/
-last_modified_at: '2026-10-07 09:00:00'
+last_modified_at: '2026-10-07 10:00:00'
 product_images: true
+deal_cards: true
+image: /assets/uploads/2026/10/unsplash-tUCvnMOvXFQ.jpg
+featured_image_alt: "A small fluffy dog in a red sweater sitting against a red background"
 description: "Food, toys and grooming picks for small dogs from my own Amazon order history, with the Prime Big Deal Days markdowns listed first."
 categories:
 - Life
@@ -52,6 +55,8 @@ I have not bought these myself. Each carried a Prime Big Deal badge when I check
 - [Earth Rated Dog Shampoo for Curly and Wavy Coats](https://www.amazon.com/dp/B0D4CDS53S).
 - [Douxo S3 Calm Dog Shampoo](https://www.amazon.com/dp/B09478KGJZ). Ask your vet whether it fits your dog.
 - [Weruva Awesome Belly Wet Dog Food](https://www.amazon.com/dp/B0DJFWMSLW).
+
+![A white and brown shih tzu looking at the camera with its tongue out](/assets/uploads/2026/10/unsplash-5QcwI4oxL6g.jpg)
 
 ## Start with what you already use
 

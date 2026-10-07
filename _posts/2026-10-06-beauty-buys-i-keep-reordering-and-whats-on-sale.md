@@ -4,8 +4,11 @@ title: "Beauty Buys I Keep Reordering (and What's on Sale)"
 date: '2026-10-06 12:05:00'
 author: Katie Allred
 permalink: /beauty-buys-i-keep-reordering-and-whats-on-sale/
-last_modified_at: '2026-10-07 09:00:00'
+last_modified_at: '2026-10-07 10:00:00'
 product_images: true
+deal_cards: true
+image: /assets/uploads/2026/10/unsplash-7tDGb3HrITg.jpg
+featured_image_alt: "Skin care tubes, a jar of moisturizer, a jade roller and a bottle of perfume laid out on a striped towel"
 description: "Skin care, makeup and hair products from my own Amazon order history, with the ones marked down for Prime Big Deal Days listed first."
 categories:
 - Life
@@ -59,6 +62,8 @@ I have not tried these three myself. They are from brands already on this list, 
 ## Not on sale, still in my cart
 
 A deal is not the only reason to buy. These were full price when I checked, and I have ordered them anyway.
+
+![Four bottles and tubes from The Ordinary lined up among pink petals](/assets/uploads/2026/10/unsplash-_42NKYROG7g.jpg)
 
 - [Davines OI Shampoo](https://www.amazon.com/dp/B00ZPQ129C), $43.00. The splurge on this list.
 - [The Ordinary Soothing & Barrier Support Serum](https://www.amazon.com/dp/B0CJ3CXTW6), $17.00.

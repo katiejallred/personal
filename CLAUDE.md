@@ -23,8 +23,11 @@ deploying, content conventions). The repo is public: never commit secrets.
   workflow runs `scripts/amazon_products.py` (credential from repository
   secrets) to write `_data/amazon_products.json` (gitignored), and
   `_plugins/amazon_product_images.rb` puts a linked thumbnail in front of
-  each table cell or list item that starts with an Amazon product link. See
-  MAINTAINING.md "Amazon product thumbnails".
+  each table cell or list item that starts with an Amazon product link. A
+  deals post also sets `deal_cards: true` so its price tables (Product |
+  Sale price | List price | notes) render as product cards
+  (`_plugins/deal_cards.rb`). See MAINTAINING.md "Amazon product
+  thumbnails" and "Deal cards".
 - Styles come from the Katie Allred design system; use the tokens at the top
   of `assets/css/main.css`.
 - SEO/AEO: `_includes/seo.html` builds all head metadata and JSON-LD from

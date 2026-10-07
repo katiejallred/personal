@@ -4,8 +4,11 @@ title: 'Creator Gear Worth Buying During Prime Big Deal Days'
 date: '2026-10-06 12:00:00'
 author: Katie Allred
 permalink: /creator-gear-worth-buying-during-prime-big-deal-days/
-last_modified_at: '2026-10-07 09:00:00'
+last_modified_at: '2026-10-07 10:00:00'
 product_images: true
+deal_cards: true
+image: /assets/uploads/2026/10/unsplash-UqlWfdDiEIM.jpg
+featured_image_alt: "A creator holding a compact Sony camera on a handheld gimbal, pointed back at herself"
 description: "Cameras, microphones, lights and desk gear for creators that are marked down for Prime Big Deal Days, sorted by the problem each one solves."
 categories:
 - AI & Tech
@@ -42,6 +45,8 @@ Pick by how you film, not by the biggest discount. Sit at a desk and talk? The Z
 ## If your sound is the problem: microphones
 
 People will forgive a soft picture. They will not sit through bad audio. If you can only fix one thing this week, fix this one.
+
+![A broadcast microphone on a boom arm against a dark background](/assets/uploads/2026/10/unsplash-OaPksPcVp50.jpg)
 
 | Microphone | Sale price | List price | Best for |
 | --- | --- | --- | --- |
